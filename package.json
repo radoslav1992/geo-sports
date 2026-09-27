@@ -1,9 +1,11 @@
 {
-  "name": "geo-sports",
+  "name": "geo-football",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "engines": {"node": ">=22"},
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "astro dev --host 0.0.0.0",
     "build": "astro build",
@@ -21,5 +23,7 @@
     "@fontsource/dm-sans": "^5.2.0",
     "@fontsource/barlow-condensed": "^5.2.0"
   },
-  "devDependencies": {"wrangler": "^4.0.0"}
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
 }

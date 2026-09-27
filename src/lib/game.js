@@ -1,5 +1,5 @@
 export const ROUND_SIZE = 5;
-export const CONTENT_VERSION = 'v1';
+export const CONTENT_VERSION = 'football-v1';
 export const dayKey = (date = new Date()) => date.toISOString().slice(0, 10);
 export function hashSeed(value) {
   let hash = 2166136261;

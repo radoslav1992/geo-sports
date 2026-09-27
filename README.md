@@ -1,6 +1,6 @@
-# Atlas Arena / geo-sports
+# Geo Football / geo-sports
 
-A focused sports geography game built with Astro, adapted from the owner's purchased Quizo version-6 layout. One question, one map, one confirm button. No paid map API, database, account, or backend is needed for this release.
+A focused football geography game built with Astro, adapted from the owner's purchased Quizo version-6 layout. One question, one map, one confirm button. No paid map API, database, account, or backend is needed for this release.
 
 ## Run locally
 
@@ -55,7 +55,7 @@ Alternatively, Cloudflare **Pages** can build with `npm run build` and publish o
 
 ## Content and release boundaries
 
-`src/data/questions.js` contains **15 starter questions**. The daily selection is repeatable but not a unique editorial calendar: questions can recur on later days. Expand and editorially verify the pool before promoting it as a long-term daily service. IDs should remain stable; bump `CONTENT_VERSION` when changing existing question meanings or scoring rules.
+`src/data/questions.js` contains **15 football-only starter questions**. The daily selection is repeatable but not a unique editorial calendar: questions can recur on later days. Expand and editorially verify the pool before promoting it as a long-term daily service. IDs should remain stable; bump `CONTENT_VERSION` when changing existing question meanings or scoring rules.
 
 Answers and scoring run in the browser. This release is suitable for casual play and the initial design launch; it is not cheat-resistant competitive scoring. A public leaderboard would require server-side answer validation and shared storage. No accounts, subscriptions, analytics, advertising, or tracking scripts are included.
 
@@ -73,3 +73,9 @@ The interactive map is built from Natural Earth's country boundaries through `wo
 - `tests/game.test.mjs` — scoring, UTC selection and state tests
 
 See `TEMPLATE-NOTES.md` for the purchased template adaptation and license provenance.
+
+## Geo Football rebrand
+
+All daily and practice clues cover association football: clubs, stadiums, rivalries, and men’s and women’s World Cup moments. The app title, header, help, shared results, 404 page and favicon use Geo Football. The existing repository and Cloudflare Worker retain `geo-sports` to preserve deployment continuity.
+
+Football progress and stats use separate `geo-football-*-v1` browser keys. Earlier mixed-sport rounds and scores are left untouched but are not loaded into football play. The content version is `football-v1`.

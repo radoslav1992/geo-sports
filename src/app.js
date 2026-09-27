@@ -1,17 +1,17 @@
-import {createIcons,Navigation,ChartNoAxesColumnIncreasing,CircleHelp,Trophy,MousePointer2,Plus,Minus,Maximize,LocateFixed,Check,MapPin,ArrowRight,Lightbulb,RotateCcw,X,Copy} from 'lucide';
+import {createIcons,ChartNoAxesColumnIncreasing,CircleHelp,Trophy,MousePointer2,Plus,Minus,Maximize,LocateFixed,Check,MapPin,ArrowRight,Lightbulb,RotateCcw,X,Copy} from 'lucide';
 import {questions} from './data/questions.js';
 import {dailyQuestions,dayKey,newRound,validateRound,completeGuess,advanceRound,totalPoints,shuffle} from './lib/game.js';
 import {createWorldMap} from './lib/map.js';
-const icons={Navigation,ChartNoAxesColumnIncreasing,CircleHelp,Trophy,MousePointer2,Plus,Minus,Maximize,LocateFixed,Check,MapPin,ArrowRight,Lightbulb,RotateCcw,X,Copy};
+const icons={ChartNoAxesColumnIncreasing,CircleHelp,Trophy,MousePointer2,Plus,Minus,Maximize,LocateFixed,Check,MapPin,ArrowRight,Lightbulb,RotateCcw,X,Copy};
 const $=id=>document.getElementById(id),text=(id,value)=>$(id).textContent=value,fmt=n=>Math.round(n).toLocaleString('en-US');
 const renderIcons=()=>createIcons({icons});renderIcons();
 const storage={read(key){try{return JSON.parse(localStorage.getItem(key))}catch{return null}},write(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}};
 const byId=new Map(questions.map(q=>[q.id,q]));let activeDate=dayKey(),mode='daily',practice=null,toastTimer;
-let daily=validateRound(storage.read('atlas-daily-v1'),questions,activeDate)||newRound(dailyQuestions(questions,activeDate),activeDate);
+let daily=validateRound(storage.read('geo-football-daily-v1'),questions,activeDate)||newRound(dailyQuestions(questions,activeDate),activeDate);
 let round=daily;
 let storageNoticeShown=false;
 function toast(message){clearTimeout(toastTimer);text('toast',message);$('toast').hidden=false;toastTimer=setTimeout(()=>$('toast').hidden=true,4000)}
-function persist(){if(mode==='daily'){daily=round;if(!storage.write('atlas-daily-v1',daily)&&!storageNoticeShown){storageNoticeShown=true;toast('Progress cannot be saved in this browser. You can still play.')}}else practice=round}
+function persist(){if(mode==='daily'){daily=round;if(!storage.write('geo-football-daily-v1',daily)&&!storageNoticeShown){storageNoticeShown=true;toast('Progress cannot be saved in this browser. You can still play.')}}else practice=round}
 const currentIndex=()=>round.phase==='guess'?round.results.length:Math.max(0,round.results.length-1);
 const currentQuestion=()=>byId.get(round.ids[currentIndex()]);
 const map=createWorldMap({onGuess(coords){if(round.phase!=='guess')return;round={...round,guess:coords};persist();renderPin();}});
@@ -20,7 +20,7 @@ function render(){
  const q=currentQuestion(),index=currentIndex(),revealed=round.phase!=='guess';
  document.body.classList.toggle('revealed',revealed);text('q-number',`QUESTION ${index+1} / 5`);text('sport',q.sport);text('year',q.year);text('question',q.question);text('total',fmt(totalPoints(round)));
  text('round-date',mode==='daily'?new Date(round.date+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'}):'Free play');
- text('round-note',mode==='daily'?'Same five questions for everyone · Resets at 00:00 UTC':'Practice draws from the starter question collection');
+ text('round-note',mode==='daily'?'Same five questions for everyone · Resets at 00:00 UTC':'Practice draws from the football question collection');
  for(const name of ['daily','practice']){$(name+'-tab').classList.toggle('active',mode===name);$(name+'-tab').setAttribute('aria-pressed',String(mode===name))}
  [...$('steps').children].forEach((el,i)=>{const done=i<round.results.length;el.className='step'+(done?' done':i===index?' current':'');el.setAttribute('aria-label',`Question ${i+1}${done?' completed':i===index?' current':''}`)});
  $('hint').hidden=!round.hinted||revealed;text('hint',q.hint);$('hint-button').hidden=revealed;$('hint-button').disabled=round.hinted;$('hint-button').style.opacity=round.hinted?'.5':'1';$('new-practice').hidden=mode!=='practice';
@@ -29,8 +29,8 @@ function render(){
  else map.render({pin:round.guess});
  text('submit-label',round.phase==='complete'?'View results':revealed?(round.results.length===5?'See my results':'Next question'):'Confirm guess');renderPin();
 }
-function recordDaily(){if(mode!=='daily'||round.phase!=='complete')return;let history=storage.read('atlas-history-v1');if(!history||typeof history!=='object'||Array.isArray(history))history={};history[round.date]=totalPoints(round);const dates=Object.keys(history).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort().slice(-366);storage.write('atlas-history-v1',Object.fromEntries(dates.map(d=>[d,history[d]])));}
-function stats(){const raw=storage.read('atlas-history-v1');const scores=Object.values(raw&&typeof raw==='object'?raw:{}).filter(n=>Number.isFinite(n)&&n>=0&&n<=5000);text('stat-played',scores.length);text('stat-best',fmt(Math.max(0,...scores)));text('stat-average',scores.length?fmt(scores.reduce((a,b)=>a+b,0)/scores.length):'0');$('stats-dialog').showModal();}
+function recordDaily(){if(mode!=='daily'||round.phase!=='complete')return;let history=storage.read('geo-football-history-v1');if(!history||typeof history!=='object'||Array.isArray(history))history={};history[round.date]=totalPoints(round);const dates=Object.keys(history).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort().slice(-366);storage.write('geo-football-history-v1',Object.fromEntries(dates.map(d=>[d,history[d]])));}
+function stats(){const raw=storage.read('geo-football-history-v1');const scores=Object.values(raw&&typeof raw==='object'?raw:{}).filter(n=>Number.isFinite(n)&&n>=0&&n<=5000);text('stat-played',scores.length);text('stat-best',fmt(Math.max(0,...scores)));text('stat-average',scores.length?fmt(scores.reduce((a,b)=>a+b,0)/scores.length):'0');$('stats-dialog').showModal();}
 function showResults(){recordDaily();const score=totalPoints(round);text('finish-score',fmt(score));text('finish-mode',mode==='daily'?'DAILY ROUND COMPLETE':'PRACTICE ROUND COMPLETE');text('finish-title',score>=4000?'World-class instincts.':score>=2500?'Quite the world tour.':'A world worth exploring.');text('next-round-note',mode==='daily'?'Your next daily round arrives at 00:00 UTC.':'Practice scores are separate from your daily stats.');text('play-again','Play a practice round');
  $('round-results').replaceChildren(...round.results.map(r=>{const row=document.createElement('div');row.className='result-row';const place=document.createElement('span'),dot=document.createElement('b');dot.className='result-dot';dot.style.background=r.points>=600?'#39765d':'#ed642e';place.append(dot,document.createTextNode(byId.get(r.id).city));const score=document.createElement('strong'),distance=document.createElement('small');distance.textContent=`${r.distance<1?'<1':fmt(r.distance)} km`;score.append(distance,document.createTextNode(`${fmt(r.points)} pts`));row.append(place,score);return row}));
  $('results-dialog').showModal();}
@@ -42,6 +42,6 @@ $('daily-tab').onclick=()=>switchMode('daily');$('practice-tab').onclick=()=>swi
 $('help-button').onclick=()=>$('help-dialog').showModal();$('stats-button').onclick=stats;
 for(const btn of document.querySelectorAll('[data-close]'))btn.onclick=()=>$(btn.dataset.close).close();
 for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()});
-$('share').onclick=async()=>{const squares=round.results.map(r=>r.points>=800?'🟩':r.points>=400?'🟨':'🟧').join('');const content=`Atlas Arena · ${mode==='daily'?round.date:'Practice'}\n${squares}\n${fmt(totalPoints(round))} / 5,000\n${location.origin}`;try{await navigator.clipboard.writeText(content);$('share').querySelector('span').textContent='Copied!';setTimeout(()=>$('share').querySelector('span').textContent='Copy results',2500)}catch{let area=document.querySelector('.share-fallback');if(!area){area=document.createElement('textarea');area.className='share-fallback';area.readOnly=true;area.setAttribute('aria-label','Results to copy');$('share').after(area)}area.value=content;area.focus();area.select();toast('Select and copy your results below.')}};
+$('share').onclick=async()=>{const squares=round.results.map(r=>r.points>=800?'🟩':r.points>=400?'🟨':'🟧').join('');const content=`Geo Football · ${mode==='daily'?round.date:'Practice'}\n${squares}\n${fmt(totalPoints(round))} / 5,000\n${location.origin}`;try{await navigator.clipboard.writeText(content);$('share').querySelector('span').textContent='Copied!';setTimeout(()=>$('share').querySelector('span').textContent='Copy results',2500)}catch{let area=document.querySelector('.share-fallback');if(!area){area=document.createElement('textarea');area.className='share-fallback';area.readOnly=true;area.setAttribute('aria-label','Results to copy');$('share').after(area)}area.value=content;area.focus();area.select();toast('Select and copy your results below.')}};
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&mode==='daily')ensureDate()});
 render();if(round.phase==='complete')showResults();
