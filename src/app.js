@@ -1,0 +1,47 @@
+import {createIcons,Navigation,ChartNoAxesColumnIncreasing,CircleHelp,Trophy,MousePointer2,Plus,Minus,Maximize,LocateFixed,Check,MapPin,ArrowRight,Lightbulb,RotateCcw,X,Copy} from 'lucide';
+import {questions} from './data/questions.js';
+import {dailyQuestions,dayKey,newRound,validateRound,completeGuess,advanceRound,totalPoints,shuffle} from './lib/game.js';
+import {createWorldMap} from './lib/map.js';
+const icons={Navigation,ChartNoAxesColumnIncreasing,CircleHelp,Trophy,MousePointer2,Plus,Minus,Maximize,LocateFixed,Check,MapPin,ArrowRight,Lightbulb,RotateCcw,X,Copy};
+const $=id=>document.getElementById(id),text=(id,value)=>$(id).textContent=value,fmt=n=>Math.round(n).toLocaleString('en-US');
+const renderIcons=()=>createIcons({icons});renderIcons();
+const storage={read(key){try{return JSON.parse(localStorage.getItem(key))}catch{return null}},write(key,value){try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}}};
+const byId=new Map(questions.map(q=>[q.id,q]));let activeDate=dayKey(),mode='daily',practice=null,toastTimer;
+let daily=validateRound(storage.read('atlas-daily-v1'),questions,activeDate)||newRound(dailyQuestions(questions,activeDate),activeDate);
+let round=daily;
+let storageNoticeShown=false;
+function toast(message){clearTimeout(toastTimer);text('toast',message);$('toast').hidden=false;toastTimer=setTimeout(()=>$('toast').hidden=true,4000)}
+function persist(){if(mode==='daily'){daily=round;if(!storage.write('atlas-daily-v1',daily)&&!storageNoticeShown){storageNoticeShown=true;toast('Progress cannot be saved in this browser. You can still play.')}}else practice=round}
+const currentIndex=()=>round.phase==='guess'?round.results.length:Math.max(0,round.results.length-1);
+const currentQuestion=()=>byId.get(round.ids[currentIndex()]);
+const map=createWorldMap({onGuess(coords){if(round.phase!=='guess')return;round={...round,guess:coords};persist();renderPin();}});
+function renderPin(){const pin=round.guess;const revealed=round.phase!=='guess';$('submit').disabled=!revealed&&!pin;document.querySelector('.pin-state').classList.toggle('placed',!!pin||revealed);if(revealed)text('pin-status',round.phase==='complete'?'Round complete. Nicely played.':'Answer revealed. Ready for the next one?');else text('pin-status',pin?`${Math.abs(pin[1]).toFixed(1)}° ${pin[1]>=0?'N':'S'} · ${Math.abs(pin[0]).toFixed(1)}° ${pin[0]>=0?'E':'W'} — ready to confirm`:'Choose a spot on the map');}
+function render(){
+ const q=currentQuestion(),index=currentIndex(),revealed=round.phase!=='guess';
+ document.body.classList.toggle('revealed',revealed);text('q-number',`QUESTION ${index+1} / 5`);text('sport',q.sport);text('year',q.year);text('question',q.question);text('total',fmt(totalPoints(round)));
+ text('round-date',mode==='daily'?new Date(round.date+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'}):'Free play');
+ text('round-note',mode==='daily'?'Same five questions for everyone · Resets at 00:00 UTC':'Practice draws from the starter question collection');
+ for(const name of ['daily','practice']){$(name+'-tab').classList.toggle('active',mode===name);$(name+'-tab').setAttribute('aria-pressed',String(mode===name))}
+ [...$('steps').children].forEach((el,i)=>{const done=i<round.results.length;el.className='step'+(done?' done':i===index?' current':'');el.setAttribute('aria-label',`Question ${i+1}${done?' completed':i===index?' current':''}`)});
+ $('hint').hidden=!round.hinted||revealed;text('hint',q.hint);$('hint-button').hidden=revealed;$('hint-button').disabled=round.hinted;$('hint-button').style.opacity=round.hinted?'.5':'1';$('new-practice').hidden=mode!=='practice';
+ $('reveal').hidden=!revealed;
+ if(revealed){const result=round.results[index];text('result-kicker',result.distance<=10?'RIGHT ON THE MARK':result.points>=600?'GREAT INSTINCTS':'THE MOMENT, MAPPED');text('answer-city',q.city===q.country?q.city:`${q.city}, ${q.country}`);text('round-points',`+${fmt(result.points)} pts`);text('distance',`${result.distance<1?'<1':fmt(result.distance)} km away`);text('answer-fact',q.fact);map.render({pin:result.guess,target:q.coords,revealed:true});}
+ else map.render({pin:round.guess});
+ text('submit-label',round.phase==='complete'?'View results':revealed?(round.results.length===5?'See my results':'Next question'):'Confirm guess');renderPin();
+}
+function recordDaily(){if(mode!=='daily'||round.phase!=='complete')return;let history=storage.read('atlas-history-v1');if(!history||typeof history!=='object'||Array.isArray(history))history={};history[round.date]=totalPoints(round);const dates=Object.keys(history).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort().slice(-366);storage.write('atlas-history-v1',Object.fromEntries(dates.map(d=>[d,history[d]])));}
+function stats(){const raw=storage.read('atlas-history-v1');const scores=Object.values(raw&&typeof raw==='object'?raw:{}).filter(n=>Number.isFinite(n)&&n>=0&&n<=5000);text('stat-played',scores.length);text('stat-best',fmt(Math.max(0,...scores)));text('stat-average',scores.length?fmt(scores.reduce((a,b)=>a+b,0)/scores.length):'0');$('stats-dialog').showModal();}
+function showResults(){recordDaily();const score=totalPoints(round);text('finish-score',fmt(score));text('finish-mode',mode==='daily'?'DAILY ROUND COMPLETE':'PRACTICE ROUND COMPLETE');text('finish-title',score>=4000?'World-class instincts.':score>=2500?'Quite the world tour.':'A world worth exploring.');text('next-round-note',mode==='daily'?'Your next daily round arrives at 00:00 UTC.':'Practice scores are separate from your daily stats.');text('play-again','Play a practice round');
+ $('round-results').replaceChildren(...round.results.map(r=>{const row=document.createElement('div');row.className='result-row';const place=document.createElement('span'),dot=document.createElement('b');dot.className='result-dot';dot.style.background=r.points>=600?'#39765d':'#ed642e';place.append(dot,document.createTextNode(byId.get(r.id).city));const score=document.createElement('strong'),distance=document.createElement('small');distance.textContent=`${r.distance<1?'<1':fmt(r.distance)} km`;score.append(distance,document.createTextNode(`${fmt(r.points)} pts`));row.append(place,score);return row}));
+ $('results-dialog').showModal();}
+function ensureDate(){if(mode!=='daily'||dayKey()===activeDate)return false;activeDate=dayKey();daily=newRound(dailyQuestions(questions,activeDate),activeDate);round=daily;persist();render();toast('A new daily round is ready. It’s midnight UTC.');return true;}
+$('submit').onclick=()=>{if(ensureDate())return;if(round.phase==='complete'){showResults();return}if(round.phase==='guess'){if(!round.guess)return;round=completeGuess(round,currentQuestion());persist();render();$('reveal').scrollIntoView({behavior:'smooth',block:'nearest'});}else{round=advanceRound(round);persist();render();if(round.phase==='complete')showResults();else{$('question').focus({preventScroll:true});$('question-panel').scrollIntoView({behavior:'smooth',block:'nearest'})}}};
+$('hint-button').onclick=()=>{if(ensureDate()||round.phase!=='guess'||round.hinted)return;round={...round,hinted:true};persist();$('hint').hidden=false;text('hint',currentQuestion().hint);$('hint-button').disabled=true;$('hint-button').style.opacity='.5';};
+function switchMode(target,fresh=false){if(target===mode&&!fresh)return;persist();mode=target;if(target==='daily'){if(dayKey()!==activeDate){activeDate=dayKey();daily=newRound(dailyQuestions(questions,activeDate),activeDate)}round=daily}else{if(!practice||fresh){const seed=crypto.getRandomValues(new Uint32Array(1))[0];practice=newRound(shuffle(questions,seed).slice(0,5),dayKey(),'practice')}round=practice}render();if(round.phase==='complete')showResults();}
+$('daily-tab').onclick=()=>switchMode('daily');$('practice-tab').onclick=()=>switchMode('practice');$('new-practice').onclick=()=>$('switch-dialog').showModal();$('confirm-practice').onclick=()=>{$('switch-dialog').close();switchMode('practice',true)};$('play-again').onclick=()=>{$('results-dialog').close();switchMode('practice',true);window.scrollTo({top:0,behavior:'smooth'})};
+$('help-button').onclick=()=>$('help-dialog').showModal();$('stats-button').onclick=stats;
+for(const btn of document.querySelectorAll('[data-close]'))btn.onclick=()=>$(btn.dataset.close).close();
+for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()});
+$('share').onclick=async()=>{const squares=round.results.map(r=>r.points>=800?'🟩':r.points>=400?'🟨':'🟧').join('');const content=`Atlas Arena · ${mode==='daily'?round.date:'Practice'}\n${squares}\n${fmt(totalPoints(round))} / 5,000\n${location.origin}`;try{await navigator.clipboard.writeText(content);$('share').querySelector('span').textContent='Copied!';setTimeout(()=>$('share').querySelector('span').textContent='Copy results',2500)}catch{let area=document.querySelector('.share-fallback');if(!area){area=document.createElement('textarea');area.className='share-fallback';area.readOnly=true;area.setAttribute('aria-label','Results to copy');$('share').after(area)}area.value=content;area.focus();area.select();toast('Select and copy your results below.')}};
+document.addEventListener('visibilitychange',()=>{if(!document.hidden&&mode==='daily')ensureDate()});
+render();if(round.phase==='complete')showResults();

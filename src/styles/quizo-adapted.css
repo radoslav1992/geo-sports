@@ -1,0 +1,12 @@
+/* Adapted for this end product from the purchased Quizo normal/version-6
+   _wizard.scss: multisteps_form, question_number and next_btn.
+   Source package remains outside this repository. See TEMPLATE-NOTES.md. */
+.multisteps_form{max-width:56.25rem;margin:0 auto;border-radius:.625rem;}
+.multisteps_form_panel{animation:question-enter .35s cubic-bezier(.25,1,.5,1);}
+.question_number{display:inline-flex;font-size:.75rem;font-weight:700;padding:.4rem .95rem;border-radius:2rem;background:linear-gradient(to right,#ff512f,#f09719);color:white;}
+.next_btn{font-size:1rem;font-weight:700;padding:.84375rem 2rem;outline:none;border:none;border-radius:2rem;background:linear-gradient(to right,#ff522f,#f09719);color:white;transition:filter .2s ease,transform .2s ease;}
+.next_btn:hover:not(:disabled){filter:brightness(.95);transform:translateY(-1px);}
+.next_btn:focus-visible{outline:3px solid #c24721;outline-offset:4px;}
+.next_btn:disabled{background:#e5e9e9;color:#83908c;cursor:not-allowed;transform:none;}
+@keyframes question-enter{from{opacity:0;transform:translateY(7px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.multisteps_form_panel{animation:none}.next_btn{transition:none}}
