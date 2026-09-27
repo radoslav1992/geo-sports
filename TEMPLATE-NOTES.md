@@ -2,10 +2,12 @@
 
 The owner supplied the purchased **Quizo — Questionnaire Multistep & Quiz Form Wizard** archive. This end product adapts the normal-version **version-6** layout:
 
-- Centered `multisteps_form` and single active question panel.
-- Orange gradient `question_number` badge and `next_btn` control.
+- A single active question panel using the `multisteps_form` structure.
+- Adapted `question_number` badge and `next_btn` control, restyled in lime green for Geo Football.
 - Short question entrance transition, with reduced-motion support.
 - The map replaces the multiple-choice answer area.
+
+The custom Geo Football theme uses a full-width dark navy game board, football scoreboard typography, a dark blue world map, cyan guess pins, and lime controls. Help, results, stats, and the mobile layout share the same palette.
 
 The template's decorative background, illustrations, timer, PHP submission flow, jQuery wizard, and full Bootstrap dependency are not needed for this focused geography game. Astro and small JavaScript modules implement the real game state and map interactions. `src/styles/quizo-adapted.css` contains the selected, adapted template styles; the remaining app code and styling are custom.
 
