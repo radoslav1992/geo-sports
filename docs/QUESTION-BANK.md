@@ -1,6 +1,37 @@
 # Question bank and repeat policy
 
-## Release
+## Release 2: 1,975 questions, a 395-day calendar
+
+- **1,975 questions**: the 515 below, plus 1,037 more grounds and 423 Legends birthplace clues.
+- **Calendar v3** (`daily-schedule-v3.json`) extends v2 append-only. Days 1–103 are v2's sets in v2's in-day order (it keeps v2's order seed), so every v2 date plays and restores exactly as published. The 292 new days (1,460 new questions) follow, then the whole cycle loops: **every question returns exactly 395 days later**, never within a year.
+- **Deadline:** deploy v3 before **2027-01-10**, v2's first wrap. The extension script refuses to create a calendar once its base has wrapped, because lengthening a cycle mid-play would move live dates.
+- New days keep the v2 rules: five football nations per day and answers at least 25 km apart. Each nation's questions are spaced evenly through the new days (Germany, the largest, appears on about half of them), with Legends interleaved among each nation's grounds.
+- No two questions in the bank are within 0.7 km of each other (tested across all 1,975). Players who share a hometown share one clue; six hometown pins that fell on an existing stadium site were dropped.
+
+### Expansion grounds (1,037)
+
+`scripts/build-ground-expansion.mjs` re-reads the same pinned WorldSoccerStadiums snapshot as the first release and keeps records that the first 500 did not use:
+
+- recorded capacity of at least 2,000, skipping unknown capacities;
+- names that are not training grounds, annex or practice pitches (e.g. *Kunstrasenplatz*, *Anexo*, *Training Centre*);
+- unambiguous within a football nation, and not superseded buildings;
+- coordinates inside the named country on Natural Earth's 1:50m polygons, or within 5 km of its coastline or border (43 grounds; recorded as `within-5km` in `ground-expansion-provenance.json`);
+- at least 0.7 km from every earlier site, and at most 120 per nation (Germany alone had 286 candidates), taking the largest grounds first.
+
+US records are skipped: the first release only admitted US grounds that a second coordinate source confirmed as association football venues, and that archive (the Wikidata gist) is not reachable from the build environment used for this release. As before, capacity is only an import signal, never shown as a current fact, and these grounds did not receive an individual manual fact-check.
+
+### Legends (423)
+
+`scripts/legends-source.mjs` holds hand-written clues about where famous players and coaches were born, men's and women's, across 84 countries. The facts stick to birthplace, birth year and widely documented milestones (titles, awards, records). Coordinates never come from memory: `scripts/build-legends-bank.mjs` resolves each town in the **GeoNames** gazetteer (npm `cities.json@1.1.64`, CC BY 4.0) by name, country and, where needed, region code. It refuses:
+
+- towns with no match or several matches (a `near` hint only chooses among same-name gazetteer entries);
+- any pin within 0.7 km of another question.
+
+Hints name the GeoNames region. Villages absent from the gazetteer were left out rather than guessed.
+
+## Release 1: 515 questions, a 103-day calendar
+
+_From 2027-01-10 Release 2 takes over; these 103 days remain the first 103 days of the v3 calendar._
 
 - 515 questions: 15 existing hand-written history/ground clues + 500 new ground-location clues.
 - New ground records cover 103 football nations (including the separate UK football associations; this is not a count of sovereign states).
@@ -45,8 +76,18 @@ npm test
 npm run build
 ```
 
+Release 2 needs only the stadium snapshot and the GeoNames extract (`npm pack cities.json@1.1.64`, then unpack it outside the repository):
+
+```sh
+node scripts/build-ground-expansion.mjs /path/to/SoccerStadiums.json
+node scripts/build-legends-bank.mjs /path/to/cities.json-package
+node scripts/build-daily-schedule.mjs   # verifies v2 is unchanged
+node scripts/extend-daily-schedule.mjs  # verifies (or, before v2 wraps, creates) v3
+npm test
+```
+
 The imported JSON and calendar are committed release inputs. Production builds perform **no network imports or random calendar regeneration**. The schedule generator accepts an identical existing calendar but refuses to replace it with different content.
 
-Do not remove or rename a scheduled question ID. New bank additions may be used for training immediately, but entering them into daily play requires a new future-dated schedule version and a transition test against the preceding calendar. Changing the meaning/answer of an existing question requires considering saved-round compatibility (`CONTENT_VERSION`). Correcting a historical name without changing its site is preferable to silently changing its answer.
+Do not remove or rename a scheduled question ID. New bank additions may be used for training immediately. Entering them into daily play requires either an append-only extension created before the current calendar first wraps (as v3 did), or a new future-dated schedule version with a transition test against the preceding calendar. v3 first wraps on 2027-10-29, so an append-only v4 can be added any time before then. Changing the meaning/answer of an existing question requires considering saved-round compatibility (`CONTENT_VERSION`). Correcting a historical name without changing its site is preferable to silently changing its answer.
 
-`tests/schedule.test.mjs` simulates 3,660 consecutive days, checks exact repeat intervals and complete coverage, tests rollout preservation and the legacy cooldown, proves pool reorder/additions cannot change dates, and verifies training exhausts all eligible unseen questions before reusing them.
+`tests/schedule.test.mjs` simulates 3,660 consecutive days, checks exact 395-day repeat intervals and complete coverage, proves every v2 date plays exactly as published, checks one question per site across the whole bank, tests rollout preservation and the legacy cooldown, proves pool reorder/additions cannot change dates, and verifies training exhausts all eligible unseen questions before reusing them.

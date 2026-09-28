@@ -45,7 +45,7 @@ Alternatively, Cloudflare **Pages** can build with `npm run build` and publish o
 
 ## Gameplay
 
-- Five daily clues from a frozen 103-day calendar starting 29 September 2026. All 515 questions appear once per cycle, so daily repeats are exactly 103 days apart. Resets at 00:00 UTC without rebuilding.
+- Five daily clues from a frozen 395-day calendar starting 29 September 2026. All 1,975 questions appear once per cycle, so no daily question repeats for 395 days (more than a year). Resets at 00:00 UTC without rebuilding.
 - Training uses browser-local question history, selecting unseen questions before revisiting the oldest. It excludes the current daily set. Returning to Daily restores its saved progress.
 - Within 10 km of the venue: 1,000 points. Beyond that: `round(1000 × exp(-(distanceKm - 10)/1800))`.
 - A hint reduces that question's maximum to 800; no timer or speed bonus.
@@ -55,11 +55,17 @@ Alternatively, Cloudflare **Pages** can build with `npm run build` and publish o
 
 ## Content and release boundaries
 
-`src/data/questions.js` contains **515 football questions**: the original 15 stadium/history clues and 500 additional ground-location questions across 103 football nations. One clue represents one stadium site; alternative wording is not counted as additional content. Ground clues explicitly cover past and present names, without claiming current sponsors or tenants.
+`src/data/questions.js` contains **1,975 football questions**:
 
-The committed `src/data/daily-schedule-v2.json` fixes 103 five-question sets. The first 100 days use new content; the original 15 questions return only at the end of that first cycle. Dates before 29 September 2026 retain the original selection so the rollout preserves existing rounds. IDs and answers remain stable, and adding questions to the pool does not change any scheduled day. **Do not regenerate an active calendar**: use a new version with a future activation date and verify cooldowns across the transition.
+- 15 original stadium/history clues;
+- 1,537 ground-location questions (the first 500 across 103 football nations, plus a 1,037-ground expansion from the same pinned dataset);
+- 423 **Legends** clues asking where famous footballers were born, across 84 countries, with pins from the GeoNames gazetteer.
 
-The first 100 sets each contain five different football nations and stadiums at least 25 km apart. The 103-day guarantee is for daily play; training has a separate local history and cannot change the globally shared daily schedule. Clearing browser storage resets training history, but does not affect the daily guarantee.
+One clue represents one map site, and no two questions are within 0.7 km of each other; players who share a hometown share one clue. Alternative wording is not counted as additional content. Ground clues explicitly cover past and present names, without claiming current sponsors or tenants.
+
+The committed `src/data/daily-schedule-v3.json` fixes 395 five-question sets. Its first 103 days are the published `daily-schedule-v2.json` calendar, unchanged and in the same in-day order; the 292 new days follow, so nothing from v2 returns before day 395. Dates before 29 September 2026 retain the original selection so the rollout preserves existing rounds. IDs and answers remain stable, and adding questions to the pool does not change any scheduled day. **Deploy v3 before 10 January 2027**, when v2 would otherwise start its second cycle. **Do not regenerate an active calendar**: extend it append-only before it wraps, or start a new version with a future activation date and verify cooldowns across the transition.
+
+Every daily set except the three legacy days contains five different football nations with answers at least 25 km apart, and each nation's questions are spread evenly across the year. The 395-day guarantee is for daily play; training has a separate local history and cannot change the globally shared daily schedule. Clearing browser storage resets training history, but does not affect the daily guarantee.
 
 Data provenance, historical-name caveats, coordinate checks, import commands, and maintenance rules are documented in [docs/QUESTION-BANK.md](docs/QUESTION-BANK.md).
 
@@ -76,9 +82,11 @@ The interactive map is built from Natural Earth's country boundaries through `wo
 - `src/lib/game.js` — deterministic rounds, distances, scores, validation
 - `src/lib/map.js` — pointer, pinch, zoom and pin handling
 - `src/app.js` — interface, browser persistence and results
-- `src/data/daily-schedule-v2.json` — immutable 103-day daily calendar
+- `src/data/grounds.json`, `grounds-expansion.json`, `legends.json` — committed question data
+- `src/data/daily-schedule-v3.json` — immutable 395-day daily calendar (extends `daily-schedule-v2.json`)
+- `scripts/` — reproducible imports and calendar builders (never run during deploy)
 - `tests/game.test.mjs` — scoring, UTC selection and state tests
-- `tests/schedule.test.mjs` — ten-year repeat simulation, release transition, geographic variety, and training history
+- `tests/schedule.test.mjs` — ten-year repeat simulation, v2 preservation, one-question-per-site check, geographic variety, and training history
 
 See `TEMPLATE-NOTES.md` for the purchased template adaptation and license provenance.
 
