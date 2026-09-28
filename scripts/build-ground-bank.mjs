@@ -5,6 +5,7 @@ import {geoContains, geoDistance} from 'd3-geo';
 import {feature} from 'topojson-client';
 import world from 'world-atlas/countries-110m.json' with {type:'json'};
 import {legacyQuestions} from '../src/data/legacy-questions.js';
+import {display, cities, norm, capacity} from './stadium-source.mjs';
 const [stadiumsPath, wikidataPath] = process.argv.slice(2);
 if (!stadiumsPath || !wikidataPath) throw new Error('Provide both source snapshots. See docs/QUESTION-BANK.md.');
 const raw=JSON.parse(readFileSync(stadiumsPath,'utf8'));
@@ -12,11 +13,7 @@ const lines=readFileSync(wikidataPath,'utf8').trim().split('\n');
 const wiki=lines.slice(1).map(line=>line.split('\t')).filter(r=>r[4]&&r[5]).map(r=>({name:r[3],coords:[Number(r[5]),Number(r[4])]}));
 const countries=feature(world,world.objects.countries).features;
 const aliases={'USA':'United States of America','England':'United Kingdom','Scotland':'United Kingdom','Wales':'United Kingdom','Northern Ireland':'United Kingdom','Czech Republic':'Czechia','FYR of Macedonia':'Macedonia','Bosnia and Herzegovina':'Bosnia and Herz.','Hong Kong':'China','Macao':'China'};
-const display={'USA':'United States','Czech Republic':'Czechia','FYR of Macedonia':'North Macedonia'};
-const cities={'Moskva':'Moscow','München':'Munich','Milano':'Milan','Roma':'Rome','Napoli':'Naples','Torino':'Turin','Firenze':'Florence','Genova':'Genoa','Köln':'Cologne','Athen':'Athens','Algier':'Algiers','Beograd':'Belgrade','Wien':'Vienna','Lisboa':'Lisbon','Sevilla':'Seville','Warszawa':'Warsaw','Kraków':'Krakow','Praha':'Prague','Bucureşti':'Bucharest','București':'Bucharest','Pôrto Alegre':'Porto Alegre','México, D.F.':'Mexico City','Paris - St. Denis':'Saint-Denis','Bucuresti':'Bucharest','Tiranë':'Tirana','Kiev':'Kyiv','Donezk':'Donetsk','Saloniki':'Thessaloniki','Piräus':'Piraeus','København':'Copenhagen','Göteborg':'Gothenburg','Nikosia':'Nicosia','Bischkek':'Bishkek','Luxemburg':'Luxembourg','Guatemala-City':'Guatemala City','Tanger':'Tangier','Brugge':'Bruges','Bruxelles':'Brussels','Den Haag':'The Hague','Nürnberg':'Nuremberg','Luzern':'Lucerne','Suita, Präfektur Osaka':'Suita','Vina del Mar':'Viña del Mar','Manila City':'Manila','Bacolod City':'Bacolod','San Jose':'San José'};
-const norm=s=>s.normalize('NFD').replace(/\p{Diacritic}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const km=(a,b)=>geoDistance(a,b)*6371;
-const capacity=r=>Number(r.Capacity.replace(/[.,]/g,''))||0;
 // Ambiguous same-name grounds in the same football nation are not fair clues.
 const names=new Map();
 for(const r of raw){const key=r.Nation+':'+norm(r.Name);if(!names.has(key))names.set(key,new Set());names.get(key).add(norm(r.Town));}

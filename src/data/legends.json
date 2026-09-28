@@ -1,0 +1,5078 @@
+[
+  {
+    "id": "legend-tres-coracoes",
+    "question": "Pelé, the only player to win three men’s World Cups, was born in this Minas Gerais town in 1940. Find it.",
+    "city": "Três Corações",
+    "country": "Brazil",
+    "coords": [
+      -45.25333,
+      -21.69694
+    ],
+    "hint": "Look in Minas Gerais, Brazil. The place name starts with “T”.",
+    "fact": "Pelé was born in Três Corações in 1940 and won the World Cup in 1958, 1962 and 1970."
+  },
+  {
+    "id": "legend-rio-de-janeiro",
+    "question": "Zico, Romário and Ronaldo Nazário were all born in this Brazilian city. Pin it.",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "coords": [
+      -43.18223,
+      -22.90642
+    ],
+    "hint": "Look in Brazil. The place name starts with “R”.",
+    "fact": "Zico (1953), Romário (1966) and Ronaldo (1976) were born in Rio de Janeiro. Romário and Ronaldo both won the World Cup with Brazil."
+  },
+  {
+    "id": "legend-porto-alegre",
+    "question": "Ronaldinho, the 2005 Ballon d’Or winner, and Raphinha were both born in this southern Brazilian city. Find it.",
+    "city": "Porto Alegre",
+    "country": "Brazil",
+    "coords": [
+      -51.23019,
+      -30.03283
+    ],
+    "hint": "Look in Rio Grande do Sul, Brazil. The place name starts with “P”.",
+    "fact": "Ronaldinho was born in Porto Alegre in 1980 and Raphinha in 1996. Both went on to star for Barcelona."
+  },
+  {
+    "id": "legend-brasilia",
+    "question": "Kaká and Lúcio, both World Cup winners with Brazil in 2002, were born in this planned capital city. Find it.",
+    "city": "Brasília",
+    "country": "Brazil",
+    "coords": [
+      -47.92972,
+      -15.77972
+    ],
+    "hint": "Look in Federal District, Brazil. The place name starts with “B”.",
+    "fact": "Kaká (1982) and Lúcio (1978) were born in Brasília. Kaká won the Ballon d’Or in 2007."
+  },
+  {
+    "id": "legend-recife",
+    "question": "Rivaldo, Vavá and free-kick master Juninho Pernambucano were all born in this north-eastern Brazilian city. Pin it.",
+    "city": "Recife",
+    "country": "Brazil",
+    "coords": [
+      -34.88111,
+      -8.05389
+    ],
+    "hint": "Look in Pernambuco, Brazil. The place name starts with “R”.",
+    "fact": "Rivaldo (1972), Vavá (1934) and Juninho Pernambucano (1975) were born in Recife. Vavá scored in the 1958 and 1962 World Cup finals."
+  },
+  {
+    "id": "legend-sao-paulo",
+    "question": "Cafu, who captained Brazil to the 2002 World Cup, and Rivellino were both born in this Brazilian megacity. Find it.",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "coords": [
+      -46.63611,
+      -23.5475
+    ],
+    "hint": "Look in Brazil. The place name starts with “S”.",
+    "fact": "Rivellino (1946) and Cafu (1970) were born in São Paulo. Cafu played in three consecutive World Cup finals."
+  },
+  {
+    "id": "legend-garca",
+    "question": "Roberto Carlos, famous for his swerving free kicks, was born in this São Paulo state town. Find it.",
+    "city": "Garça",
+    "country": "Brazil",
+    "coords": [
+      -49.65611,
+      -22.21056
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “G”.",
+    "fact": "Roberto Carlos was born in Garça in 1973 and won the 2002 World Cup with Brazil."
+  },
+  {
+    "id": "legend-mogi-das-cruzes",
+    "question": "Neymar, who came through at Santos, was born in this city in greater São Paulo. Find it.",
+    "city": "Mogi das Cruzes",
+    "country": "Brazil",
+    "coords": [
+      -46.18833,
+      -23.52278
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “M”.",
+    "fact": "Neymar was born in Mogi das Cruzes in 1992 and made his professional debut for Santos in 2009."
+  },
+  {
+    "id": "legend-belem",
+    "question": "Sócrates, Brazil’s captain at the 1982 World Cup and a qualified doctor, was born in this Amazonian port city. Find it.",
+    "city": "Belém",
+    "country": "Brazil",
+    "coords": [
+      -48.50444,
+      -1.45583
+    ],
+    "hint": "Look in Pará, Brazil. The place name starts with “B”.",
+    "fact": "Sócrates was born in Belém, Pará, in 1954 and captained Brazil at the 1982 World Cup."
+  },
+  {
+    "id": "legend-duque-de-caxias",
+    "question": "Jairzinho, who scored in every match of the 1970 World Cup, and goalkeeper Júlio César were born in this city near Rio. Find it.",
+    "city": "Duque de Caxias",
+    "country": "Brazil",
+    "coords": [
+      -43.31167,
+      -22.78556
+    ],
+    "hint": "Look in Rio de Janeiro, Brazil. The place name starts with “D”.",
+    "fact": "Jairzinho (1944) and Júlio César (1979) were born in Duque de Caxias. Júlio César won the 2010 treble with Inter."
+  },
+  {
+    "id": "legend-belo-horizonte",
+    "question": "Tostão, a key part of Brazil’s 1970 World Cup-winning attack, was born in this Minas Gerais capital. Find it.",
+    "city": "Belo Horizonte",
+    "country": "Brazil",
+    "coords": [
+      -43.93778,
+      -19.92083
+    ],
+    "hint": "Look in Minas Gerais, Brazil. The place name starts with “B”.",
+    "fact": "Tostão was born in Belo Horizonte in 1947 and won the 1970 World Cup with Brazil."
+  },
+  {
+    "id": "legend-dois-riachos",
+    "question": "Marta, the all-time top scorer at World Cups with 17 goals, was born in this small town in Alagoas. Find it.",
+    "city": "Dois Riachos",
+    "country": "Brazil",
+    "coords": [
+      -37.10056,
+      -9.3925
+    ],
+    "hint": "Look in Alagoas, Brazil. The place name starts with “D”.",
+    "fact": "Marta was born in Dois Riachos in 1986. She has won FIFA’s world player award six times."
+  },
+  {
+    "id": "legend-salvador",
+    "question": "Bebeto, famous for his “rocking the baby” celebration in 1994, and Formiga, who played at seven Women’s World Cups, were born in this Bahia city. Find it.",
+    "city": "Salvador",
+    "country": "Brazil",
+    "coords": [
+      -38.49096,
+      -12.97563
+    ],
+    "hint": "Look in Bahia, Brazil. The place name starts with “S”.",
+    "fact": "Bebeto (1964) and Formiga (1978) were born in Salvador. Bebeto won the 1994 World Cup with Brazil."
+  },
+  {
+    "id": "legend-santa-rosa-rs",
+    "question": "Cláudio Taffarel, Brazil’s goalkeeper at the 1994 World Cup, was born in this Rio Grande do Sul town. Find it.",
+    "city": "Santa Rosa",
+    "country": "Brazil",
+    "coords": [
+      -54.48139,
+      -27.87083
+    ],
+    "hint": "Look in Rio Grande do Sul, Brazil. The place name starts with “S”.",
+    "fact": "Taffarel was born in Santa Rosa in 1966 and won the 1994 World Cup."
+  },
+  {
+    "id": "legend-ijui",
+    "question": "Dunga, who lifted the World Cup as Brazil’s captain in 1994, was born in this southern Brazilian town. Find it.",
+    "city": "Ijuí",
+    "country": "Brazil",
+    "coords": [
+      -53.91472,
+      -28.38778
+    ],
+    "hint": "Look in Rio Grande do Sul, Brazil. The place name starts with “I”.",
+    "fact": "Dunga was born in Ijuí in 1963 and captained Brazil to the 1994 World Cup."
+  },
+  {
+    "id": "legend-campos-dos-goytacazes",
+    "question": "Didi, named the best player of the 1958 World Cup, was born in this city in Rio de Janeiro state. Find it.",
+    "city": "Campos dos Goytacazes",
+    "country": "Brazil",
+    "coords": [
+      -41.33044,
+      -21.75227
+    ],
+    "hint": "Look in Rio de Janeiro, Brazil. The place name starts with “C”.",
+    "fact": "Didi was born in Campos dos Goytacazes in 1928 and won the World Cup in 1958 and 1962."
+  },
+  {
+    "id": "legend-sao-jose-dos-campos",
+    "question": "Casemiro, a five-time Champions League winner with Real Madrid, was born in this city in São Paulo state. Find it.",
+    "city": "São José dos Campos",
+    "country": "Brazil",
+    "coords": [
+      -45.88694,
+      -23.17944
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “S”.",
+    "fact": "Casemiro was born in São José dos Campos in 1992 and came through at São Paulo FC."
+  },
+  {
+    "id": "legend-sao-goncalo",
+    "question": "Vinícius Júnior, who scored in the 2022 and 2024 Champions League finals, was born in this city across the bay from Rio. Find it.",
+    "city": "São Gonçalo",
+    "country": "Brazil",
+    "coords": [
+      -43.05389,
+      -22.82694
+    ],
+    "hint": "Look in Rio de Janeiro, Brazil. The place name starts with “S”.",
+    "fact": "Vinícius Júnior was born in São Gonçalo in 2000 and joined Real Madrid from Flamengo."
+  },
+  {
+    "id": "legend-novo-hamburgo",
+    "question": "Alisson Becker, Liverpool’s Champions League-winning goalkeeper, was born in this southern Brazilian city. Find it.",
+    "city": "Novo Hamburgo",
+    "country": "Brazil",
+    "coords": [
+      -51.13056,
+      -29.67833
+    ],
+    "hint": "Look in Rio Grande do Sul, Brazil. The place name starts with “N”.",
+    "fact": "Alisson was born in Novo Hamburgo in 1992 and won the Champions League with Liverpool in 2019."
+  },
+  {
+    "id": "legend-araraquara",
+    "question": "Careca, Maradona’s strike partner at Napoli, was born in this São Paulo state city. Find it.",
+    "city": "Araraquara",
+    "country": "Brazil",
+    "coords": [
+      -48.17556,
+      -21.79444
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “A”.",
+    "fact": "Careca was born in Araraquara in 1960 and won Serie A with Napoli in 1990."
+  },
+  {
+    "id": "legend-maceio",
+    "question": "Roberto Firmino and Portugal defender Pepe were both born in this coastal capital of Alagoas. Find it.",
+    "city": "Maceió",
+    "country": "Brazil",
+    "coords": [
+      -35.73528,
+      -9.66583
+    ],
+    "hint": "Look in Alagoas, Brazil. The place name starts with “M”.",
+    "fact": "Pepe (1983) and Roberto Firmino (1991) were born in Maceió. Pepe went on to play for Portugal."
+  },
+  {
+    "id": "legend-sao-bernardo-do-campo",
+    "question": "Deco, who won the Champions League with Porto and Barcelona, was born in this city in greater São Paulo. Find it.",
+    "city": "São Bernardo do Campo",
+    "country": "Brazil",
+    "coords": [
+      -46.565,
+      -23.69389
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “S”.",
+    "fact": "Deco was born in São Bernardo do Campo in 1977 and represented Portugal internationally."
+  },
+  {
+    "id": "legend-niteroi",
+    "question": "Gérson, who scored in the 1970 World Cup final, and striker Edmundo were born in this city facing Rio across Guanabara Bay. Find it.",
+    "city": "Niterói",
+    "country": "Brazil",
+    "coords": [
+      -43.10361,
+      -22.88333
+    ],
+    "hint": "Look in Rio de Janeiro, Brazil. The place name starts with “N”.",
+    "fact": "Gérson (1941) and Edmundo (1971) were born in Niterói."
+  },
+  {
+    "id": "legend-diadema",
+    "question": "Denílson, whose 1998 move to Real Betis set a world transfer record, was born in this city near São Paulo. Find it.",
+    "city": "Diadema",
+    "country": "Brazil",
+    "coords": [
+      -46.62278,
+      -23.68611
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “D”.",
+    "fact": "Denílson was born in Diadema in 1977 and won the 2002 World Cup with Brazil."
+  },
+  {
+    "id": "legend-sao-vicente",
+    "question": "Robinho, who broke through at Santos, was born in this coastal city next to Santos. Find it.",
+    "city": "São Vicente",
+    "country": "Brazil",
+    "coords": [
+      -46.39194,
+      -23.96306
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “S”.",
+    "fact": "Robinho was born in São Vicente in 1984 and joined Real Madrid from Santos in 2005."
+  },
+  {
+    "id": "legend-pato-branco",
+    "question": "Rogério Ceni, the goalkeeper who scored more than 100 goals for São Paulo, was born in this Paraná town. Find it.",
+    "city": "Pato Branco",
+    "country": "Brazil",
+    "coords": [
+      -52.67056,
+      -26.22861
+    ],
+    "hint": "Look in Paraná, Brazil. The place name starts with “P”.",
+    "fact": "Rogério Ceni was born in Pato Branco in 1973 and scored over 100 goals, mostly free kicks and penalties."
+  },
+  {
+    "id": "legend-osasco",
+    "question": "Brazil striker Cristiane, Real Madrid forward Rodrygo and goalkeeper Ederson were all born in this city next to São Paulo. Find it.",
+    "city": "Osasco",
+    "country": "Brazil",
+    "coords": [
+      -46.79167,
+      -23.5325
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “O”.",
+    "fact": "Cristiane (1985), Ederson (1993) and Rodrygo (2001) were born in Osasco."
+  },
+  {
+    "id": "legend-juazeiro",
+    "question": "Dani Alves, one of the most decorated players in history, was born in this town on the São Francisco river. Find it.",
+    "city": "Juazeiro",
+    "country": "Brazil",
+    "coords": [
+      -40.49861,
+      -9.41167
+    ],
+    "hint": "Look in Bahia, Brazil. The place name starts with “J”.",
+    "fact": "Dani Alves was born in Juazeiro, Bahia, in 1983."
+  },
+  {
+    "id": "legend-lagoa-da-prata",
+    "question": "Gilberto Silva, a 2002 world champion and one of Arsenal’s “Invincibles”, was born in this Minas Gerais town. Find it.",
+    "city": "Lagoa da Prata",
+    "country": "Brazil",
+    "coords": [
+      -45.54361,
+      -20.0225
+    ],
+    "hint": "Look in Minas Gerais, Brazil. The place name starts with “L”.",
+    "fact": "Gilberto Silva was born in Lagoa da Prata in 1976."
+  },
+  {
+    "id": "legend-londrina",
+    "question": "Fernandinho, a long-time Manchester City midfielder, was born in this Paraná city. Find it.",
+    "city": "Londrina",
+    "country": "Brazil",
+    "coords": [
+      -51.16278,
+      -23.31028
+    ],
+    "hint": "Look in Paraná, Brazil. The place name starts with “L”.",
+    "fact": "Fernandinho was born in Londrina in 1985."
+  },
+  {
+    "id": "legend-nova-venecia",
+    "question": "Richarlison, scorer of a spectacular scissor kick against Serbia at the 2022 World Cup, was born in this town in Espírito Santo. Find it.",
+    "city": "Nova Venécia",
+    "country": "Brazil",
+    "coords": [
+      -40.40056,
+      -18.71056
+    ],
+    "hint": "Look in Espírito Santo, Brazil. The place name starts with “N”.",
+    "fact": "Richarlison was born in Nova Venécia in 1997."
+  },
+  {
+    "id": "legend-sertaozinho",
+    "question": "Real Madrid defender Éder Militão was born in this São Paulo state town. Find it.",
+    "city": "Sertãozinho",
+    "country": "Brazil",
+    "coords": [
+      -47.99028,
+      -21.13778
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “S”.",
+    "fact": "Éder Militão was born in Sertãozinho in 1998."
+  },
+  {
+    "id": "legend-bage",
+    "question": "Branco, whose long-range free kick beat the Netherlands at the 1994 World Cup, was born in this town near the Uruguayan border. Find it.",
+    "city": "Bagé",
+    "country": "Brazil",
+    "coords": [
+      -54.10694,
+      -31.33139
+    ],
+    "hint": "Look in Rio Grande do Sul, Brazil. The place name starts with “B”.",
+    "fact": "Branco was born in Bagé in 1964 and won the 1994 World Cup."
+  },
+  {
+    "id": "legend-ribeirao-preto",
+    "question": "Raí, a 1994 world champion and Sócrates’ younger brother, was born in this São Paulo state city. Find it.",
+    "city": "Ribeirão Preto",
+    "country": "Brazil",
+    "coords": [
+      -47.81028,
+      -21.1775
+    ],
+    "hint": "Look in São Paulo, Brazil. The place name starts with “R”.",
+    "fact": "Raí was born in Ribeirão Preto in 1965 and later starred for Paris Saint-Germain."
+  },
+  {
+    "id": "legend-lagarto",
+    "question": "Diego Costa, who played for Spain at the World Cup, was born in this town in Sergipe. Find it.",
+    "city": "Lagarto",
+    "country": "Brazil",
+    "coords": [
+      -37.65,
+      -10.91722
+    ],
+    "hint": "Look in Sergipe, Brazil. The place name starts with “L”.",
+    "fact": "Diego Costa was born in Lagarto, Brazil, in 1988 and represented Spain internationally."
+  },
+  {
+    "id": "legend-lanus",
+    "question": "Diego Maradona, captain of the 1986 world champions, was born in this city in greater Buenos Aires. Find it.",
+    "city": "Lanús",
+    "country": "Argentina",
+    "coords": [
+      -58.39132,
+      -34.70757
+    ],
+    "hint": "Look in Buenos Aires, Argentina. The place name starts with “L”.",
+    "fact": "Maradona was born in Lanús in 1960 and grew up in nearby Villa Fiorito."
+  },
+  {
+    "id": "legend-rosario-ar",
+    "question": "Lionel Messi and Ángel Di María, both 2022 world champions, were born in this Argentine city on the Paraná River. Find it.",
+    "city": "Rosario",
+    "country": "Argentina",
+    "coords": [
+      -60.63932,
+      -32.94682
+    ],
+    "hint": "Look in Santa Fe, Argentina. The place name starts with “R”.",
+    "fact": "Messi (1987) and Di María (1988) were born in Rosario. Di María scored in the 2022 World Cup final."
+  },
+  {
+    "id": "legend-buenos-aires",
+    "question": "Alfredo Di Stéfano, Real Madrid’s five-time European Cup winner, was born in this capital city. Find it.",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "coords": [
+      -58.37723,
+      -34.61315
+    ],
+    "hint": "Look in Buenos Aires F.D., Argentina. The place name starts with “B”.",
+    "fact": "Di Stéfano was born in Buenos Aires in 1926. Javier Zanetti (1973) and Diego Simeone (1970) were born there too."
+  },
+  {
+    "id": "legend-reconquista",
+    "question": "Gabriel Batistuta, “Batigol”, was born in this town in Santa Fe province. Find it.",
+    "city": "Reconquista",
+    "country": "Argentina",
+    "coords": [
+      -59.65,
+      -29.15
+    ],
+    "hint": "Look in Santa Fe, Argentina. The place name starts with “R”.",
+    "fact": "Batistuta was born in Reconquista in 1969 and became a Fiorentina legend."
+  },
+  {
+    "id": "legend-bell-ville",
+    "question": "Mario Kempes and Osvaldo Ardiles, both 1978 world champions, were born in this town in Córdoba province. Find it.",
+    "city": "Bell Ville",
+    "country": "Argentina",
+    "coords": [
+      -62.68883,
+      -32.63021
+    ],
+    "hint": "Look in Cordoba, Argentina. The place name starts with “B”.",
+    "fact": "Ardiles (1952) and Kempes (1954) were born in Bell Ville. Kempes scored twice in the 1978 World Cup final."
+  },
+  {
+    "id": "legend-quilmes",
+    "question": "Sergio Agüero, scorer of Manchester City’s famous 93:20 title winner, was born in this city south of Buenos Aires. Find it.",
+    "city": "Quilmes",
+    "country": "Argentina",
+    "coords": [
+      -58.25454,
+      -34.72065
+    ],
+    "hint": "Look in Buenos Aires, Argentina. The place name starts with “Q”.",
+    "fact": "Agüero was born in Quilmes in 1988 and won the Premier League title with his late goal against QPR in 2012."
+  },
+  {
+    "id": "legend-chacabuco",
+    "question": "Daniel Passarella, Argentina’s captain at the 1978 World Cup, was born in this town in Buenos Aires province. Find it.",
+    "city": "Chacabuco",
+    "country": "Argentina",
+    "coords": [
+      -60.47124,
+      -34.64203
+    ],
+    "hint": "Look in Buenos Aires, Argentina. The place name starts with “C”.",
+    "fact": "Passarella was born in Chacabuco in 1953 and lifted the World Cup as captain in 1978."
+  },
+  {
+    "id": "legend-san-lorenzo-ar",
+    "question": "Javier Mascherano was born in this town on the Paraná River in Santa Fe province. Find it.",
+    "city": "San Lorenzo",
+    "country": "Argentina",
+    "coords": [
+      -60.73613,
+      -32.74341
+    ],
+    "hint": "Look in Santa Fe, Argentina. The place name starts with “S”.",
+    "fact": "Mascherano was born in San Lorenzo, Santa Fe, in 1984."
+  },
+  {
+    "id": "legend-bahia-blanca",
+    "question": "Lautaro Martínez, Inter Milan captain and 2022 world champion, was born in this southern port city. Find it.",
+    "city": "Bahía Blanca",
+    "country": "Argentina",
+    "coords": [
+      -62.26545,
+      -38.7176
+    ],
+    "hint": "Look in Buenos Aires, Argentina. The place name starts with “B”.",
+    "fact": "Lautaro Martínez was born in Bahía Blanca in 1997."
+  },
+  {
+    "id": "legend-mar-del-plata",
+    "question": "Emiliano “Dibu” Martínez, the 2022 World Cup’s best goalkeeper, was born in this Atlantic resort city. Find it.",
+    "city": "Mar del Plata",
+    "country": "Argentina",
+    "coords": [
+      -57.5562,
+      -38.00042
+    ],
+    "hint": "Look in Buenos Aires, Argentina. The place name starts with “M”.",
+    "fact": "Emiliano Martínez was born in Mar del Plata in 1992 and won the Golden Glove at the 2022 World Cup."
+  },
+  {
+    "id": "legend-rio-cuarto",
+    "question": "Pablo Aimar, the playmaker Messi idolised, was born in this city in Córdoba province. Find it.",
+    "city": "Río Cuarto",
+    "country": "Argentina",
+    "coords": [
+      -64.35272,
+      -33.13044
+    ],
+    "hint": "Look in Cordoba, Argentina. The place name starts with “R”.",
+    "fact": "Pablo Aimar was born in Río Cuarto in 1979."
+  },
+  {
+    "id": "legend-la-plata",
+    "question": "Juan Sebastián Verón was born in this planned provincial capital. Find it.",
+    "city": "La Plata",
+    "country": "Argentina",
+    "coords": [
+      -57.95442,
+      -34.92126
+    ],
+    "hint": "Look in Buenos Aires, Argentina. The place name starts with “L”.",
+    "fact": "Juan Sebastián Verón was born in La Plata in 1975 and played for Estudiantes, like his father."
+  },
+  {
+    "id": "legend-san-nicolas",
+    "question": "Omar Sívori, the 1961 Ballon d’Or winner, was born in this city on the Paraná River. Find it.",
+    "city": "San Nicolás de los Arroyos",
+    "country": "Argentina",
+    "coords": [
+      -60.2108,
+      -33.33425
+    ],
+    "hint": "Look in Buenos Aires, Argentina. The place name starts with “S”.",
+    "fact": "Omar Sívori was born in San Nicolás de los Arroyos in 1935 and won the Ballon d’Or with Juventus."
+  },
+  {
+    "id": "legend-las-parejas",
+    "question": "Jorge Valdano, who scored in the 1986 World Cup final, was born in this town in Santa Fe province. Find it.",
+    "city": "Las Parejas",
+    "country": "Argentina",
+    "coords": [
+      -61.51637,
+      -32.68478
+    ],
+    "hint": "Look in Santa Fe, Argentina. The place name starts with “L”.",
+    "fact": "Jorge Valdano was born in Las Parejas in 1955."
+  },
+  {
+    "id": "legend-laguna-larga",
+    "question": "Paulo Dybala was born in this small town in Córdoba province. Find it.",
+    "city": "Laguna Larga",
+    "country": "Argentina",
+    "coords": [
+      -63.80038,
+      -31.77569
+    ],
+    "hint": "Look in Cordoba, Argentina. The place name starts with “L”.",
+    "fact": "Paulo Dybala was born in Laguna Larga in 1993 and started at Instituto de Córdoba."
+  },
+  {
+    "id": "legend-gualeguay",
+    "question": "Jorge Burruchaga, who scored the winner in the 1986 World Cup final, was born in this town in Entre Ríos. Find it.",
+    "city": "Gualeguay",
+    "country": "Argentina",
+    "coords": [
+      -59.31257,
+      -33.14091
+    ],
+    "hint": "Look in Entre Rios, Argentina. The place name starts with “G”.",
+    "fact": "Burruchaga was born in Gualeguay in 1962."
+  },
+  {
+    "id": "legend-santa-rosa-ar",
+    "question": "Alexis Mac Allister, a 2022 world champion, was born in this capital of La Pampa province. Find it.",
+    "city": "Santa Rosa",
+    "country": "Argentina",
+    "coords": [
+      -64.28991,
+      -36.61617
+    ],
+    "hint": "Look in La Pampa, Argentina. The place name starts with “S”.",
+    "fact": "Alexis Mac Allister was born in Santa Rosa, La Pampa, in 1998."
+  },
+  {
+    "id": "legend-brest",
+    "question": "Argentina striker Gonzalo Higuaín was born in this Breton port while his father played for the local club. Find it.",
+    "city": "Brest",
+    "country": "France",
+    "coords": [
+      -4.48628,
+      48.39029
+    ],
+    "hint": "Look in Brittany, France. The place name starts with “B”.",
+    "fact": "Gonzalo Higuaín was born in Brest in 1987, when his father Jorge played for Stade Brestois."
+  },
+  {
+    "id": "legend-salto",
+    "question": "Luis Suárez and Edinson Cavani, Uruguay’s record-breaking strikers, were both born in this city in 1987. Find it.",
+    "city": "Salto",
+    "country": "Uruguay",
+    "coords": [
+      -57.95983,
+      -31.38811
+    ],
+    "hint": "Look in Salto Department, Uruguay. The place name starts with “S”.",
+    "fact": "Luis Suárez and Edinson Cavani were both born in Salto in 1987."
+  },
+  {
+    "id": "legend-montevideo",
+    "question": "Enzo Francescoli, Diego Forlán and Federico Valverde were all born in this capital city. Find it.",
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coords": [
+      -56.18816,
+      -34.90328
+    ],
+    "hint": "Look in Montevideo Department, Uruguay. The place name starts with “M”.",
+    "fact": "Francescoli (1961), Forlán (1979) and Valverde (1998) were born in Montevideo. Forlán won the Golden Ball at the 2010 World Cup."
+  },
+  {
+    "id": "legend-rosario-uy",
+    "question": "Diego Godín, long-time Uruguay captain and Atlético Madrid defender, was born in this town in Colonia department. Find it.",
+    "city": "Rosario",
+    "country": "Uruguay",
+    "coords": [
+      -57.35,
+      -34.31667
+    ],
+    "hint": "Look in Colonia, Uruguay. The place name starts with “R”.",
+    "fact": "Diego Godín was born in Rosario, Uruguay, in 1986."
+  },
+  {
+    "id": "legend-artigas",
+    "question": "Darwin Núñez was born in this city in Uruguay’s far north. Find it.",
+    "city": "Artigas",
+    "country": "Uruguay",
+    "coords": [
+      -56.46926,
+      -30.40431
+    ],
+    "hint": "Look in Uruguay. The place name starts with “A”.",
+    "fact": "Darwin Núñez was born in Artigas in 1999."
+  },
+  {
+    "id": "legend-rivera",
+    "question": "Barcelona defender Ronald Araújo was born in this city on Uruguay’s border with Brazil. Find it.",
+    "city": "Rivera",
+    "country": "Uruguay",
+    "coords": [
+      -55.55076,
+      -30.90534
+    ],
+    "hint": "Look in Rivera Department, Uruguay. The place name starts with “R”.",
+    "fact": "Ronald Araújo was born in Rivera in 1999."
+  },
+  {
+    "id": "legend-santa-marta",
+    "question": "Carlos Valderrama and Radamel Falcao were both born in this Caribbean city. Find it.",
+    "city": "Santa Marta",
+    "country": "Colombia",
+    "coords": [
+      -74.19427,
+      11.23855
+    ],
+    "hint": "Look in Magdalena Department, Colombia. The place name starts with “S”.",
+    "fact": "Valderrama (1961) and Falcao (1986) were born in Santa Marta, Colombia’s oldest surviving city."
+  },
+  {
+    "id": "legend-medellin",
+    "question": "Goalkeeper René Higuita, of the “scorpion kick”, was born in this Colombian city. Find it.",
+    "city": "Medellín",
+    "country": "Colombia",
+    "coords": [
+      -75.57151,
+      6.245
+    ],
+    "hint": "Look in Antioquia, Colombia. The place name starts with “M”.",
+    "fact": "René Higuita was born in Medellín in 1966 and famously performed the scorpion kick at Wembley in 1995."
+  },
+  {
+    "id": "legend-cucuta",
+    "question": "James Rodríguez, top scorer at the 2014 World Cup, was born in this city near the Venezuelan border. Find it.",
+    "city": "Cúcuta",
+    "country": "Colombia",
+    "coords": [
+      -72.5049,
+      7.90745
+    ],
+    "hint": "Look in Norte de Santander Department, Colombia. The place name starts with “C”.",
+    "fact": "James Rodríguez was born in Cúcuta in 1991 and won the Golden Boot at the 2014 World Cup."
+  },
+  {
+    "id": "legend-tulua",
+    "question": "Faustino Asprilla was born in this city in the Cauca Valley. Find it.",
+    "city": "Tuluá",
+    "country": "Colombia",
+    "coords": [
+      -76.19548,
+      4.08484
+    ],
+    "hint": "Look in Valle del Cauca Department, Colombia. The place name starts with “T”.",
+    "fact": "Faustino Asprilla was born in Tuluá in 1969 and later played for Parma and Newcastle United."
+  },
+  {
+    "id": "legend-buenaventura",
+    "question": "Freddy Rincón, who scored a famous equaliser against West Germany at Italia ’90, was born in this Pacific port. Find it.",
+    "city": "Buenaventura",
+    "country": "Colombia",
+    "coords": [
+      -77.03105,
+      3.87962
+    ],
+    "hint": "Look in Valle del Cauca Department, Colombia. The place name starts with “B”.",
+    "fact": "Freddy Rincón was born in Buenaventura in 1966."
+  },
+  {
+    "id": "legend-necocli",
+    "question": "Juan Cuadrado was born in this town on the Gulf of Urabá. Find it.",
+    "city": "Necoclí",
+    "country": "Colombia",
+    "coords": [
+      -76.78926,
+      8.42627
+    ],
+    "hint": "Look in Antioquia, Colombia. The place name starts with “N”.",
+    "fact": "Juan Cuadrado was born in Necoclí in 1988."
+  },
+  {
+    "id": "legend-barrancas",
+    "question": "Luis Díaz, the Colombian winger, was born in this town in La Guajira. Find it.",
+    "city": "Barrancas",
+    "country": "Colombia",
+    "coords": [
+      -72.79456,
+      10.95672
+    ],
+    "hint": "Look in La Guajira Department, Colombia. The place name starts with “B”.",
+    "fact": "Luis Díaz was born in Barrancas in 1997 and is of Wayuu heritage."
+  },
+  {
+    "id": "legend-tocopilla",
+    "question": "Alexis Sánchez, Chile’s record goalscorer, was born in this port town in the Atacama. Find it.",
+    "city": "Tocopilla",
+    "country": "Chile",
+    "coords": [
+      -70.19792,
+      -22.09198
+    ],
+    "hint": "Look in Antofagasta, Chile. The place name starts with “T”.",
+    "fact": "Alexis Sánchez was born in Tocopilla in 1988 and won two Copa Américas with Chile."
+  },
+  {
+    "id": "legend-santiago",
+    "question": "Iván Zamorano and Arturo Vidal were both born in this capital city. Find it.",
+    "city": "Santiago",
+    "country": "Chile",
+    "coords": [
+      -70.64827,
+      -33.45694
+    ],
+    "hint": "Look in Santiago Metropolitan, Chile. The place name starts with “S”.",
+    "fact": "Iván Zamorano (1967) and Arturo Vidal (1987) were born in Santiago."
+  },
+  {
+    "id": "legend-temuco",
+    "question": "Marcelo Salas, “El Matador”, was born in this southern Chilean city. Find it.",
+    "city": "Temuco",
+    "country": "Chile",
+    "coords": [
+      -72.59738,
+      -38.73628
+    ],
+    "hint": "Look in Araucania, Chile. The place name starts with “T”.",
+    "fact": "Marcelo Salas was born in Temuco in 1974."
+  },
+  {
+    "id": "legend-valparaiso",
+    "question": "Elías Figueroa, one of South America’s greatest defenders, was born in this Chilean port. Find it.",
+    "city": "Valparaíso",
+    "country": "Chile",
+    "coords": [
+      -71.62963,
+      -33.036
+    ],
+    "hint": "Look in Chile. The place name starts with “V”.",
+    "fact": "Elías Figueroa was born in Valparaíso in 1946 and was voted South American Footballer of the Year three times."
+  },
+  {
+    "id": "legend-vina-del-mar",
+    "question": "Claudio Bravo, Chile’s Copa América-winning captain, was born in this coastal city. Find it.",
+    "city": "Viña del Mar",
+    "country": "Chile",
+    "coords": [
+      -71.55183,
+      -33.02457
+    ],
+    "hint": "Look in Valparaiso, Chile. The place name starts with “V”.",
+    "fact": "Claudio Bravo was born in Viña del Mar in 1983 and captained Chile to the 2015 and 2016 Copa América titles."
+  },
+  {
+    "id": "legend-lima",
+    "question": "Teófilo Cubillas and Paolo Guerrero, Peru’s great goalscorers, were both born in this capital city. Find it.",
+    "city": "Lima",
+    "country": "Peru",
+    "coords": [
+      -77.02824,
+      -12.04318
+    ],
+    "hint": "Look in Lima Province, Peru. The place name starts with “L”.",
+    "fact": "Teófilo Cubillas (1949) and Paolo Guerrero (1984) were born in Lima. Cubillas scored ten World Cup goals."
+  },
+  {
+    "id": "legend-callao",
+    "question": "Claudio Pizarro and Nolberto Solano were both born in this port next to Lima. Find it.",
+    "city": "Callao",
+    "country": "Peru",
+    "coords": [
+      -77.13452,
+      -12.05162
+    ],
+    "hint": "Look in Peru. The place name starts with “C”.",
+    "fact": "Solano (1974) and Pizarro (1978) were born in Callao. Pizarro became a Werder Bremen and Bayern Munich favourite."
+  },
+  {
+    "id": "legend-asuncion",
+    "question": "Arsenio Erico, Independiente’s record goalscorer, and Roque Santa Cruz were both born in this capital city. Find it.",
+    "city": "Asunción",
+    "country": "Paraguay",
+    "coords": [
+      -57.647,
+      -25.28646
+    ],
+    "hint": "Look in Paraguay. The place name starts with “A”.",
+    "fact": "Arsenio Erico (1915) and Roque Santa Cruz (1981) were born in Asunción."
+  },
+  {
+    "id": "legend-ancon",
+    "question": "Alberto Spencer, the Copa Libertadores all-time top scorer, was born in this oil town on Ecuador’s coast. Find it.",
+    "city": "Ancón",
+    "country": "Ecuador",
+    "coords": [
+      -80.76901,
+      -1.75991
+    ],
+    "hint": "Look in Santa Elena, Ecuador. The place name starts with “A”.",
+    "fact": "Alberto Spencer was born in Ancón in 1937 and scored 54 goals in the Copa Libertadores."
+  },
+  {
+    "id": "legend-santo-domingo-ec",
+    "question": "Moisés Caicedo, Ecuador’s midfielder, was born in this city between Quito and the coast. Find it.",
+    "city": "Santo Domingo",
+    "country": "Ecuador",
+    "coords": [
+      -79.17628,
+      -0.25368
+    ],
+    "hint": "Look in Santo Domingo de los Tsáchilas, Ecuador. The place name starts with “S”.",
+    "fact": "Moisés Caicedo was born in Santo Domingo in 2001."
+  },
+  {
+    "id": "legend-caracas",
+    "question": "Salomón Rondón, Venezuela’s record goalscorer, was born in this capital city. Find it.",
+    "city": "Caracas",
+    "country": "Venezuela",
+    "coords": [
+      -66.87919,
+      10.48801
+    ],
+    "hint": "Look in Distrito Federal, Venezuela. The place name starts with “C”.",
+    "fact": "Salomón Rondón was born in Caracas in 1989."
+  },
+  {
+    "id": "legend-maracay",
+    "question": "Juan Arango, famous for his long-range goals in the Bundesliga, was born in this Venezuelan city. Find it.",
+    "city": "Maracay",
+    "country": "Venezuela",
+    "coords": [
+      -67.59475,
+      10.24972
+    ],
+    "hint": "Look in Aragua, Venezuela. The place name starts with “M”.",
+    "fact": "Juan Arango was born in Maracay in 1980 and later played for Borussia Mönchengladbach."
+  },
+  {
+    "id": "legend-santa-cruz-bo",
+    "question": "Marco “El Diablo” Etcheverry was born in this Bolivian city. Find it.",
+    "city": "Santa Cruz de la Sierra",
+    "country": "Bolivia",
+    "coords": [
+      -63.18117,
+      -17.78629
+    ],
+    "hint": "Look in Santa Cruz Department, Bolivia. The place name starts with “S”.",
+    "fact": "Marco Etcheverry was born in Santa Cruz de la Sierra in 1970 and helped Bolivia reach the 1994 World Cup."
+  },
+  {
+    "id": "legend-mexico-city",
+    "question": "Hugo Sánchez, Real Madrid’s acrobatic striker, and Cuauhtémoc Blanco were both born in this capital. Find it.",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "coords": [
+      -99.12766,
+      19.42847
+    ],
+    "hint": "Look in Mexico. The place name starts with “M”.",
+    "fact": "Hugo Sánchez (1958) and Cuauhtémoc Blanco (1973) were born in Mexico City."
+  },
+  {
+    "id": "legend-guadalajara",
+    "question": "Javier “Chicharito” Hernández, Mexico’s record goalscorer, and goalkeeper Guillermo Ochoa were both born in this city. Find it.",
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "coords": [
+      -103.34749,
+      20.67738
+    ],
+    "hint": "Look in Jalisco, Mexico. The place name starts with “G”.",
+    "fact": "Guillermo Ochoa (1985) and Javier Hernández (1988) were born in Guadalajara."
+  },
+  {
+    "id": "legend-zamora-mx",
+    "question": "Rafael Márquez, who played at five World Cups, was born in this city in Michoacán. Find it.",
+    "city": "Zamora",
+    "country": "Mexico",
+    "coords": [
+      -102.28634,
+      19.98404
+    ],
+    "hint": "Look in Michoacán, Mexico. The place name starts with “Z”.",
+    "fact": "Rafael Márquez was born in Zamora in 1979 and won the Champions League twice with Barcelona."
+  },
+  {
+    "id": "legend-acapulco",
+    "question": "Jorge Campos, the goalkeeper known for his colourful kits, was born in this Pacific resort city. Find it.",
+    "city": "Acapulco",
+    "country": "Mexico",
+    "coords": [
+      -99.90891,
+      16.84942
+    ],
+    "hint": "Look in Guerrero, Mexico. The place name starts with “A”.",
+    "fact": "Jorge Campos was born in Acapulco in 1966 and sometimes played as a striker."
+  },
+  {
+    "id": "legend-heredia",
+    "question": "Paulo Wanchope, Costa Rica’s striker at two World Cups, was born in this city near San José. Find it.",
+    "city": "Heredia",
+    "country": "Costa Rica",
+    "coords": [
+      -84.11587,
+      9.99872
+    ],
+    "hint": "Look in Heredia Province, Costa Rica. The place name starts with “H”.",
+    "fact": "Paulo Wanchope was born in Heredia in 1976."
+  },
+  {
+    "id": "legend-kingston",
+    "question": "England wingers John Barnes and Raheem Sterling were both born in this Caribbean capital. Find it.",
+    "city": "Kingston",
+    "country": "Jamaica",
+    "coords": [
+      -76.79358,
+      17.99702
+    ],
+    "hint": "Look in Jamaica. The place name starts with “K”.",
+    "fact": "John Barnes (1963) and Raheem Sterling (1994) were born in Kingston, Jamaica."
+  },
+  {
+    "id": "legend-ontario-ca",
+    "question": "Landon Donovan, the USA’s joint record goalscorer, was born in this Californian city east of Los Angeles. Find it.",
+    "city": "Ontario",
+    "country": "United States",
+    "coords": [
+      -117.65089,
+      34.06334
+    ],
+    "hint": "Look in California, United States. The place name starts with “O”.",
+    "fact": "Landon Donovan was born in Ontario, California, in 1982."
+  },
+  {
+    "id": "legend-nacogdoches",
+    "question": "Clint Dempsey was born in this east Texas town. Find it.",
+    "city": "Nacogdoches",
+    "country": "United States",
+    "coords": [
+      -94.65549,
+      31.60351
+    ],
+    "hint": "Look in Texas, United States. The place name starts with “N”.",
+    "fact": "Clint Dempsey was born in Nacogdoches in 1983 and scored at three World Cups."
+  },
+  {
+    "id": "legend-hershey",
+    "question": "Christian Pulisic was born in this Pennsylvania town famous for chocolate. Find it.",
+    "city": "Hershey",
+    "country": "United States",
+    "coords": [
+      -76.65025,
+      40.28592
+    ],
+    "hint": "Look in Pennsylvania, United States. The place name starts with “H”.",
+    "fact": "Christian Pulisic was born in Hershey in 1998."
+  },
+  {
+    "id": "legend-selma",
+    "question": "Mia Hamm, a two-time Women’s World Cup winner, was born in this Alabama city. Find it.",
+    "city": "Selma",
+    "country": "United States",
+    "coords": [
+      -87.0211,
+      32.40736
+    ],
+    "hint": "Look in Alabama, United States. The place name starts with “S”.",
+    "fact": "Mia Hamm was born in Selma in 1972 and won the Women’s World Cup in 1991 and 1999."
+  },
+  {
+    "id": "legend-rochester",
+    "question": "Abby Wambach, the USA’s record goalscorer when she retired, was born in this city in upstate New York. Find it.",
+    "city": "Rochester",
+    "country": "United States",
+    "coords": [
+      -77.61556,
+      43.15478
+    ],
+    "hint": "Look in New York, United States. The place name starts with “R”.",
+    "fact": "Abby Wambach was born in Rochester, New York, in 1980."
+  },
+  {
+    "id": "legend-redding",
+    "question": "Megan Rapinoe, Golden Ball winner at the 2019 Women’s World Cup, was born in this northern Californian city. Find it.",
+    "city": "Redding",
+    "country": "United States",
+    "coords": [
+      -122.39168,
+      40.58654
+    ],
+    "hint": "Look in California, United States. The place name starts with “R”.",
+    "fact": "Megan Rapinoe was born in Redding in 1985."
+  },
+  {
+    "id": "legend-san-dimas",
+    "question": "Alex Morgan, a two-time Women’s World Cup winner, was born in this city in Los Angeles County. Find it.",
+    "city": "San Dimas",
+    "country": "United States",
+    "coords": [
+      -117.80673,
+      34.10668
+    ],
+    "hint": "Look in California, United States. The place name starts with “S”.",
+    "fact": "Alex Morgan was born in San Dimas in 1989."
+  },
+  {
+    "id": "legend-santa-clara",
+    "question": "Michelle Akers, top scorer at the first Women’s World Cup in 1991, was born in this Silicon Valley city. Find it.",
+    "city": "Santa Clara",
+    "country": "United States",
+    "coords": [
+      -121.95524,
+      37.35411
+    ],
+    "hint": "Look in California, United States. The place name starts with “S”.",
+    "fact": "Michelle Akers was born in Santa Clara in 1966."
+  },
+  {
+    "id": "legend-san-jose-us",
+    "question": "Brandi Chastain, who scored the winning penalty in the 1999 Women’s World Cup final, was born in this Californian city. Find it.",
+    "city": "San Jose",
+    "country": "United States",
+    "coords": [
+      -121.89496,
+      37.33939
+    ],
+    "hint": "Look in California, United States. The place name starts with “S”.",
+    "fact": "Brandi Chastain was born in San Jose in 1968."
+  },
+  {
+    "id": "legend-san-diego",
+    "question": "Julie Foudy, a USA captain and two-time world champion, was born in this Californian city. Find it.",
+    "city": "San Diego",
+    "country": "United States",
+    "coords": [
+      -117.16472,
+      32.71571
+    ],
+    "hint": "Look in California, United States. The place name starts with “S”.",
+    "fact": "Julie Foudy was born in San Diego in 1971."
+  },
+  {
+    "id": "legend-new-york",
+    "question": "Kristine Lilly, who won a record 354 caps, and Canada striker Jonathan David were both born in this city. Find it.",
+    "city": "New York City",
+    "country": "United States",
+    "coords": [
+      -74.00597,
+      40.71427
+    ],
+    "hint": "Look in New York, United States. The place name starts with “N”.",
+    "fact": "Kristine Lilly (1971) was born in New York City, and Jonathan David (2000) in Brooklyn."
+  },
+  {
+    "id": "legend-mesa",
+    "question": "Julie Ertz, a two-time Women’s World Cup winner, was born in this Arizona city. Find it.",
+    "city": "Mesa",
+    "country": "United States",
+    "coords": [
+      -111.82264,
+      33.42227
+    ],
+    "hint": "Look in Arizona, United States. The place name starts with “M”.",
+    "fact": "Julie Ertz was born in Mesa in 1992."
+  },
+  {
+    "id": "legend-cincinnati",
+    "question": "Rose Lavelle, who scored in the 2019 Women’s World Cup final, was born in this Ohio city. Find it.",
+    "city": "Cincinnati",
+    "country": "United States",
+    "coords": [
+      -84.51439,
+      39.12711
+    ],
+    "hint": "Look in Ohio, United States. The place name starts with “C”.",
+    "fact": "Rose Lavelle was born in Cincinnati in 1995."
+  },
+  {
+    "id": "legend-richland",
+    "question": "Goalkeeper Hope Solo was born in this city in Washington state. Find it.",
+    "city": "Richland",
+    "country": "United States",
+    "coords": [
+      -119.28446,
+      46.28569
+    ],
+    "hint": "Look in Washington, United States. The place name starts with “R”.",
+    "fact": "Hope Solo was born in Richland in 1981 and won the 2015 Women’s World Cup."
+  },
+  {
+    "id": "legend-olympia",
+    "question": "Goalkeeper Kasey Keller was born in this state capital in the Pacific Northwest. Find it.",
+    "city": "Olympia",
+    "country": "United States",
+    "coords": [
+      -122.90169,
+      47.04491
+    ],
+    "hint": "Look in Washington, United States. The place name starts with “O”.",
+    "fact": "Kasey Keller was born in Olympia, Washington, in 1969."
+  },
+  {
+    "id": "legend-burnaby",
+    "question": "Christine Sinclair, the all-time leading international goalscorer, was born in this city next to Vancouver. Find it.",
+    "city": "Burnaby",
+    "country": "Canada",
+    "coords": [
+      -122.95263,
+      49.26636
+    ],
+    "hint": "Look in British Columbia, Canada. The place name starts with “B”.",
+    "fact": "Christine Sinclair was born in Burnaby in 1983 and scored 190 goals for Canada."
+  },
+  {
+    "id": "legend-brampton",
+    "question": "Atiba Hutchinson, Canada’s captain at the 2022 World Cup, was born in this city near Toronto. Find it.",
+    "city": "Brampton",
+    "country": "Canada",
+    "coords": [
+      -79.76633,
+      43.68341
+    ],
+    "hint": "Look in Ontario, Canada. The place name starts with “B”.",
+    "fact": "Atiba Hutchinson was born in Brampton in 1983."
+  },
+  {
+    "id": "legend-ashington",
+    "question": "Bobby and Jack Charlton, 1966 world champions, and Newcastle great Jackie Milburn were all born in this Northumberland mining town. Find it.",
+    "city": "Ashington",
+    "country": "England",
+    "coords": [
+      -1.56412,
+      55.17719
+    ],
+    "hint": "Look in England. The place name starts with “A”.",
+    "fact": "Jackie Milburn (1924), Jack Charlton (1935) and Bobby Charlton (1937) were born in Ashington."
+  },
+  {
+    "id": "legend-barking",
+    "question": "England captains Bobby Moore and John Terry were both born in this east London town. Find it.",
+    "city": "Barking",
+    "country": "England",
+    "coords": [
+      0.08333,
+      51.53333
+    ],
+    "hint": "Look in England. The place name starts with “B”.",
+    "fact": "Bobby Moore (1941) and John Terry (1980) were born in Barking. Moore lifted the World Cup in 1966."
+  },
+  {
+    "id": "legend-ashton-under-lyne",
+    "question": "Geoff Hurst, the only man to score a hat-trick in a men’s World Cup final until 2022, was born in this town near Manchester. Find it.",
+    "city": "Ashton-under-Lyne",
+    "country": "England",
+    "coords": [
+      -2.0989,
+      53.48876
+    ],
+    "hint": "Look in England. The place name starts with “A”.",
+    "fact": "Geoff Hurst was born in Ashton-under-Lyne in 1941."
+  },
+  {
+    "id": "legend-sheffield",
+    "question": "Gordon Banks, England’s 1966 goalkeeper, and Jamie Vardy were both born in this Yorkshire city. Find it.",
+    "city": "Sheffield",
+    "country": "England",
+    "coords": [
+      -1.4659,
+      53.38297
+    ],
+    "hint": "Look in England. The place name starts with “S”.",
+    "fact": "Gordon Banks (1937) and Jamie Vardy (1987) were born in Sheffield."
+  },
+  {
+    "id": "legend-stoke-on-trent",
+    "question": "Sir Stanley Matthews, the first winner of the Ballon d’Or, was born in Hanley, one of the Potteries towns that form this city. Find it.",
+    "city": "Stoke-on-Trent",
+    "country": "England",
+    "coords": [
+      -2.18538,
+      53.00415
+    ],
+    "hint": "Look in England. The place name starts with “S”.",
+    "fact": "Stanley Matthews was born in Hanley, Stoke-on-Trent, in 1915 and won the first Ballon d’Or in 1956."
+  },
+  {
+    "id": "legend-preston",
+    "question": "Sir Tom Finney, a one-club man at Preston North End, was born in this Lancashire city. Find it.",
+    "city": "Preston",
+    "country": "England",
+    "coords": [
+      -2.70452,
+      53.76282
+    ],
+    "hint": "Look in England. The place name starts with “P”.",
+    "fact": "Tom Finney was born in Preston in 1922."
+  },
+  {
+    "id": "legend-birkenhead",
+    "question": "Dixie Dean, who scored 60 league goals in one season, was born in this town on the Wirral. Find it.",
+    "city": "Birkenhead",
+    "country": "England",
+    "coords": [
+      -3.01479,
+      53.39337
+    ],
+    "hint": "Look in England. The place name starts with “B”.",
+    "fact": "Dixie Dean was born in Birkenhead in 1907 and scored 60 First Division goals for Everton in 1927–28."
+  },
+  {
+    "id": "legend-armthorpe",
+    "question": "Kevin Keegan, twice European Footballer of the Year, was born in this village near Doncaster. Find it.",
+    "city": "Armthorpe",
+    "country": "England",
+    "coords": [
+      -1.05341,
+      53.53518
+    ],
+    "hint": "Look in England. The place name starts with “A”.",
+    "fact": "Kevin Keegan was born in Armthorpe in 1951 and won the Ballon d’Or in 1978 and 1979."
+  },
+  {
+    "id": "legend-leicester",
+    "question": "Gary Lineker and Peter Shilton, England’s record appearance maker, were both born in this East Midlands city. Find it.",
+    "city": "Leicester",
+    "country": "England",
+    "coords": [
+      -1.13169,
+      52.6386
+    ],
+    "hint": "Look in England. The place name starts with “L”.",
+    "fact": "Peter Shilton (1949) and Gary Lineker (1960) were born in Leicester."
+  },
+  {
+    "id": "legend-newcastle",
+    "question": "Alan Shearer, the Premier League’s record goalscorer, was born in this north-east city. Find it.",
+    "city": "Newcastle",
+    "country": "England",
+    "coords": [
+      -1.61396,
+      54.97328
+    ],
+    "hint": "Look in England. The place name starts with “N”.",
+    "fact": "Alan Shearer was born in Newcastle upon Tyne in 1970 and scored 260 Premier League goals."
+  },
+  {
+    "id": "legend-gateshead",
+    "question": "Paul Gascoigne, England’s star of Italia ’90, was born in this town on the south bank of the Tyne. Find it.",
+    "city": "Gateshead",
+    "country": "England",
+    "coords": [
+      -1.60168,
+      54.96209
+    ],
+    "hint": "Look in England. The place name starts with “G”.",
+    "fact": "Paul Gascoigne was born in Gateshead in 1967."
+  },
+  {
+    "id": "legend-liverpool",
+    "question": "Wayne Rooney and Trent Alexander-Arnold were both born in this Merseyside city. Find it.",
+    "city": "Liverpool",
+    "country": "England",
+    "coords": [
+      -2.97794,
+      53.41058
+    ],
+    "hint": "Look in England. The place name starts with “L”.",
+    "fact": "Wayne Rooney (1985) and Trent Alexander-Arnold (1998) were born in Liverpool."
+  },
+  {
+    "id": "legend-whiston",
+    "question": "Steven Gerrard, captain of Liverpool’s 2005 Champions League winners, was born in this town on Merseyside. Find it.",
+    "city": "Whiston",
+    "country": "England",
+    "coords": [
+      -2.78907,
+      53.41997
+    ],
+    "hint": "Look in England. The place name starts with “W”.",
+    "fact": "Steven Gerrard was born in Whiston in 1980."
+  },
+  {
+    "id": "legend-bootle",
+    "question": "Jamie Carragher, Liverpool’s long-serving defender, was born in this town on Merseyside. Find it.",
+    "city": "Bootle",
+    "country": "England",
+    "coords": [
+      -3.01667,
+      53.46667
+    ],
+    "hint": "Look in England. The place name starts with “B”.",
+    "fact": "Jamie Carragher was born in Bootle in 1978."
+  },
+  {
+    "id": "legend-london",
+    "question": "David Beckham and Harry Kane were both born in this capital city. Find it.",
+    "city": "London",
+    "country": "England",
+    "coords": [
+      -0.12574,
+      51.50853
+    ],
+    "hint": "Look in England. The place name starts with “L”.",
+    "fact": "David Beckham (1975) and Harry Kane (1993) were born in north-east London."
+  },
+  {
+    "id": "legend-manchester",
+    "question": "Nobby Stiles, Marcus Rashford and Cole Palmer were all born in this city. Find it.",
+    "city": "Manchester",
+    "country": "England",
+    "coords": [
+      -2.23743,
+      53.48095
+    ],
+    "hint": "Look in England. The place name starts with “M”.",
+    "fact": "Nobby Stiles (1942), Marcus Rashford (1997) and Cole Palmer (2002) were born in Manchester."
+  },
+  {
+    "id": "legend-chester-le-street",
+    "question": "Bryan Robson, “Captain Marvel”, was born in this County Durham town. Find it.",
+    "city": "Chester-le-Street",
+    "country": "England",
+    "coords": [
+      -1.57408,
+      54.85862
+    ],
+    "hint": "Look in England. The place name starts with “C”.",
+    "fact": "Bryan Robson was born in Chester-le-Street in 1957."
+  },
+  {
+    "id": "legend-romford",
+    "question": "Frank Lampard and Tony Adams were both born in this town in east London. Find it.",
+    "city": "Romford",
+    "country": "England",
+    "coords": [
+      0.18582,
+      51.57515
+    ],
+    "hint": "Look in England. The place name starts with “R”.",
+    "fact": "Tony Adams (1966) and Frank Lampard (1978) were born in Romford."
+  },
+  {
+    "id": "legend-berwick",
+    "question": "Lucy Bronze, England’s European champion, was born in this town near the Scottish border. Find it.",
+    "city": "Berwick-upon-Tweed",
+    "country": "England",
+    "coords": [
+      -2.00537,
+      55.76868
+    ],
+    "hint": "Look in England. The place name starts with “B”.",
+    "fact": "Lucy Bronze was born in Berwick-upon-Tweed in 1991."
+  },
+  {
+    "id": "legend-whitby",
+    "question": "Beth Mead, the top scorer at Euro 2022, was born in this North Yorkshire harbour town. Find it.",
+    "city": "Whitby",
+    "country": "England",
+    "coords": [
+      -0.61498,
+      54.48774
+    ],
+    "hint": "Look in England. The place name starts with “W”.",
+    "fact": "Beth Mead was born in Whitby in 1995."
+  },
+  {
+    "id": "legend-watford",
+    "question": "Kelly Smith, one of England’s greatest forwards, was born in this Hertfordshire town. Find it.",
+    "city": "Watford",
+    "country": "England",
+    "coords": [
+      -0.39602,
+      51.65531
+    ],
+    "hint": "Look in England. The place name starts with “W”.",
+    "fact": "Kelly Smith was born in Watford in 1978."
+  },
+  {
+    "id": "legend-milton-keynes",
+    "question": "Leah Williamson, who captained England to the Euro 2022 title, was born in this new town. Find it.",
+    "city": "Milton Keynes",
+    "country": "England",
+    "coords": [
+      -0.75583,
+      52.04172
+    ],
+    "hint": "Look in England. The place name starts with “M”.",
+    "fact": "Leah Williamson was born in Milton Keynes in 1997."
+  },
+  {
+    "id": "legend-dudley",
+    "question": "Duncan Edwards, one of the “Busby Babes”, was born in this Black Country town. Find it.",
+    "city": "Dudley",
+    "country": "England",
+    "coords": [
+      -2.08333,
+      52.5
+    ],
+    "hint": "Look in England. The place name starts with “D”.",
+    "fact": "Duncan Edwards was born in Dudley in 1936."
+  },
+  {
+    "id": "legend-middlesbrough",
+    "question": "Managers Brian Clough and Don Revie were both born in this Teesside town. Find it.",
+    "city": "Middlesbrough",
+    "country": "England",
+    "coords": [
+      -1.23483,
+      54.57623
+    ],
+    "hint": "Look in England. The place name starts with “M”.",
+    "fact": "Don Revie (1927) and Brian Clough (1935) were born in Middlesbrough."
+  },
+  {
+    "id": "legend-leeds",
+    "question": "Norway striker Erling Haaland was born in this Yorkshire city while his father played for the local club. Find it.",
+    "city": "Leeds",
+    "country": "England",
+    "coords": [
+      -1.54785,
+      53.79648
+    ],
+    "hint": "Look in England. The place name starts with “L”.",
+    "fact": "Erling Haaland was born in Leeds in 2000, when his father Alf-Inge played for Leeds United."
+  },
+  {
+    "id": "legend-bury",
+    "question": "Gary and Phil Neville, and Kieran Trippier, were all born in this Lancashire town. Find it.",
+    "city": "Bury",
+    "country": "England",
+    "coords": [
+      -2.3,
+      53.6
+    ],
+    "hint": "Look in England. The place name starts with “B”.",
+    "fact": "Gary Neville (1975), Phil Neville (1977) and Kieran Trippier (1990) were born in Bury."
+  },
+  {
+    "id": "legend-salford",
+    "question": "Paul Scholes, a one-club man at Manchester United, was born in this city. Find it.",
+    "city": "Salford",
+    "country": "England",
+    "coords": [
+      -2.29042,
+      53.48771
+    ],
+    "hint": "Look in England. The place name starts with “S”.",
+    "fact": "Paul Scholes was born in Salford in 1974."
+  },
+  {
+    "id": "legend-sunderland",
+    "question": "Jordan Henderson, Liverpool’s Champions League-winning captain, was born in this north-east city. Find it.",
+    "city": "Sunderland",
+    "country": "England",
+    "coords": [
+      -1.38222,
+      54.90465
+    ],
+    "hint": "Look in England. The place name starts with “S”.",
+    "fact": "Jordan Henderson was born in Sunderland in 1990."
+  },
+  {
+    "id": "legend-stourbridge",
+    "question": "Jude Bellingham was born in this West Midlands town. Find it.",
+    "city": "Stourbridge",
+    "country": "England",
+    "coords": [
+      -2.14317,
+      52.45608
+    ],
+    "hint": "Look in England. The place name starts with “S”.",
+    "fact": "Jude Bellingham was born in Stourbridge in 2003."
+  },
+  {
+    "id": "legend-stockport",
+    "question": "Phil Foden, the “Stockport Iniesta”, was born in this town. Find it.",
+    "city": "Stockport",
+    "country": "England",
+    "coords": [
+      -2.15761,
+      53.40979
+    ],
+    "hint": "Look in England. The place name starts with “S”.",
+    "fact": "Phil Foden was born in Stockport in 2000."
+  },
+  {
+    "id": "legend-plymouth",
+    "question": "Trevor Francis, Britain’s first £1 million footballer, was born in this Devon city. Find it.",
+    "city": "Plymouth",
+    "country": "England",
+    "coords": [
+      -4.14305,
+      50.37153
+    ],
+    "hint": "Look in England. The place name starts with “P”.",
+    "fact": "Trevor Francis was born in Plymouth in 1954."
+  },
+  {
+    "id": "legend-lancaster",
+    "question": "Scotland midfielder Scott McTominay was born in this Lancashire city. Find it.",
+    "city": "Lancaster",
+    "country": "England",
+    "coords": [
+      -2.79988,
+      54.04649
+    ],
+    "hint": "Look in England. The place name starts with “L”.",
+    "fact": "Scott McTominay was born in Lancaster in 1996 and represents Scotland."
+  },
+  {
+    "id": "legend-chester",
+    "question": "Michael Owen, the 2001 Ballon d’Or winner, was born in this walled city near the Welsh border. Find it.",
+    "city": "Chester",
+    "country": "England",
+    "coords": [
+      -2.89189,
+      53.1905
+    ],
+    "hint": "Look in England. The place name starts with “C”.",
+    "fact": "Michael Owen was born in Chester in 1979 and won the Ballon d’Or in 2001."
+  },
+  {
+    "id": "legend-farnworth",
+    "question": "Alan Ball, the youngest member of England’s 1966 World Cup-winning team, was born in this town near Bolton. Find it.",
+    "city": "Farnworth",
+    "country": "England",
+    "coords": [
+      -2.4,
+      53.55
+    ],
+    "hint": "Look in England. The place name starts with “F”.",
+    "fact": "Alan Ball was born in Farnworth in 1945."
+  },
+  {
+    "id": "legend-aylesbury",
+    "question": "Ellen White, England’s record goalscorer when she retired in 2022, was born in this Buckinghamshire town. Find it.",
+    "city": "Aylesbury",
+    "country": "England",
+    "coords": [
+      -0.81458,
+      51.81665
+    ],
+    "hint": "Look in England. The place name starts with “A”.",
+    "fact": "Ellen White was born in Aylesbury in 1989."
+  },
+  {
+    "id": "legend-glasgow",
+    "question": "Kenny Dalglish, Sir Alex Ferguson and Andy Robertson were all born in this city. Find it.",
+    "city": "Glasgow",
+    "country": "Scotland",
+    "coords": [
+      -4.25763,
+      55.86515
+    ],
+    "hint": "Look in Scotland. The place name starts with “G”.",
+    "fact": "Alex Ferguson (1941), Kenny Dalglish (1951) and Andy Robertson (1994) were born in Glasgow."
+  },
+  {
+    "id": "legend-aberdeen",
+    "question": "Denis Law, Scotland’s only Ballon d’Or winner, was born in this north-east Scottish city. Find it.",
+    "city": "Aberdeen",
+    "country": "Scotland",
+    "coords": [
+      -2.09814,
+      57.14369
+    ],
+    "hint": "Look in Scotland. The place name starts with “A”.",
+    "fact": "Denis Law was born in Aberdeen in 1940 and won the Ballon d’Or in 1964."
+  },
+  {
+    "id": "legend-stirling",
+    "question": "Billy Bremner, captain of Don Revie’s Leeds, was born in this Scottish city. Find it.",
+    "city": "Stirling",
+    "country": "Scotland",
+    "coords": [
+      -3.93682,
+      56.11903
+    ],
+    "hint": "Look in Scotland. The place name starts with “S”.",
+    "fact": "Billy Bremner was born in Stirling in 1942."
+  },
+  {
+    "id": "legend-edinburgh",
+    "question": "Graeme Souness, Liverpool’s European Cup-winning captain, was born in this capital. Find it.",
+    "city": "Edinburgh",
+    "country": "Scotland",
+    "coords": [
+      -3.19648,
+      55.95206
+    ],
+    "hint": "Look in Scotland. The place name starts with “E”.",
+    "fact": "Graeme Souness was born in Edinburgh in 1953."
+  },
+  {
+    "id": "legend-bellshill",
+    "question": "Sir Matt Busby and Ally McCoist were both born in this Lanarkshire town. Find it.",
+    "city": "Bellshill",
+    "country": "Scotland",
+    "coords": [
+      -4.01667,
+      55.81667
+    ],
+    "hint": "Look in Scotland. The place name starts with “B”.",
+    "fact": "Matt Busby (1909) and Ally McCoist (1962) were born in Bellshill."
+  },
+  {
+    "id": "legend-cardiff",
+    "question": "Ryan Giggs, Gareth Bale and Craig Bellamy were all born in this capital city. Find it.",
+    "city": "Cardiff",
+    "country": "Wales",
+    "coords": [
+      -3.18,
+      51.48
+    ],
+    "hint": "Look in Wales. The place name starts with “C”.",
+    "fact": "Ryan Giggs (1973), Craig Bellamy (1979) and Gareth Bale (1989) were born in Cardiff."
+  },
+  {
+    "id": "legend-st-asaph",
+    "question": "Ian Rush, Liverpool’s record goalscorer, was born in this small cathedral city in north Wales. Find it.",
+    "city": "St Asaph",
+    "country": "Wales",
+    "coords": [
+      -3.44524,
+      53.25815
+    ],
+    "hint": "Look in Wales. The place name starts with “S”.",
+    "fact": "Ian Rush was born in St Asaph in 1961."
+  },
+  {
+    "id": "legend-swansea",
+    "question": "John Charles, “the Gentle Giant” of Juventus, and Ivor Allchurch were both born in this Welsh city. Find it.",
+    "city": "Swansea",
+    "country": "Wales",
+    "coords": [
+      -3.94323,
+      51.62079
+    ],
+    "hint": "Look in Wales. The place name starts with “S”.",
+    "fact": "Ivor Allchurch (1929) and John Charles (1931) were born in Swansea."
+  },
+  {
+    "id": "legend-llandudno",
+    "question": "Neville Southall, Everton’s great goalkeeper, was born in this seaside town. Find it.",
+    "city": "Llandudno",
+    "country": "Wales",
+    "coords": [
+      -3.83148,
+      53.32498
+    ],
+    "hint": "Look in Wales. The place name starts with “L”.",
+    "fact": "Neville Southall was born in Llandudno in 1958."
+  },
+  {
+    "id": "legend-caerphilly",
+    "question": "Aaron Ramsey was born in this Welsh town famous for its castle. Find it.",
+    "city": "Caerphilly",
+    "country": "Wales",
+    "coords": [
+      -3.218,
+      51.57452
+    ],
+    "hint": "Look in Wales. The place name starts with “C”.",
+    "fact": "Aaron Ramsey was born in Caerphilly in 1990."
+  },
+  {
+    "id": "legend-belfast",
+    "question": "George Best and Danny Blanchflower were both born in this city. Find it.",
+    "city": "Belfast",
+    "country": "Northern Ireland",
+    "coords": [
+      -5.92541,
+      54.59682
+    ],
+    "hint": "Look in Northern Ireland. The place name starts with “B”.",
+    "fact": "Danny Blanchflower (1926) and George Best (1946) were born in Belfast. Best won the Ballon d’Or in 1968."
+  },
+  {
+    "id": "legend-newry",
+    "question": "Pat Jennings, who won 119 caps in goal, was born in this city. Find it.",
+    "city": "Newry",
+    "country": "Northern Ireland",
+    "coords": [
+      -6.33739,
+      54.17841
+    ],
+    "hint": "Look in Northern Ireland. The place name starts with “N”.",
+    "fact": "Pat Jennings was born in Newry in 1945."
+  },
+  {
+    "id": "legend-cork",
+    "question": "Roy Keane and Denis Irwin, Manchester United team-mates, were both born in this Irish city. Find it.",
+    "city": "Cork",
+    "country": "Ireland",
+    "coords": [
+      -8.47061,
+      51.89797
+    ],
+    "hint": "Look in Munster, Ireland. The place name starts with “C”.",
+    "fact": "Denis Irwin (1965) and Roy Keane (1971) were born in Cork."
+  },
+  {
+    "id": "legend-dublin",
+    "question": "Johnny Giles, Liam Brady and Robbie Keane were all born in this capital city. Find it.",
+    "city": "Dublin",
+    "country": "Ireland",
+    "coords": [
+      -6.24889,
+      53.33306
+    ],
+    "hint": "Look in Leinster, Ireland. The place name starts with “D”.",
+    "fact": "Johnny Giles (1940), Liam Brady (1956) and Robbie Keane (1980) were born in Dublin."
+  },
+  {
+    "id": "legend-marseille",
+    "question": "Zinedine Zidane and Eric Cantona were both born in this Mediterranean city. Find it.",
+    "city": "Marseille",
+    "country": "France",
+    "coords": [
+      5.38107,
+      43.29695
+    ],
+    "hint": "Look in Provence-Alpes-Côte d'Azur, France. The place name starts with “M”.",
+    "fact": "Eric Cantona (1966) and Zinedine Zidane (1972) were born in Marseille."
+  },
+  {
+    "id": "legend-joeuf",
+    "question": "Michel Platini, a three-time Ballon d’Or winner, was born in this town in Lorraine. Find it.",
+    "city": "Jœuf",
+    "country": "France",
+    "coords": [
+      6.01667,
+      49.23333
+    ],
+    "hint": "Look in Grand Est, France. The place name starts with “J”.",
+    "fact": "Michel Platini was born in Jœuf in 1955 and won the Ballon d’Or in 1983, 1984 and 1985."
+  },
+  {
+    "id": "legend-noeux-les-mines",
+    "question": "Raymond Kopa, France’s first Ballon d’Or winner, was born in this mining town in the north. Find it.",
+    "city": "Nœux-les-Mines",
+    "country": "France",
+    "coords": [
+      2.66667,
+      50.48333
+    ],
+    "hint": "Look in Hauts-de-France, France. The place name starts with “N”.",
+    "fact": "Raymond Kopa was born in Nœux-les-Mines in 1931 and won the Ballon d’Or in 1958."
+  },
+  {
+    "id": "legend-marrakesh",
+    "question": "Just Fontaine, who scored a record 13 goals at the 1958 World Cup, was born in this Moroccan city. Find it.",
+    "city": "Marrakesh",
+    "country": "Morocco",
+    "coords": [
+      -7.99994,
+      31.63416
+    ],
+    "hint": "Look in Marrakesh-Safi, Morocco. The place name starts with “M”.",
+    "fact": "Just Fontaine was born in Marrakesh in 1933 and scored 13 goals for France at the 1958 World Cup."
+  },
+  {
+    "id": "legend-les-ulis",
+    "question": "Thierry Henry, Arsenal’s record goalscorer, was born in this town south of Paris. Find it.",
+    "city": "Les Ulis",
+    "country": "France",
+    "coords": [
+      2.16944,
+      48.68167
+    ],
+    "hint": "Look in Île-de-France, France. The place name starts with “L”.",
+    "fact": "Thierry Henry was born in Les Ulis in 1977."
+  },
+  {
+    "id": "legend-paris",
+    "question": "Kylian Mbappé, N’Golo Kanté and Kingsley Coman were all born in this capital city. Find it.",
+    "city": "Paris",
+    "country": "France",
+    "coords": [
+      2.3488,
+      48.85341
+    ],
+    "hint": "Look in Île-de-France, France. The place name starts with “P”.",
+    "fact": "N’Golo Kanté (1991), Kingsley Coman (1996) and Kylian Mbappé (1998) were born in Paris."
+  },
+  {
+    "id": "legend-lyon",
+    "question": "Karim Benzema, the 2022 Ballon d’Or winner, was born in this French city. Find it.",
+    "city": "Lyon",
+    "country": "France",
+    "coords": [
+      4.84789,
+      45.74906
+    ],
+    "hint": "Look in Auvergne-Rhône-Alpes, France. The place name starts with “L”.",
+    "fact": "Karim Benzema was born in Lyon in 1987 and came through at Olympique Lyonnais."
+  },
+  {
+    "id": "legend-boulogne-sur-mer",
+    "question": "Jean-Pierre Papin and Franck Ribéry were both born in this Channel port. Find it.",
+    "city": "Boulogne-sur-Mer",
+    "country": "France",
+    "coords": [
+      1.61373,
+      50.72485
+    ],
+    "hint": "Look in Hauts-de-France, France. The place name starts with “B”.",
+    "fact": "Jean-Pierre Papin (1963) and Franck Ribéry (1983) were born in Boulogne-sur-Mer. Papin won the Ballon d’Or in 1991."
+  },
+  {
+    "id": "legend-macon",
+    "question": "Antoine Griezmann was born in this Burgundy town on the Saône. Find it.",
+    "city": "Mâcon",
+    "country": "France",
+    "coords": [
+      4.82823,
+      46.31407
+    ],
+    "hint": "Look in Bourgogne-Franche-Comté, France. The place name starts with “M”.",
+    "fact": "Antoine Griezmann was born in Mâcon in 1991 and won the 2018 World Cup."
+  },
+  {
+    "id": "legend-bayonne",
+    "question": "Didier Deschamps, who won the World Cup as France captain and as coach, was born in this Basque town. Find it.",
+    "city": "Bayonne",
+    "country": "France",
+    "coords": [
+      -1.473,
+      43.49316
+    ],
+    "hint": "Look in New Aquitaine, France. The place name starts with “B”.",
+    "fact": "Didier Deschamps was born in Bayonne in 1968. He won the World Cup as captain in 1998 and as coach in 2018."
+  },
+  {
+    "id": "legend-ales",
+    "question": "Laurent Blanc, a 1998 world champion, was born in this town in the Cévennes. Find it.",
+    "city": "Alès",
+    "country": "France",
+    "coords": [
+      4.08082,
+      44.12489
+    ],
+    "hint": "Look in Occitanie, France. The place name starts with “A”.",
+    "fact": "Laurent Blanc was born in Alès in 1965."
+  },
+  {
+    "id": "legend-accra",
+    "question": "Marcel Desailly, France’s 1998 world champion, and Michael Essien were both born in this West African capital. Find it.",
+    "city": "Accra",
+    "country": "Ghana",
+    "coords": [
+      -0.1969,
+      5.55602
+    ],
+    "hint": "Look in Greater Accra, Ghana. The place name starts with “A”.",
+    "fact": "Marcel Desailly (1968) and Michael Essien (1982) were born in Accra."
+  },
+  {
+    "id": "legend-dakar",
+    "question": "Patrick Vieira and Patrice Evra were both born in this West African capital. Find it.",
+    "city": "Dakar",
+    "country": "Senegal",
+    "coords": [
+      -17.44406,
+      14.6937
+    ],
+    "hint": "Look in Senegal. The place name starts with “D”.",
+    "fact": "Patrick Vieira (1976) and Patrice Evra (1981) were born in Dakar."
+  },
+  {
+    "id": "legend-kinshasa",
+    "question": "Claude Makélélé, whose name became a midfield role, was born in this capital city. Find it.",
+    "city": "Kinshasa",
+    "country": "DR Congo",
+    "coords": [
+      15.31357,
+      -4.32758
+    ],
+    "hint": "Look in the DR Congo. The place name starts with “K”.",
+    "fact": "Claude Makélélé was born in Kinshasa in 1973 and represented France."
+  },
+  {
+    "id": "legend-pointe-a-pitre",
+    "question": "Lilian Thuram, who scored twice in the 1998 World Cup semi-final, was born in this Caribbean town. Find it.",
+    "city": "Pointe-à-Pitre",
+    "country": "Guadeloupe",
+    "coords": [
+      -61.53459,
+      16.23638
+    ],
+    "hint": "Look in Guadeloupe. The place name starts with “P”.",
+    "fact": "Lilian Thuram was born in Pointe-à-Pitre, Guadeloupe, in 1972 and won the World Cup with France."
+  },
+  {
+    "id": "legend-nice",
+    "question": "Hugo Lloris, France’s World Cup-winning captain in 2018, was born in this Riviera city. Find it.",
+    "city": "Nice",
+    "country": "France",
+    "coords": [
+      7.26608,
+      43.70313
+    ],
+    "hint": "Look in Provence-Alpes-Côte d'Azur, France. The place name starts with “N”.",
+    "fact": "Hugo Lloris was born in Nice in 1986 and began at OGC Nice."
+  },
+  {
+    "id": "legend-lavelanet",
+    "question": "Fabien Barthez, goalkeeper for France’s 1998 world champions, was born in this town in the Pyrenees foothills. Find it.",
+    "city": "Lavelanet",
+    "country": "France",
+    "coords": [
+      1.84844,
+      42.93267
+    ],
+    "hint": "Look in Occitanie, France. The place name starts with “L”.",
+    "fact": "Fabien Barthez was born in Lavelanet in 1971."
+  },
+  {
+    "id": "legend-lagny-sur-marne",
+    "question": "Paul Pogba, who scored in the 2018 World Cup final, was born in this town east of Paris. Find it.",
+    "city": "Lagny-sur-Marne",
+    "country": "France",
+    "coords": [
+      2.71667,
+      48.86667
+    ],
+    "hint": "Look in Île-de-France, France. The place name starts with “L”.",
+    "fact": "Paul Pogba was born in Lagny-sur-Marne in 1993."
+  },
+  {
+    "id": "legend-chambery",
+    "question": "Olivier Giroud, France’s record goalscorer, was born in this Alpine town. Find it.",
+    "city": "Chambéry",
+    "country": "France",
+    "coords": [
+      5.92079,
+      45.56628
+    ],
+    "hint": "Look in Auvergne-Rhône-Alpes, France. The place name starts with “C”.",
+    "fact": "Olivier Giroud was born in Chambéry in 1986."
+  },
+  {
+    "id": "legend-reims",
+    "question": "Robert Pirès, a 1998 world champion and Arsenal “Invincible”, was born in this Champagne city. Find it.",
+    "city": "Reims",
+    "country": "France",
+    "coords": [
+      4.02853,
+      49.26526
+    ],
+    "hint": "Look in Grand Est, France. The place name starts with “R”.",
+    "fact": "Robert Pirès was born in Reims in 1973."
+  },
+  {
+    "id": "legend-sarcelles",
+    "question": "Algeria stars Riyad Mahrez and Wissam Ben Yedder were both born in this town north of Paris. Find it.",
+    "city": "Sarcelles",
+    "country": "France",
+    "coords": [
+      2.37821,
+      48.99739
+    ],
+    "hint": "Look in Île-de-France, France. The place name starts with “S”.",
+    "fact": "Wissam Ben Yedder (1990) and Riyad Mahrez (1991) were born in Sarcelles. Mahrez captained Algeria to the 2019 Africa Cup of Nations."
+  },
+  {
+    "id": "legend-vernon",
+    "question": "Ousmane Dembélé, the 2025 Ballon d’Or winner, was born in this Normandy town. Find it.",
+    "city": "Vernon",
+    "country": "France",
+    "coords": [
+      1.46332,
+      49.09292
+    ],
+    "hint": "Look in Normandy, France. The place name starts with “V”.",
+    "fact": "Ousmane Dembélé was born in Vernon in 1997."
+  },
+  {
+    "id": "legend-lille",
+    "question": "Raphaël Varane, a 2018 world champion, was born in this northern French city. Find it.",
+    "city": "Lille",
+    "country": "France",
+    "coords": [
+      3.05512,
+      50.63391
+    ],
+    "hint": "Look in Hauts-de-France, France. The place name starts with “L”.",
+    "fact": "Raphaël Varane was born in Lille in 1993."
+  },
+  {
+    "id": "legend-laval",
+    "question": "Gabon captain Pierre-Emerick Aubameyang was born in this town in western France. Find it.",
+    "city": "Laval",
+    "country": "France",
+    "coords": [
+      -0.77019,
+      48.07247
+    ],
+    "hint": "Look in Pays de la Loire, France. The place name starts with “L”.",
+    "fact": "Pierre-Emerick Aubameyang was born in Laval in 1989."
+  },
+  {
+    "id": "legend-bamako",
+    "question": "France midfielder Jean Tigana and Mali’s Seydou Keita were both born in this capital on the Niger River. Find it.",
+    "city": "Bamako",
+    "country": "Mali",
+    "coords": [
+      -7.97522,
+      12.60915
+    ],
+    "hint": "Look in Mali. The place name starts with “B”.",
+    "fact": "Jean Tigana (1955) and Seydou Keita (1980) were born in Bamako."
+  },
+  {
+    "id": "legend-munich",
+    "question": "Franz Beckenbauer and Philipp Lahm, both World Cup-winning captains, were born in this city. Find it.",
+    "city": "Munich",
+    "country": "Germany",
+    "coords": [
+      11.57549,
+      48.13743
+    ],
+    "hint": "Look in Bavaria, Germany. The place name starts with “M”.",
+    "fact": "Franz Beckenbauer (1945) and Philipp Lahm (1983) were born in Munich."
+  },
+  {
+    "id": "legend-nordlingen",
+    "question": "Gerd Müller, “Der Bomber”, was born in this walled town inside a meteorite crater. Find it.",
+    "city": "Nördlingen",
+    "country": "Germany",
+    "coords": [
+      10.48868,
+      48.85122
+    ],
+    "hint": "Look in Bavaria, Germany. The place name starts with “N”.",
+    "fact": "Gerd Müller was born in Nördlingen in 1945 and scored the winner in the 1974 World Cup final."
+  },
+  {
+    "id": "legend-erlangen",
+    "question": "Lothar Matthäus, who captained West Germany to the 1990 World Cup, was born in this Bavarian city. Find it.",
+    "city": "Erlangen",
+    "country": "Germany",
+    "coords": [
+      11.00783,
+      49.59099
+    ],
+    "hint": "Look in Bavaria, Germany. The place name starts with “E”.",
+    "fact": "Lothar Matthäus was born in Erlangen in 1961."
+  },
+  {
+    "id": "legend-goppingen",
+    "question": "Jürgen Klinsmann was born in this town near Stuttgart. Find it.",
+    "city": "Göppingen",
+    "country": "Germany",
+    "coords": [
+      9.65209,
+      48.70354
+    ],
+    "hint": "Look in Baden-Wurttemberg, Germany. The place name starts with “G”.",
+    "fact": "Jürgen Klinsmann was born in Göppingen in 1964 and won the 1990 World Cup."
+  },
+  {
+    "id": "legend-opole",
+    "question": "Miroslav Klose, the men’s World Cup all-time top scorer, was born in this Polish city. Find it.",
+    "city": "Opole",
+    "country": "Poland",
+    "coords": [
+      17.92604,
+      50.67119
+    ],
+    "hint": "Look in Opole Voivodeship, Poland. The place name starts with “O”.",
+    "fact": "Miroslav Klose was born in Opole in 1978 and scored 16 World Cup goals for Germany."
+  },
+  {
+    "id": "legend-gliwice",
+    "question": "Lukas Podolski and Poland’s Włodzimierz Lubański were both born in this Silesian city. Find it.",
+    "city": "Gliwice",
+    "country": "Poland",
+    "coords": [
+      18.67658,
+      50.29761
+    ],
+    "hint": "Look in Silesia, Poland. The place name starts with “G”.",
+    "fact": "Włodzimierz Lubański (1947) and Lukas Podolski (1985) were born in Gliwice."
+  },
+  {
+    "id": "legend-weilheim",
+    "question": "Thomas Müller was born in this Upper Bavarian town. Find it.",
+    "city": "Weilheim",
+    "country": "Germany",
+    "coords": [
+      11.15484,
+      47.84147
+    ],
+    "hint": "Look in Bavaria, Germany. The place name starts with “W”.",
+    "fact": "Thomas Müller was born in Weilheim in Oberbayern in 1989."
+  },
+  {
+    "id": "legend-gelsenkirchen",
+    "question": "Manuel Neuer, Mesut Özil and İlkay Gündoğan were all born in this Ruhr city. Find it.",
+    "city": "Gelsenkirchen",
+    "country": "Germany",
+    "coords": [
+      7.09654,
+      51.50508
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “G”.",
+    "fact": "Manuel Neuer (1986), Mesut Özil (1988) and İlkay Gündoğan (1990) were born in Gelsenkirchen."
+  },
+  {
+    "id": "legend-greifswald",
+    "question": "Toni Kroos was born in this university town on the Baltic coast. Find it.",
+    "city": "Greifswald",
+    "country": "Germany",
+    "coords": [
+      13.40244,
+      54.08905
+    ],
+    "hint": "Look in Mecklenburg-Vorpommern, Germany. The place name starts with “G”.",
+    "fact": "Toni Kroos was born in Greifswald in 1990 and won the 2014 World Cup."
+  },
+  {
+    "id": "legend-gorlitz",
+    "question": "Michael Ballack was born in this town on the Polish border. Find it.",
+    "city": "Görlitz",
+    "country": "Germany",
+    "coords": [
+      14.98853,
+      51.15518
+    ],
+    "hint": "Look in Saxony, Germany. The place name starts with “G”.",
+    "fact": "Michael Ballack was born in Görlitz in 1976."
+  },
+  {
+    "id": "legend-hamburg",
+    "question": "Uwe Seeler and Andreas Brehme, who scored the winner in the 1990 World Cup final, were both born in this port city. Find it.",
+    "city": "Hamburg",
+    "country": "Germany",
+    "coords": [
+      9.99302,
+      53.55073
+    ],
+    "hint": "Look in Germany. The place name starts with “H”.",
+    "fact": "Uwe Seeler (1936) and Andreas Brehme (1960) were born in Hamburg."
+  },
+  {
+    "id": "legend-kaiserslautern",
+    "question": "Fritz Walter, captain of the 1954 world champions, was born in this city in the Palatinate. Find it.",
+    "city": "Kaiserslautern",
+    "country": "Germany",
+    "coords": [
+      7.77161,
+      49.443
+    ],
+    "hint": "Look in Rheinland-Pfalz, Germany. The place name starts with “K”.",
+    "fact": "Fritz Walter was born in Kaiserslautern in 1920; the city’s stadium bears his name."
+  },
+  {
+    "id": "legend-metten",
+    "question": "Sepp Maier, goalkeeper for the 1974 world champions, was born in this Bavarian village. Find it.",
+    "city": "Metten",
+    "country": "Germany",
+    "coords": [
+      12.91554,
+      48.85512
+    ],
+    "hint": "Look in Bavaria, Germany. The place name starts with “M”.",
+    "fact": "Sepp Maier was born in Metten in 1944."
+  },
+  {
+    "id": "legend-lippstadt",
+    "question": "Karl-Heinz Rummenigge, a two-time Ballon d’Or winner, was born in this Westphalian town. Find it.",
+    "city": "Lippstadt",
+    "country": "Germany",
+    "coords": [
+      8.34482,
+      51.67369
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “L”.",
+    "fact": "Karl-Heinz Rummenigge was born in Lippstadt in 1955."
+  },
+  {
+    "id": "legend-essen",
+    "question": "Helmut Rahn, who scored the winner in the 1954 World Cup final, and Leroy Sané were both born in this Ruhr city. Find it.",
+    "city": "Essen",
+    "country": "Germany",
+    "coords": [
+      7.01228,
+      51.45657
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “E”.",
+    "fact": "Helmut Rahn (1929) and Leroy Sané (1996) were born in Essen."
+  },
+  {
+    "id": "legend-monchengladbach",
+    "question": "Günter Netzer and Jupp Heynckes were both born in this city on the Lower Rhine. Find it.",
+    "city": "Mönchengladbach",
+    "country": "Germany",
+    "coords": [
+      6.44172,
+      51.18539
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “M”.",
+    "fact": "Günter Netzer (1944) and Jupp Heynckes (1945) were born in Mönchengladbach."
+  },
+  {
+    "id": "legend-karlsruhe",
+    "question": "Oliver Kahn and Oliver Bierhoff were both born in this city in Baden. Find it.",
+    "city": "Karlsruhe",
+    "country": "Germany",
+    "coords": [
+      8.40444,
+      49.00937
+    ],
+    "hint": "Look in Baden-Wurttemberg, Germany. The place name starts with “K”.",
+    "fact": "Oliver Bierhoff (1968) and Oliver Kahn (1969) were born in Karlsruhe."
+  },
+  {
+    "id": "legend-kolbermoor",
+    "question": "World champions Paul Breitner and Bastian Schweinsteiger were both born in this Bavarian town. Find it.",
+    "city": "Kolbermoor",
+    "country": "Germany",
+    "coords": [
+      12.06696,
+      47.84965
+    ],
+    "hint": "Look in Bavaria, Germany. The place name starts with “K”.",
+    "fact": "Paul Breitner (1951) and Bastian Schweinsteiger (1984) were born in Kolbermoor."
+  },
+  {
+    "id": "legend-frankfurt",
+    "question": "Birgit Prinz, a two-time Women’s World Cup winner, was born in this city. Find it.",
+    "city": "Frankfurt",
+    "country": "Germany",
+    "coords": [
+      8.68417,
+      50.11552
+    ],
+    "hint": "Look in Hesse, Germany. The place name starts with “F”.",
+    "fact": "Birgit Prinz was born in Frankfurt am Main in 1977."
+  },
+  {
+    "id": "legend-memmingen",
+    "question": "Mario Götze, who scored the winner in the 2014 World Cup final, was born in this Bavarian town. Find it.",
+    "city": "Memmingen",
+    "country": "Germany",
+    "coords": [
+      10.18527,
+      47.98372
+    ],
+    "hint": "Look in Bavaria, Germany. The place name starts with “M”.",
+    "fact": "Mario Götze was born in Memmingen in 1992."
+  },
+  {
+    "id": "legend-stuttgart",
+    "question": "Jürgen Klopp and Jamal Musiala were both born in this city. Find it.",
+    "city": "Stuttgart",
+    "country": "Germany",
+    "coords": [
+      9.17702,
+      48.78232
+    ],
+    "hint": "Look in Baden-Wurttemberg, Germany. The place name starts with “S”.",
+    "fact": "Jürgen Klopp (1967) and Jamal Musiala (2003) were born in Stuttgart."
+  },
+  {
+    "id": "legend-hanau",
+    "question": "Rudi Völler, a 1990 world champion, was born in this town in Hesse. Find it.",
+    "city": "Hanau",
+    "country": "Germany",
+    "coords": [
+      8.91418,
+      50.13423
+    ],
+    "hint": "Look in Hesse, Germany. The place name starts with “H”.",
+    "fact": "Rudi Völler was born in Hanau in 1960."
+  },
+  {
+    "id": "legend-dresden",
+    "question": "Helmut Schön, coach of the 1974 world champions, and Matthias Sammer were both born in this Saxon city. Find it.",
+    "city": "Dresden",
+    "country": "Germany",
+    "coords": [
+      13.73832,
+      51.05089
+    ],
+    "hint": "Look in Saxony, Germany. The place name starts with “D”.",
+    "fact": "Helmut Schön (1915) and Matthias Sammer (1967) were born in Dresden."
+  },
+  {
+    "id": "legend-rottweil",
+    "question": "Joshua Kimmich was born in this old town in Baden-Württemberg. Find it.",
+    "city": "Rottweil",
+    "country": "Germany",
+    "coords": [
+      8.62719,
+      48.16783
+    ],
+    "hint": "Look in Baden-Wurttemberg, Germany. The place name starts with “R”.",
+    "fact": "Joshua Kimmich was born in Rottweil in 1995."
+  },
+  {
+    "id": "legend-dortmund-city",
+    "question": "Marco Reus, a Borussia Dortmund icon, was born in this city. Find it.",
+    "city": "Dortmund",
+    "country": "Germany",
+    "coords": [
+      7.466,
+      51.51494
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “D”.",
+    "fact": "Marco Reus was born in Dortmund in 1989."
+  },
+  {
+    "id": "legend-aachen",
+    "question": "Kai Havertz, who scored the winner in the 2021 Champions League final, was born in this city. Find it.",
+    "city": "Aachen",
+    "country": "Germany",
+    "coords": [
+      6.08342,
+      50.77664
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “A”.",
+    "fact": "Kai Havertz was born in Aachen in 1999."
+  },
+  {
+    "id": "legend-berlin",
+    "question": "Jérôme Boateng and Antonio Rüdiger were both born in this capital city. Find it.",
+    "city": "Berlin",
+    "country": "Germany",
+    "coords": [
+      13.41053,
+      52.52437
+    ],
+    "hint": "Look in State of Berlin, Germany. The place name starts with “B”.",
+    "fact": "Jérôme Boateng (1988) and Antonio Rüdiger (1993) were born in Berlin."
+  },
+  {
+    "id": "legend-hanover",
+    "question": "Per Mertesacker, a 2014 world champion, was born in this Lower Saxony city. Find it.",
+    "city": "Hanover",
+    "country": "Germany",
+    "coords": [
+      9.73322,
+      52.37052
+    ],
+    "hint": "Look in Lower Saxony, Germany. The place name starts with “H”.",
+    "fact": "Per Mertesacker was born in Hanover in 1984."
+  },
+  {
+    "id": "legend-mannheim",
+    "question": "Sepp Herberger, coach of the 1954 world champions, and Turkey captain Hakan Çalhanoğlu were both born in this city. Find it.",
+    "city": "Mannheim",
+    "country": "Germany",
+    "coords": [
+      8.46694,
+      49.4891
+    ],
+    "hint": "Look in Baden-Wurttemberg, Germany. The place name starts with “M”.",
+    "fact": "Sepp Herberger (1897) and Hakan Çalhanoğlu (1994) were born in Mannheim."
+  },
+  {
+    "id": "legend-hamm",
+    "question": "Horst Hrubesch, who scored twice in the Euro 1980 final, was born in this Westphalian city. Find it.",
+    "city": "Hamm",
+    "country": "Germany",
+    "coords": [
+      7.82089,
+      51.68033
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “H”.",
+    "fact": "Horst Hrubesch was born in Hamm in 1951."
+  },
+  {
+    "id": "legend-augsburg",
+    "question": "Bernd Schuster was born in this Bavarian city. Find it.",
+    "city": "Augsburg",
+    "country": "Germany",
+    "coords": [
+      10.89851,
+      48.37154
+    ],
+    "hint": "Look in Bavaria, Germany. The place name starts with “A”.",
+    "fact": "Bernd Schuster was born in Augsburg in 1959 and later played for Barcelona and Real Madrid."
+  },
+  {
+    "id": "legend-witten",
+    "question": "Alexandra Popp, Germany’s captain, was born in this Ruhr town. Find it.",
+    "city": "Witten",
+    "country": "Germany",
+    "coords": [
+      7.35258,
+      51.44362
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “W”.",
+    "fact": "Alexandra Popp was born in Witten in 1991."
+  },
+  {
+    "id": "legend-pulheim",
+    "question": "Florian Wirtz was born in this town near Cologne. Find it.",
+    "city": "Pulheim",
+    "country": "Germany",
+    "coords": [
+      6.80632,
+      50.99965
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “P”.",
+    "fact": "Florian Wirtz was born in Pulheim in 2003."
+  },
+  {
+    "id": "legend-ludenscheid",
+    "question": "Nuri Şahin, the youngest player in Bundesliga history at the time of his debut, was born in this town. Find it.",
+    "city": "Lüdenscheid",
+    "country": "Germany",
+    "coords": [
+      7.6273,
+      51.21977
+    ],
+    "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “L”.",
+    "fact": "Nuri Şahin was born in Lüdenscheid in 1988 and represented Turkey."
+  },
+  {
+    "id": "legend-amsterdam",
+    "question": "Johan Cruyff, Dennis Bergkamp, Ruud Gullit and Frank Rijkaard were all born in this city. Find it.",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "coords": [
+      4.88969,
+      52.37403
+    ],
+    "hint": "Look in North Holland, Netherlands. The place name starts with “A”.",
+    "fact": "Johan Cruyff (1947), Ruud Gullit and Frank Rijkaard (both 1962) and Dennis Bergkamp (1969) were born in Amsterdam."
+  },
+  {
+    "id": "legend-utrecht",
+    "question": "Marco van Basten and Wesley Sneijder were both born in this Dutch city. Find it.",
+    "city": "Utrecht",
+    "country": "Netherlands",
+    "coords": [
+      5.12222,
+      52.09083
+    ],
+    "hint": "Look in the Netherlands. The place name starts with “U”.",
+    "fact": "Marco van Basten (1964) and Wesley Sneijder (1984) were born in Utrecht."
+  },
+  {
+    "id": "legend-heemstede",
+    "question": "Johan Neeskens, who scored in the 1974 World Cup final, was born in this town near Haarlem. Find it.",
+    "city": "Heemstede",
+    "country": "Netherlands",
+    "coords": [
+      4.62301,
+      52.34992
+    ],
+    "hint": "Look in North Holland, Netherlands. The place name starts with “H”.",
+    "fact": "Johan Neeskens was born in Heemstede in 1951."
+  },
+  {
+    "id": "legend-rotterdam",
+    "question": "Giovanni van Bronckhorst and Robin van Persie were both born in this port city. Find it.",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "coords": [
+      4.47917,
+      51.9225
+    ],
+    "hint": "Look in South Holland, Netherlands. The place name starts with “R”.",
+    "fact": "Giovanni van Bronckhorst (1975) and Robin van Persie (1983) were born in Rotterdam."
+  },
+  {
+    "id": "legend-bedum",
+    "question": "Arjen Robben, who scored the winner in the 2013 Champions League final, was born in this village in Groningen. Find it.",
+    "city": "Bedum",
+    "country": "Netherlands",
+    "coords": [
+      6.60278,
+      53.30083
+    ],
+    "hint": "Look in Groningen, Netherlands. The place name starts with “B”.",
+    "fact": "Arjen Robben was born in Bedum in 1984."
+  },
+  {
+    "id": "legend-paramaribo",
+    "question": "Clarence Seedorf and Edgar Davids were both born in this South American capital. Find it.",
+    "city": "Paramaribo",
+    "country": "Suriname",
+    "coords": [
+      -55.16682,
+      5.86638
+    ],
+    "hint": "Look in Paramaribo District, Suriname. The place name starts with “P”.",
+    "fact": "Edgar Davids (1973) and Clarence Seedorf (1976) were born in Paramaribo, Suriname."
+  },
+  {
+    "id": "legend-breda",
+    "question": "Virgil van Dijk was born in this city in North Brabant. Find it.",
+    "city": "Breda",
+    "country": "Netherlands",
+    "coords": [
+      4.77596,
+      51.58656
+    ],
+    "hint": "Look in North Brabant, Netherlands. The place name starts with “B”.",
+    "fact": "Virgil van Dijk was born in Breda in 1991."
+  },
+  {
+    "id": "legend-zaandam",
+    "question": "Brothers Ronald and Erwin Koeman were both born in this town north of Amsterdam. Find it.",
+    "city": "Zaandam",
+    "country": "Netherlands",
+    "coords": [
+      4.82643,
+      52.43854
+    ],
+    "hint": "Look in North Holland, Netherlands. The place name starts with “Z”.",
+    "fact": "Erwin (1961) and Ronald Koeman (1963) were born in Zaandam."
+  },
+  {
+    "id": "legend-hoogeveen",
+    "question": "Vivianne Miedema was born in this town in Drenthe. Find it.",
+    "city": "Hoogeveen",
+    "country": "Netherlands",
+    "coords": [
+      6.47639,
+      52.7225
+    ],
+    "hint": "Look in Drenthe, Netherlands. The place name starts with “H”.",
+    "fact": "Vivianne Miedema was born in Hoogeveen in 1996."
+  },
+  {
+    "id": "legend-oss",
+    "question": "Ruud van Nistelrooy was born in this town in North Brabant. Find it.",
+    "city": "Oss",
+    "country": "Netherlands",
+    "coords": [
+      5.51806,
+      51.765
+    ],
+    "hint": "Look in North Brabant, Netherlands. The place name starts with “O”.",
+    "fact": "Ruud van Nistelrooy was born in Oss in 1976."
+  },
+  {
+    "id": "legend-eindhoven-city",
+    "question": "Cody Gakpo was born in this city, home of PSV. Find it.",
+    "city": "Eindhoven",
+    "country": "Netherlands",
+    "coords": [
+      5.47778,
+      51.44083
+    ],
+    "hint": "Look in North Brabant, Netherlands. The place name starts with “E”.",
+    "fact": "Cody Gakpo was born in Eindhoven in 1999."
+  },
+  {
+    "id": "legend-katwijk",
+    "question": "Dirk Kuyt was born in this fishing town on the North Sea coast. Find it.",
+    "city": "Katwijk",
+    "country": "Netherlands",
+    "coords": [
+      4.39861,
+      52.20333
+    ],
+    "hint": "Look in South Holland, Netherlands. The place name starts with “K”.",
+    "fact": "Dirk Kuyt was born in Katwijk in 1980."
+  },
+  {
+    "id": "legend-voorhout",
+    "question": "Edwin van der Sar was born in this village in the bulb fields. Find it.",
+    "city": "Voorhout",
+    "country": "Netherlands",
+    "coords": [
+      4.48472,
+      52.22167
+    ],
+    "hint": "Look in South Holland, Netherlands. The place name starts with “V”.",
+    "fact": "Edwin van der Sar was born in Voorhout in 1970."
+  },
+  {
+    "id": "legend-dronten",
+    "question": "Morocco winger Hakim Ziyech was born in this town on reclaimed land. Find it.",
+    "city": "Dronten",
+    "country": "Netherlands",
+    "coords": [
+      5.71806,
+      52.525
+    ],
+    "hint": "Look in Flevoland, Netherlands. The place name starts with “D”.",
+    "fact": "Hakim Ziyech was born in Dronten in 1993."
+  },
+  {
+    "id": "legend-la-louviere",
+    "question": "Enzo Scifo and Eden Hazard were both born in this town in Hainaut. Find it.",
+    "city": "La Louvière",
+    "country": "Belgium",
+    "coords": [
+      4.18785,
+      50.48657
+    ],
+    "hint": "Look in Wallonia, Belgium. The place name starts with “L”.",
+    "fact": "Enzo Scifo (1966) and Eden Hazard (1991) were born in La Louvière."
+  },
+  {
+    "id": "legend-ghent",
+    "question": "Kevin De Bruyne was born in this Flemish city. Find it.",
+    "city": "Ghent",
+    "country": "Belgium",
+    "coords": [
+      3.71667,
+      51.05
+    ],
+    "hint": "Look in Flanders, Belgium. The place name starts with “G”.",
+    "fact": "Kevin De Bruyne was born in Ghent in 1991."
+  },
+  {
+    "id": "legend-antwerp",
+    "question": "Romelu Lukaku, Belgium’s record goalscorer, was born in this port city. Find it.",
+    "city": "Antwerp",
+    "country": "Belgium",
+    "coords": [
+      4.40026,
+      51.22047
+    ],
+    "hint": "Look in Flanders, Belgium. The place name starts with “A”.",
+    "fact": "Romelu Lukaku was born in Antwerp in 1993."
+  },
+  {
+    "id": "legend-lier",
+    "question": "Jan Ceulemans, Belgium’s captain at the 1986 World Cup, was born in this town. Find it.",
+    "city": "Lier",
+    "country": "Belgium",
+    "coords": [
+      4.57041,
+      51.13128
+    ],
+    "hint": "Look in Flanders, Belgium. The place name starts with “L”.",
+    "fact": "Jan Ceulemans was born in Lier in 1957."
+  },
+  {
+    "id": "legend-bree",
+    "question": "Thibaut Courtois was born in this town in Limburg. Find it.",
+    "city": "Bree",
+    "country": "Belgium",
+    "coords": [
+      5.5969,
+      51.14152
+    ],
+    "hint": "Look in Flanders, Belgium. The place name starts with “B”.",
+    "fact": "Thibaut Courtois was born in Bree in 1992."
+  },
+  {
+    "id": "legend-uccle",
+    "question": "Vincent Kompany was born in this commune of Brussels. Find it.",
+    "city": "Uccle",
+    "country": "Belgium",
+    "coords": [
+      4.33943,
+      50.80225
+    ],
+    "hint": "Look in Brussels Capital, Belgium. The place name starts with “U”.",
+    "fact": "Vincent Kompany was born in Uccle in 1986."
+  },
+  {
+    "id": "legend-sint-niklaas",
+    "question": "Jan Vertonghen, Belgium’s most capped player, was born in this Flemish town. Find it.",
+    "city": "Sint-Niklaas",
+    "country": "Belgium",
+    "coords": [
+      4.1437,
+      51.16509
+    ],
+    "hint": "Look in Flanders, Belgium. The place name starts with “S”.",
+    "fact": "Jan Vertonghen was born in Sint-Niklaas in 1987."
+  },
+  {
+    "id": "legend-leuven",
+    "question": "Dries Mertens, Napoli’s record goalscorer, was born in this university city. Find it.",
+    "city": "Leuven",
+    "country": "Belgium",
+    "coords": [
+      4.70093,
+      50.87959
+    ],
+    "hint": "Look in Flanders, Belgium. The place name starts with “L”.",
+    "fact": "Dries Mertens was born in Leuven in 1987."
+  },
+  {
+    "id": "legend-fuentealbilla",
+    "question": "Andrés Iniesta, scorer of the 2010 World Cup-winning goal, was born in this village in Albacete. Find it.",
+    "city": "Fuentealbilla",
+    "country": "Spain",
+    "coords": [
+      -1.55,
+      39.26667
+    ],
+    "hint": "Look in Castille-La Mancha, Spain. The place name starts with “F”.",
+    "fact": "Andrés Iniesta was born in Fuentealbilla in 1984."
+  },
+  {
+    "id": "legend-terrassa",
+    "question": "Xavi Hernández and Dani Olmo were both born in this Catalan city. Find it.",
+    "city": "Terrassa",
+    "country": "Spain",
+    "coords": [
+      2.01667,
+      41.56667
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “T”.",
+    "fact": "Xavi (1980) and Dani Olmo (1998) were born in Terrassa."
+  },
+  {
+    "id": "legend-mostoles",
+    "question": "Iker Casillas, who lifted the 2010 World Cup as captain, was born in this city near Madrid. Find it.",
+    "city": "Móstoles",
+    "country": "Spain",
+    "coords": [
+      -3.86496,
+      40.32234
+    ],
+    "hint": "Look in Madrid, Spain. The place name starts with “M”.",
+    "fact": "Iker Casillas was born in Móstoles in 1981."
+  },
+  {
+    "id": "legend-fuenlabrada",
+    "question": "Fernando Torres, scorer of the Euro 2008 final winner, was born in this city near Madrid. Find it.",
+    "city": "Fuenlabrada",
+    "country": "Spain",
+    "coords": [
+      -3.79415,
+      40.28419
+    ],
+    "hint": "Look in Madrid, Spain. The place name starts with “F”.",
+    "fact": "Fernando Torres was born in Fuenlabrada in 1984."
+  },
+  {
+    "id": "legend-camas",
+    "question": "Sergio Ramos was born in this town next to Seville. Find it.",
+    "city": "Camas",
+    "country": "Spain",
+    "coords": [
+      -6.03314,
+      37.40202
+    ],
+    "hint": "Look in Andalusia, Spain. The place name starts with “C”.",
+    "fact": "Sergio Ramos was born in Camas in 1986."
+  },
+  {
+    "id": "legend-madrid",
+    "question": "Raúl González, Emilio Butragueño and Rodri were all born in this capital city. Find it.",
+    "city": "Madrid",
+    "country": "Spain",
+    "coords": [
+      -3.70256,
+      40.4165
+    ],
+    "hint": "Look in Spain. The place name starts with “M”.",
+    "fact": "Emilio Butragueño (1963), Raúl (1977) and Rodri (1996) were born in Madrid."
+  },
+  {
+    "id": "legend-a-coruna",
+    "question": "Luis Suárez Miramontes, Spain’s first Ballon d’Or winner, was born in this Galician city. Find it.",
+    "city": "A Coruña",
+    "country": "Spain",
+    "coords": [
+      -8.396,
+      43.37135
+    ],
+    "hint": "Look in Galicia, Spain. The place name starts with “A”.",
+    "fact": "Luis Suárez Miramontes was born in A Coruña in 1935 and won the Ballon d’Or in 1960."
+  },
+  {
+    "id": "legend-sabadell",
+    "question": "Sergio Busquets was born in this Catalan city. Find it.",
+    "city": "Sabadell",
+    "country": "Spain",
+    "coords": [
+      2.10942,
+      41.54329
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “S”.",
+    "fact": "Sergio Busquets was born in Sabadell in 1988."
+  },
+  {
+    "id": "legend-barcelona-city",
+    "question": "Gerard Piqué was born in this Catalan capital. Find it.",
+    "city": "Barcelona",
+    "country": "Spain",
+    "coords": [
+      2.15899,
+      41.38879
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “B”.",
+    "fact": "Gerard Piqué was born in Barcelona in 1987."
+  },
+  {
+    "id": "legend-arenys-de-mar",
+    "question": "Cesc Fàbregas was born in this seaside town north of Barcelona. Find it.",
+    "city": "Arenys de Mar",
+    "country": "Spain",
+    "coords": [
+      2.54936,
+      41.5819
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “A”.",
+    "fact": "Cesc Fàbregas was born in Arenys de Mar in 1987."
+  },
+  {
+    "id": "legend-tolosa",
+    "question": "Xabi Alonso was born in this Basque town. Find it.",
+    "city": "Tolosa",
+    "country": "Spain",
+    "coords": [
+      -2.07801,
+      43.13484
+    ],
+    "hint": "Look in Basque Country, Spain. The place name starts with “T”.",
+    "fact": "Xabi Alonso was born in Tolosa in 1981."
+  },
+  {
+    "id": "legend-tegueste",
+    "question": "Pedri was born in this town on Tenerife. Find it.",
+    "city": "Tegueste",
+    "country": "Spain",
+    "coords": [
+      -16.34074,
+      28.52236
+    ],
+    "hint": "Look in Canary Islands, Spain. The place name starts with “T”.",
+    "fact": "Pedri was born in Tegueste in 2002."
+  },
+  {
+    "id": "legend-esplugues",
+    "question": "Lamine Yamal, the youngest scorer in European Championship history, was born in this town next to Barcelona. Find it.",
+    "city": "Esplugues de Llobregat",
+    "country": "Spain",
+    "coords": [
+      2.08809,
+      41.37732
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “E”.",
+    "fact": "Lamine Yamal was born in Esplugues de Llobregat in 2007 and won Euro 2024 with Spain."
+  },
+  {
+    "id": "legend-sant-pere-de-ribes",
+    "question": "Aitana Bonmatí, a Ballon d’Or winner, was born in this town near Sitges. Find it.",
+    "city": "Sant Pere de Ribes",
+    "country": "Spain",
+    "coords": [
+      1.77391,
+      41.26045
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “S”.",
+    "fact": "Aitana Bonmatí was born in Sant Pere de Ribes in 1998 and won the 2023 Women’s World Cup."
+  },
+  {
+    "id": "legend-mollet",
+    "question": "Alexia Putellas, a two-time Ballon d’Or winner, was born in this Catalan town. Find it.",
+    "city": "Mollet del Vallès",
+    "country": "Spain",
+    "coords": [
+      2.21306,
+      41.54026
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “M”.",
+    "fact": "Alexia Putellas was born in Mollet del Vallès in 1994."
+  },
+  {
+    "id": "legend-zarautz",
+    "question": "José Ángel Iribar, Athletic Club’s legendary goalkeeper, was born in this Basque coastal town. Find it.",
+    "city": "Zarautz",
+    "country": "Spain",
+    "coords": [
+      -2.16992,
+      43.28444
+    ],
+    "hint": "Look in Basque Country, Spain. The place name starts with “Z”.",
+    "fact": "José Ángel Iribar was born in Zarautz in 1943."
+  },
+  {
+    "id": "legend-vitoria",
+    "question": "Andoni Zubizarreta, goalkeeper of Cruyff’s Barcelona “Dream Team”, was born in this Basque capital. Find it.",
+    "city": "Vitoria-Gasteiz",
+    "country": "Spain",
+    "coords": [
+      -2.67268,
+      42.84998
+    ],
+    "hint": "Look in Basque Country, Spain. The place name starts with “V”.",
+    "fact": "Andoni Zubizarreta was born in Vitoria-Gasteiz in 1961."
+  },
+  {
+    "id": "legend-velez-malaga",
+    "question": "Fernando Hierro was born in this Andalusian town. Find it.",
+    "city": "Vélez-Málaga",
+    "country": "Spain",
+    "coords": [
+      -4.10266,
+      36.78107
+    ],
+    "hint": "Look in Andalusia, Spain. The place name starts with “V”.",
+    "fact": "Fernando Hierro was born in Vélez-Málaga in 1968."
+  },
+  {
+    "id": "legend-los-palacios",
+    "question": "Jesús Navas and Gavi were both born in this town near Seville. Find it.",
+    "city": "Los Palacios y Villafranca",
+    "country": "Spain",
+    "coords": [
+      -5.92433,
+      37.16181
+    ],
+    "hint": "Look in Andalusia, Spain. The place name starts with “L”.",
+    "fact": "Jesús Navas (1985) and Gavi (2004) were born in Los Palacios y Villafranca."
+  },
+  {
+    "id": "legend-leganes",
+    "question": "Dani Carvajal was born in this city south of Madrid. Find it.",
+    "city": "Leganés",
+    "country": "Spain",
+    "coords": [
+      -3.7635,
+      40.32718
+    ],
+    "hint": "Look in Madrid, Spain. The place name starts with “L”.",
+    "fact": "Dani Carvajal was born in Leganés in 1992."
+  },
+  {
+    "id": "legend-hospitalet",
+    "question": "Jordi Alba was born in this city next to Barcelona. Find it.",
+    "city": "L'Hospitalet de Llobregat",
+    "country": "Spain",
+    "coords": [
+      2.10028,
+      41.35967
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “L”.",
+    "fact": "Jordi Alba was born in L’Hospitalet de Llobregat in 1989."
+  },
+  {
+    "id": "legend-puerto-de-santa-maria",
+    "question": "Joaquín Sánchez was born in this town on the Bay of Cádiz. Find it.",
+    "city": "El Puerto de Santa María",
+    "country": "Spain",
+    "coords": [
+      -6.23298,
+      36.59389
+    ],
+    "hint": "Look in Andalusia, Spain. The place name starts with “E”.",
+    "fact": "Joaquín was born in El Puerto de Santa María in 1981."
+  },
+  {
+    "id": "legend-burgos",
+    "question": "Juan Mata was born in this Castilian city famous for its cathedral. Find it.",
+    "city": "Burgos",
+    "country": "Spain",
+    "coords": [
+      -3.70184,
+      42.34106
+    ],
+    "hint": "Look in Castille and León, Spain. The place name starts with “B”.",
+    "fact": "Juan Mata was born in Burgos in 1988."
+  },
+  {
+    "id": "legend-benalmadena",
+    "question": "Isco was born in this town on the Costa del Sol. Find it.",
+    "city": "Benalmádena",
+    "country": "Spain",
+    "coords": [
+      -4.57267,
+      36.5961
+    ],
+    "hint": "Look in Andalusia, Spain. The place name starts with “B”.",
+    "fact": "Isco was born in Benalmádena in 1992."
+  },
+  {
+    "id": "legend-santpedor",
+    "question": "Pep Guardiola was born in this small Catalan town. Find it.",
+    "city": "Santpedor",
+    "country": "Spain",
+    "coords": [
+      1.84673,
+      41.78309
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “S”.",
+    "fact": "Pep Guardiola was born in Santpedor in 1971."
+  },
+  {
+    "id": "legend-fuengirola",
+    "question": "Juanito, the Real Madrid winger, was born in this Costa del Sol town. Find it.",
+    "city": "Fuengirola",
+    "country": "Spain",
+    "coords": [
+      -4.62473,
+      36.53998
+    ],
+    "hint": "Look in Andalusia, Spain. The place name starts with “F”.",
+    "fact": "Juanito was born in Fuengirola in 1954."
+  },
+  {
+    "id": "legend-gijon",
+    "question": "Luis Enrique, who coached Spain and Barcelona, was born in this Asturian port. Find it.",
+    "city": "Gijón",
+    "country": "Spain",
+    "coords": [
+      -5.66152,
+      43.53573
+    ],
+    "hint": "Look in Asturias, Spain. The place name starts with “G”.",
+    "fact": "Luis Enrique was born in Gijón in 1970."
+  },
+  {
+    "id": "legend-oviedo",
+    "question": "Enrique Castro “Quini”, a five-time La Liga top scorer, was born in this Asturian city. Find it.",
+    "city": "Oviedo",
+    "country": "Spain",
+    "coords": [
+      -5.84476,
+      43.36029
+    ],
+    "hint": "Look in Asturias, Spain. The place name starts with “O”.",
+    "fact": "Quini was born in Oviedo in 1949."
+  },
+  {
+    "id": "legend-salamanca",
+    "question": "Vicente del Bosque, Spain’s World Cup-winning coach, was born in this university city. Find it.",
+    "city": "Salamanca",
+    "country": "Spain",
+    "coords": [
+      -5.66388,
+      40.96882
+    ],
+    "hint": "Look in Castille and León, Spain. The place name starts with “S”.",
+    "fact": "Vicente del Bosque was born in Salamanca in 1950."
+  },
+  {
+    "id": "legend-san-sebastian",
+    "question": "Mikel Arteta was born in this Basque seaside city. Find it.",
+    "city": "San Sebastián",
+    "country": "Spain",
+    "coords": [
+      -1.97499,
+      43.31283
+    ],
+    "hint": "Look in Basque Country, Spain. The place name starts with “S”.",
+    "fact": "Mikel Arteta was born in San Sebastián in 1982."
+  },
+  {
+    "id": "legend-hondarribia",
+    "question": "Unai Emery was born in this Basque town on the French border. Find it.",
+    "city": "Hondarribia",
+    "country": "Spain",
+    "coords": [
+      -1.79622,
+      43.36859
+    ],
+    "hint": "Look in Basque Country, Spain. The place name starts with “H”.",
+    "fact": "Unai Emery was born in Hondarribia in 1971."
+  },
+  {
+    "id": "legend-pamplona",
+    "question": "Nico Williams, a Euro 2024 winner, was born in this city famous for its bull run. Find it.",
+    "city": "Pamplona",
+    "country": "Spain",
+    "coords": [
+      -1.64323,
+      42.81687
+    ],
+    "hint": "Look in Navarre, Spain. The place name starts with “P”.",
+    "fact": "Nico Williams was born in Pamplona in 2002."
+  },
+  {
+    "id": "legend-bilbao-city",
+    "question": "Iñaki Williams, Athletic Club’s record consecutive appearance maker, was born in this Basque city. Find it.",
+    "city": "Bilbao",
+    "country": "Spain",
+    "coords": [
+      -2.92528,
+      43.26271
+    ],
+    "hint": "Look in Basque Country, Spain. The place name starts with “B”.",
+    "fact": "Iñaki Williams was born in Bilbao in 1994 and plays internationally for Ghana."
+  },
+  {
+    "id": "legend-lleida",
+    "question": "Serbia midfielder Sergej Milinković-Savić was born in this Catalan city. Find it.",
+    "city": "Lleida",
+    "country": "Spain",
+    "coords": [
+      0.62218,
+      41.61674
+    ],
+    "hint": "Look in Catalonia, Spain. The place name starts with “L”.",
+    "fact": "Sergej Milinković-Savić was born in Lleida in 1995."
+  },
+  {
+    "id": "legend-foios",
+    "question": "Ferran Torres was born in this town near Valencia. Find it.",
+    "city": "Foios",
+    "country": "Spain",
+    "coords": [
+      -0.35,
+      39.53333
+    ],
+    "hint": "Look in Valencia, Spain. The place name starts with “F”.",
+    "fact": "Ferran Torres was born in Foios in 2000."
+  },
+  {
+    "id": "legend-funchal",
+    "question": "Cristiano Ronaldo, international football’s record goalscorer, was born in this Atlantic island city. Find it.",
+    "city": "Funchal",
+    "country": "Portugal",
+    "coords": [
+      -16.92547,
+      32.66568
+    ],
+    "hint": "Look in Madeira, Portugal. The place name starts with “F”.",
+    "fact": "Cristiano Ronaldo was born in Funchal, Madeira, in 1985."
+  },
+  {
+    "id": "legend-maputo",
+    "question": "Eusébio, Benfica’s “Black Panther”, was born in this city, then called Lourenço Marques. Find it.",
+    "city": "Maputo",
+    "country": "Mozambique",
+    "coords": [
+      32.58322,
+      -25.96553
+    ],
+    "hint": "Look in Maputo City, Mozambique. The place name starts with “M”.",
+    "fact": "Eusébio was born in Maputo (then Lourenço Marques) in 1942 and won the 1965 Ballon d’Or."
+  },
+  {
+    "id": "legend-almada",
+    "question": "Luís Figo and Rafael Leão were both born in this city across the Tagus from Lisbon. Find it.",
+    "city": "Almada",
+    "country": "Portugal",
+    "coords": [
+      -9.1569,
+      38.67902
+    ],
+    "hint": "Look in Setúbal, Portugal. The place name starts with “A”.",
+    "fact": "Luís Figo (1972) and Rafael Leão (1999) were born in Almada. Figo won the Ballon d’Or in 2000."
+  },
+  {
+    "id": "legend-amadora",
+    "question": "Rui Costa and Rúben Dias were both born in this city next to Lisbon. Find it.",
+    "city": "Amadora",
+    "country": "Portugal",
+    "coords": [
+      -9.23083,
+      38.75382
+    ],
+    "hint": "Look in Lisbon, Portugal. The place name starts with “A”.",
+    "fact": "Rui Costa (1972) and Rúben Dias (1997) were born in Amadora."
+  },
+  {
+    "id": "legend-viseu",
+    "question": "Paulo Sousa and João Félix were both born in this city in central Portugal. Find it.",
+    "city": "Viseu",
+    "country": "Portugal",
+    "coords": [
+      -7.90905,
+      40.66165
+    ],
+    "hint": "Look in Portugal. The place name starts with “V”.",
+    "fact": "Paulo Sousa (1970) and João Félix (1999) were born in Viseu."
+  },
+  {
+    "id": "legend-lisbon",
+    "question": "Bernardo Silva and Ricardo Quaresma were both born in this capital city. Find it.",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coords": [
+      -9.1498,
+      38.72509
+    ],
+    "hint": "Look in Portugal. The place name starts with “L”.",
+    "fact": "Ricardo Quaresma (1983) and Bernardo Silva (1994) were born in Lisbon."
+  },
+  {
+    "id": "legend-praia",
+    "question": "Portugal winger Nani was born in this Atlantic island capital. Find it.",
+    "city": "Praia",
+    "country": "Cape Verde",
+    "coords": [
+      -23.51254,
+      14.93152
+    ],
+    "hint": "Look in Cape Verde. The place name starts with “P”.",
+    "fact": "Nani was born in Praia, Cape Verde, in 1986 and won Euro 2016 with Portugal."
+  },
+  {
+    "id": "legend-montijo",
+    "question": "Paulo Futre was born in this town on the Tagus estuary. Find it.",
+    "city": "Montijo",
+    "country": "Portugal",
+    "coords": [
+      -8.97388,
+      38.70675
+    ],
+    "hint": "Look in Setúbal, Portugal. The place name starts with “M”.",
+    "fact": "Paulo Futre was born in Montijo in 1966 and won the 1987 European Cup with Porto."
+  },
+  {
+    "id": "legend-setubal",
+    "question": "José Mourinho was born in this port city south of Lisbon. Find it.",
+    "city": "Setúbal",
+    "country": "Portugal",
+    "coords": [
+      -8.8882,
+      38.5244
+    ],
+    "hint": "Look in Portugal. The place name starts with “S”.",
+    "fact": "José Mourinho was born in Setúbal in 1963 and won the Champions League with Porto and Inter."
+  },
+  {
+    "id": "legend-maia",
+    "question": "Bruno Fernandes was born in this city north of Porto. Find it.",
+    "city": "Maia",
+    "country": "Portugal",
+    "coords": [
+      -8.6199,
+      41.23574
+    ],
+    "hint": "Look in Porto, Portugal. The place name starts with “M”.",
+    "fact": "Bruno Fernandes was born in Maia in 1994."
+  },
+  {
+    "id": "legend-santo-tirso",
+    "question": "Vitinha was born in this town in northern Portugal. Find it.",
+    "city": "Santo Tirso",
+    "country": "Portugal",
+    "coords": [
+      -8.47746,
+      41.34257
+    ],
+    "hint": "Look in Porto, Portugal. The place name starts with “S”.",
+    "fact": "Vitinha was born in Santo Tirso in 2000."
+  },
+  {
+    "id": "legend-barreiro",
+    "question": "João Cancelo was born in this town on the south bank of the Tagus. Find it.",
+    "city": "Barreiro",
+    "country": "Portugal",
+    "coords": [
+      -9.0724,
+      38.66314
+    ],
+    "hint": "Look in Setúbal, Portugal. The place name starts with “B”.",
+    "fact": "João Cancelo was born in Barreiro in 1994."
+  },
+  {
+    "id": "legend-milan",
+    "question": "Giuseppe Meazza and Paolo Maldini were both born in this city. Find it.",
+    "city": "Milan",
+    "country": "Italy",
+    "coords": [
+      9.18951,
+      45.46427
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “M”.",
+    "fact": "Giuseppe Meazza (1910) and Paolo Maldini (1968) were born in Milan. San Siro is officially named after Meazza."
+  },
+  {
+    "id": "legend-travagliato",
+    "question": "Franco Baresi, AC Milan’s one-club captain, was born in this town near Brescia. Find it.",
+    "city": "Travagliato",
+    "country": "Italy",
+    "coords": [
+      10.08013,
+      45.52391
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “T”.",
+    "fact": "Franco Baresi was born in Travagliato in 1960."
+  },
+  {
+    "id": "legend-caldogno",
+    "question": "Roberto Baggio, the 1993 Ballon d’Or winner, was born in this town near Vicenza. Find it.",
+    "city": "Caldogno",
+    "country": "Italy",
+    "coords": [
+      11.5028,
+      45.6078
+    ],
+    "hint": "Look in Veneto, Italy. The place name starts with “C”.",
+    "fact": "Roberto Baggio was born in Caldogno in 1967."
+  },
+  {
+    "id": "legend-rome",
+    "question": "Francesco Totti, Alessandro Nesta and Daniele De Rossi were all born in this capital city. Find it.",
+    "city": "Rome",
+    "country": "Italy",
+    "coords": [
+      12.51133,
+      41.89193
+    ],
+    "hint": "Look in Lazio, Italy. The place name starts with “R”.",
+    "fact": "Francesco Totti and Alessandro Nesta (both 1976) and Daniele De Rossi (1983) were born in Rome."
+  },
+  {
+    "id": "legend-conegliano",
+    "question": "Alessandro Del Piero, Juventus’ record appearance maker, was born in this town in the Veneto. Find it.",
+    "city": "Conegliano",
+    "country": "Italy",
+    "coords": [
+      12.30201,
+      45.88805
+    ],
+    "hint": "Look in Veneto, Italy. The place name starts with “C”.",
+    "fact": "Alessandro Del Piero was born in Conegliano in 1974."
+  },
+  {
+    "id": "legend-carrara",
+    "question": "Gianluigi Buffon was born in this Tuscan town famous for its marble. Find it.",
+    "city": "Carrara",
+    "country": "Italy",
+    "coords": [
+      10.09789,
+      44.07926
+    ],
+    "hint": "Look in Tuscany, Italy. The place name starts with “C”.",
+    "fact": "Gianluigi Buffon was born in Carrara in 1978 and won the 2006 World Cup."
+  },
+  {
+    "id": "legend-flero",
+    "question": "Andrea Pirlo was born in this town near Brescia. Find it.",
+    "city": "Flero",
+    "country": "Italy",
+    "coords": [
+      10.17694,
+      45.48254
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “F”.",
+    "fact": "Andrea Pirlo was born in Flero in 1979."
+  },
+  {
+    "id": "legend-naples",
+    "question": "Fabio Cannavaro, Italy’s 2006 World Cup-winning captain, was born in this city. Find it.",
+    "city": "Naples",
+    "country": "Italy",
+    "coords": [
+      14.26811,
+      40.85216
+    ],
+    "hint": "Look in Campania, Italy. The place name starts with “N”.",
+    "fact": "Fabio Cannavaro was born in Naples in 1973 and won the Ballon d’Or in 2006."
+  },
+  {
+    "id": "legend-prato",
+    "question": "Paolo Rossi, the hero of the 1982 World Cup, was born in this Tuscan city. Find it.",
+    "city": "Prato",
+    "country": "Italy",
+    "coords": [
+      11.09699,
+      43.8805
+    ],
+    "hint": "Look in Tuscany, Italy. The place name starts with “P”.",
+    "fact": "Paolo Rossi was born in Prato in 1956 and won the 1982 World Cup and Ballon d’Or."
+  },
+  {
+    "id": "legend-leggiuno",
+    "question": "Gigi Riva, Italy’s all-time top scorer, was born in this village on Lake Maggiore. Find it.",
+    "city": "Leggiuno",
+    "country": "Italy",
+    "coords": [
+      8.62063,
+      45.87588
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “L”.",
+    "fact": "Gigi Riva was born in Leggiuno in 1944 and scored 35 goals for Italy."
+  },
+  {
+    "id": "legend-mariano-del-friuli",
+    "question": "Dino Zoff, who won the 1982 World Cup aged 40, was born in this village in Friuli. Find it.",
+    "city": "Mariano del Friuli",
+    "country": "Italy",
+    "coords": [
+      13.45947,
+      45.91509
+    ],
+    "hint": "Look in Friuli Venezia Giulia, Italy. The place name starts with “M”.",
+    "fact": "Dino Zoff was born in Mariano del Friuli in 1942."
+  },
+  {
+    "id": "legend-alessandria",
+    "question": "Gianni Rivera, the 1969 Ballon d’Or winner, was born in this city in Piedmont. Find it.",
+    "city": "Alessandria",
+    "country": "Italy",
+    "coords": [
+      8.61007,
+      44.90924
+    ],
+    "hint": "Look in Piedmont, Italy. The place name starts with “A”.",
+    "fact": "Gianni Rivera was born in Alessandria in 1943."
+  },
+  {
+    "id": "legend-turin",
+    "question": "Vittorio Pozzo, who coached Italy to two World Cups, and Sandro Mazzola were both born in this city. Find it.",
+    "city": "Turin",
+    "country": "Italy",
+    "coords": [
+      7.68682,
+      45.07049
+    ],
+    "hint": "Look in Piedmont, Italy. The place name starts with “T”.",
+    "fact": "Vittorio Pozzo (1886) and Sandro Mazzola (1942) were born in Turin."
+  },
+  {
+    "id": "legend-bologna-city",
+    "question": "Christian Vieri was born in this city in Emilia-Romagna. Find it.",
+    "city": "Bologna",
+    "country": "Italy",
+    "coords": [
+      11.33875,
+      44.49381
+    ],
+    "hint": "Look in Emilia-Romagna, Italy. The place name starts with “B”.",
+    "fact": "Christian Vieri was born in Bologna in 1973."
+  },
+  {
+    "id": "legend-piacenza",
+    "question": "Brothers Filippo and Simone Inzaghi were both born in this city on the Po. Find it.",
+    "city": "Piacenza",
+    "country": "Italy",
+    "coords": [
+      9.69342,
+      45.05242
+    ],
+    "hint": "Look in Emilia-Romagna, Italy. The place name starts with “P”.",
+    "fact": "Filippo (1973) and Simone Inzaghi (1976) were born in Piacenza."
+  },
+  {
+    "id": "legend-corigliano",
+    "question": "Gennaro Gattuso was born in this town in Calabria. Find it.",
+    "city": "Corigliano Calabro",
+    "country": "Italy",
+    "coords": [
+      16.51907,
+      39.59553
+    ],
+    "hint": "Look in Calabria, Italy. The place name starts with “C”.",
+    "fact": "Gennaro Gattuso was born in Corigliano Calabro in 1978."
+  },
+  {
+    "id": "legend-pisa",
+    "question": "Giorgio Chiellini was born in this Tuscan city. Find it.",
+    "city": "Pisa",
+    "country": "Italy",
+    "coords": [
+      10.4036,
+      43.70853
+    ],
+    "hint": "Look in Tuscany, Italy. The place name starts with “P”.",
+    "fact": "Giorgio Chiellini was born in Pisa in 1984 and captained Italy to Euro 2020."
+  },
+  {
+    "id": "legend-viterbo",
+    "question": "Leonardo Bonucci, who scored in the Euro 2020 final, was born in this city north of Rome. Find it.",
+    "city": "Viterbo",
+    "country": "Italy",
+    "coords": [
+      12.1056,
+      42.41937
+    ],
+    "hint": "Look in Lazio, Italy. The place name starts with “V”.",
+    "fact": "Leonardo Bonucci was born in Viterbo in 1987."
+  },
+  {
+    "id": "legend-careggine",
+    "question": "Marco Tardelli, whose scream celebrated a goal in the 1982 World Cup final, was born in this Tuscan village. Find it.",
+    "city": "Careggine",
+    "country": "Italy",
+    "coords": [
+      10.3254,
+      44.11995
+    ],
+    "hint": "Look in Tuscany, Italy. The place name starts with “C”.",
+    "fact": "Marco Tardelli was born in Careggine in 1954."
+  },
+  {
+    "id": "legend-cernusco",
+    "question": "Gaetano Scirea, the Juventus libero, was born in this town near Milan. Find it.",
+    "city": "Cernusco sul Naviglio",
+    "country": "Italy",
+    "coords": [
+      9.33297,
+      45.52526
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “C”.",
+    "fact": "Gaetano Scirea was born in Cernusco sul Naviglio in 1953."
+  },
+  {
+    "id": "legend-treviglio",
+    "question": "Giacinto Facchetti, Inter’s attacking full-back, was born in this town near Bergamo. Find it.",
+    "city": "Treviglio",
+    "country": "Italy",
+    "coords": [
+      9.59102,
+      45.52081
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “T”.",
+    "fact": "Giacinto Facchetti was born in Treviglio in 1942."
+  },
+  {
+    "id": "legend-tripoli",
+    "question": "Claudio Gentile, Italy’s 1982 world champion, was born in this North African capital. Find it.",
+    "city": "Tripoli",
+    "country": "Libya",
+    "coords": [
+      13.18733,
+      32.88743
+    ],
+    "hint": "Look in Libya. The place name starts with “T”.",
+    "fact": "Claudio Gentile was born in Tripoli in 1953."
+  },
+  {
+    "id": "legend-jesi",
+    "question": "Roberto Mancini, who coached Italy to Euro 2020, was born in this town in the Marche. Find it.",
+    "city": "Jesi",
+    "country": "Italy",
+    "coords": [
+      13.24368,
+      43.52142
+    ],
+    "hint": "Look in The Marches, Italy. The place name starts with “J”.",
+    "fact": "Roberto Mancini was born in Jesi in 1964."
+  },
+  {
+    "id": "legend-cremona",
+    "question": "Gianluca Vialli was born in this city famous for violin makers. Find it.",
+    "city": "Cremona",
+    "country": "Italy",
+    "coords": [
+      10.02129,
+      45.13325
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “C”.",
+    "fact": "Gianluca Vialli was born in Cremona in 1964."
+  },
+  {
+    "id": "legend-palermo",
+    "question": "Salvatore “Totò” Schillaci, top scorer at Italia ’90, was born in this Sicilian city. Find it.",
+    "city": "Palermo",
+    "country": "Italy",
+    "coords": [
+      13.3636,
+      38.1166
+    ],
+    "hint": "Look in Sicily, Italy. The place name starts with “P”.",
+    "fact": "Salvatore Schillaci was born in Palermo in 1964."
+  },
+  {
+    "id": "legend-robbio",
+    "question": "Silvio Piola, Serie A’s all-time top scorer, was born in this town in Lombardy. Find it.",
+    "city": "Robbio",
+    "country": "Italy",
+    "coords": [
+      8.59289,
+      45.28901
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “R”.",
+    "fact": "Silvio Piola was born in Robbio in 1913 and scored 274 Serie A goals."
+  },
+  {
+    "id": "legend-pescara",
+    "question": "Marco Verratti was born in this Adriatic city. Find it.",
+    "city": "Pescara",
+    "country": "Italy",
+    "coords": [
+      14.20283,
+      42.4584
+    ],
+    "hint": "Look in Abruzzo, Italy. The place name starts with “P”.",
+    "fact": "Marco Verratti was born in Pescara in 1992."
+  },
+  {
+    "id": "legend-castellammare",
+    "question": "Gianluigi Donnarumma, player of the tournament at Euro 2020, was born in this town on the Bay of Naples. Find it.",
+    "city": "Castellammare di Stabia",
+    "country": "Italy",
+    "coords": [
+      14.48685,
+      40.70211
+    ],
+    "hint": "Look in Campania, Italy. The place name starts with “C”.",
+    "fact": "Gianluigi Donnarumma was born in Castellammare di Stabia in 1999."
+  },
+  {
+    "id": "legend-torre-annunziata",
+    "question": "Ciro Immobile was born in this town near Pompeii. Find it.",
+    "city": "Torre Annunziata",
+    "country": "Italy",
+    "coords": [
+      14.45251,
+      40.75337
+    ],
+    "hint": "Look in Campania, Italy. The place name starts with “T”.",
+    "fact": "Ciro Immobile was born in Torre Annunziata in 1990."
+  },
+  {
+    "id": "legend-reggiolo",
+    "question": "Carlo Ancelotti, a record-breaking Champions League-winning coach, was born in this town in Emilia. Find it.",
+    "city": "Reggiolo",
+    "country": "Italy",
+    "coords": [
+      10.81016,
+      44.91824
+    ],
+    "hint": "Look in Emilia-Romagna, Italy. The place name starts with “R”.",
+    "fact": "Carlo Ancelotti was born in Reggiolo in 1959."
+  },
+  {
+    "id": "legend-fusignano",
+    "question": "Arrigo Sacchi, coach of AC Milan’s great sides, was born in this town in Romagna. Find it.",
+    "city": "Fusignano",
+    "country": "Italy",
+    "coords": [
+      11.95636,
+      44.46656
+    ],
+    "hint": "Look in Emilia-Romagna, Italy. The place name starts with “F”.",
+    "fact": "Arrigo Sacchi was born in Fusignano in 1946."
+  },
+  {
+    "id": "legend-cusano-milanino",
+    "question": "Giovanni Trapattoni was born in this town north of Milan. Find it.",
+    "city": "Cusano Milanino",
+    "country": "Italy",
+    "coords": [
+      9.18373,
+      45.55187
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “C”.",
+    "fact": "Giovanni Trapattoni was born in Cusano Milanino in 1939."
+  },
+  {
+    "id": "legend-viareggio",
+    "question": "Marcello Lippi, Italy’s 2006 World Cup-winning coach, was born in this Tuscan seaside town. Find it.",
+    "city": "Viareggio",
+    "country": "Italy",
+    "coords": [
+      10.2502,
+      43.86693
+    ],
+    "hint": "Look in Tuscany, Italy. The place name starts with “V”.",
+    "fact": "Marcello Lippi was born in Viareggio in 1948."
+  },
+  {
+    "id": "legend-pavullo",
+    "question": "Luca Toni, a 2006 world champion, was born in this Apennine town. Find it.",
+    "city": "Pavullo nel Frignano",
+    "country": "Italy",
+    "coords": [
+      10.83544,
+      44.33352
+    ],
+    "hint": "Look in Emilia-Romagna, Italy. The place name starts with “P”.",
+    "fact": "Luca Toni was born in Pavullo nel Frignano in 1977."
+  },
+  {
+    "id": "legend-lecce",
+    "question": "Antonio Conte and Marco Materazzi were both born in this baroque city in Apulia. Find it.",
+    "city": "Lecce",
+    "country": "Italy",
+    "coords": [
+      18.17244,
+      40.35481
+    ],
+    "hint": "Look in Apulia, Italy. The place name starts with “L”.",
+    "fact": "Antonio Conte (1969) and Marco Materazzi (1973) were born in Lecce."
+  },
+  {
+    "id": "legend-como",
+    "question": "Gianluca Zambrotta, a 2006 world champion, was born in this lakeside city. Find it.",
+    "city": "Como",
+    "country": "Italy",
+    "coords": [
+      9.0832,
+      45.80819
+    ],
+    "hint": "Look in Lombardy, Italy. The place name starts with “C”.",
+    "fact": "Gianluca Zambrotta was born in Como in 1977."
+  },
+  {
+    "id": "legend-cagliari-city",
+    "question": "Nicolò Barella was born in this Sardinian capital. Find it.",
+    "city": "Cagliari",
+    "country": "Italy",
+    "coords": [
+      9.11917,
+      39.23054
+    ],
+    "hint": "Look in Sardinia, Italy. The place name starts with “C”.",
+    "fact": "Nicolò Barella was born in Cagliari in 1997 and came through at Cagliari Calcio."
+  },
+  {
+    "id": "legend-genoa",
+    "question": "Federico Chiesa was born in this Ligurian port. Find it.",
+    "city": "Genoa",
+    "country": "Italy",
+    "coords": [
+      8.94439,
+      44.40478
+    ],
+    "hint": "Look in Liguria, Italy. The place name starts with “G”.",
+    "fact": "Federico Chiesa was born in Genoa in 1997."
+  },
+  {
+    "id": "legend-oliena",
+    "question": "Gianfranco Zola was born in this village in Sardinia. Find it.",
+    "city": "Oliena",
+    "country": "Italy",
+    "coords": [
+      9.40193,
+      40.27617
+    ],
+    "hint": "Look in Sardinia, Italy. The place name starts with “O”.",
+    "fact": "Gianfranco Zola was born in Oliena in 1966."
+  },
+  {
+    "id": "legend-budapest",
+    "question": "Ferenc Puskás, Sándor Kocsis and Nándor Hidegkuti of the “Golden Team” were all born in this capital. Find it.",
+    "city": "Budapest",
+    "country": "Hungary",
+    "coords": [
+      19.04045,
+      47.49835
+    ],
+    "hint": "Look in Hungary. The place name starts with “B”.",
+    "fact": "Hidegkuti (1922), Puskás (1927) and Kocsis (1929) were born in Budapest."
+  },
+  {
+    "id": "legend-plovdiv",
+    "question": "Hristo Stoichkov, the 1994 Ballon d’Or winner, was born in this ancient Bulgarian city. Find it.",
+    "city": "Plovdiv",
+    "country": "Bulgaria",
+    "coords": [
+      24.75001,
+      42.15387
+    ],
+    "hint": "Look in Bulgaria. The place name starts with “P”.",
+    "fact": "Hristo Stoichkov was born in Plovdiv in 1966."
+  },
+  {
+    "id": "legend-blagoevgrad",
+    "question": "Dimitar Berbatov was born in this town in south-western Bulgaria. Find it.",
+    "city": "Blagoevgrad",
+    "country": "Bulgaria",
+    "coords": [
+      23.09804,
+      42.01457
+    ],
+    "hint": "Look in Bulgaria. The place name starts with “B”.",
+    "fact": "Dimitar Berbatov was born in Blagoevgrad in 1981."
+  },
+  {
+    "id": "legend-zadar",
+    "question": "Luka Modrić, the 2018 Ballon d’Or winner, was born in this Dalmatian city. Find it.",
+    "city": "Zadar",
+    "country": "Croatia",
+    "coords": [
+      15.22514,
+      44.11578
+    ],
+    "hint": "Look in Croatia. The place name starts with “Z”.",
+    "fact": "Luka Modrić was born in Zadar in 1985."
+  },
+  {
+    "id": "legend-imotski",
+    "question": "Zvonimir Boban was born in this town in the Dalmatian hinterland. Find it.",
+    "city": "Imotski",
+    "country": "Croatia",
+    "coords": [
+      17.21667,
+      43.44667
+    ],
+    "hint": "Look in Split-Dalmatia, Croatia. The place name starts with “I”.",
+    "fact": "Zvonimir Boban was born in Imotski in 1968."
+  },
+  {
+    "id": "legend-split",
+    "question": "Slaven Bilić and Ivan Perišić were both born in this Adriatic city. Find it.",
+    "city": "Split",
+    "country": "Croatia",
+    "coords": [
+      16.43915,
+      43.50891
+    ],
+    "hint": "Look in Split-Dalmatia, Croatia. The place name starts with “S”.",
+    "fact": "Slaven Bilić (1968) and Ivan Perišić (1989) were born in Split."
+  },
+  {
+    "id": "legend-slavonski-brod",
+    "question": "Mario Mandžukić, who scored in the 2018 World Cup final, was born in this city on the Sava. Find it.",
+    "city": "Slavonski Brod",
+    "country": "Croatia",
+    "coords": [
+      18.0163,
+      45.16158
+    ],
+    "hint": "Look in Brod-Posavina, Croatia. The place name starts with “S”.",
+    "fact": "Mario Mandžukić was born in Slavonski Brod in 1986."
+  },
+  {
+    "id": "legend-rheinfelden",
+    "question": "Croatia midfielder Ivan Rakitić was born in this Swiss town on the Rhine. Find it.",
+    "city": "Rheinfelden",
+    "country": "Switzerland",
+    "coords": [
+      7.79403,
+      47.55437
+    ],
+    "hint": "Look in Aargau, Switzerland. The place name starts with “R”.",
+    "fact": "Ivan Rakitić was born in Rheinfelden, Switzerland, in 1988."
+  },
+  {
+    "id": "legend-nis",
+    "question": "Dragan Stojković, “Piksi”, was born in this Serbian city. Find it.",
+    "city": "Niš",
+    "country": "Serbia",
+    "coords": [
+      21.90333,
+      43.32472
+    ],
+    "hint": "Look in Central Serbia, Serbia. The place name starts with “N”.",
+    "fact": "Dragan Stojković was born in Niš in 1965."
+  },
+  {
+    "id": "legend-vukovar",
+    "question": "Siniša Mihajlović, famous for his free kicks, was born in this town on the Danube. Find it.",
+    "city": "Vukovar",
+    "country": "Croatia",
+    "coords": [
+      19.00225,
+      45.35161
+    ],
+    "hint": "Look in Vukovar-Srijem, Croatia. The place name starts with “V”.",
+    "fact": "Siniša Mihajlović was born in Vukovar in 1969."
+  },
+  {
+    "id": "legend-uzice",
+    "question": "Nemanja Vidić was born in this town in western Serbia. Find it.",
+    "city": "Užice",
+    "country": "Serbia",
+    "coords": [
+      19.84878,
+      43.85861
+    ],
+    "hint": "Look in Central Serbia, Serbia. The place name starts with “U”.",
+    "fact": "Nemanja Vidić was born in Užice in 1981."
+  },
+  {
+    "id": "legend-backa-topola",
+    "question": "Dušan Tadić was born in this town in Vojvodina. Find it.",
+    "city": "Bačka Topola",
+    "country": "Serbia",
+    "coords": [
+      19.6318,
+      45.81516
+    ],
+    "hint": "Look in Vojvodina, Serbia. The place name starts with “B”.",
+    "fact": "Dušan Tadić was born in Bačka Topola in 1988."
+  },
+  {
+    "id": "legend-sremska-mitrovica",
+    "question": "Branislav Ivanović was born in this town on the Sava. Find it.",
+    "city": "Sremska Mitrovica",
+    "country": "Serbia",
+    "coords": [
+      19.61222,
+      44.97639
+    ],
+    "hint": "Look in Vojvodina, Serbia. The place name starts with “S”.",
+    "fact": "Branislav Ivanović was born in Sremska Mitrovica in 1984."
+  },
+  {
+    "id": "legend-sarajevo",
+    "question": "Edin Džeko and coach Ivica Osim were both born in this capital city. Find it.",
+    "city": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "coords": [
+      18.35644,
+      43.84864
+    ],
+    "hint": "Look in Federation of B&H, Bosnia and Herzegovina. The place name starts with “S”.",
+    "fact": "Ivica Osim (1941) and Edin Džeko (1986) were born in Sarajevo."
+  },
+  {
+    "id": "legend-tuzla",
+    "question": "Miralem Pjanić was born in this Bosnian city. Find it.",
+    "city": "Tuzla",
+    "country": "Bosnia and Herzegovina",
+    "coords": [
+      18.66709,
+      44.53842
+    ],
+    "hint": "Look in Federation of B&H, Bosnia and Herzegovina. The place name starts with “T”.",
+    "fact": "Miralem Pjanić was born in Tuzla in 1990."
+  },
+  {
+    "id": "legend-skofja-loka",
+    "question": "Goalkeeper Jan Oblak was born in this medieval Slovenian town. Find it.",
+    "city": "Škofja Loka",
+    "country": "Slovenia",
+    "coords": [
+      14.30626,
+      46.16551
+    ],
+    "hint": "Look in Slovenia. The place name starts with “Š”.",
+    "fact": "Jan Oblak was born in Škofja Loka in 1993."
+  },
+  {
+    "id": "legend-malmo",
+    "question": "Zlatan Ibrahimović, Sweden’s record goalscorer, was born in this southern Swedish city. Find it.",
+    "city": "Malmö",
+    "country": "Sweden",
+    "coords": [
+      13.00073,
+      55.60587
+    ],
+    "hint": "Look in Skåne, Sweden. The place name starts with “M”.",
+    "fact": "Zlatan Ibrahimović was born in Malmö in 1981."
+  },
+  {
+    "id": "legend-helsingborg",
+    "question": "Henrik Larsson, a Celtic legend, was born in this Swedish port. Find it.",
+    "city": "Helsingborg",
+    "country": "Sweden",
+    "coords": [
+      12.69437,
+      56.04673
+    ],
+    "hint": "Look in Skåne, Sweden. The place name starts with “H”.",
+    "fact": "Henrik Larsson was born in Helsingborg in 1971."
+  },
+  {
+    "id": "legend-hudiksvall",
+    "question": "Tomas Brolin, a star of Euro 1992 and the 1994 World Cup, was born in this Swedish town. Find it.",
+    "city": "Hudiksvall",
+    "country": "Sweden",
+    "coords": [
+      17.10558,
+      61.72744
+    ],
+    "hint": "Look in Gävleborg, Sweden. The place name starts with “H”.",
+    "fact": "Tomas Brolin was born in Hudiksvall in 1969."
+  },
+  {
+    "id": "legend-gothenburg",
+    "question": "Gunnar Gren of AC Milan’s “Gre-No-Li” trio was born in this Swedish city. Find it.",
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "coords": [
+      11.96679,
+      57.70716
+    ],
+    "hint": "Look in Västra Götaland, Sweden. The place name starts with “G”.",
+    "fact": "Gunnar Gren was born in Gothenburg in 1920."
+  },
+  {
+    "id": "legend-frederiksberg",
+    "question": "Michael Laudrup was born in this municipality surrounded by Copenhagen. Find it.",
+    "city": "Frederiksberg",
+    "country": "Denmark",
+    "coords": [
+      12.53463,
+      55.67938
+    ],
+    "hint": "Look in Capital Region, Denmark. The place name starts with “F”.",
+    "fact": "Michael Laudrup was born in Frederiksberg in 1964."
+  },
+  {
+    "id": "legend-copenhagen",
+    "question": "Preben Elkjær and goalkeeper Kasper Schmeichel were both born in this capital city. Find it.",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coords": [
+      12.56553,
+      55.67594
+    ],
+    "hint": "Look in Capital Region, Denmark. The place name starts with “C”.",
+    "fact": "Preben Elkjær (1957) and Kasper Schmeichel (1986) were born in Copenhagen."
+  },
+  {
+    "id": "legend-vienna",
+    "question": "Austria’s David Alaba and Denmark’s Brian Laudrup were both born in this capital city. Find it.",
+    "city": "Vienna",
+    "country": "Austria",
+    "coords": [
+      16.37208,
+      48.20849
+    ],
+    "hint": "Look in Austria. The place name starts with “V”.",
+    "fact": "Brian Laudrup (1969) and David Alaba (1992) were born in Vienna."
+  },
+  {
+    "id": "legend-middelfart",
+    "question": "Christian Eriksen was born in this town on the island of Funen. Find it.",
+    "city": "Middelfart",
+    "country": "Denmark",
+    "coords": [
+      9.73054,
+      55.50591
+    ],
+    "hint": "Look in South Denmark, Denmark. The place name starts with “M”.",
+    "fact": "Christian Eriksen was born in Middelfart in 1992."
+  },
+  {
+    "id": "legend-vejle",
+    "question": "Allan Simonsen, the 1977 Ballon d’Or winner, was born in this Danish town. Find it.",
+    "city": "Vejle",
+    "country": "Denmark",
+    "coords": [
+      9.5357,
+      55.70927
+    ],
+    "hint": "Look in South Denmark, Denmark. The place name starts with “V”.",
+    "fact": "Allan Simonsen was born in Vejle in 1952."
+  },
+  {
+    "id": "legend-drammen",
+    "question": "Martin Ødegaard, Norway and Arsenal captain, was born in this Norwegian city. Find it.",
+    "city": "Drammen",
+    "country": "Norway",
+    "coords": [
+      10.20449,
+      59.74389
+    ],
+    "hint": "Look in Buskerud, Norway. The place name starts with “D”.",
+    "fact": "Martin Ødegaard was born in Drammen in 1998."
+  },
+  {
+    "id": "legend-sunndalsora",
+    "question": "Ada Hegerberg, the first women’s Ballon d’Or winner, was born in this village in western Norway. Find it.",
+    "city": "Sunndalsøra",
+    "country": "Norway",
+    "coords": [
+      8.56327,
+      62.67519
+    ],
+    "hint": "Look in Møre og Romsdal, Norway. The place name starts with “S”.",
+    "fact": "Ada Hegerberg was born in Sunndalsøra in 1995 and won the first women’s Ballon d’Or in 2018."
+  },
+  {
+    "id": "legend-kristiansund",
+    "question": "Ole Gunnar Solskjær, scorer of the 1999 Champions League final winner, was born in this Norwegian town. Find it.",
+    "city": "Kristiansund",
+    "country": "Norway",
+    "coords": [
+      7.72795,
+      63.11045
+    ],
+    "hint": "Look in Møre og Romsdal, Norway. The place name starts with “K”.",
+    "fact": "Ole Gunnar Solskjær was born in Kristiansund in 1973."
+  },
+  {
+    "id": "legend-lahti",
+    "question": "Jari Litmanen, Finland’s greatest player, was born in this city. Find it.",
+    "city": "Lahti",
+    "country": "Finland",
+    "coords": [
+      25.66151,
+      60.98267
+    ],
+    "hint": "Look in Paijat-Hame, Finland. The place name starts with “L”.",
+    "fact": "Jari Litmanen was born in Lahti in 1971 and won the 1995 Champions League with Ajax."
+  },
+  {
+    "id": "legend-porvoo",
+    "question": "Sami Hyypiä, Liverpool’s Champions League-winning defender, was born in this old town on Finland’s south coast. Find it.",
+    "city": "Porvoo",
+    "country": "Finland",
+    "coords": [
+      25.66507,
+      60.39233
+    ],
+    "hint": "Look in Uusimaa, Finland. The place name starts with “P”.",
+    "fact": "Sami Hyypiä was born in Porvoo in 1973."
+  },
+  {
+    "id": "legend-reykjavik",
+    "question": "Eiður Guðjohnsen was born in this capital city. Find it.",
+    "city": "Reykjavík",
+    "country": "Iceland",
+    "coords": [
+      -21.89541,
+      64.13548
+    ],
+    "hint": "Look in Capital Region, Iceland. The place name starts with “R”.",
+    "fact": "Eiður Guðjohnsen was born in Reykjavík in 1978."
+  },
+  {
+    "id": "legend-kyiv",
+    "question": "Oleh Blokhin, the 1975 Ballon d’Or winner, and coach Valeriy Lobanovskyi were both born in this capital. Find it.",
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "coords": [
+      30.5238,
+      50.45466
+    ],
+    "hint": "Look in Kyiv City, Ukraine. The place name starts with “K”.",
+    "fact": "Valeriy Lobanovskyi (1939) and Oleh Blokhin (1952) were born in Kyiv."
+  },
+  {
+    "id": "legend-radomyshl",
+    "question": "Oleksandr Zinchenko was born in this Ukrainian town. Find it.",
+    "city": "Radomyshl",
+    "country": "Ukraine",
+    "coords": [
+      29.23003,
+      50.4962
+    ],
+    "hint": "Look in Zhytomyr Oblast, Ukraine. The place name starts with “R”.",
+    "fact": "Oleksandr Zinchenko was born in Radomyshl in 1996."
+  },
+  {
+    "id": "legend-saint-petersburg",
+    "question": "Andrey Arshavin and Ukraine’s Andriy Yarmolenko were both born in this city. Find it.",
+    "city": "Saint Petersburg",
+    "country": "Russia",
+    "coords": [
+      30.31413,
+      59.93863
+    ],
+    "hint": "Look in St.-Petersburg, Russia. The place name starts with “S”.",
+    "fact": "Andrey Arshavin (1981) and Andriy Yarmolenko (1989) were born in Saint Petersburg."
+  },
+  {
+    "id": "legend-moscow",
+    "question": "Lev Yashin, the only goalkeeper to win the Ballon d’Or, was born in this city. Find it.",
+    "city": "Moscow",
+    "country": "Russia",
+    "coords": [
+      37.61781,
+      55.75204
+    ],
+    "hint": "Look in Russia. The place name starts with “M”.",
+    "fact": "Lev Yashin was born in Moscow in 1929 and won the Ballon d’Or in 1963."
+  },
+  {
+    "id": "legend-warsaw",
+    "question": "Robert Lewandowski, Poland’s record goalscorer, was born in this capital city. Find it.",
+    "city": "Warsaw",
+    "country": "Poland",
+    "coords": [
+      21.01178,
+      52.22977
+    ],
+    "hint": "Look in Mazovia, Poland. The place name starts with “W”.",
+    "fact": "Robert Lewandowski was born in Warsaw in 1988."
+  },
+  {
+    "id": "legend-bydgoszcz",
+    "question": "Zbigniew Boniek was born in this Polish city. Find it.",
+    "city": "Bydgoszcz",
+    "country": "Poland",
+    "coords": [
+      18.00762,
+      53.1235
+    ],
+    "hint": "Look in Kujawsko-Pomorskie, Poland. The place name starts with “B”.",
+    "fact": "Zbigniew Boniek was born in Bydgoszcz in 1956."
+  },
+  {
+    "id": "legend-malbork",
+    "question": "Grzegorz Lato, top scorer at the 1974 World Cup, was born in this town famous for its castle. Find it.",
+    "city": "Malbork",
+    "country": "Poland",
+    "coords": [
+      19.0266,
+      54.03591
+    ],
+    "hint": "Look in Pomerania, Poland. The place name starts with “M”.",
+    "fact": "Grzegorz Lato was born in Malbork in 1950."
+  },
+  {
+    "id": "legend-starogard",
+    "question": "Kazimierz Deyna was born in this Pomeranian town. Find it.",
+    "city": "Starogard Gdański",
+    "country": "Poland",
+    "coords": [
+      18.52638,
+      53.96396
+    ],
+    "hint": "Look in Pomerania, Poland. The place name starts with “S”.",
+    "fact": "Kazimierz Deyna was born in Starogard Gdański in 1947."
+  },
+  {
+    "id": "legend-rybnik",
+    "question": "Jerzy Dudek, the hero of Liverpool’s 2005 penalty shoot-out, was born in this Silesian city. Find it.",
+    "city": "Rybnik",
+    "country": "Poland",
+    "coords": [
+      18.54179,
+      50.09713
+    ],
+    "hint": "Look in Silesia, Poland. The place name starts with “R”.",
+    "fact": "Jerzy Dudek was born in Rybnik in 1973."
+  },
+  {
+    "id": "legend-cheb",
+    "question": "Pavel Nedvěd, the 2003 Ballon d’Or winner, was born in this Czech town. Find it.",
+    "city": "Cheb",
+    "country": "Czechia",
+    "coords": [
+      12.37392,
+      50.07963
+    ],
+    "hint": "Look in Carlsbad Region, Czechia. The place name starts with “C”.",
+    "fact": "Pavel Nedvěd was born in Cheb in 1972."
+  },
+  {
+    "id": "legend-most",
+    "question": "Josef Masopust, the 1962 Ballon d’Or winner, was born in this town in northern Bohemia. Find it.",
+    "city": "Most",
+    "country": "Czechia",
+    "coords": [
+      13.63617,
+      50.50301
+    ],
+    "hint": "Look in Ústí nad Labem Region, Czechia. The place name starts with “M”.",
+    "fact": "Josef Masopust was born near Most in 1931."
+  },
+  {
+    "id": "legend-prague",
+    "question": "Antonín Panenka, inventor of the chipped penalty, and Tomáš Rosický were both born in this capital. Find it.",
+    "city": "Prague",
+    "country": "Czechia",
+    "coords": [
+      14.42076,
+      50.08804
+    ],
+    "hint": "Look in Czechia. The place name starts with “P”.",
+    "fact": "Antonín Panenka (1948) and Tomáš Rosický (1980) were born in Prague."
+  },
+  {
+    "id": "legend-banska-bystrica",
+    "question": "Marek Hamšík, Slovakia’s record appearance maker, was born in this city. Find it.",
+    "city": "Banská Bystrica",
+    "country": "Slovakia",
+    "coords": [
+      19.14932,
+      48.73947
+    ],
+    "hint": "Look in Banská Bystrica Region, Slovakia. The place name starts with “B”.",
+    "fact": "Marek Hamšík was born in Banská Bystrica in 1987."
+  },
+  {
+    "id": "legend-handlova",
+    "question": "Martin Škrtel was born in this Slovak town. Find it.",
+    "city": "Handlová",
+    "country": "Slovakia",
+    "coords": [
+      18.76012,
+      48.7276
+    ],
+    "hint": "Look in Trenčín Region, Slovakia. The place name starts with “H”.",
+    "fact": "Martin Škrtel was born in Handlová in 1984."
+  },
+  {
+    "id": "legend-calafat",
+    "question": "Gheorghe Popescu was born in this town on the Danube. Find it.",
+    "city": "Calafat",
+    "country": "Romania",
+    "coords": [
+      22.93328,
+      43.99069
+    ],
+    "hint": "Look in Dolj, Romania. The place name starts with “C”.",
+    "fact": "Gheorghe Popescu was born in Calafat in 1967."
+  },
+  {
+    "id": "legend-bucharest",
+    "question": "Dan Petrescu was born in this capital city. Find it.",
+    "city": "Bucharest",
+    "country": "Romania",
+    "coords": [
+      26.10626,
+      44.43225
+    ],
+    "hint": "Look in Romania. The place name starts with “B”.",
+    "fact": "Dan Petrescu was born in Bucharest in 1967."
+  },
+  {
+    "id": "legend-serres",
+    "question": "Angelos Charisteas, who headed the winner in the Euro 2004 final, was born in this Greek city. Find it.",
+    "city": "Serres",
+    "country": "Greece",
+    "coords": [
+      23.54757,
+      41.08499
+    ],
+    "hint": "Look in Central Macedonia, Greece. The place name starts with “S”.",
+    "fact": "Angelos Charisteas was born in Serres in 1980."
+  },
+  {
+    "id": "legend-athens",
+    "question": "Ange Postecoglou was born in this capital before moving to Australia as a child. Find it.",
+    "city": "Athens",
+    "country": "Greece",
+    "coords": [
+      23.72784,
+      37.98376
+    ],
+    "hint": "Look in Attica, Greece. The place name starts with “A”.",
+    "fact": "Ange Postecoglou was born in Athens in 1965."
+  },
+  {
+    "id": "legend-adapazari",
+    "question": "Hakan Şükür, scorer of the fastest goal in World Cup history, was born in this Turkish city. Find it.",
+    "city": "Adapazarı",
+    "country": "Turkey",
+    "coords": [
+      30.40333,
+      40.78056
+    ],
+    "hint": "Look in Sakarya, Turkey. The place name starts with “A”.",
+    "fact": "Hakan Şükür was born in Adapazarı in 1971 and scored after 11 seconds against South Korea in 2002."
+  },
+  {
+    "id": "legend-antalya",
+    "question": "Rüştü Reçber, Turkey’s goalkeeper at the 2002 World Cup, was born in this Mediterranean city. Find it.",
+    "city": "Antalya",
+    "country": "Turkey",
+    "coords": [
+      30.69556,
+      36.90812
+    ],
+    "hint": "Look in Turkey. The place name starts with “A”.",
+    "fact": "Rüştü Reçber was born in Antalya in 1973."
+  },
+  {
+    "id": "legend-ankara",
+    "question": "Arda Güler was born in this capital city. Find it.",
+    "city": "Ankara",
+    "country": "Turkey",
+    "coords": [
+      32.85427,
+      39.91987
+    ],
+    "hint": "Look in Turkey. The place name starts with “A”.",
+    "fact": "Arda Güler was born in Ankara in 2005."
+  },
+  {
+    "id": "legend-tbilisi",
+    "question": "Khvicha Kvaratskhelia was born in this capital city. Find it.",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "coords": [
+      44.83412,
+      41.69143
+    ],
+    "hint": "Look in Georgia. The place name starts with “T”.",
+    "fact": "Khvicha Kvaratskhelia was born in Tbilisi in 2001."
+  },
+  {
+    "id": "legend-samtredia",
+    "question": "Kakha Kaladze, a two-time Champions League winner with AC Milan, was born in this Georgian town. Find it.",
+    "city": "Samtredia",
+    "country": "Georgia",
+    "coords": [
+      42.33517,
+      42.1537
+    ],
+    "hint": "Look in Imereti, Georgia. The place name starts with “S”.",
+    "fact": "Kakha Kaladze was born in Samtredia in 1978."
+  },
+  {
+    "id": "legend-yerevan",
+    "question": "Henrikh Mkhitaryan, Armenia’s record goalscorer, was born in this capital city. Find it.",
+    "city": "Yerevan",
+    "country": "Armenia",
+    "coords": [
+      44.5126,
+      40.17765
+    ],
+    "hint": "Look in Armenia. The place name starts with “Y”.",
+    "fact": "Henrikh Mkhitaryan was born in Yerevan in 1989."
+  },
+  {
+    "id": "legend-lausanne",
+    "question": "Stéphane Chapuisat was born in this city on Lake Geneva. Find it.",
+    "city": "Lausanne",
+    "country": "Switzerland",
+    "coords": [
+      6.63282,
+      46.516
+    ],
+    "hint": "Look in Vaud, Switzerland. The place name starts with “L”.",
+    "fact": "Stéphane Chapuisat was born in Lausanne in 1969 and won the 1997 Champions League with Dortmund."
+  },
+  {
+    "id": "legend-gjilan",
+    "question": "Switzerland winger Xherdan Shaqiri was born in this town in Kosovo. Find it.",
+    "city": "Gjilan",
+    "country": "Kosovo",
+    "coords": [
+      21.46986,
+      42.46045
+    ],
+    "hint": "Look in Kosovo. The place name starts with “G”.",
+    "fact": "Xherdan Shaqiri was born in Gjilan in 1991."
+  },
+  {
+    "id": "legend-basel-city",
+    "question": "Granit Xhaka was born in this Swiss city on the Rhine. Find it.",
+    "city": "Basel",
+    "country": "Switzerland",
+    "coords": [
+      7.57327,
+      47.55839
+    ],
+    "hint": "Look in Basel-City, Switzerland. The place name starts with “B”.",
+    "fact": "Granit Xhaka was born in Basel in 1992."
+  },
+  {
+    "id": "legend-morges",
+    "question": "Goalkeeper Yann Sommer was born in this town on Lake Geneva. Find it.",
+    "city": "Morges",
+    "country": "Switzerland",
+    "coords": [
+      6.49854,
+      46.51127
+    ],
+    "hint": "Look in Vaud, Switzerland. The place name starts with “M”.",
+    "fact": "Yann Sommer was born in Morges in 1988."
+  },
+  {
+    "id": "legend-monrovia",
+    "question": "George Weah, the only African to win the men’s Ballon d’Or, was born in this capital city. Find it.",
+    "city": "Monrovia",
+    "country": "Liberia",
+    "coords": [
+      -10.7969,
+      6.30054
+    ],
+    "hint": "Look in Montserrado County, Liberia. The place name starts with “M”.",
+    "fact": "George Weah was born in Monrovia in 1966, won the Ballon d’Or in 1995 and later became Liberia’s president."
+  },
+  {
+    "id": "legend-abidjan",
+    "question": "Didier Drogba and Wilfried Zaha were both born in this Ivorian city. Find it.",
+    "city": "Abidjan",
+    "country": "Ivory Coast",
+    "coords": [
+      -4.00167,
+      5.35444
+    ],
+    "hint": "Look in Abidjan Autonomous District, Ivory Coast. The place name starts with “A”.",
+    "fact": "Didier Drogba (1978) and Wilfried Zaha (1992) were born in Abidjan."
+  },
+  {
+    "id": "legend-bouake",
+    "question": "Brothers Kolo and Yaya Touré were both born in this Ivorian city. Find it.",
+    "city": "Bouaké",
+    "country": "Ivory Coast",
+    "coords": [
+      -5.03031,
+      7.69385
+    ],
+    "hint": "Look in Vallée du Bandama District, Ivory Coast. The place name starts with “B”.",
+    "fact": "Kolo (1981) and Yaya Touré (1983) were born in Bouaké."
+  },
+  {
+    "id": "legend-yaounde",
+    "question": "Roger Milla, who danced at the corner flag at Italia ’90, was born in this capital city. Find it.",
+    "city": "Yaoundé",
+    "country": "Cameroon",
+    "coords": [
+      11.51667,
+      3.86667
+    ],
+    "hint": "Look in Centre, Cameroon. The place name starts with “Y”.",
+    "fact": "Roger Milla was born in Yaoundé in 1952."
+  },
+  {
+    "id": "legend-enugu",
+    "question": "Jay-Jay Okocha was born in this Nigerian city. Find it.",
+    "city": "Enugu",
+    "country": "Nigeria",
+    "coords": [
+      7.49883,
+      6.44132
+    ],
+    "hint": "Look in Enugu State, Nigeria. The place name starts with “E”.",
+    "fact": "Jay-Jay Okocha was born in Enugu in 1973."
+  },
+  {
+    "id": "legend-owerri",
+    "question": "Nwankwo Kanu, Olympic champion in 1996, was born in this Nigerian city. Find it.",
+    "city": "Owerri",
+    "country": "Nigeria",
+    "coords": [
+      7.03325,
+      5.48363
+    ],
+    "hint": "Look in Imo State, Nigeria. The place name starts with “O”.",
+    "fact": "Nwankwo Kanu was born in Owerri in 1976 and captained Nigeria to Olympic gold in Atlanta."
+  },
+  {
+    "id": "legend-kaduna",
+    "question": "Rashidi Yekini and Daniel Amokachi were both born in this northern Nigerian city. Find it.",
+    "city": "Kaduna",
+    "country": "Nigeria",
+    "coords": [
+      7.43879,
+      10.52641
+    ],
+    "hint": "Look in Kaduna State, Nigeria. The place name starts with “K”.",
+    "fact": "Rashidi Yekini (1963) and Daniel Amokachi (1972) were born in Kaduna. Yekini scored Nigeria’s first World Cup goal in 1994."
+  },
+  {
+    "id": "legend-lagos",
+    "question": "Asisat Oshoala and Victor Osimhen were both born in this megacity. Find it.",
+    "city": "Lagos",
+    "country": "Nigeria",
+    "coords": [
+      3.39467,
+      6.45407
+    ],
+    "hint": "Look in Nigeria. The place name starts with “L”.",
+    "fact": "Asisat Oshoala (1994) and Victor Osimhen (1998) were born in Lagos."
+  },
+  {
+    "id": "legend-port-harcourt",
+    "question": "Finidi George and Taribo West were both born in this Niger Delta city. Find it.",
+    "city": "Port Harcourt",
+    "country": "Nigeria",
+    "coords": [
+      7.0134,
+      4.77742
+    ],
+    "hint": "Look in Rivers State, Nigeria. The place name starts with “P”.",
+    "fact": "Finidi George (1971) and Taribo West (1974) were born in Port Harcourt."
+  },
+  {
+    "id": "legend-jos",
+    "question": "John Obi Mikel and Ahmed Musa were both born in this city on a Nigerian plateau. Find it.",
+    "city": "Jos",
+    "country": "Nigeria",
+    "coords": [
+      8.89212,
+      9.92849
+    ],
+    "hint": "Look in Plateau State, Nigeria. The place name starts with “J”.",
+    "fact": "John Obi Mikel (1987) and Ahmed Musa (1992) were born in Jos."
+  },
+  {
+    "id": "legend-kumasi",
+    "question": "Tony Yeboah and Samuel Kuffour were both born in this Ashanti city. Find it.",
+    "city": "Kumasi",
+    "country": "Ghana",
+    "coords": [
+      -1.62443,
+      6.68848
+    ],
+    "hint": "Look in Ashanti, Ghana. The place name starts with “K”.",
+    "fact": "Tony Yeboah (1966) and Samuel Kuffour (1976) were born in Kumasi."
+  },
+  {
+    "id": "legend-mufulira",
+    "question": "Kalusha Bwalya, African Footballer of the Year in 1988, was born in this Copperbelt town. Find it.",
+    "city": "Mufulira",
+    "country": "Zambia",
+    "coords": [
+      28.24071,
+      -12.54982
+    ],
+    "hint": "Look in Copperbelt, Zambia. The place name starts with “M”.",
+    "fact": "Kalusha Bwalya was born in Mufulira in 1963."
+  },
+  {
+    "id": "legend-cape-town",
+    "question": "Benni McCarthy, South Africa’s record goalscorer, was born in this city. Find it.",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "coords": [
+      18.42322,
+      -33.92584
+    ],
+    "hint": "Look in Western Cape, South Africa. The place name starts with “C”.",
+    "fact": "Benni McCarthy was born in Cape Town in 1977 and won the 2004 Champions League with Porto."
+  },
+  {
+    "id": "legend-algiers",
+    "question": "Rabah Madjer, who back-heeled a goal in the 1987 European Cup final, was born in this capital city. Find it.",
+    "city": "Algiers",
+    "country": "Algeria",
+    "coords": [
+      3.08746,
+      36.73225
+    ],
+    "hint": "Look in Algeria. The place name starts with “A”.",
+    "fact": "Rabah Madjer was born in Algiers in 1958."
+  },
+  {
+    "id": "legend-lome",
+    "question": "Emmanuel Adebayor was born in this West African capital. Find it.",
+    "city": "Lomé",
+    "country": "Togo",
+    "coords": [
+      1.22154,
+      6.12874
+    ],
+    "hint": "Look in Maritime, Togo. The place name starts with “L”.",
+    "fact": "Emmanuel Adebayor was born in Lomé in 1984."
+  },
+  {
+    "id": "legend-cairo",
+    "question": "Hossam Hassan, one of Egypt’s record goalscorers, was born in this capital city. Find it.",
+    "city": "Cairo",
+    "country": "Egypt",
+    "coords": [
+      31.24967,
+      30.06263
+    ],
+    "hint": "Look in Egypt. The place name starts with “C”.",
+    "fact": "Hossam Hassan was born in Cairo in 1966."
+  },
+  {
+    "id": "legend-conakry",
+    "question": "Naby Keïta was born in this West African capital. Find it.",
+    "city": "Conakry",
+    "country": "Guinea",
+    "coords": [
+      -13.67729,
+      9.53795
+    ],
+    "hint": "Look in Guinea. The place name starts with “C”.",
+    "fact": "Naby Keïta was born in Conakry in 1995."
+  },
+  {
+    "id": "legend-nairobi",
+    "question": "Victor Wanyama, the first Kenyan to score in the Champions League, was born in this capital city. Find it.",
+    "city": "Nairobi",
+    "country": "Kenya",
+    "coords": [
+      36.81667,
+      -1.28333
+    ],
+    "hint": "Look in Nairobi County, Kenya. The place name starts with “N”.",
+    "fact": "Victor Wanyama was born in Nairobi in 1991."
+  },
+  {
+    "id": "legend-bulawayo",
+    "question": "Peter Ndlovu, the first African to play in the Premier League, was born in this Zimbabwean city. Find it.",
+    "city": "Bulawayo",
+    "country": "Zimbabwe",
+    "coords": [
+      28.58333,
+      -20.15
+    ],
+    "hint": "Look in Zimbabwe. The place name starts with “B”.",
+    "fact": "Peter Ndlovu was born in Bulawayo in 1973."
+  },
+  {
+    "id": "legend-fez",
+    "question": "Youssef En-Nesyri, who scored the header that took Morocco to the 2022 World Cup semi-finals, was born in this city. Find it.",
+    "city": "Fez",
+    "country": "Morocco",
+    "coords": [
+      -5.00028,
+      34.03313
+    ],
+    "hint": "Look in Fes-Meknes, Morocco. The place name starts with “F”.",
+    "fact": "Youssef En-Nesyri was born in Fez in 1997."
+  },
+  {
+    "id": "legend-montreal",
+    "question": "Morocco goalkeeper Yassine Bounou was born in this Canadian city. Find it.",
+    "city": "Montreal",
+    "country": "Canada",
+    "coords": [
+      -73.58781,
+      45.50884
+    ],
+    "hint": "Look in Quebec, Canada. The place name starts with “M”.",
+    "fact": "Yassine Bounou was born in Montreal in 1991."
+  },
+  {
+    "id": "legend-khartoum",
+    "question": "Almoez Ali, top scorer at the 2019 Asian Cup, was born in this city at the meeting of the Blue and White Nile. Find it.",
+    "city": "Khartoum",
+    "country": "Sudan",
+    "coords": [
+      32.53241,
+      15.55177
+    ],
+    "hint": "Look in Sudan. The place name starts with “K”.",
+    "fact": "Almoez Ali was born in Khartoum in 1996 and plays for Qatar."
+  },
+  {
+    "id": "legend-chuncheon",
+    "question": "Son Heung-min, a Premier League Golden Boot winner, was born in this South Korean city. Find it.",
+    "city": "Chuncheon",
+    "country": "South Korea",
+    "coords": [
+      127.73417,
+      37.87472
+    ],
+    "hint": "Look in Gangwon-do, South Korea. The place name starts with “C”.",
+    "fact": "Son Heung-min was born in Chuncheon in 1992."
+  },
+  {
+    "id": "legend-tongyeong",
+    "question": "Kim Min-jae was born in this South Korean port city. Find it.",
+    "city": "Tongyeong",
+    "country": "South Korea",
+    "coords": [
+      128.42779,
+      34.84957
+    ],
+    "hint": "Look in Gyeongsangnam-do, South Korea. The place name starts with “T”.",
+    "fact": "Kim Min-jae was born in Tongyeong in 1996."
+  },
+  {
+    "id": "legend-incheon",
+    "question": "Lee Kang-in was born in this South Korean city. Find it.",
+    "city": "Incheon",
+    "country": "South Korea",
+    "coords": [
+      126.70515,
+      37.45646
+    ],
+    "hint": "Look in South Korea. The place name starts with “I”.",
+    "fact": "Lee Kang-in was born in Incheon in 2001."
+  },
+  {
+    "id": "legend-kofu",
+    "question": "Hidetoshi Nakata, Japan’s Serie A pioneer, was born in this city near Mount Fuji. Find it.",
+    "city": "Kōfu",
+    "country": "Japan",
+    "coords": [
+      138.56667,
+      35.66667
+    ],
+    "hint": "Look in Yamanashi, Japan. The place name starts with “K”.",
+    "fact": "Hidetoshi Nakata was born in Kōfu in 1977."
+  },
+  {
+    "id": "legend-shizuoka",
+    "question": "Kazuyoshi “King Kazu” Miura, who played professionally into his fifties, was born in this Japanese city. Find it.",
+    "city": "Shizuoka",
+    "country": "Japan",
+    "coords": [
+      138.38333,
+      34.98333
+    ],
+    "hint": "Look in Japan. The place name starts with “S”.",
+    "fact": "Kazuyoshi Miura was born in Shizuoka in 1967."
+  },
+  {
+    "id": "legend-kobe",
+    "question": "Shinji Kagawa was born in this Japanese port city. Find it.",
+    "city": "Kobe",
+    "country": "Japan",
+    "coords": [
+      135.183,
+      34.6913
+    ],
+    "hint": "Look in Hyōgo, Japan. The place name starts with “K”.",
+    "fact": "Shinji Kagawa was born in Kobe in 1989."
+  },
+  {
+    "id": "legend-fuchu",
+    "question": "Homare Sawa, who captained Japan to the 2011 Women’s World Cup, was born in this city in western Tokyo. Find it.",
+    "city": "Fuchū",
+    "country": "Japan",
+    "coords": [
+      139.48216,
+      35.67452
+    ],
+    "hint": "Look in Tokyo, Japan. The place name starts with “F”.",
+    "fact": "Homare Sawa was born in Fuchū, Tokyo, in 1978."
+  },
+  {
+    "id": "legend-settsu",
+    "question": "Keisuke Honda was born in this city near Osaka. Find it.",
+    "city": "Settsu",
+    "country": "Japan",
+    "coords": [
+      135.59512,
+      34.77819
+    ],
+    "hint": "Look in Osaka, Japan. The place name starts with “S”.",
+    "fact": "Keisuke Honda was born in Settsu in 1986."
+  },
+  {
+    "id": "legend-kawasaki",
+    "question": "Kaoru Mitoma and Takefusa Kubo were both born in this city between Tokyo and Yokohama. Find it.",
+    "city": "Kawasaki",
+    "country": "Japan",
+    "coords": [
+      139.71722,
+      35.52056
+    ],
+    "hint": "Look in Kanagawa, Japan. The place name starts with “K”.",
+    "fact": "Kaoru Mitoma (1997) and Takefusa Kubo (2001) were born in Kawasaki."
+  },
+  {
+    "id": "legend-kagoshima",
+    "question": "Yasuhito Endō, Japan’s most capped player, was born in this city facing an active volcano. Find it.",
+    "city": "Kagoshima",
+    "country": "Japan",
+    "coords": [
+      130.55,
+      31.56667
+    ],
+    "hint": "Look in Japan. The place name starts with “K”.",
+    "fact": "Yasuhito Endō was born in Kagoshima in 1980."
+  },
+  {
+    "id": "legend-numazu",
+    "question": "Shinji Ono was born in this city in Shizuoka prefecture. Find it.",
+    "city": "Numazu",
+    "country": "Japan",
+    "coords": [
+      138.86667,
+      35.1
+    ],
+    "hint": "Look in Shizuoka, Japan. The place name starts with “N”.",
+    "fact": "Shinji Ono was born in Numazu in 1979 and won the 2002 UEFA Cup with Feyenoord."
+  },
+  {
+    "id": "legend-ardabil",
+    "question": "Ali Daei, who scored 108 goals for Iran, was born in this city. Find it.",
+    "city": "Ardabil",
+    "country": "Iran",
+    "coords": [
+      48.2933,
+      38.2498
+    ],
+    "hint": "Look in Ardabil Province, Iran. The place name starts with “A”.",
+    "fact": "Ali Daei was born in Ardabil in 1969."
+  },
+  {
+    "id": "legend-bushehr",
+    "question": "Mehdi Taremi was born in this port on the Persian Gulf. Find it.",
+    "city": "Bushehr",
+    "country": "Iran",
+    "coords": [
+      50.83657,
+      28.96887
+    ],
+    "hint": "Look in Iran. The place name starts with “B”.",
+    "fact": "Mehdi Taremi was born in Bushehr in 1992."
+  },
+  {
+    "id": "legend-tehran",
+    "question": "Ali Karimi and Mehdi Mahdavikia were both born in this capital city. Find it.",
+    "city": "Tehran",
+    "country": "Iran",
+    "coords": [
+      51.42151,
+      35.69439
+    ],
+    "hint": "Look in Iran. The place name starts with “T”.",
+    "fact": "Mehdi Mahdavikia (1977) and Ali Karimi (1978) were born in Tehran."
+  },
+  {
+    "id": "legend-secunderabad",
+    "question": "Sunil Chhetri, India’s record goalscorer, was born in this city twinned with Hyderabad. Find it.",
+    "city": "Secunderabad",
+    "country": "India",
+    "coords": [
+      78.54263,
+      17.50427
+    ],
+    "hint": "Look in Telangana, India. The place name starts with “S”.",
+    "fact": "Sunil Chhetri was born in Secunderabad in 1984."
+  },
+  {
+    "id": "legend-riyadh",
+    "question": "Sami Al-Jaber and Salem Al-Dawsari, who scored the winner against Argentina in 2022, were both born in this capital. Find it.",
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "coords": [
+      46.72185,
+      24.68773
+    ],
+    "hint": "Look in Riyadh Region, Saudi Arabia. The place name starts with “R”.",
+    "fact": "Sami Al-Jaber (1972) and Salem Al-Dawsari (1991) were born in Riyadh."
+  },
+  {
+    "id": "legend-kirkuk",
+    "question": "Younis Mahmoud, who headed the winner in the 2007 Asian Cup final, was born in this city. Find it.",
+    "city": "Kirkuk",
+    "country": "Iraq",
+    "coords": [
+      44.39222,
+      35.46806
+    ],
+    "hint": "Look in Iraq. The place name starts with “K”.",
+    "fact": "Younis Mahmoud was born in Kirkuk in 1983."
+  },
+  {
+    "id": "legend-udon-thani",
+    "question": "Kiatisuk Senamuang, Thailand’s record goalscorer, was born in this north-eastern city. Find it.",
+    "city": "Udon Thani",
+    "country": "Thailand",
+    "coords": [
+      102.78589,
+      17.41567
+    ],
+    "hint": "Look in Thailand. The place name starts with “U”.",
+    "fact": "Kiatisuk Senamuang was born in Udon Thani in 1973."
+  },
+  {
+    "id": "legend-nanjing",
+    "question": "Wu Lei, the Chinese Super League’s record goalscorer, was born in this city on the Yangtze. Find it.",
+    "city": "Nanjing",
+    "country": "China",
+    "coords": [
+      118.77778,
+      32.06167
+    ],
+    "hint": "Look in Jiangsu, China. The place name starts with “N”.",
+    "fact": "Wu Lei was born in Nanjing in 1991."
+  },
+  {
+    "id": "legend-shanghai",
+    "question": "Sun Wen, Golden Ball winner at the 1999 Women’s World Cup, was born in this city. Find it.",
+    "city": "Shanghai",
+    "country": "China",
+    "coords": [
+      121.45806,
+      31.22222
+    ],
+    "hint": "Look in China. The place name starts with “S”.",
+    "fact": "Sun Wen was born in Shanghai in 1973."
+  },
+  {
+    "id": "legend-sydney",
+    "question": "Tim Cahill and Harry Kewell were both born in this city. Find it.",
+    "city": "Sydney",
+    "country": "Australia",
+    "coords": [
+      151.20732,
+      -33.86785
+    ],
+    "hint": "Look in New South Wales, Australia. The place name starts with “S”.",
+    "fact": "Harry Kewell (1978) and Tim Cahill (1979) were born in Sydney."
+  },
+  {
+    "id": "legend-melbourne",
+    "question": "Mark Viduka, Australia’s captain at the 2006 World Cup, was born in this city. Find it.",
+    "city": "Melbourne",
+    "country": "Australia",
+    "coords": [
+      144.96332,
+      -37.814
+    ],
+    "hint": "Look in Victoria, Australia. The place name starts with “M”.",
+    "fact": "Mark Viduka was born in Melbourne in 1975."
+  },
+  {
+    "id": "legend-adelaide",
+    "question": "John Aloisi, who scored the penalty that sent Australia to the 2006 World Cup, was born in this city. Find it.",
+    "city": "Adelaide",
+    "country": "Australia",
+    "coords": [
+      138.59863,
+      -34.92866
+    ],
+    "hint": "Look in South Australia, Australia. The place name starts with “A”.",
+    "fact": "John Aloisi was born in Adelaide in 1976."
+  },
+  {
+    "id": "legend-wellington",
+    "question": "Wynton Rufer, Oceania’s Player of the Century, was born in this capital city. Find it.",
+    "city": "Wellington",
+    "country": "New Zealand",
+    "coords": [
+      174.77557,
+      -41.28664
+    ],
+    "hint": "Look in Wellington Region, New Zealand. The place name starts with “W”.",
+    "fact": "Wynton Rufer was born in Wellington in 1962."
+  },
+  {
+    "id": "legend-christchurch",
+    "question": "Ryan Nelsen, New Zealand’s captain at the 2010 World Cup, was born in this city. Find it.",
+    "city": "Christchurch",
+    "country": "New Zealand",
+    "coords": [
+      172.63333,
+      -43.53333
+    ],
+    "hint": "Look in Canterbury, New Zealand. The place name starts with “C”.",
+    "fact": "Ryan Nelsen was born in Christchurch in 1977."
+  }
+]

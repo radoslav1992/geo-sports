@@ -4,8 +4,10 @@ import {writeFileSync, existsSync, readFileSync} from 'node:fs';
 import {geoDistance} from 'd3-geo';
 import {questions} from '../src/data/questions.js';
 import {legacyQuestions} from '../src/data/legacy-questions.js';
-const legacyIds=legacyQuestions.map(q=>q.id), legacy=new Set(legacyIds);
-const fresh=questions.filter(q=>!legacy.has(q.id)).sort((a,b)=>a.id<b.id?-1:1);
+import grounds from '../src/data/grounds.json' with {type:'json'};
+// v2 covers the legacy clues and the first 500 grounds; later additions are appended by extend-daily-schedule.mjs.
+const legacyIds=legacyQuestions.map(q=>q.id), v2Grounds=new Set(grounds.map(g=>g.id));
+const fresh=questions.filter(q=>v2Grounds.has(q.id)).sort((a,b)=>a.id<b.id?-1:1);
 function mix(items,seed){const a=[...items];let state=seed;for(let i=a.length-1;i>0;i--){state=(Math.imul(state,1664525)+1013904223)>>>0;const j=state%(i+1);[a[i],a[j]]=[a[j],a[i]];}return a;}
 let days;
 for(let attempt=0;attempt<1000;attempt++){

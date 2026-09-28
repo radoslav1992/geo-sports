@@ -1,4 +1,4 @@
-import dailySchedule from '../data/daily-schedule-v2.json' with {type: 'json'};
+import dailySchedule from '../data/daily-schedule-v3.json' with {type: 'json'};
 
 export const ROUND_SIZE = 5;
 export const CONTENT_VERSION = 'football-v1';
@@ -27,7 +27,8 @@ export function dailyQuestions(pool, date) {
   // Preserve already-played rounds during the rollout, including today's saves.
   const ids = day < 0
     ? shuffle(dailySchedule.legacyIds, hashSeed(`${CONTENT_VERSION}:${date}`)).slice(0, ROUND_SIZE)
-    : shuffle(dailySchedule.days[day % DAILY_REPEAT_DAYS], hashSeed(`${dailySchedule.version}:${date}`));
+    // v3 extends v2 append-only and keeps v2's order seed, so every v2 day plays exactly as published.
+    : shuffle(dailySchedule.days[day % DAILY_REPEAT_DAYS], hashSeed(`${dailySchedule.orderSeed}:${date}`));
   return ids.map(id => {
     if (!byId.has(id)) throw new Error(`Scheduled question is missing: ${id}`);
     return byId.get(id);

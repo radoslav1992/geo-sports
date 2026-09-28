@@ -183,6 +183,8 @@ dialog li > b { width: 32px; height: 32px; flex-shrink: 0; display: grid; place-
 dialog li strong { font-size: 16px; color: var(--ink); }
 dialog li p, .dialog-note { margin: 5px 0 0; font-size: 14px; line-height: 1.6; color: var(--muted); }
 .dialog-note { margin: 16px 0 24px; }
+.dialog-credits { margin: -12px 0 22px; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.dialog-credits a { color: var(--ink-2); }
 .full { width: 100%; min-width: 0; justify-content: space-between; }
 .medal { width: 64px; height: 64px; margin: 0 auto 18px; display: grid; place-items: center; border-radius: 18px; color: #2b2003; background: linear-gradient(145deg, #ffe38a, var(--gold) 55%, #e0a51c); box-shadow: 0 10px 30px -8px rgba(255, 207, 74, .6); }
 .medal svg { width: 30px; height: 30px; stroke-width: 2.2; }

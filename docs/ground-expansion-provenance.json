@@ -1,0 +1,6224 @@
+[
+  {
+    "id": "ground-8015",
+    "sourceRecord": 8015,
+    "recordedCapacity": 83500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3360",
+    "sourceRecord": 3360,
+    "recordedCapacity": 81338,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3441",
+    "sourceRecord": 3441,
+    "recordedCapacity": 68000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3363",
+    "sourceRecord": 3363,
+    "recordedCapacity": 67394,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8432",
+    "sourceRecord": 8432,
+    "recordedCapacity": 65645,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8417",
+    "sourceRecord": 8417,
+    "recordedCapacity": 63267,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8393",
+    "sourceRecord": 8393,
+    "recordedCapacity": 62760,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8458",
+    "sourceRecord": 8458,
+    "recordedCapacity": 62500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5714",
+    "sourceRecord": 5714,
+    "recordedCapacity": 60000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3358",
+    "sourceRecord": 3358,
+    "recordedCapacity": 59186,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3429",
+    "sourceRecord": 3429,
+    "recordedCapacity": 58145,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3440",
+    "sourceRecord": 3440,
+    "recordedCapacity": 57000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3530",
+    "sourceRecord": 3530,
+    "recordedCapacity": 55097,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7966",
+    "sourceRecord": 7966,
+    "recordedCapacity": 55000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3534",
+    "sourceRecord": 3534,
+    "recordedCapacity": 53500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8190",
+    "sourceRecord": 8190,
+    "recordedCapacity": 53500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8025",
+    "sourceRecord": 8025,
+    "recordedCapacity": 53359,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8530",
+    "sourceRecord": 8530,
+    "recordedCapacity": 53000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3552",
+    "sourceRecord": 3552,
+    "recordedCapacity": 52650,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8054",
+    "sourceRecord": 8054,
+    "recordedCapacity": 51636,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8057",
+    "sourceRecord": 8057,
+    "recordedCapacity": 51632,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8093",
+    "sourceRecord": 8093,
+    "recordedCapacity": 51349,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3383",
+    "sourceRecord": 3383,
+    "recordedCapacity": 51177,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3598",
+    "sourceRecord": 3598,
+    "recordedCapacity": 50509,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-3362",
+    "sourceRecord": 3362,
+    "recordedCapacity": 50186,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3419",
+    "sourceRecord": 3419,
+    "recordedCapacity": 50024,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4741",
+    "sourceRecord": 4741,
+    "recordedCapacity": 49780,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8212",
+    "sourceRecord": 8212,
+    "recordedCapacity": 49500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8509",
+    "sourceRecord": 8509,
+    "recordedCapacity": 49317,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4701",
+    "sourceRecord": 4701,
+    "recordedCapacity": 49000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8453",
+    "sourceRecord": 8453,
+    "recordedCapacity": 48878,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8462",
+    "sourceRecord": 8462,
+    "recordedCapacity": 48665,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8434",
+    "sourceRecord": 8434,
+    "recordedCapacity": 48314,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8224",
+    "sourceRecord": 8224,
+    "recordedCapacity": 48297,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3476",
+    "sourceRecord": 3476,
+    "recordedCapacity": 47659,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-3462",
+    "sourceRecord": 3462,
+    "recordedCapacity": 47246,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8523",
+    "sourceRecord": 8523,
+    "recordedCapacity": 46619,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8621",
+    "sourceRecord": 8621,
+    "recordedCapacity": 45625,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8055",
+    "sourceRecord": 8055,
+    "recordedCapacity": 45000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8096",
+    "sourceRecord": 8096,
+    "recordedCapacity": 45000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7342",
+    "sourceRecord": 7342,
+    "recordedCapacity": 44000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8217",
+    "sourceRecord": 8217,
+    "recordedCapacity": 42649,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3647",
+    "sourceRecord": 3647,
+    "recordedCapacity": 42558,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8394",
+    "sourceRecord": 8394,
+    "recordedCapacity": 42486,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8071",
+    "sourceRecord": 8071,
+    "recordedCapacity": 42256,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4797",
+    "sourceRecord": 4797,
+    "recordedCapacity": 42100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3743",
+    "sourceRecord": 3743,
+    "recordedCapacity": 42052,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3401",
+    "sourceRecord": 3401,
+    "recordedCapacity": 42042,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3663",
+    "sourceRecord": 3663,
+    "recordedCapacity": 41903,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8439",
+    "sourceRecord": 8439,
+    "recordedCapacity": 41654,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3359",
+    "sourceRecord": 3359,
+    "recordedCapacity": 41649,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3480",
+    "sourceRecord": 3480,
+    "recordedCapacity": 41461,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5176",
+    "sourceRecord": 5176,
+    "recordedCapacity": 41383,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8220",
+    "sourceRecord": 8220,
+    "recordedCapacity": 41056,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8216",
+    "sourceRecord": 8216,
+    "recordedCapacity": 40785,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8118",
+    "sourceRecord": 8118,
+    "recordedCapacity": 40000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8450",
+    "sourceRecord": 8450,
+    "recordedCapacity": 39268,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4582",
+    "sourceRecord": 4582,
+    "recordedCapacity": 38500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8052",
+    "sourceRecord": 8052,
+    "recordedCapacity": 38500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8514",
+    "sourceRecord": 8514,
+    "recordedCapacity": 38095,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5298",
+    "sourceRecord": 5298,
+    "recordedCapacity": 37612,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8493",
+    "sourceRecord": 8493,
+    "recordedCapacity": 37391,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6058",
+    "sourceRecord": 6058,
+    "recordedCapacity": 37245,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5225",
+    "sourceRecord": 5225,
+    "recordedCapacity": 37000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6071",
+    "sourceRecord": 6071,
+    "recordedCapacity": 37000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8628",
+    "sourceRecord": 8628,
+    "recordedCapacity": 36500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6791",
+    "sourceRecord": 6791,
+    "recordedCapacity": 35696,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3354",
+    "sourceRecord": 3354,
+    "recordedCapacity": 35624,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3355",
+    "sourceRecord": 3355,
+    "recordedCapacity": 35616,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7964",
+    "sourceRecord": 7964,
+    "recordedCapacity": 35580,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7361",
+    "sourceRecord": 7361,
+    "recordedCapacity": 35558,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8527",
+    "sourceRecord": 8527,
+    "recordedCapacity": 35354,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5170",
+    "sourceRecord": 5170,
+    "recordedCapacity": 35303,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3468",
+    "sourceRecord": 3468,
+    "recordedCapacity": 35212,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5745",
+    "sourceRecord": 5745,
+    "recordedCapacity": 35100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3542",
+    "sourceRecord": 3542,
+    "recordedCapacity": 35000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5169",
+    "sourceRecord": 5169,
+    "recordedCapacity": 35000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3446",
+    "sourceRecord": 3446,
+    "recordedCapacity": 34930,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3633",
+    "sourceRecord": 3633,
+    "recordedCapacity": 34652,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3921",
+    "sourceRecord": 3921,
+    "recordedCapacity": 34600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5210",
+    "sourceRecord": 5210,
+    "recordedCapacity": 34500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5272",
+    "sourceRecord": 5272,
+    "recordedCapacity": 34500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3693",
+    "sourceRecord": 3693,
+    "recordedCapacity": 34362,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3412",
+    "sourceRecord": 3412,
+    "recordedCapacity": 34000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6075",
+    "sourceRecord": 6075,
+    "recordedCapacity": 33876,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5744",
+    "sourceRecord": 5744,
+    "recordedCapacity": 33597,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8566",
+    "sourceRecord": 8566,
+    "recordedCapacity": 33351,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3361",
+    "sourceRecord": 3361,
+    "recordedCapacity": 33150,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5728",
+    "sourceRecord": 5728,
+    "recordedCapacity": 33000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8036",
+    "sourceRecord": 8036,
+    "recordedCapacity": 33000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8039",
+    "sourceRecord": 8039,
+    "recordedCapacity": 33000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4136",
+    "sourceRecord": 4136,
+    "recordedCapacity": 32950,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4859",
+    "sourceRecord": 4859,
+    "recordedCapacity": 32900,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5139",
+    "sourceRecord": 5139,
+    "recordedCapacity": 32850,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3420",
+    "sourceRecord": 3420,
+    "recordedCapacity": 32689,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5767",
+    "sourceRecord": 5767,
+    "recordedCapacity": 32609,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7375",
+    "sourceRecord": 7375,
+    "recordedCapacity": 32537,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5713",
+    "sourceRecord": 5713,
+    "recordedCapacity": 32500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8472",
+    "sourceRecord": 8472,
+    "recordedCapacity": 32500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3983",
+    "sourceRecord": 3983,
+    "recordedCapacity": 32454,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6971",
+    "sourceRecord": 6971,
+    "recordedCapacity": 32392,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4006",
+    "sourceRecord": 4006,
+    "recordedCapacity": 32336,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3417",
+    "sourceRecord": 3417,
+    "recordedCapacity": 31895,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6957",
+    "sourceRecord": 6957,
+    "recordedCapacity": 31800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6796",
+    "sourceRecord": 6796,
+    "recordedCapacity": 31743,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5715",
+    "sourceRecord": 5715,
+    "recordedCapacity": 31700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4017",
+    "sourceRecord": 4017,
+    "recordedCapacity": 31654,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3850",
+    "sourceRecord": 3850,
+    "recordedCapacity": 31502,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7127",
+    "sourceRecord": 7127,
+    "recordedCapacity": 31179,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5988",
+    "sourceRecord": 5988,
+    "recordedCapacity": 31149,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5920",
+    "sourceRecord": 5920,
+    "recordedCapacity": 30750,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4801",
+    "sourceRecord": 4801,
+    "recordedCapacity": 30660,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5730",
+    "sourceRecord": 5730,
+    "recordedCapacity": 30602,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6774",
+    "sourceRecord": 6774,
+    "recordedCapacity": 30597,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6983",
+    "sourceRecord": 6983,
+    "recordedCapacity": 30500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8461",
+    "sourceRecord": 8461,
+    "recordedCapacity": 30448,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5743",
+    "sourceRecord": 5743,
+    "recordedCapacity": 30300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3614",
+    "sourceRecord": 3614,
+    "recordedCapacity": 30210,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8504",
+    "sourceRecord": 8504,
+    "recordedCapacity": 30200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3543",
+    "sourceRecord": 3543,
+    "recordedCapacity": 30150,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8519",
+    "sourceRecord": 8519,
+    "recordedCapacity": 30140,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8088",
+    "sourceRecord": 8088,
+    "recordedCapacity": 30132,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5727",
+    "sourceRecord": 5727,
+    "recordedCapacity": 30089,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3428",
+    "sourceRecord": 3428,
+    "recordedCapacity": 30084,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7407",
+    "sourceRecord": 7407,
+    "recordedCapacity": 30080,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6977",
+    "sourceRecord": 6977,
+    "recordedCapacity": 30044,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8041",
+    "sourceRecord": 8041,
+    "recordedCapacity": 30040,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3938",
+    "sourceRecord": 3938,
+    "recordedCapacity": 30014,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5746",
+    "sourceRecord": 5746,
+    "recordedCapacity": 30008,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3384",
+    "sourceRecord": 3384,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3524",
+    "sourceRecord": 3524,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4206",
+    "sourceRecord": 4206,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6775",
+    "sourceRecord": 6775,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6845",
+    "sourceRecord": 6845,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8037",
+    "sourceRecord": 8037,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8038",
+    "sourceRecord": 8038,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8058",
+    "sourceRecord": 8058,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8120",
+    "sourceRecord": 8120,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8130",
+    "sourceRecord": 8130,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8132",
+    "sourceRecord": 8132,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8133",
+    "sourceRecord": 8133,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8134",
+    "sourceRecord": 8134,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8205",
+    "sourceRecord": 8205,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8218",
+    "sourceRecord": 8218,
+    "recordedCapacity": 30000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3648",
+    "sourceRecord": 3648,
+    "recordedCapacity": 29778,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3452",
+    "sourceRecord": 3452,
+    "recordedCapacity": 29644,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4724",
+    "sourceRecord": 4724,
+    "recordedCapacity": 29546,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7097",
+    "sourceRecord": 7097,
+    "recordedCapacity": 29500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4752",
+    "sourceRecord": 4752,
+    "recordedCapacity": 29477,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4480",
+    "sourceRecord": 4480,
+    "recordedCapacity": 29000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6647",
+    "sourceRecord": 6647,
+    "recordedCapacity": 28800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3385",
+    "sourceRecord": 3385,
+    "recordedCapacity": 28783,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5870",
+    "sourceRecord": 5870,
+    "recordedCapacity": 28723,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8222",
+    "sourceRecord": 8222,
+    "recordedCapacity": 28703,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8554",
+    "sourceRecord": 8554,
+    "recordedCapacity": 28500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8215",
+    "sourceRecord": 8215,
+    "recordedCapacity": 28333,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8021",
+    "sourceRecord": 8021,
+    "recordedCapacity": 28300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5514",
+    "sourceRecord": 5514,
+    "recordedCapacity": 28000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8516",
+    "sourceRecord": 8516,
+    "recordedCapacity": 28000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6166",
+    "sourceRecord": 6166,
+    "recordedCapacity": 27763,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-4732",
+    "sourceRecord": 4732,
+    "recordedCapacity": 27599,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6101",
+    "sourceRecord": 6101,
+    "recordedCapacity": 27547,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3544",
+    "sourceRecord": 3544,
+    "recordedCapacity": 27320,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4722",
+    "sourceRecord": 4722,
+    "recordedCapacity": 27250,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4209",
+    "sourceRecord": 4209,
+    "recordedCapacity": 27244,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5771",
+    "sourceRecord": 5771,
+    "recordedCapacity": 27111,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5824",
+    "sourceRecord": 5824,
+    "recordedCapacity": 27000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8086",
+    "sourceRecord": 8086,
+    "recordedCapacity": 27000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6070",
+    "sourceRecord": 6070,
+    "recordedCapacity": 26524,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4782",
+    "sourceRecord": 4782,
+    "recordedCapacity": 26515,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6960",
+    "sourceRecord": 6960,
+    "recordedCapacity": 26512,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5748",
+    "sourceRecord": 5748,
+    "recordedCapacity": 26445,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5718",
+    "sourceRecord": 5718,
+    "recordedCapacity": 26255,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8008",
+    "sourceRecord": 8008,
+    "recordedCapacity": 26232,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3818",
+    "sourceRecord": 3818,
+    "recordedCapacity": 26100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4862",
+    "sourceRecord": 4862,
+    "recordedCapacity": 25721,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5708",
+    "sourceRecord": 5708,
+    "recordedCapacity": 25700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5737",
+    "sourceRecord": 5737,
+    "recordedCapacity": 25586,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6950",
+    "sourceRecord": 6950,
+    "recordedCapacity": 25354,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4615",
+    "sourceRecord": 4615,
+    "recordedCapacity": 25178,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4613",
+    "sourceRecord": 4613,
+    "recordedCapacity": 25172,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5732",
+    "sourceRecord": 5732,
+    "recordedCapacity": 25138,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5772",
+    "sourceRecord": 5772,
+    "recordedCapacity": 25136,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6069",
+    "sourceRecord": 6069,
+    "recordedCapacity": 25085,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5065",
+    "sourceRecord": 5065,
+    "recordedCapacity": 25000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7337",
+    "sourceRecord": 7337,
+    "recordedCapacity": 25000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8129",
+    "sourceRecord": 8129,
+    "recordedCapacity": 25000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8136",
+    "sourceRecord": 8136,
+    "recordedCapacity": 25000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8440",
+    "sourceRecord": 8440,
+    "recordedCapacity": 25000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8520",
+    "sourceRecord": 8520,
+    "recordedCapacity": 25000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8695",
+    "sourceRecord": 8695,
+    "recordedCapacity": 25000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8475",
+    "sourceRecord": 8475,
+    "recordedCapacity": 24800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5731",
+    "sourceRecord": 5731,
+    "recordedCapacity": 24525,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5712",
+    "sourceRecord": 5712,
+    "recordedCapacity": 24500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8083",
+    "sourceRecord": 8083,
+    "recordedCapacity": 24490,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6975",
+    "sourceRecord": 6975,
+    "recordedCapacity": 24262,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6072",
+    "sourceRecord": 6072,
+    "recordedCapacity": 24209,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4219",
+    "sourceRecord": 4219,
+    "recordedCapacity": 24200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4709",
+    "sourceRecord": 4709,
+    "recordedCapacity": 24000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8535",
+    "sourceRecord": 8535,
+    "recordedCapacity": 24000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3981",
+    "sourceRecord": 3981,
+    "recordedCapacity": 23860,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4479",
+    "sourceRecord": 4479,
+    "recordedCapacity": 23860,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3943",
+    "sourceRecord": 3943,
+    "recordedCapacity": 23750,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7335",
+    "sourceRecord": 7335,
+    "recordedCapacity": 23700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5691",
+    "sourceRecord": 5691,
+    "recordedCapacity": 23588,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3623",
+    "sourceRecord": 3623,
+    "recordedCapacity": 23500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4665",
+    "sourceRecord": 4665,
+    "recordedCapacity": 23493,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5185",
+    "sourceRecord": 5185,
+    "recordedCapacity": 23325,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5877",
+    "sourceRecord": 5877,
+    "recordedCapacity": 23320,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5178",
+    "sourceRecord": 5178,
+    "recordedCapacity": 23109,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3415",
+    "sourceRecord": 3415,
+    "recordedCapacity": 23000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-5796",
+    "sourceRecord": 5796,
+    "recordedCapacity": 23000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8531",
+    "sourceRecord": 8531,
+    "recordedCapacity": 23000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8612",
+    "sourceRecord": 8612,
+    "recordedCapacity": 23000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8707",
+    "sourceRecord": 8707,
+    "recordedCapacity": 23000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6974",
+    "sourceRecord": 6974,
+    "recordedCapacity": 22948,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8479",
+    "sourceRecord": 8479,
+    "recordedCapacity": 22852,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3809",
+    "sourceRecord": 3809,
+    "recordedCapacity": 22546,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6779",
+    "sourceRecord": 6779,
+    "recordedCapacity": 22500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6985",
+    "sourceRecord": 6985,
+    "recordedCapacity": 22500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8047",
+    "sourceRecord": 8047,
+    "recordedCapacity": 22320,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6450",
+    "sourceRecord": 6450,
+    "recordedCapacity": 22288,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7004",
+    "sourceRecord": 7004,
+    "recordedCapacity": 22222,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5723",
+    "sourceRecord": 5723,
+    "recordedCapacity": 22100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4715",
+    "sourceRecord": 4715,
+    "recordedCapacity": 22012,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5794",
+    "sourceRecord": 5794,
+    "recordedCapacity": 22000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6806",
+    "sourceRecord": 6806,
+    "recordedCapacity": 22000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7358",
+    "sourceRecord": 7358,
+    "recordedCapacity": 22000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8103",
+    "sourceRecord": 8103,
+    "recordedCapacity": 22000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8371",
+    "sourceRecord": 8371,
+    "recordedCapacity": 22000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8416",
+    "sourceRecord": 8416,
+    "recordedCapacity": 22000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8529",
+    "sourceRecord": 8529,
+    "recordedCapacity": 22000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8625",
+    "sourceRecord": 8625,
+    "recordedCapacity": 22000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4609",
+    "sourceRecord": 4609,
+    "recordedCapacity": 21877,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6982",
+    "sourceRecord": 6982,
+    "recordedCapacity": 21822,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4576",
+    "sourceRecord": 4576,
+    "recordedCapacity": 21684,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3760",
+    "sourceRecord": 3760,
+    "recordedCapacity": 21634,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6141",
+    "sourceRecord": 6141,
+    "recordedCapacity": 21608,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4585",
+    "sourceRecord": 4585,
+    "recordedCapacity": 21500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4882",
+    "sourceRecord": 4882,
+    "recordedCapacity": 21500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6385",
+    "sourceRecord": 6385,
+    "recordedCapacity": 21482,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4775",
+    "sourceRecord": 4775,
+    "recordedCapacity": 21318,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7123",
+    "sourceRecord": 7123,
+    "recordedCapacity": 21000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8532",
+    "sourceRecord": 8532,
+    "recordedCapacity": 21000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5757",
+    "sourceRecord": 5757,
+    "recordedCapacity": 20922,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8609",
+    "sourceRecord": 8609,
+    "recordedCapacity": 20665,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4857",
+    "sourceRecord": 4857,
+    "recordedCapacity": 20650,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8614",
+    "sourceRecord": 8614,
+    "recordedCapacity": 20560,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7995",
+    "sourceRecord": 7995,
+    "recordedCapacity": 20541,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6074",
+    "sourceRecord": 6074,
+    "recordedCapacity": 20515,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4874",
+    "sourceRecord": 4874,
+    "recordedCapacity": 20500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8570",
+    "sourceRecord": 8570,
+    "recordedCapacity": 20408,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8081",
+    "sourceRecord": 8081,
+    "recordedCapacity": 20396,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8084",
+    "sourceRecord": 8084,
+    "recordedCapacity": 20339,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4861",
+    "sourceRecord": 4861,
+    "recordedCapacity": 20300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8059",
+    "sourceRecord": 8059,
+    "recordedCapacity": 20221,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5747",
+    "sourceRecord": 5747,
+    "recordedCapacity": 20146,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5753",
+    "sourceRecord": 5753,
+    "recordedCapacity": 20100,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6096",
+    "sourceRecord": 6096,
+    "recordedCapacity": 20095,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4602",
+    "sourceRecord": 4602,
+    "recordedCapacity": 20087,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3740",
+    "sourceRecord": 3740,
+    "recordedCapacity": 20084,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6778",
+    "sourceRecord": 6778,
+    "recordedCapacity": 20048,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3714",
+    "sourceRecord": 3714,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4317",
+    "sourceRecord": 4317,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4491",
+    "sourceRecord": 4491,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4597",
+    "sourceRecord": 4597,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5194",
+    "sourceRecord": 5194,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5299",
+    "sourceRecord": 5299,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6060",
+    "sourceRecord": 6060,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6165",
+    "sourceRecord": 6165,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6210",
+    "sourceRecord": 6210,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6972",
+    "sourceRecord": 6972,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7117",
+    "sourceRecord": 7117,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-7939",
+    "sourceRecord": 7939,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8024",
+    "sourceRecord": 8024,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8111",
+    "sourceRecord": 8111,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8119",
+    "sourceRecord": 8119,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8139",
+    "sourceRecord": 8139,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8370",
+    "sourceRecord": 8370,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8377",
+    "sourceRecord": 8377,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8383",
+    "sourceRecord": 8383,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8386",
+    "sourceRecord": 8386,
+    "recordedCapacity": 20000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4759",
+    "sourceRecord": 4759,
+    "recordedCapacity": 19980,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7128",
+    "sourceRecord": 7128,
+    "recordedCapacity": 19860,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6044",
+    "sourceRecord": 6044,
+    "recordedCapacity": 19847,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6956",
+    "sourceRecord": 6956,
+    "recordedCapacity": 19840,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6968",
+    "sourceRecord": 6968,
+    "recordedCapacity": 19800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4828",
+    "sourceRecord": 4828,
+    "recordedCapacity": 19708,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8099",
+    "sourceRecord": 8099,
+    "recordedCapacity": 19694,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8344",
+    "sourceRecord": 8344,
+    "recordedCapacity": 19676,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6410",
+    "sourceRecord": 6410,
+    "recordedCapacity": 19500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4488",
+    "sourceRecord": 4488,
+    "recordedCapacity": 19439,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5739",
+    "sourceRecord": 5739,
+    "recordedCapacity": 19161,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3942",
+    "sourceRecord": 3942,
+    "recordedCapacity": 19000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4956",
+    "sourceRecord": 4956,
+    "recordedCapacity": 19000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8534",
+    "sourceRecord": 8534,
+    "recordedCapacity": 19000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6212",
+    "sourceRecord": 6212,
+    "recordedCapacity": 18975,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4623",
+    "sourceRecord": 4623,
+    "recordedCapacity": 18739,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6629",
+    "sourceRecord": 6629,
+    "recordedCapacity": 18694,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6777",
+    "sourceRecord": 6777,
+    "recordedCapacity": 18636,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6118",
+    "sourceRecord": 6118,
+    "recordedCapacity": 18568,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4610",
+    "sourceRecord": 4610,
+    "recordedCapacity": 18555,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8345",
+    "sourceRecord": 8345,
+    "recordedCapacity": 18525,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3550",
+    "sourceRecord": 3550,
+    "recordedCapacity": 18524,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-4770",
+    "sourceRecord": 4770,
+    "recordedCapacity": 18500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4808",
+    "sourceRecord": 4808,
+    "recordedCapacity": 18500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5571",
+    "sourceRecord": 5571,
+    "recordedCapacity": 18500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4590",
+    "sourceRecord": 4590,
+    "recordedCapacity": 18482,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6059",
+    "sourceRecord": 6059,
+    "recordedCapacity": 18200,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-4586",
+    "sourceRecord": 4586,
+    "recordedCapacity": 18016,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3827",
+    "sourceRecord": 3827,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4137",
+    "sourceRecord": 4137,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4399",
+    "sourceRecord": 4399,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4478",
+    "sourceRecord": 4478,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4729",
+    "sourceRecord": 4729,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4871",
+    "sourceRecord": 4871,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4969",
+    "sourceRecord": 4969,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4985",
+    "sourceRecord": 4985,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5066",
+    "sourceRecord": 5066,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5287",
+    "sourceRecord": 5287,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6644",
+    "sourceRecord": 6644,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6995",
+    "sourceRecord": 6995,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8051",
+    "sourceRecord": 8051,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8442",
+    "sourceRecord": 8442,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8449",
+    "sourceRecord": 8449,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8470",
+    "sourceRecord": 8470,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8518",
+    "sourceRecord": 8518,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8610",
+    "sourceRecord": 8610,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8660",
+    "sourceRecord": 8660,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8709",
+    "sourceRecord": 8709,
+    "recordedCapacity": 18000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6053",
+    "sourceRecord": 6053,
+    "recordedCapacity": 17955,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4791",
+    "sourceRecord": 4791,
+    "recordedCapacity": 17869,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3409",
+    "sourceRecord": 3409,
+    "recordedCapacity": 17797,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4204",
+    "sourceRecord": 4204,
+    "recordedCapacity": 17600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4723",
+    "sourceRecord": 4723,
+    "recordedCapacity": 17400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6951",
+    "sourceRecord": 6951,
+    "recordedCapacity": 17393,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7054",
+    "sourceRecord": 7054,
+    "recordedCapacity": 17341,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3707",
+    "sourceRecord": 3707,
+    "recordedCapacity": 17319,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4601",
+    "sourceRecord": 4601,
+    "recordedCapacity": 17000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4903",
+    "sourceRecord": 4903,
+    "recordedCapacity": 17000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7094",
+    "sourceRecord": 7094,
+    "recordedCapacity": 17000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8484",
+    "sourceRecord": 8484,
+    "recordedCapacity": 17000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8624",
+    "sourceRecord": 8624,
+    "recordedCapacity": 17000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8676",
+    "sourceRecord": 8676,
+    "recordedCapacity": 17000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4614",
+    "sourceRecord": 4614,
+    "recordedCapacity": 16910,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3832",
+    "sourceRecord": 3832,
+    "recordedCapacity": 16673,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4734",
+    "sourceRecord": 4734,
+    "recordedCapacity": 16667,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5778",
+    "sourceRecord": 5778,
+    "recordedCapacity": 16651,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4328",
+    "sourceRecord": 4328,
+    "recordedCapacity": 16649,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5881",
+    "sourceRecord": 5881,
+    "recordedCapacity": 16587,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6063",
+    "sourceRecord": 6063,
+    "recordedCapacity": 16547,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3924",
+    "sourceRecord": 3924,
+    "recordedCapacity": 16500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4720",
+    "sourceRecord": 4720,
+    "recordedCapacity": 16500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7053",
+    "sourceRecord": 7053,
+    "recordedCapacity": 16500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8631",
+    "sourceRecord": 8631,
+    "recordedCapacity": 16485,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3578",
+    "sourceRecord": 3578,
+    "recordedCapacity": 16364,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4594",
+    "sourceRecord": 4594,
+    "recordedCapacity": 16300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8542",
+    "sourceRecord": 8542,
+    "recordedCapacity": 16300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4849",
+    "sourceRecord": 4849,
+    "recordedCapacity": 16233,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6056",
+    "sourceRecord": 6056,
+    "recordedCapacity": 16233,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6079",
+    "sourceRecord": 6079,
+    "recordedCapacity": 16173,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6043",
+    "sourceRecord": 6043,
+    "recordedCapacity": 16125,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4484",
+    "sourceRecord": 4484,
+    "recordedCapacity": 16061,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5828",
+    "sourceRecord": 5828,
+    "recordedCapacity": 16000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-7081",
+    "sourceRecord": 7081,
+    "recordedCapacity": 16000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7096",
+    "sourceRecord": 7096,
+    "recordedCapacity": 16000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8551",
+    "sourceRecord": 8551,
+    "recordedCapacity": 16000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8556",
+    "sourceRecord": 8556,
+    "recordedCapacity": 16000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8679",
+    "sourceRecord": 8679,
+    "recordedCapacity": 16000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4598",
+    "sourceRecord": 4598,
+    "recordedCapacity": 15931,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7015",
+    "sourceRecord": 7015,
+    "recordedCapacity": 15805,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4716",
+    "sourceRecord": 4716,
+    "recordedCapacity": 15800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3899",
+    "sourceRecord": 3899,
+    "recordedCapacity": 15633,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7130",
+    "sourceRecord": 7130,
+    "recordedCapacity": 15505,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4494",
+    "sourceRecord": 4494,
+    "recordedCapacity": 15500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4718",
+    "sourceRecord": 4718,
+    "recordedCapacity": 15414,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5762",
+    "sourceRecord": 5762,
+    "recordedCapacity": 15314,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6640",
+    "sourceRecord": 6640,
+    "recordedCapacity": 15277,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3749",
+    "sourceRecord": 3749,
+    "recordedCapacity": 15234,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4719",
+    "sourceRecord": 4719,
+    "recordedCapacity": 15210,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6801",
+    "sourceRecord": 6801,
+    "recordedCapacity": 15200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8092",
+    "sourceRecord": 8092,
+    "recordedCapacity": 15200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7345",
+    "sourceRecord": 7345,
+    "recordedCapacity": 15197,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8097",
+    "sourceRecord": 8097,
+    "recordedCapacity": 15165,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8064",
+    "sourceRecord": 8064,
+    "recordedCapacity": 15131,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4733",
+    "sourceRecord": 4733,
+    "recordedCapacity": 15053,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7366",
+    "sourceRecord": 7366,
+    "recordedCapacity": 15050,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4413",
+    "sourceRecord": 4413,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4579",
+    "sourceRecord": 4579,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4717",
+    "sourceRecord": 4717,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4730",
+    "sourceRecord": 4730,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4746",
+    "sourceRecord": 4746,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4748",
+    "sourceRecord": 4748,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4772",
+    "sourceRecord": 4772,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4792",
+    "sourceRecord": 4792,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4800",
+    "sourceRecord": 4800,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4877",
+    "sourceRecord": 4877,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4970",
+    "sourceRecord": 4970,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5212",
+    "sourceRecord": 5212,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6168",
+    "sourceRecord": 6168,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6814",
+    "sourceRecord": 6814,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8032",
+    "sourceRecord": 8032,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8115",
+    "sourceRecord": 8115,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8116",
+    "sourceRecord": 8116,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8122",
+    "sourceRecord": 8122,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8126",
+    "sourceRecord": 8126,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8138",
+    "sourceRecord": 8138,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8359",
+    "sourceRecord": 8359,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8391",
+    "sourceRecord": 8391,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8533",
+    "sourceRecord": 8533,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8572",
+    "sourceRecord": 8572,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8629",
+    "sourceRecord": 8629,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8662",
+    "sourceRecord": 8662,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8675",
+    "sourceRecord": 8675,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8699",
+    "sourceRecord": 8699,
+    "recordedCapacity": 15000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7219",
+    "sourceRecord": 7219,
+    "recordedCapacity": 14873,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5680",
+    "sourceRecord": 5680,
+    "recordedCapacity": 14856,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3941",
+    "sourceRecord": 3941,
+    "recordedCapacity": 14700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4316",
+    "sourceRecord": 4316,
+    "recordedCapacity": 14700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6981",
+    "sourceRecord": 6981,
+    "recordedCapacity": 14600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6949",
+    "sourceRecord": 6949,
+    "recordedCapacity": 14505,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4744",
+    "sourceRecord": 4744,
+    "recordedCapacity": 14500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5759",
+    "sourceRecord": 5759,
+    "recordedCapacity": 14500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6996",
+    "sourceRecord": 6996,
+    "recordedCapacity": 14500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7357",
+    "sourceRecord": 7357,
+    "recordedCapacity": 14467,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4314",
+    "sourceRecord": 4314,
+    "recordedCapacity": 14457,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8644",
+    "sourceRecord": 8644,
+    "recordedCapacity": 14400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6374",
+    "sourceRecord": 6374,
+    "recordedCapacity": 14300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6959",
+    "sourceRecord": 6959,
+    "recordedCapacity": 14286,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7340",
+    "sourceRecord": 7340,
+    "recordedCapacity": 14234,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4490",
+    "sourceRecord": 4490,
+    "recordedCapacity": 14200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7426",
+    "sourceRecord": 7426,
+    "recordedCapacity": 14150,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5205",
+    "sourceRecord": 5205,
+    "recordedCapacity": 14000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5817",
+    "sourceRecord": 5817,
+    "recordedCapacity": 14000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6110",
+    "sourceRecord": 6110,
+    "recordedCapacity": 14000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6641",
+    "sourceRecord": 6641,
+    "recordedCapacity": 14000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7137",
+    "sourceRecord": 7137,
+    "recordedCapacity": 14000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7356",
+    "sourceRecord": 7356,
+    "recordedCapacity": 14000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6763",
+    "sourceRecord": 6763,
+    "recordedCapacity": 13932,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7120",
+    "sourceRecord": 7120,
+    "recordedCapacity": 13648,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5777",
+    "sourceRecord": 5777,
+    "recordedCapacity": 13624,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4201",
+    "sourceRecord": 4201,
+    "recordedCapacity": 13602,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4735",
+    "sourceRecord": 4735,
+    "recordedCapacity": 13500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6391",
+    "sourceRecord": 6391,
+    "recordedCapacity": 13500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6992",
+    "sourceRecord": 6992,
+    "recordedCapacity": 13500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8125",
+    "sourceRecord": 8125,
+    "recordedCapacity": 13500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7027",
+    "sourceRecord": 7027,
+    "recordedCapacity": 13451,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4742",
+    "sourceRecord": 4742,
+    "recordedCapacity": 13185,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4739",
+    "sourceRecord": 4739,
+    "recordedCapacity": 13138,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6138",
+    "sourceRecord": 6138,
+    "recordedCapacity": 13128,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5672",
+    "sourceRecord": 5672,
+    "recordedCapacity": 13108,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5657",
+    "sourceRecord": 5657,
+    "recordedCapacity": 13100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4095",
+    "sourceRecord": 4095,
+    "recordedCapacity": 13079,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6782",
+    "sourceRecord": 6782,
+    "recordedCapacity": 13057,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4664",
+    "sourceRecord": 4664,
+    "recordedCapacity": 13000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5334",
+    "sourceRecord": 5334,
+    "recordedCapacity": 13000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6142",
+    "sourceRecord": 6142,
+    "recordedCapacity": 13000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6593",
+    "sourceRecord": 6593,
+    "recordedCapacity": 13000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7419",
+    "sourceRecord": 7419,
+    "recordedCapacity": 13000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3705",
+    "sourceRecord": 3705,
+    "recordedCapacity": 12815,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4191",
+    "sourceRecord": 4191,
+    "recordedCapacity": 12763,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8053",
+    "sourceRecord": 8053,
+    "recordedCapacity": 12700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4475",
+    "sourceRecord": 4475,
+    "recordedCapacity": 12630,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4600",
+    "sourceRecord": 4600,
+    "recordedCapacity": 12600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4001",
+    "sourceRecord": 4001,
+    "recordedCapacity": 12504,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4109",
+    "sourceRecord": 4109,
+    "recordedCapacity": 12500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5758",
+    "sourceRecord": 5758,
+    "recordedCapacity": 12500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6389",
+    "sourceRecord": 6389,
+    "recordedCapacity": 12500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6400",
+    "sourceRecord": 6400,
+    "recordedCapacity": 12500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6630",
+    "sourceRecord": 6630,
+    "recordedCapacity": 12500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6756",
+    "sourceRecord": 6756,
+    "recordedCapacity": 12500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6822",
+    "sourceRecord": 6822,
+    "recordedCapacity": 12500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7206",
+    "sourceRecord": 7206,
+    "recordedCapacity": 12500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5768",
+    "sourceRecord": 5768,
+    "recordedCapacity": 12392,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4898",
+    "sourceRecord": 4898,
+    "recordedCapacity": 12200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5131",
+    "sourceRecord": 5131,
+    "recordedCapacity": 12200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7058",
+    "sourceRecord": 7058,
+    "recordedCapacity": 12200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3916",
+    "sourceRecord": 3916,
+    "recordedCapacity": 12146,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3609",
+    "sourceRecord": 3609,
+    "recordedCapacity": 12139,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5742",
+    "sourceRecord": 5742,
+    "recordedCapacity": 12021,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6144",
+    "sourceRecord": 6144,
+    "recordedCapacity": 12020,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4155",
+    "sourceRecord": 4155,
+    "recordedCapacity": 12007,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4079",
+    "sourceRecord": 4079,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4246",
+    "sourceRecord": 4246,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4308",
+    "sourceRecord": 4308,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4321",
+    "sourceRecord": 4321,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4493",
+    "sourceRecord": 4493,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4751",
+    "sourceRecord": 4751,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4869",
+    "sourceRecord": 4869,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4995",
+    "sourceRecord": 4995,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5032",
+    "sourceRecord": 5032,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5102",
+    "sourceRecord": 5102,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6117",
+    "sourceRecord": 6117,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6650",
+    "sourceRecord": 6650,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7115",
+    "sourceRecord": 7115,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7154",
+    "sourceRecord": 7154,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8113",
+    "sourceRecord": 8113,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8374",
+    "sourceRecord": 8374,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8398",
+    "sourceRecord": 8398,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8594",
+    "sourceRecord": 8594,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8595",
+    "sourceRecord": 8595,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8616",
+    "sourceRecord": 8616,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8622",
+    "sourceRecord": 8622,
+    "recordedCapacity": 12000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6853",
+    "sourceRecord": 6853,
+    "recordedCapacity": 11998,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7105",
+    "sourceRecord": 7105,
+    "recordedCapacity": 11981,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5957",
+    "sourceRecord": 5957,
+    "recordedCapacity": 11917,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3777",
+    "sourceRecord": 3777,
+    "recordedCapacity": 11883,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4577",
+    "sourceRecord": 4577,
+    "recordedCapacity": 11875,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7971",
+    "sourceRecord": 7971,
+    "recordedCapacity": 11850,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5781",
+    "sourceRecord": 5781,
+    "recordedCapacity": 11840,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5803",
+    "sourceRecord": 5803,
+    "recordedCapacity": 11800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3914",
+    "sourceRecord": 3914,
+    "recordedCapacity": 11700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5764",
+    "sourceRecord": 5764,
+    "recordedCapacity": 11582,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6973",
+    "sourceRecord": 6973,
+    "recordedCapacity": 11580,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3577",
+    "sourceRecord": 3577,
+    "recordedCapacity": 11535,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5076",
+    "sourceRecord": 5076,
+    "recordedCapacity": 11500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5192",
+    "sourceRecord": 5192,
+    "recordedCapacity": 11500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5724",
+    "sourceRecord": 5724,
+    "recordedCapacity": 11464,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6958",
+    "sourceRecord": 6958,
+    "recordedCapacity": 11454,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4867",
+    "sourceRecord": 4867,
+    "recordedCapacity": 11436,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4881",
+    "sourceRecord": 4881,
+    "recordedCapacity": 11418,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4721",
+    "sourceRecord": 4721,
+    "recordedCapacity": 11386,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5665",
+    "sourceRecord": 5665,
+    "recordedCapacity": 11321,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5751",
+    "sourceRecord": 5751,
+    "recordedCapacity": 11300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7234",
+    "sourceRecord": 7234,
+    "recordedCapacity": 11160,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-7936",
+    "sourceRecord": 7936,
+    "recordedCapacity": 11073,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4054",
+    "sourceRecord": 4054,
+    "recordedCapacity": 11000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-5163",
+    "sourceRecord": 5163,
+    "recordedCapacity": 11000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6757",
+    "sourceRecord": 6757,
+    "recordedCapacity": 11000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7064",
+    "sourceRecord": 7064,
+    "recordedCapacity": 11000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7428",
+    "sourceRecord": 7428,
+    "recordedCapacity": 11000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6634",
+    "sourceRecord": 6634,
+    "recordedCapacity": 10932,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-4088",
+    "sourceRecord": 4088,
+    "recordedCapacity": 10900,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4474",
+    "sourceRecord": 4474,
+    "recordedCapacity": 10900,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7331",
+    "sourceRecord": 7331,
+    "recordedCapacity": 10842,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4349",
+    "sourceRecord": 4349,
+    "recordedCapacity": 10830,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4872",
+    "sourceRecord": 4872,
+    "recordedCapacity": 10826,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4605",
+    "sourceRecord": 4605,
+    "recordedCapacity": 10800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6363",
+    "sourceRecord": 6363,
+    "recordedCapacity": 10773,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6872",
+    "sourceRecord": 6872,
+    "recordedCapacity": 10673,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4599",
+    "sourceRecord": 4599,
+    "recordedCapacity": 10660,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5266",
+    "sourceRecord": 5266,
+    "recordedCapacity": 10500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8584",
+    "sourceRecord": 8584,
+    "recordedCapacity": 10500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4831",
+    "sourceRecord": 4831,
+    "recordedCapacity": 10499,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4604",
+    "sourceRecord": 4604,
+    "recordedCapacity": 10480,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5791",
+    "sourceRecord": 5791,
+    "recordedCapacity": 10430,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4424",
+    "sourceRecord": 4424,
+    "recordedCapacity": 10400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8606",
+    "sourceRecord": 8606,
+    "recordedCapacity": 10400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7226",
+    "sourceRecord": 7226,
+    "recordedCapacity": 10398,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5811",
+    "sourceRecord": 5811,
+    "recordedCapacity": 10379,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5760",
+    "sourceRecord": 5760,
+    "recordedCapacity": 10356,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6057",
+    "sourceRecord": 6057,
+    "recordedCapacity": 10336,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7435",
+    "sourceRecord": 7435,
+    "recordedCapacity": 10321,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3768",
+    "sourceRecord": 3768,
+    "recordedCapacity": 10300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5113",
+    "sourceRecord": 5113,
+    "recordedCapacity": 10254,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5769",
+    "sourceRecord": 5769,
+    "recordedCapacity": 10249,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5644",
+    "sourceRecord": 5644,
+    "recordedCapacity": 10200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6857",
+    "sourceRecord": 6857,
+    "recordedCapacity": 10185,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5775",
+    "sourceRecord": 5775,
+    "recordedCapacity": 10153,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4750",
+    "sourceRecord": 4750,
+    "recordedCapacity": 10134,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5277",
+    "sourceRecord": 5277,
+    "recordedCapacity": 10128,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6877",
+    "sourceRecord": 6877,
+    "recordedCapacity": 10104,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6576",
+    "sourceRecord": 6576,
+    "recordedCapacity": 10037,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5776",
+    "sourceRecord": 5776,
+    "recordedCapacity": 10033,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6895",
+    "sourceRecord": 6895,
+    "recordedCapacity": 10016,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4743",
+    "sourceRecord": 4743,
+    "recordedCapacity": 10001,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4072",
+    "sourceRecord": 4072,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4084",
+    "sourceRecord": 4084,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4389",
+    "sourceRecord": 4389,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4437",
+    "sourceRecord": 4437,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4459",
+    "sourceRecord": 4459,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4463",
+    "sourceRecord": 4463,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4492",
+    "sourceRecord": 4492,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4793",
+    "sourceRecord": 4793,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4842",
+    "sourceRecord": 4842,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4924",
+    "sourceRecord": 4924,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4942",
+    "sourceRecord": 4942,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4944",
+    "sourceRecord": 4944,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5073",
+    "sourceRecord": 5073,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5074",
+    "sourceRecord": 5074,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5151",
+    "sourceRecord": 5151,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5191",
+    "sourceRecord": 5191,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5750",
+    "sourceRecord": 5750,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5797",
+    "sourceRecord": 5797,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6399",
+    "sourceRecord": 6399,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6838",
+    "sourceRecord": 6838,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7161",
+    "sourceRecord": 7161,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7207",
+    "sourceRecord": 7207,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7417",
+    "sourceRecord": 7417,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8020",
+    "sourceRecord": 8020,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8131",
+    "sourceRecord": 8131,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8388",
+    "sourceRecord": 8388,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8491",
+    "sourceRecord": 8491,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8698",
+    "sourceRecord": 8698,
+    "recordedCapacity": 10000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6227",
+    "sourceRecord": 6227,
+    "recordedCapacity": 9925,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5755",
+    "sourceRecord": 5755,
+    "recordedCapacity": 9875,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6153",
+    "sourceRecord": 6153,
+    "recordedCapacity": 9768,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4342",
+    "sourceRecord": 4342,
+    "recordedCapacity": 9737,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6651",
+    "sourceRecord": 6651,
+    "recordedCapacity": 9730,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6213",
+    "sourceRecord": 6213,
+    "recordedCapacity": 9680,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6638",
+    "sourceRecord": 6638,
+    "recordedCapacity": 9544,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4346",
+    "sourceRecord": 4346,
+    "recordedCapacity": 9500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6120",
+    "sourceRecord": 6120,
+    "recordedCapacity": 9500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5783",
+    "sourceRecord": 5783,
+    "recordedCapacity": 9400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6370",
+    "sourceRecord": 6370,
+    "recordedCapacity": 9285,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4196",
+    "sourceRecord": 4196,
+    "recordedCapacity": 9271,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7228",
+    "sourceRecord": 7228,
+    "recordedCapacity": 9250,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5788",
+    "sourceRecord": 5788,
+    "recordedCapacity": 9186,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5754",
+    "sourceRecord": 5754,
+    "recordedCapacity": 9183,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4002",
+    "sourceRecord": 4002,
+    "recordedCapacity": 9077,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6984",
+    "sourceRecord": 6984,
+    "recordedCapacity": 9025,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5774",
+    "sourceRecord": 5774,
+    "recordedCapacity": 9018,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4063",
+    "sourceRecord": 4063,
+    "recordedCapacity": 9000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4103",
+    "sourceRecord": 4103,
+    "recordedCapacity": 9000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4311",
+    "sourceRecord": 4311,
+    "recordedCapacity": 9000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5648",
+    "sourceRecord": 5648,
+    "recordedCapacity": 9000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6404",
+    "sourceRecord": 6404,
+    "recordedCapacity": 9000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7125",
+    "sourceRecord": 7125,
+    "recordedCapacity": 9000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8547",
+    "sourceRecord": 8547,
+    "recordedCapacity": 9000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4334",
+    "sourceRecord": 4334,
+    "recordedCapacity": 8836,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3960",
+    "sourceRecord": 3960,
+    "recordedCapacity": 8800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4252",
+    "sourceRecord": 4252,
+    "recordedCapacity": 8800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6642",
+    "sourceRecord": 6642,
+    "recordedCapacity": 8800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7139",
+    "sourceRecord": 7139,
+    "recordedCapacity": 8800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6854",
+    "sourceRecord": 6854,
+    "recordedCapacity": 8750,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6382",
+    "sourceRecord": 6382,
+    "recordedCapacity": 8600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7182",
+    "sourceRecord": 7182,
+    "recordedCapacity": 8560,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3833",
+    "sourceRecord": 3833,
+    "recordedCapacity": 8500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3965",
+    "sourceRecord": 3965,
+    "recordedCapacity": 8500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4262",
+    "sourceRecord": 4262,
+    "recordedCapacity": 8500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4627",
+    "sourceRecord": 4627,
+    "recordedCapacity": 8500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6355",
+    "sourceRecord": 6355,
+    "recordedCapacity": 8500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6654",
+    "sourceRecord": 6654,
+    "recordedCapacity": 8500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7235",
+    "sourceRecord": 7235,
+    "recordedCapacity": 8500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8182",
+    "sourceRecord": 8182,
+    "recordedCapacity": 8500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4229",
+    "sourceRecord": 4229,
+    "recordedCapacity": 8400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6856",
+    "sourceRecord": 6856,
+    "recordedCapacity": 8352,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6424",
+    "sourceRecord": 6424,
+    "recordedCapacity": 8200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7049",
+    "sourceRecord": 7049,
+    "recordedCapacity": 8200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7231",
+    "sourceRecord": 7231,
+    "recordedCapacity": 8200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6362",
+    "sourceRecord": 6362,
+    "recordedCapacity": 8068,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7011",
+    "sourceRecord": 7011,
+    "recordedCapacity": 8064,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4175",
+    "sourceRecord": 4175,
+    "recordedCapacity": 8037,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6880",
+    "sourceRecord": 6880,
+    "recordedCapacity": 8016,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3650",
+    "sourceRecord": 3650,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3838",
+    "sourceRecord": 3838,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3861",
+    "sourceRecord": 3861,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3970",
+    "sourceRecord": 3970,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4081",
+    "sourceRecord": 4081,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4110",
+    "sourceRecord": 4110,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4335",
+    "sourceRecord": 4335,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4356",
+    "sourceRecord": 4356,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6164",
+    "sourceRecord": 6164,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6590",
+    "sourceRecord": 6590,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6657",
+    "sourceRecord": 6657,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6772",
+    "sourceRecord": 6772,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6920",
+    "sourceRecord": 6920,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6970",
+    "sourceRecord": 6970,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8613",
+    "sourceRecord": 8613,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8636",
+    "sourceRecord": 8636,
+    "recordedCapacity": 8000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7078",
+    "sourceRecord": 7078,
+    "recordedCapacity": 7960,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7371",
+    "sourceRecord": 7371,
+    "recordedCapacity": 7900,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-7126",
+    "sourceRecord": 7126,
+    "recordedCapacity": 7885,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3418",
+    "sourceRecord": 3418,
+    "recordedCapacity": 7838,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4283",
+    "sourceRecord": 4283,
+    "recordedCapacity": 7828,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7146",
+    "sourceRecord": 7146,
+    "recordedCapacity": 7800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4249",
+    "sourceRecord": 4249,
+    "recordedCapacity": 7680,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5792",
+    "sourceRecord": 5792,
+    "recordedCapacity": 7653,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6952",
+    "sourceRecord": 6952,
+    "recordedCapacity": 7638,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5818",
+    "sourceRecord": 5818,
+    "recordedCapacity": 7629,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6067",
+    "sourceRecord": 6067,
+    "recordedCapacity": 7623,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3966",
+    "sourceRecord": 3966,
+    "recordedCapacity": 7600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5650",
+    "sourceRecord": 5650,
+    "recordedCapacity": 7534,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4059",
+    "sourceRecord": 4059,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4122",
+    "sourceRecord": 4122,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4255",
+    "sourceRecord": 4255,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4351",
+    "sourceRecord": 4351,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5643",
+    "sourceRecord": 5643,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6022",
+    "sourceRecord": 6022,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6345",
+    "sourceRecord": 6345,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6380",
+    "sourceRecord": 6380,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6409",
+    "sourceRecord": 6409,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6727",
+    "sourceRecord": 6727,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6790",
+    "sourceRecord": 6790,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7051",
+    "sourceRecord": 7051,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7153",
+    "sourceRecord": 7153,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7160",
+    "sourceRecord": 7160,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8602",
+    "sourceRecord": 8602,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8639",
+    "sourceRecord": 8639,
+    "recordedCapacity": 7500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6157",
+    "sourceRecord": 6157,
+    "recordedCapacity": 7498,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3801",
+    "sourceRecord": 3801,
+    "recordedCapacity": 7493,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6064",
+    "sourceRecord": 6064,
+    "recordedCapacity": 7490,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5649",
+    "sourceRecord": 5649,
+    "recordedCapacity": 7422,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5784",
+    "sourceRecord": 5784,
+    "recordedCapacity": 7407,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6132",
+    "sourceRecord": 6132,
+    "recordedCapacity": 7400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6347",
+    "sourceRecord": 6347,
+    "recordedCapacity": 7354,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-4364",
+    "sourceRecord": 4364,
+    "recordedCapacity": 7350,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4238",
+    "sourceRecord": 4238,
+    "recordedCapacity": 7300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6851",
+    "sourceRecord": 6851,
+    "recordedCapacity": 7200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6737",
+    "sourceRecord": 6737,
+    "recordedCapacity": 7120,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4198",
+    "sourceRecord": 4198,
+    "recordedCapacity": 7100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6955",
+    "sourceRecord": 6955,
+    "recordedCapacity": 7083,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5790",
+    "sourceRecord": 5790,
+    "recordedCapacity": 7012,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3422",
+    "sourceRecord": 3422,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3604",
+    "sourceRecord": 3604,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3894",
+    "sourceRecord": 3894,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4044",
+    "sourceRecord": 4044,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4159",
+    "sourceRecord": 4159,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6356",
+    "sourceRecord": 6356,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6523",
+    "sourceRecord": 6523,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6749",
+    "sourceRecord": 6749,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6771",
+    "sourceRecord": 6771,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7181",
+    "sourceRecord": 7181,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7373",
+    "sourceRecord": 7373,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7421",
+    "sourceRecord": 7421,
+    "recordedCapacity": 7000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6408",
+    "sourceRecord": 6408,
+    "recordedCapacity": 6984,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7079",
+    "sourceRecord": 7079,
+    "recordedCapacity": 6900,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6182",
+    "sourceRecord": 6182,
+    "recordedCapacity": 6879,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3997",
+    "sourceRecord": 3997,
+    "recordedCapacity": 6850,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3747",
+    "sourceRecord": 3747,
+    "recordedCapacity": 6839,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7961",
+    "sourceRecord": 7961,
+    "recordedCapacity": 6769,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6123",
+    "sourceRecord": 6123,
+    "recordedCapacity": 6766,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7306",
+    "sourceRecord": 7306,
+    "recordedCapacity": 6750,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4216",
+    "sourceRecord": 4216,
+    "recordedCapacity": 6722,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7252",
+    "sourceRecord": 7252,
+    "recordedCapacity": 6600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7026",
+    "sourceRecord": 7026,
+    "recordedCapacity": 6557,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4371",
+    "sourceRecord": 4371,
+    "recordedCapacity": 6524,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3684",
+    "sourceRecord": 3684,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3696",
+    "sourceRecord": 3696,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4277",
+    "sourceRecord": 4277,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4324",
+    "sourceRecord": 4324,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5641",
+    "sourceRecord": 5641,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5663",
+    "sourceRecord": 5663,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6643",
+    "sourceRecord": 6643,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7152",
+    "sourceRecord": 7152,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8400",
+    "sourceRecord": 8400,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8402",
+    "sourceRecord": 8402,
+    "recordedCapacity": 6500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5782",
+    "sourceRecord": 5782,
+    "recordedCapacity": 6476,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-3728",
+    "sourceRecord": 3728,
+    "recordedCapacity": 6450,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4173",
+    "sourceRecord": 4173,
+    "recordedCapacity": 6440,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4019",
+    "sourceRecord": 4019,
+    "recordedCapacity": 6375,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5787",
+    "sourceRecord": 5787,
+    "recordedCapacity": 6335,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4362",
+    "sourceRecord": 4362,
+    "recordedCapacity": 6300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6855",
+    "sourceRecord": 6855,
+    "recordedCapacity": 6300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3656",
+    "sourceRecord": 3656,
+    "recordedCapacity": 6280,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7402",
+    "sourceRecord": 7402,
+    "recordedCapacity": 6250,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5766",
+    "sourceRecord": 5766,
+    "recordedCapacity": 6200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7441",
+    "sourceRecord": 7441,
+    "recordedCapacity": 6163,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7374",
+    "sourceRecord": 7374,
+    "recordedCapacity": 6150,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5779",
+    "sourceRecord": 5779,
+    "recordedCapacity": 6134,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6660",
+    "sourceRecord": 6660,
+    "recordedCapacity": 6125,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6429",
+    "sourceRecord": 6429,
+    "recordedCapacity": 6100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6479",
+    "sourceRecord": 6479,
+    "recordedCapacity": 6100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4132",
+    "sourceRecord": 4132,
+    "recordedCapacity": 6078,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4224",
+    "sourceRecord": 4224,
+    "recordedCapacity": 6078,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7229",
+    "sourceRecord": 7229,
+    "recordedCapacity": 6048,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3436",
+    "sourceRecord": 3436,
+    "recordedCapacity": 6040,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4215",
+    "sourceRecord": 4215,
+    "recordedCapacity": 6036,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4203",
+    "sourceRecord": 4203,
+    "recordedCapacity": 6023,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4242",
+    "sourceRecord": 4242,
+    "recordedCapacity": 6009,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4212",
+    "sourceRecord": 4212,
+    "recordedCapacity": 6008,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7065",
+    "sourceRecord": 7065,
+    "recordedCapacity": 6007,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3599",
+    "sourceRecord": 3599,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-3678",
+    "sourceRecord": 3678,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3753",
+    "sourceRecord": 3753,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3796",
+    "sourceRecord": 3796,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4253",
+    "sourceRecord": 4253,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4322",
+    "sourceRecord": 4322,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4323",
+    "sourceRecord": 4323,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4348",
+    "sourceRecord": 4348,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5880",
+    "sourceRecord": 5880,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6423",
+    "sourceRecord": 6423,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6484",
+    "sourceRecord": 6484,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6624",
+    "sourceRecord": 6624,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6909",
+    "sourceRecord": 6909,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7143",
+    "sourceRecord": 7143,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7269",
+    "sourceRecord": 7269,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7956",
+    "sourceRecord": 7956,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8114",
+    "sourceRecord": 8114,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8500",
+    "sourceRecord": 8500,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8536",
+    "sourceRecord": 8536,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8581",
+    "sourceRecord": 8581,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8659",
+    "sourceRecord": 8659,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8696",
+    "sourceRecord": 8696,
+    "recordedCapacity": 6000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3992",
+    "sourceRecord": 3992,
+    "recordedCapacity": 5876,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6095",
+    "sourceRecord": 6095,
+    "recordedCapacity": 5827,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6933",
+    "sourceRecord": 6933,
+    "recordedCapacity": 5800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7157",
+    "sourceRecord": 7157,
+    "recordedCapacity": 5785,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5810",
+    "sourceRecord": 5810,
+    "recordedCapacity": 5745,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7230",
+    "sourceRecord": 7230,
+    "recordedCapacity": 5700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7302",
+    "sourceRecord": 7302,
+    "recordedCapacity": 5650,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7016",
+    "sourceRecord": 7016,
+    "recordedCapacity": 5600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3788",
+    "sourceRecord": 3788,
+    "recordedCapacity": 5545,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4248",
+    "sourceRecord": 4248,
+    "recordedCapacity": 5500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5636",
+    "sourceRecord": 5636,
+    "recordedCapacity": 5500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5756",
+    "sourceRecord": 5756,
+    "recordedCapacity": 5500,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6024",
+    "sourceRecord": 6024,
+    "recordedCapacity": 5500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6025",
+    "sourceRecord": 6025,
+    "recordedCapacity": 5500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6364",
+    "sourceRecord": 6364,
+    "recordedCapacity": 5500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7119",
+    "sourceRecord": 7119,
+    "recordedCapacity": 5500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7150",
+    "sourceRecord": 7150,
+    "recordedCapacity": 5500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6936",
+    "sourceRecord": 6936,
+    "recordedCapacity": 5400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3403",
+    "sourceRecord": 3403,
+    "recordedCapacity": 5300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3819",
+    "sourceRecord": 3819,
+    "recordedCapacity": 5296,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6873",
+    "sourceRecord": 6873,
+    "recordedCapacity": 5267,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5820",
+    "sourceRecord": 5820,
+    "recordedCapacity": 5250,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7159",
+    "sourceRecord": 7159,
+    "recordedCapacity": 5200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7310",
+    "sourceRecord": 7310,
+    "recordedCapacity": 5200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5795",
+    "sourceRecord": 5795,
+    "recordedCapacity": 5140,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4375",
+    "sourceRecord": 4375,
+    "recordedCapacity": 5133,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6754",
+    "sourceRecord": 6754,
+    "recordedCapacity": 5123,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4275",
+    "sourceRecord": 4275,
+    "recordedCapacity": 5100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6810",
+    "sourceRecord": 6810,
+    "recordedCapacity": 5100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6980",
+    "sourceRecord": 6980,
+    "recordedCapacity": 5100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6178",
+    "sourceRecord": 6178,
+    "recordedCapacity": 5093,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7138",
+    "sourceRecord": 7138,
+    "recordedCapacity": 5092,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5914",
+    "sourceRecord": 5914,
+    "recordedCapacity": 5057,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3953",
+    "sourceRecord": 3953,
+    "recordedCapacity": 5037,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4010",
+    "sourceRecord": 4010,
+    "recordedCapacity": 5021,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3748",
+    "sourceRecord": 3748,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3779",
+    "sourceRecord": 3779,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3790",
+    "sourceRecord": 3790,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3961",
+    "sourceRecord": 3961,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4147",
+    "sourceRecord": 4147,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4235",
+    "sourceRecord": 4235,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4265",
+    "sourceRecord": 4265,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4650",
+    "sourceRecord": 4650,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6037",
+    "sourceRecord": 6037,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6215",
+    "sourceRecord": 6215,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6337",
+    "sourceRecord": 6337,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6365",
+    "sourceRecord": 6365,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6426",
+    "sourceRecord": 6426,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6673",
+    "sourceRecord": 6673,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6686",
+    "sourceRecord": 6686,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6930",
+    "sourceRecord": 6930,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7001",
+    "sourceRecord": 7001,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7010",
+    "sourceRecord": 7010,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7071",
+    "sourceRecord": 7071,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7110",
+    "sourceRecord": 7110,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7111",
+    "sourceRecord": 7111,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7122",
+    "sourceRecord": 7122,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7175",
+    "sourceRecord": 7175,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7199",
+    "sourceRecord": 7199,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7391",
+    "sourceRecord": 7391,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7399",
+    "sourceRecord": 7399,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8364",
+    "sourceRecord": 8364,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8375",
+    "sourceRecord": 8375,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8651",
+    "sourceRecord": 8651,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8652",
+    "sourceRecord": 8652,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8657",
+    "sourceRecord": 8657,
+    "recordedCapacity": 5000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6312",
+    "sourceRecord": 6312,
+    "recordedCapacity": 4950,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3694",
+    "sourceRecord": 3694,
+    "recordedCapacity": 4900,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6721",
+    "sourceRecord": 6721,
+    "recordedCapacity": 4875,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6927",
+    "sourceRecord": 6927,
+    "recordedCapacity": 4817,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3727",
+    "sourceRecord": 3727,
+    "recordedCapacity": 4750,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3963",
+    "sourceRecord": 3963,
+    "recordedCapacity": 4720,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3773",
+    "sourceRecord": 3773,
+    "recordedCapacity": 4700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6405",
+    "sourceRecord": 6405,
+    "recordedCapacity": 4662,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6137",
+    "sourceRecord": 6137,
+    "recordedCapacity": 4627,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6594",
+    "sourceRecord": 6594,
+    "recordedCapacity": 4595,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4396",
+    "sourceRecord": 4396,
+    "recordedCapacity": 4528,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5999",
+    "sourceRecord": 5999,
+    "recordedCapacity": 4502,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3576",
+    "sourceRecord": 3576,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4031",
+    "sourceRecord": 4031,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4157",
+    "sourceRecord": 4157,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4269",
+    "sourceRecord": 4269,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4313",
+    "sourceRecord": 4313,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6179",
+    "sourceRecord": 6179,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6394",
+    "sourceRecord": 6394,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6403",
+    "sourceRecord": 6403,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6407",
+    "sourceRecord": 6407,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6412",
+    "sourceRecord": 6412,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6466",
+    "sourceRecord": 6466,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6969",
+    "sourceRecord": 6969,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7057",
+    "sourceRecord": 7057,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7405",
+    "sourceRecord": 7405,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7438",
+    "sourceRecord": 7438,
+    "recordedCapacity": 4500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4060",
+    "sourceRecord": 4060,
+    "recordedCapacity": 4425,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6865",
+    "sourceRecord": 6865,
+    "recordedCapacity": 4370,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6349",
+    "sourceRecord": 6349,
+    "recordedCapacity": 4350,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3991",
+    "sourceRecord": 3991,
+    "recordedCapacity": 4300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5805",
+    "sourceRecord": 5805,
+    "recordedCapacity": 4256,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-4336",
+    "sourceRecord": 4336,
+    "recordedCapacity": 4200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7101",
+    "sourceRecord": 7101,
+    "recordedCapacity": 4170,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6073",
+    "sourceRecord": 6073,
+    "recordedCapacity": 4164,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6150",
+    "sourceRecord": 6150,
+    "recordedCapacity": 4160,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5798",
+    "sourceRecord": 5798,
+    "recordedCapacity": 4151,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4243",
+    "sourceRecord": 4243,
+    "recordedCapacity": 4128,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5910",
+    "sourceRecord": 5910,
+    "recordedCapacity": 4100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6413",
+    "sourceRecord": 6413,
+    "recordedCapacity": 4100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3792",
+    "sourceRecord": 3792,
+    "recordedCapacity": 4080,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4186",
+    "sourceRecord": 4186,
+    "recordedCapacity": 4073,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4117",
+    "sourceRecord": 4117,
+    "recordedCapacity": 4070,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6130",
+    "sourceRecord": 6130,
+    "recordedCapacity": 4060,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4606",
+    "sourceRecord": 4606,
+    "recordedCapacity": 4045,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7395",
+    "sourceRecord": 7395,
+    "recordedCapacity": 4033,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7073",
+    "sourceRecord": 7073,
+    "recordedCapacity": 4024,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6090",
+    "sourceRecord": 6090,
+    "recordedCapacity": 4014,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6264",
+    "sourceRecord": 6264,
+    "recordedCapacity": 4008,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3670",
+    "sourceRecord": 3670,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3874",
+    "sourceRecord": 3874,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3879",
+    "sourceRecord": 3879,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-3986",
+    "sourceRecord": 3986,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4236",
+    "sourceRecord": 4236,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5652",
+    "sourceRecord": 5652,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5875",
+    "sourceRecord": 5875,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6375",
+    "sourceRecord": 6375,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6425",
+    "sourceRecord": 6425,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6489",
+    "sourceRecord": 6489,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6769",
+    "sourceRecord": 6769,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7131",
+    "sourceRecord": 7131,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7156",
+    "sourceRecord": 7156,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7170",
+    "sourceRecord": 7170,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7411",
+    "sourceRecord": 7411,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8177",
+    "sourceRecord": 8177,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8408",
+    "sourceRecord": 8408,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8618",
+    "sourceRecord": 8618,
+    "recordedCapacity": 4000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6430",
+    "sourceRecord": 6430,
+    "recordedCapacity": 3950,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6373",
+    "sourceRecord": 6373,
+    "recordedCapacity": 3850,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3583",
+    "sourceRecord": 3583,
+    "recordedCapacity": 3816,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3679",
+    "sourceRecord": 3679,
+    "recordedCapacity": 3800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5800",
+    "sourceRecord": 5800,
+    "recordedCapacity": 3800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6161",
+    "sourceRecord": 6161,
+    "recordedCapacity": 3800,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7246",
+    "sourceRecord": 7246,
+    "recordedCapacity": 3750,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6366",
+    "sourceRecord": 6366,
+    "recordedCapacity": 3700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4358",
+    "sourceRecord": 4358,
+    "recordedCapacity": 3622,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5859",
+    "sourceRecord": 5859,
+    "recordedCapacity": 3600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6818",
+    "sourceRecord": 6818,
+    "recordedCapacity": 3600,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7450",
+    "sourceRecord": 7450,
+    "recordedCapacity": 3571,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3905",
+    "sourceRecord": 3905,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3969",
+    "sourceRecord": 3969,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4000",
+    "sourceRecord": 4000,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4258",
+    "sourceRecord": 4258,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4567",
+    "sourceRecord": 4567,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4571",
+    "sourceRecord": 4571,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5813",
+    "sourceRecord": 5813,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5855",
+    "sourceRecord": 5855,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5876",
+    "sourceRecord": 5876,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6209",
+    "sourceRecord": 6209,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6428",
+    "sourceRecord": 6428,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7069",
+    "sourceRecord": 7069,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7072",
+    "sourceRecord": 7072,
+    "recordedCapacity": 3500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6301",
+    "sourceRecord": 6301,
+    "recordedCapacity": 3480,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3808",
+    "sourceRecord": 3808,
+    "recordedCapacity": 3466,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4566",
+    "sourceRecord": 4566,
+    "recordedCapacity": 3400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3387",
+    "sourceRecord": 3387,
+    "recordedCapacity": 3306,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4042",
+    "sourceRecord": 4042,
+    "recordedCapacity": 3300,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3857",
+    "sourceRecord": 3857,
+    "recordedCapacity": 3200,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6376",
+    "sourceRecord": 6376,
+    "recordedCapacity": 3200,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6411",
+    "sourceRecord": 6411,
+    "recordedCapacity": 3200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6860",
+    "sourceRecord": 6860,
+    "recordedCapacity": 3100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5801",
+    "sourceRecord": 5801,
+    "recordedCapacity": 3050,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3812",
+    "sourceRecord": 3812,
+    "recordedCapacity": 3044,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3927",
+    "sourceRecord": 3927,
+    "recordedCapacity": 3034,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5802",
+    "sourceRecord": 5802,
+    "recordedCapacity": 3030,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3783",
+    "sourceRecord": 3783,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4012",
+    "sourceRecord": 4012,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4048",
+    "sourceRecord": 4048,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4099",
+    "sourceRecord": 4099,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4106",
+    "sourceRecord": 4106,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4160",
+    "sourceRecord": 4160,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4178",
+    "sourceRecord": 4178,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4244",
+    "sourceRecord": 4244,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4245",
+    "sourceRecord": 4245,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4378",
+    "sourceRecord": 4378,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6159",
+    "sourceRecord": 6159,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6350",
+    "sourceRecord": 6350,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6427",
+    "sourceRecord": 6427,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6506",
+    "sourceRecord": 6506,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6521",
+    "sourceRecord": 6521,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6627",
+    "sourceRecord": 6627,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7046",
+    "sourceRecord": 7046,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7060",
+    "sourceRecord": 7060,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7070",
+    "sourceRecord": 7070,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7075",
+    "sourceRecord": 7075,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7080",
+    "sourceRecord": 7080,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7098",
+    "sourceRecord": 7098,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7124",
+    "sourceRecord": 7124,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7431",
+    "sourceRecord": 7431,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8135",
+    "sourceRecord": 8135,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8548",
+    "sourceRecord": 8548,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-8667",
+    "sourceRecord": 8667,
+    "recordedCapacity": 3000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3979",
+    "sourceRecord": 3979,
+    "recordedCapacity": 2984,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4027",
+    "sourceRecord": 4027,
+    "recordedCapacity": 2952,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7449",
+    "sourceRecord": 7449,
+    "recordedCapacity": 2850,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6583",
+    "sourceRecord": 6583,
+    "recordedCapacity": 2817,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6807",
+    "sourceRecord": 6807,
+    "recordedCapacity": 2809,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4104",
+    "sourceRecord": 4104,
+    "recordedCapacity": 2801,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-3785",
+    "sourceRecord": 3785,
+    "recordedCapacity": 2709,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4261",
+    "sourceRecord": 4261,
+    "recordedCapacity": 2700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7432",
+    "sourceRecord": 7432,
+    "recordedCapacity": 2700,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-5664",
+    "sourceRecord": 5664,
+    "recordedCapacity": 2685,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-3865",
+    "sourceRecord": 3865,
+    "recordedCapacity": 2658,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3926",
+    "sourceRecord": 3926,
+    "recordedCapacity": 2650,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6811",
+    "sourceRecord": 6811,
+    "recordedCapacity": 2640,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6635",
+    "sourceRecord": 6635,
+    "recordedCapacity": 2586,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7179",
+    "sourceRecord": 7179,
+    "recordedCapacity": 2566,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4119",
+    "sourceRecord": 4119,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4268",
+    "sourceRecord": 4268,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4296",
+    "sourceRecord": 4296,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4297",
+    "sourceRecord": 4297,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4299",
+    "sourceRecord": 4299,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4432",
+    "sourceRecord": 4432,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6097",
+    "sourceRecord": 6097,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6170",
+    "sourceRecord": 6170,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6420",
+    "sourceRecord": 6420,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6666",
+    "sourceRecord": 6666,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-7083",
+    "sourceRecord": 7083,
+    "recordedCapacity": 2500,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3581",
+    "sourceRecord": 3581,
+    "recordedCapacity": 2465,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6135",
+    "sourceRecord": 6135,
+    "recordedCapacity": 2400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6419",
+    "sourceRecord": 6419,
+    "recordedCapacity": 2400,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7303",
+    "sourceRecord": 7303,
+    "recordedCapacity": 2350,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7291",
+    "sourceRecord": 7291,
+    "recordedCapacity": 2200,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6619",
+    "sourceRecord": 6619,
+    "recordedCapacity": 2118,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4089",
+    "sourceRecord": 4089,
+    "recordedCapacity": 2100,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-3584",
+    "sourceRecord": 3584,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4167",
+    "sourceRecord": 4167,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4266",
+    "sourceRecord": 4266,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4300",
+    "sourceRecord": 4300,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-4420",
+    "sourceRecord": 4420,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6038",
+    "sourceRecord": 6038,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-6119",
+    "sourceRecord": 6119,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6323",
+    "sourceRecord": 6323,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6333",
+    "sourceRecord": 6333,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6361",
+    "sourceRecord": 6361,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6418",
+    "sourceRecord": 6418,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6471",
+    "sourceRecord": 6471,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6765",
+    "sourceRecord": 6765,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-6919",
+    "sourceRecord": 6919,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7056",
+    "sourceRecord": 7056,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7059",
+    "sourceRecord": 7059,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7063",
+    "sourceRecord": 7063,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7082",
+    "sourceRecord": 7082,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7095",
+    "sourceRecord": 7095,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7100",
+    "sourceRecord": 7100,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  },
+  {
+    "id": "ground-7183",
+    "sourceRecord": 7183,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "within-5km"
+  },
+  {
+    "id": "ground-8406",
+    "sourceRecord": 8406,
+    "recordedCapacity": 2000,
+    "boundaryCheck": "inside"
+  }
+]

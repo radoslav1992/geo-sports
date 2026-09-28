@@ -32,3 +32,9 @@ Coordinate corroboration: Wikidata structured data (CC0), archived by @deepxg an
 https://gist.github.com/dannypage/6cd52ac0ad61216e81b4
 Snapshot: 58a46b086cd951cde3c0e00eb4b38a0713b4e45b
 https://www.wikidata.org/wiki/Wikidata:Licensing
+
+
+Legends birthplace coordinates and region names: GeoNames (https://www.geonames.org)
+Extract: cities.json npm package 1.1.64 (https://www.npmjs.com/package/cities.json)
+Licensed under Creative Commons Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/
+Geo Football uses the town coordinates and first-level region names; the clues and facts are original.
