@@ -15,10 +15,10 @@ const countries=feature(world,world.objects.countries);
       <g class="ocean-labels" aria-hidden="true"><text x="175" y="268">PACIFIC OCEAN</text><text x="402" y="276">ATLANTIC</text><text x="402" y="291">OCEAN</text><text x="675" y="334">INDIAN OCEAN</text></g>
       <path id="connection" class="connection"/>
       <g id="answer-marker" hidden><circle class="answer-ring" r="18"/><circle class="answer-core" r="8"/><path d="M-4 0L-1 3L5-4"/></g>
-      <g id="guess-marker" hidden><ellipse class="pin-shadow" cy="2" rx="11" ry="4"/><path class="pin-shape" d="M0 0C-4-6-12-13-12-22a12 12 0 0 1 24 0C12-13 4-6 0 0Z"/><circle fill="white" cy="-22" r="4"/></g>
+      <g id="guess-marker" hidden><ellipse class="pin-shadow" cy="2" rx="11" ry="4"/><path class="pin-shape" d="M0 0C-4-6-12-13-12-22a12 12 0 0 1 24 0C12-13 4-6 0 0Z"/><g transform="translate(0 -22)" aria-hidden="true"><circle r="8" fill="#f2ffe8"/><path d="M0-4 4-1 2.5 3H-2.5L-4-1Z" fill="#17332b"/><path d="M0-8v4M7.6-2.5 4-1M4.7 6.5 2.5 3M-4.7 6.5-2.5 3M-7.6-2.5-4-1" stroke="#17332b" stroke-width="1"/></g></g>
     </g>
   </svg>
-  <div class="map-view-label" aria-hidden="true"><span></span> WORLD VIEW <b>01 — 05</b></div>
+  <div class="map-view-label" aria-hidden="true"><span></span> THE WORLD PITCH <b>FIND YOUR GROUND</b></div>
   <div class="map-instruction" id="map-instruction"><i data-lucide="mouse-pointer-2"></i><span>Tap the map to drop your pin</span></div>
   <div class="map-tools"><button id="zoom-in" type="button" aria-label="Zoom in"><i data-lucide="plus"></i></button><button id="zoom-out" type="button" aria-label="Zoom out"><i data-lucide="minus"></i></button><button id="reset-map" type="button" aria-label="Reset map view"><i data-lucide="maximize"></i></button></div>
   <div class="map-legend" id="map-legend" hidden><span><b class="guess-dot"></b>Your pin</span><span><b class="answer-dot"></b>Answer</span></div>
