@@ -1,4 +1,4 @@
-import {buildShareResult, platformLinks, createScorecard, scoreBand} from './share.js';
+import {buildShareResult, platformLinks, createScorecard} from './share.js';
 
 export function createSharing() {
   const $ = id => document.getElementById(id);
@@ -39,9 +39,9 @@ export function createSharing() {
   };
 
   return {
-    prepare(round) {
+    prepare(round, extras) {
       const ticket = ++generation;
-      current = buildShareResult(round, location.href);
+      current = buildShareResult(round, location.href, extras);
       file = null;
       if (objectUrl) URL.revokeObjectURL(objectUrl);
       objectUrl = null;
@@ -51,14 +51,6 @@ export function createSharing() {
       $('scorecard-image').removeAttribute('src');
       $('save-scorecard').hidden = true;
       $('save-scorecard').removeAttribute('href');
-      $('score-tiles').replaceChildren(...current.points.map(points => {
-        const tile = document.createElement('span');
-        tile.dataset.band = scoreBand(points);
-        tile.textContent = points.toLocaleString('en-US');
-        tile.setAttribute('aria-hidden', 'true');
-        return tile;
-      }));
-      $('score-tiles').setAttribute('aria-label', `Question scores: ${current.points.join(', ')} points`);
       $('share-assists').textContent = current.assistLabel;
       const links = platformLinks(current);
       $('share-x').href = links.x; $('share-whatsapp').href = links.whatsapp;

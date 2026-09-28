@@ -4,7 +4,7 @@ export const scoreBand = points => points >= 800 ? 'good' : points >= 400 ? 'clo
 export const scoreTile = points => ({good: '🟩', close: '🟨', far: '🟧'})[scoreBand(points)];
 
 // Only these spoiler-free fields leave the game. Never serialize the round itself.
-export function buildShareResult(round, pageUrl) {
+export function buildShareResult(round, pageUrl, {matchday = 0, streak = 0} = {}) {
   if (round.phase !== 'complete' || round.results.length !== ROUND_SIZE) {
     throw new Error('Finish all five questions before sharing.');
   }
@@ -18,11 +18,13 @@ export function buildShareResult(round, pageUrl) {
   const formattedScore = score.toLocaleString('en-US');
   const tiles = points.map(scoreTile).join('');
   const assistLabel = assists === 0 ? 'No assists' : `${assists} assist${assists === 1 ? '' : 's'}`;
-  const text = `⚽ Geo Football · ${practice ? 'Training · ' : ''}${round.date}\n${tiles}\n${formattedScore} / 5,000 pts · ${assistLabel}\n${practice ? 'Your turn. Give it a go!' : 'Can you beat my score?'}`;
+  const number = !practice && matchday >= 1 ? ` #${matchday}` : '';
+  const streakLabel = !practice && streak >= 2 ? ` · 🔥 ${streak}` : '';
+  const text = `⚽ Geo Football${number} · ${practice ? 'Training · ' : ''}${round.date}\n${tiles}\n${formattedScore} / 5,000 pts · ${assistLabel}${streakLabel}\n${practice ? 'Your turn. Give it a go!' : 'Can you beat my score?'}`;
   return {
     title: 'Geo Football — My score', text, url: url.href,
     fullText: `${text}\n${url.href}`,
-    date: round.date, practice, points, score, formattedScore, tiles, assistLabel,
+    date: round.date, practice, points, score, formattedScore, tiles, assistLabel, matchday: number ? matchday : 0,
     filename: `geo-football-${practice ? 'training' : 'daily'}-${round.date}.png`,
   };
 }
@@ -67,7 +69,7 @@ export async function createScorecard(result) {
     ctx.fillText(text, 540, y, 790);
   };
   label('GEO FOOTBALL', 184, 62, lime, true);
-  label(`${result.practice ? 'TRAINING GROUND' : 'DAILY MATCHDAY'}  /  ${result.date}`, 241, 23, '#a5bdc9');
+  label(`${result.practice ? 'TRAINING GROUND' : `MATCHDAY${result.matchday ? ` #${result.matchday}` : ''}`}  /  ${result.date}`, 241, 23, '#a5bdc9');
   label('FULL-TIME', 336, 27, '#a5bdc9');
   label(result.formattedScore, 505, 184, white, true);
   label('OUT OF 5,000 POINTS', 555, 24, '#a5bdc9');

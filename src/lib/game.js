@@ -5,6 +5,18 @@ export const CONTENT_VERSION = 'football-v1';
 export const DAILY_SCHEDULE_START = dailySchedule.startsOn;
 export const DAILY_REPEAT_DAYS = dailySchedule.days.length;
 export const dayKey = (date = new Date()) => date.toISOString().slice(0, 10);
+const shiftDay = (date, days) => dayKey(new Date(Date.parse(`${date}T00:00:00Z`) + days * 86400000));
+// Matchday #1 is the calendar's first day; earlier dates have no number.
+export const matchdayNumber = date => Math.floor((Date.parse(`${date}T00:00:00Z`) - Date.parse(`${DAILY_SCHEDULE_START}T00:00:00Z`)) / 86400000) + 1;
+// Consecutive completed daily rounds. Today's streak stays alive until today's round is missed.
+export function streaks(history, today) {
+  const days = new Set(Object.keys(history && typeof history === 'object' ? history : {}).filter(d => /^\d{4}-\d{2}-\d{2}$/.test(d)));
+  let current = 0, cursor = days.has(today) ? today : shiftDay(today, -1);
+  while (days.has(cursor)) { current++; cursor = shiftDay(cursor, -1); }
+  let best = 0, run = 0, previous = null;
+  for (const date of [...days].sort()) { run = previous && shiftDay(previous, 1) === date ? run + 1 : 1; best = Math.max(best, run); previous = date; }
+  return {current, best};
+}
 export function hashSeed(value) {
   let hash = 2166136261;
   for (const char of value) hash = Math.imul(hash ^ char.charCodeAt(0), 16777619);

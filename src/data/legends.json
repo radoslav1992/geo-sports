@@ -1273,7 +1273,7 @@
   },
   {
     "id": "legend-preston",
-    "question": "Sir Tom Finney, a one-club man at Preston North End, was born in this Lancashire city. Find it.",
+    "question": "Sir Tom Finney, who spent his whole career at his hometown club, was born in this Lancashire city. Find it.",
     "city": "Preston",
     "country": "England",
     "coords": [
@@ -1281,7 +1281,7 @@
       53.76282
     ],
     "hint": "Look in England. The place name starts with “P”.",
-    "fact": "Tom Finney was born in Preston in 1922."
+    "fact": "Tom Finney was born in Preston in 1922 and played only for Preston North End."
   },
   {
     "id": "legend-birkenhead",
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "legend-stockport",
-    "question": "Phil Foden, the “Stockport Iniesta”, was born in this town. Find it.",
+    "question": "Phil Foden, a Manchester City academy graduate, was born in this town in Greater Manchester. Find it.",
     "city": "Stockport",
     "country": "England",
     "coords": [
@@ -1569,7 +1569,7 @@
       53.40979
     ],
     "hint": "Look in England. The place name starts with “S”.",
-    "fact": "Phil Foden was born in Stockport in 2000."
+    "fact": "Phil Foden was born in Stockport in 2000 and is nicknamed the “Stockport Iniesta”."
   },
   {
     "id": "legend-plymouth",
@@ -2389,7 +2389,7 @@
   },
   {
     "id": "legend-dortmund-city",
-    "question": "Marco Reus, a Borussia Dortmund icon, was born in this city. Find it.",
+    "question": "Marco Reus, who spent twelve seasons at his hometown club, was born in this Ruhr city. Find it.",
     "city": "Dortmund",
     "country": "Germany",
     "coords": [
@@ -2397,7 +2397,7 @@
       51.51494
     ],
     "hint": "Look in North Rhine-Westphalia, Germany. The place name starts with “D”.",
-    "fact": "Marco Reus was born in Dortmund in 1989."
+    "fact": "Marco Reus was born in Dortmund in 1989 and played for Borussia Dortmund from 2012 to 2024."
   },
   {
     "id": "legend-aachen",

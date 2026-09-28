@@ -43,3 +43,14 @@ test('practice is labelled separately and incomplete rounds cannot be shared', (
   assert.throws(() => buildShareResult({...complete, results: []}, 'https://example.com/'));
   assert.deepEqual([0, 399, 400, 799, 800, 1000].map(scoreTile), ['🟧', '🟧', '🟨', '🟨', '🟩', '🟩']);
 });
+
+test('daily shares carry the matchday number and a streak of two or more; training shares do not', () => {
+  const daily = buildShareResult(complete, 'https://example.com/', {matchday: 104, streak: 3});
+  assert.match(daily.text, /^⚽ Geo Football #104 · 2026-09-28\n/);
+  assert.match(daily.text, /🔥 3/);
+  assert.doesNotMatch(buildShareResult(complete, 'https://example.com/', {matchday: 104, streak: 1}).text, /🔥/);
+  assert.doesNotMatch(buildShareResult(complete, 'https://example.com/', {matchday: 0}).text, /#/);
+  const training = buildShareResult({...complete, mode: 'practice'}, 'https://example.com/', {matchday: 104, streak: 3});
+  assert.doesNotMatch(training.text, /#104|🔥/);
+  assert.ok(daily.text.length + 24 < 280);
+});

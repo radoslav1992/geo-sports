@@ -1,7 +1,3 @@
-.score-tiles { display: flex; justify-content: center; gap: 7px; margin: 18px 0 10px; }
-.score-tiles span { min-width: 56px; height: 40px; padding: 0 6px; display: grid; place-items: center; border-radius: 10px; color: #102217; background: var(--good); font: 700 18px var(--display); }
-.score-tiles [data-band="close"] { background: var(--close); }
-.score-tiles [data-band="far"] { background: var(--far); }
 .share-assists { color: var(--ink-2); font-size: 13px; margin: 0 0 20px; }
 .share-intro { color: var(--muted); font-size: 13px; margin: 0 0 12px; line-height: 1.6; }
 .share-options { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 10px; }
@@ -11,16 +7,13 @@
 .x-brand { font-size: 17px; font-weight: 500; line-height: 1; }
 .share-status { margin: 10px 0 0; color: #d4f0b8; font-size: 13px; line-height: 1.5; }
 .share-status:empty { display: none; }
-.results-details, .scorecard-preview { margin-top: 15px; border-top: 1px solid var(--line); padding-top: 12px; }
-.results-details summary, .scorecard-preview summary { color: var(--ink-2); cursor: pointer; font-size: 13px; font-weight: 500; padding: 4px; }
-.results-details summary:hover, .scorecard-preview summary:hover { color: var(--accent); }
+.scorecard-preview { margin-top: 15px; border-top: 1px solid var(--line); padding-top: 12px; }
+.scorecard-preview summary { color: var(--ink-2); cursor: pointer; font-size: 13px; font-weight: 500; padding: 4px; }
+.scorecard-preview summary:hover { color: var(--accent); }
 summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
-.results-details #round-results { margin: 14px 0 0; }
 .scorecard-preview img { width: 100%; height: auto; border-radius: 12px; display: block; margin-top: 12px; }
 #results-dialog h2 { font-size: 32px; margin: 12px 0 14px; }
 @media (max-width: 370px) {
-  .score-tiles { gap: 5px; }
-  .score-tiles span { min-width: 50px; font-size: 16px; }
-  .share-options { gap: 7px; }
+      .share-options { gap: 7px; }
   .share-options a, .share-options button { font-size: 12px; padding: 8px 4px; gap: 5px; }
 }
