@@ -51,6 +51,7 @@ svg.lucide { width: 18px; height: 18px; stroke-width: 1.9; flex-shrink: 0; }
 
 /* Header */
 .site-header { max-width: 1800px; min-height: 80px; margin: 0 auto; padding: 0 32px; display: flex; align-items: center; gap: 20px; }
+.brand-heading { margin: 0; font-size: inherit; font-weight: inherit; line-height: 1; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; flex-shrink: 0; }
 .brand-mark { display: block; width: 40px; height: 45px; filter: drop-shadow(0 6px 14px rgba(181, 243, 106, .28)); }
 .brand-mark img { display: block; width: 100%; height: 100%; }
@@ -93,7 +94,7 @@ main.multisteps_form { max-width: 1800px; margin: 0 auto; padding: 4px 32px 0; m
 .question_number { display: inline-flex; align-items: center; padding: 6px 12px; border: 0; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font-size: 12px; font-weight: 700; letter-spacing: .8px; white-space: nowrap; }
 #sport, .meta-dot { display: none; }
 #year { font-size: 12px; font-weight: 600; letter-spacing: 1.5px; color: var(--muted); }
-h1 { margin: 14px 0 8px; font: 700 clamp(28px, 2.4vw, 42px)/1.12 var(--display); letter-spacing: .2px; color: var(--ink); outline: none; text-wrap: balance; }
+#question { margin: 14px 0 8px; font: 700 clamp(28px, 2.4vw, 42px)/1.12 var(--display); letter-spacing: .2px; color: var(--ink); outline: none; text-wrap: balance; }
 .question-helper { margin: 0; font-size: 14px; line-height: 1.5; color: var(--muted); }
 .question-helper:has(+ .hint:not([hidden])) { display: none; }
 .hint { margin: 10px 0 0; padding: 10px 14px; border-radius: var(--radius-sm); border: 1px solid rgba(244, 214, 124, .4); background: rgba(244, 214, 124, .09); color: #fbe7aa; font-size: 14px; line-height: 1.5; }
@@ -245,7 +246,7 @@ dialog li p, .dialog-note { margin: 5px 0 0; font-size: 14px; line-height: 1.6; 
   .edition-tag { display: inline; }
   .edition-divider { display: block; }
   .match-header { padding: 26px 30px; gap: 30px; }
-  h1 { font-size: 44px; }
+  #question { font-size: 44px; }
   .map-shell, #world-map { min-height: 460px; }
 }
 /* Short laptop screens: tighten the chrome so the map and Confirm button fit without scrolling. */
@@ -253,7 +254,7 @@ dialog li p, .dialog-note { margin: 5px 0 0; font-size: 14px; line-height: 1.6; 
   .site-header { min-height: 68px; }
   main.multisteps_form { min-height: calc(100svh - 68px - 60px); }
   .match-header { padding: 14px 24px; }
-  h1 { margin: 10px 0 6px; }
+  #question { margin: 10px 0 6px; }
   .map-shell, #world-map { min-height: 320px; }
   .guess-actions { padding: 12px 24px; }
 }
@@ -274,7 +275,7 @@ dialog li p, .dialog-note { margin: 5px 0 0; font-size: 14px; line-height: 1.6; 
   main.multisteps_form { min-height: calc(100svh - 140px - 60px); }
   .match-header { gap: 18px; padding: 18px; }
   .question-topline { flex-wrap: wrap; gap: 10px; }
-  h1 { font-size: 31px; }
+  #question { font-size: 31px; }
   .assist-long, .map-view-label > b { display: none; }
   .assist-short { display: inline; }
 }
@@ -302,7 +303,7 @@ dialog li p, .dialog-note { margin: 5px 0 0; font-size: 14px; line-height: 1.6; 
   .question-meta { min-height: 30px; padding-right: 110px; gap: 8px; flex-wrap: wrap; }
   .question_number { font-size: 11px; padding: 5px 10px; }
   #year { display: none; }
-  h1 { font-size: 27px; line-height: 1.14; margin: 12px 0 8px; }
+  #question { font-size: 27px; line-height: 1.14; margin: 12px 0 8px; }
   .question-helper { display: none; }
   .hint { font-size: 13px; }
   /* Fit the shell to the world's 960:470 frame, plus room for the overlay controls. */
@@ -354,7 +355,7 @@ dialog li p, .dialog-note { margin: 5px 0 0; font-size: 14px; line-height: 1.6; 
   .mode-switch button { font-size: 12px; gap: 4px; padding: 0 6px; }
   .mode-switch svg { display: none; }
   .question-meta { padding-right: 90px; }
-  h1 { font-size: 25px; }
+  #question { font-size: 25px; }
   }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }

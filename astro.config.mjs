@@ -1,2 +1,3 @@
 import { defineConfig } from 'astro/config';
-export default defineConfig({ output: 'static' });
+import { SITE } from './src/lib/seo.js';
+export default defineConfig({ output: 'static', site: SITE, trailingSlash: 'ignore' });

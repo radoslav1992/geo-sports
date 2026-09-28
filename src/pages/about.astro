@@ -1,0 +1,47 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import {questions} from '../data/questions.js';
+import {groundStories} from '../data/ground-stories.js';
+import {DAILY_REPEAT_DAYS} from '../lib/game.js';
+const fmt = n => n.toLocaleString('en-US');
+const grounds = questions.filter(q => q.id.startsWith('ground-')), legends = questions.filter(q => q.id.startsWith('legend-'));
+const countries = new Set(questions.map(q => q.country)).size, legendCountries = new Set(legends.map(q => q.country)).size;
+const stories = Object.keys(groundStories).length;
+---
+<ContentPage title="About the Questions – Geo Football Stadium and Legends Quiz" heading="About the questions" description={`Inside Geo Football: ${fmt(questions.length)} questions on stadiums, legends’ birthplaces and famous matches from ${countries} countries and territories, and how pins are checked.`} path="/about/">
+<p class="lede">Every Geo Football clue points to one real place on the map. Here is what the question bank contains, where the locations come from, and how the daily calendar keeps things fresh.</p>
+
+<div class="stat-row">
+<div><strong>{fmt(questions.length)}</strong><span>questions</span></div>
+<div><strong>{countries}</strong><span>countries and territories</span></div>
+<div><strong>{DAILY_REPEAT_DAYS}</strong><span>days before any repeat</span></div>
+</div>
+
+<h2>Stadiums, past and present</h2>
+<p>{fmt(grounds.length)} questions ask you to find a football ground, from World Cup final venues to lower-league grounds in the game’s heartlands. {stories} of the best-known grounds come with a story: a final, a famous match or a landmark fact, such as the site of the “Miracle of Bern” or the oldest major stadium still in use. Grounds are listed by the names they have been known by, which may include former sponsor names.</p>
+
+<h2>Legends and where they were born</h2>
+<p>{fmt(legends.length)} Legends clues ask where famous footballers and coaches were born, from the men’s and women’s game, across {legendCountries} countries. Where several stars share a hometown, they share one clue, so every question has its own spot on the map.</p>
+
+<h2>Famous moments</h2>
+<p>A set of hand-written classics cover moments such as the 1950 “Maracanazo”, England’s 1966 win at Wembley and the 2022 final at Lusail.</p>
+
+<h2>How the locations are checked</h2>
+<ul>
+<li>Stadium positions come from a pinned open dataset of football grounds and are checked against the country’s borders; ambiguous, duplicate and training-ground records are left out.</li>
+<li>Birthplace pins come from the GeoNames gazetteer, never typed from memory. Towns that couldn’t be matched with confidence were dropped.</li>
+<li>No two questions sit within 700 metres of each other, so the same spot never answers two clues.</li>
+<li>Story and Legends clues never name their answer city, and facts stick to widely documented results, dates and awards.</li>
+</ul>
+
+<h2>A calendar that doesn’t repeat</h2>
+<p>The daily matchday follows a fixed calendar. Days are built to mix countries and continents, and no question returns for {DAILY_REPEAT_DAYS} days, so a daily player sees the whole bank before anything comes back.</p>
+
+<h2>Privacy</h2>
+<p>Geo Football needs no account. Your progress, streaks and settings are stored in your own browser; the game itself sends nothing about how you play to a server.</p>
+
+<h2>Credits</h2>
+<p>Stadium data: WorldSoccerStadiums (public domain / MIT). Birthplace coordinates and region names: <a href="https://www.geonames.org/">GeoNames</a> (CC BY 4.0). Map outlines: Natural Earth (public domain). Full details are in the <a href="/data-licenses.txt">data credits</a>.</p>
+
+<p><a class="page-cta" href="/">Play today’s matchday →</a></p>
+</ContentPage>

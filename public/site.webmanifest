@@ -1,0 +1,15 @@
+{
+  "name": "Geo Football – Daily Football Geography Quiz",
+  "short_name": "Geo Football",
+  "description": "Five football clues a day. Pin stadiums, legends’ birthplaces and famous matches on the world map.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050d16",
+  "theme_color": "#06101a",
+  "icons": [
+    {"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
