@@ -1,5 +1,5 @@
 ---
-// Shared <head> tags: canonical URL, social previews, icons and structured data.
+// Shared <head> tags: canonical URL, social previews, icons, structured data and the Google tag.
 import {SITE_NAME, absolute} from '../lib/seo.js';
 interface Props {title: string; description: string; path: string; noindex?: boolean; jsonLd?: object}
 const {title, description, path, noindex = false, jsonLd} = Astro.props;
@@ -30,3 +30,12 @@ const url = absolute(path), image = absolute('/og-image.png');
 <meta name="twitter:description" content={description}/>
 <meta name="twitter:image" content={image}/>
 {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}/>}
+<!-- Google tag (gtag.js) -->
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-QNZZDM7MD1"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QNZZDM7MD1');
+</script>

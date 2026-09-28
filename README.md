@@ -76,9 +76,9 @@ Every daily set except the three legacy days contains five different football na
 
 Data provenance, historical-name caveats, coordinate checks, import commands, and maintenance rules are documented in [docs/QUESTION-BANK.md](docs/QUESTION-BANK.md).
 
-Answers and scoring run in the browser. This release is suitable for casual play and the initial design launch; it is not cheat-resistant competitive scoring. A public leaderboard would require server-side answer validation and shared storage. No accounts, subscriptions, analytics, advertising, or tracking scripts are included.
+Answers and scoring run in the browser. This release is suitable for casual play and the initial design launch; it is not cheat-resistant competitive scoring. A public leaderboard would require server-side answer validation and shared storage. There are no accounts, subscriptions or advertising. Google Analytics (`G-QNZZDM7MD1`, in `src/components/Seo.astro`) measures page visits on every page; answers and scores are never sent.
 
-The interactive map is built from Natural Earth's country boundaries through `world-atlas`, with D3 projection. It is an approximate low-resolution world map, not a street map. Fonts are bundled locally. There are no external font, tile or API requests during gameplay.
+The interactive map is built from Natural Earth's country boundaries through `world-atlas`, with D3 projection. It is an approximate low-resolution world map, not a street map. Fonts are bundled locally. There are no external font, tile or API requests during gameplay; the only third-party request is the Google tag.
 
 ## Project structure
 
