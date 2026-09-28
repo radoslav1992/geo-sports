@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "ground-3487",
+    "name": "Elbasan Arena",
+    "city": "Elbasan",
+    "country": "Albania",
+    "coords": [
+      20.09197,
+      41.11588
+    ]
+  },
+  {
+    "id": "ground-8356",
+    "name": "5 Juillet 1962",
+    "city": "Algiers",
+    "country": "Algeria",
+    "coords": [
+      2.99517,
+      36.75988
+    ]
+  },
+  {
+    "id": "ground-8477",
+    "name": "El Cilindro",
+    "city": "Avellaneda",
+    "country": "Argentina",
+    "coords": [
+      -58.36859,
+      -34.66752
+    ]
+  },
+  {
+    "id": "ground-3398",
+    "name": "Hanrapetakan",
+    "city": "Yerevan",
+    "country": "Armenia",
+    "coords": [
+      44.5256,
+      40.17194
+    ]
+  },
+  {
+    "id": "ground-8028",
+    "name": "Suncorp Stadium",
+    "city": "Brisbane",
+    "country": "Australia",
+    "coords": [
+      153.00954,
+      -27.46501
+    ]
+  },
+  {
+    "id": "ground-3610",
+    "name": "Allianz Stadion",
+    "city": "Vienna",
+    "country": "Austria",
+    "coords": [
+      16.26629,
+      48.1982
+    ]
+  },
+  {
+    "id": "ground-3802",
+    "name": "Tofig Bakhramov",
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "coords": [
+      49.85238,
+      40.39732
+    ]
+  },
+  {
+    "id": "ground-7942",
+    "name": "Bangabandhu National Stadium",
+    "city": "Dhaka",
+    "country": "Bangladesh",
+    "coords": [
+      90.41357,
+      23.72785
+    ]
+  },
+  {
+    "id": "ground-4374",
+    "name": "Tsentralny",
+    "city": "Gomel",
+    "country": "Belarus",
+    "coords": [
+      31.01209,
+      52.43672
+    ]
+  },
+  {
+    "id": "ground-3594",
+    "name": "Stade Sclessin",
+    "city": "Liège",
+    "country": "Belgium",
+    "coords": [
+      5.54338,
+      50.60993
+    ]
+  },
+  {
+    "id": "ground-8497",
+    "name": "Víctor Agustín Ugarte",
+    "city": "Potosí",
+    "country": "Bolivia",
+    "coords": [
+      -65.76111,
+      -19.57861
+    ]
+  },
+  {
+    "id": "ground-3676",
+    "name": "Asim Ferhatović Hase",
+    "city": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "coords": [
+      18.40862,
+      43.87376
+    ]
+  },
+  {
+    "id": "ground-8422",
+    "name": "Morumbí",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "coords": [
+      -46.72009,
+      -23.60011
+    ]
+  },
+  {
+    "id": "ground-3438",
+    "name": "Vasil Levski",
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "coords": [
+      23.33522,
+      42.68753
+    ]
+  },
+  {
+    "id": "ground-7968",
+    "name": "Olympic Stadium",
+    "city": "Phnom Penh",
+    "country": "Cambodia",
+    "coords": [
+      104.91215,
+      11.55834
+    ]
+  },
+  {
+    "id": "ground-8170",
+    "name": "BC Place",
+    "city": "Vancouver",
+    "country": "Canada",
+    "coords": [
+      -123.11208,
+      49.27666
+    ]
+  },
+  {
+    "id": "ground-8482",
+    "name": "Estadio Santa Laura",
+    "city": "Santiago",
+    "country": "Chile",
+    "coords": [
+      -70.65902,
+      -33.40452
+    ]
+  },
+  {
+    "id": "ground-8048",
+    "name": "Workers' Stadium",
+    "city": "Beijing",
+    "country": "China",
+    "coords": [
+      116.44085,
+      39.92952
+    ]
+  },
+  {
+    "id": "ground-8427",
+    "name": "Atanasio Girardot",
+    "city": "Medellín",
+    "country": "Colombia",
+    "coords": [
+      -75.59018,
+      6.25679
+    ]
+  },
+  {
+    "id": "ground-8156",
+    "name": "Estadio Nacional de Costa Rica",
+    "city": "San José",
+    "country": "Costa Rica",
+    "coords": [
+      -84.10778,
+      9.93638
+    ]
+  },
+  {
+    "id": "ground-3762",
+    "name": "Poljud",
+    "city": "Split",
+    "country": "Croatia",
+    "coords": [
+      16.43158,
+      43.5195
+    ]
+  },
+  {
+    "id": "ground-3844",
+    "name": "Tsirion",
+    "city": "Limassol",
+    "country": "Cyprus",
+    "coords": [
+      33.0229,
+      34.70089
+    ]
+  },
+  {
+    "id": "ground-3424",
+    "name": "Sinobo Stadium",
+    "city": "Prague",
+    "country": "Czechia",
+    "coords": [
+      14.47167,
+      50.0675
+    ]
+  },
+  {
+    "id": "ground-4446",
+    "name": "BioNutria Park Randers",
+    "city": "Randers",
+    "country": "Denmark",
+    "coords": [
+      10.01026,
+      56.46594
+    ]
+  },
+  {
+    "id": "ground-8457",
+    "name": "Monumental Banco Pichincha",
+    "city": "Guayaquil",
+    "country": "Ecuador",
+    "coords": [
+      -79.92493,
+      -2.18587
+    ]
+  },
+  {
+    "id": "ground-8372",
+    "name": "Borg El Arab Stadium",
+    "city": "Alexandria",
+    "country": "Egypt",
+    "coords": [
+      29.72944,
+      30.99939
+    ]
+  },
+  {
+    "id": "ground-8176",
+    "name": "Estadio Cuscatlan",
+    "city": "San Salvador",
+    "country": "El Salvador",
+    "coords": [
+      -89.2224,
+      13.68105
+    ]
+  },
+  {
+    "id": "ground-3551",
+    "name": "Tottenham Hotspur Stadium",
+    "city": "London",
+    "country": "England",
+    "coords": [
+      -0.06613,
+      51.60425
+    ]
+  },
+  {
+    "id": "ground-3364",
+    "name": "A. Le Coq Arena",
+    "city": "Tallinn",
+    "country": "Estonia",
+    "coords": [
+      24.7321,
+      59.42139
+    ]
+  },
+  {
+    "id": "ground-3732",
+    "name": "Lahden",
+    "city": "Lahti",
+    "country": "Finland",
+    "coords": [
+      25.63433,
+      60.98278
+    ]
+  },
+  {
+    "id": "ground-3357",
+    "name": "Parc des Princes",
+    "city": "Paris",
+    "country": "France",
+    "coords": [
+      2.25304,
+      48.84143
+    ]
+  },
+  {
+    "id": "ground-3375",
+    "name": "Boris Paichadze",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "coords": [
+      44.78976,
+      41.72302
+    ]
+  },
+  {
+    "id": "ground-5173",
+    "name": "Olympiastadion",
+    "city": "Berlin",
+    "country": "Germany",
+    "coords": [
+      13.23952,
+      52.51462
+    ]
+  },
+  {
+    "id": "ground-5645",
+    "name": "Spyros Louis (OAKA)",
+    "city": "Athens",
+    "country": "Greece",
+    "coords": [
+      23.78763,
+      38.03613
+    ]
+  },
+  {
+    "id": "ground-8197",
+    "name": "Estadio Mateo Flores",
+    "city": "Guatemala City",
+    "country": "Guatemala",
+    "coords": [
+      -90.51028,
+      14.62576
+    ]
+  },
+  {
+    "id": "ground-8187",
+    "name": "Stade Sylvio Cator",
+    "city": "Port-au-Prince",
+    "country": "Haiti",
+    "coords": [
+      -72.34258,
+      18.53607
+    ]
+  },
+  {
+    "id": "ground-8198",
+    "name": "Estadio Olimpico",
+    "city": "San Pedro Sula",
+    "country": "Honduras",
+    "coords": [
+      -88.00683,
+      15.47011
+    ]
+  },
+  {
+    "id": "ground-7953",
+    "name": "Hong Kong Stadium",
+    "city": "Hong Kong",
+    "country": "Hong Kong",
+    "coords": [
+      114.18861,
+      22.2728
+    ]
+  },
+  {
+    "id": "ground-3396",
+    "name": "Groupama Aréna",
+    "city": "Budapest",
+    "country": "Hungary",
+    "coords": [
+      19.09525,
+      47.47537
+    ]
+  },
+  {
+    "id": "ground-3402",
+    "name": "Laugardalsvöllur",
+    "city": "Reykjavík",
+    "country": "Iceland",
+    "coords": [
+      -21.87898,
+      64.14362
+    ]
+  },
+  {
+    "id": "ground-8112",
+    "name": "Salt Lake Stadium",
+    "city": "Kolkata",
+    "country": "India",
+    "coords": [
+      88.40904,
+      22.56904
+    ]
+  },
+  {
+    "id": "ground-8128",
+    "name": "Kanjuruhan",
+    "city": "Malang",
+    "country": "Indonesia",
+    "coords": [
+      112.57388,
+      -8.15035
+    ]
+  },
+  {
+    "id": "ground-7986",
+    "name": "Azadi Sports Stadium",
+    "city": "Tehran",
+    "country": "Iran",
+    "coords": [
+      51.27554,
+      35.7244
+    ]
+  },
+  {
+    "id": "ground-7996",
+    "name": "Karbala Sports City",
+    "city": "Karbala",
+    "country": "Iraq",
+    "coords": [
+      44.00423,
+      32.56601
+    ]
+  },
+  {
+    "id": "ground-3371",
+    "name": "Aviva Stadium",
+    "city": "Dublin",
+    "country": "Ireland",
+    "coords": [
+      -6.22833,
+      53.33514
+    ]
+  },
+  {
+    "id": "ground-3434",
+    "name": "Teddy Kollek Stadium",
+    "city": "Jerusalem",
+    "country": "Israel",
+    "coords": [
+      35.19096,
+      31.75117
+    ]
+  },
+  {
+    "id": "ground-3545",
+    "name": "San Paolo",
+    "city": "Naples",
+    "country": "Italy",
+    "coords": [
+      14.19294,
+      40.82797
+    ]
+  },
+  {
+    "id": "ground-8160",
+    "name": "National Stadium",
+    "city": "Kingston",
+    "country": "Jamaica",
+    "coords": [
+      -76.77273,
+      18.00119
+    ]
+  },
+  {
+    "id": "ground-8005",
+    "name": "Saitama Stadium 2002",
+    "city": "Saitama",
+    "country": "Japan",
+    "coords": [
+      139.71759,
+      35.9031
+    ]
+  },
+  {
+    "id": "ground-7955",
+    "name": "International Stadium",
+    "city": "Amman",
+    "country": "Jordan",
+    "coords": [
+      35.90284,
+      31.98509
+    ]
+  },
+  {
+    "id": "ground-3432",
+    "name": "Stadiumi Fadil Vokrri",
+    "city": "Priština",
+    "country": "Kosovo",
+    "coords": [
+      21.15706,
+      42.66286
+    ]
+  },
+  {
+    "id": "ground-7973",
+    "name": "Spartak",
+    "city": "Bishkek",
+    "country": "Kyrgyzstan",
+    "coords": [
+      74.59795,
+      42.88018
+    ]
+  },
+  {
+    "id": "ground-3589",
+    "name": "Skonto Stadion",
+    "city": "Riga",
+    "country": "Latvia",
+    "coords": [
+      24.11637,
+      56.96138
+    ]
+  },
+  {
+    "id": "ground-7945",
+    "name": "Camille-Chamoun-Stadion",
+    "city": "Beirut",
+    "country": "Lebanon",
+    "coords": [
+      35.49579,
+      33.86712
+    ]
+  },
+  {
+    "id": "ground-3852",
+    "name": "Aukstaitija",
+    "city": "Panevezys",
+    "country": "Lithuania",
+    "coords": [
+      24.35943,
+      55.73911
+    ]
+  },
+  {
+    "id": "ground-3400",
+    "name": "Josy Barthel",
+    "city": "Luxembourg",
+    "country": "Luxembourg",
+    "coords": [
+      6.10965,
+      49.61563
+    ]
+  },
+  {
+    "id": "ground-7952",
+    "name": "Hang Jebat Stadium",
+    "city": "Paya Rumput",
+    "country": "Malaysia",
+    "coords": [
+      102.23309,
+      2.28908
+    ]
+  },
+  {
+    "id": "ground-8219",
+    "name": "Jalisco",
+    "city": "Guadalajara",
+    "country": "Mexico",
+    "coords": [
+      -103.32822,
+      20.70508
+    ]
+  },
+  {
+    "id": "ground-3559",
+    "name": "Bolshaya Sportivnaya Arena",
+    "city": "Tiraspol",
+    "country": "Moldova",
+    "coords": [
+      29.55766,
+      46.83833
+    ]
+  },
+  {
+    "id": "ground-3414",
+    "name": "Pod Goricom",
+    "city": "Podgorica",
+    "country": "Montenegro",
+    "coords": [
+      19.26429,
+      42.44474
+    ]
+  },
+  {
+    "id": "ground-7037",
+    "name": "Stade de Tanger",
+    "city": "Tangier",
+    "country": "Morocco",
+    "coords": [
+      -5.85811,
+      35.74121
+    ]
+  },
+  {
+    "id": "ground-7979",
+    "name": "Thuwanna YTC Stadium",
+    "city": "Yangon",
+    "country": "Myanmar",
+    "coords": [
+      96.18695,
+      16.82134
+    ]
+  },
+  {
+    "id": "ground-6386",
+    "name": "Hitachi Stadion",
+    "city": "Groningen",
+    "country": "Netherlands",
+    "coords": [
+      6.59144,
+      53.20604
+    ]
+  },
+  {
+    "id": "ground-8030",
+    "name": "Westpac Stadium",
+    "city": "Wellington",
+    "country": "New Zealand",
+    "coords": [
+      174.78587,
+      -41.27302
+    ]
+  },
+  {
+    "id": "ground-8178",
+    "name": "Estadio Nacional de Fútbol de Nicaragua",
+    "city": "Managua",
+    "country": "Nicaragua",
+    "coords": [
+      -86.27213,
+      12.11055
+    ]
+  },
+  {
+    "id": "ground-8349",
+    "name": "Stade General Seyni Kountche",
+    "city": "Niamey",
+    "country": "Niger",
+    "coords": [
+      2.10892,
+      13.52721
+    ]
+  },
+  {
+    "id": "ground-3391",
+    "name": "Filip II. Makedonski",
+    "city": "Skopje",
+    "country": "North Macedonia",
+    "coords": [
+      21.42555,
+      42.00573
+    ]
+  },
+  {
+    "id": "ground-3443",
+    "name": "Windsor Park",
+    "city": "Belfast",
+    "country": "Northern Ireland",
+    "coords": [
+      -5.9552,
+      54.58262
+    ]
+  },
+  {
+    "id": "ground-3437",
+    "name": "Ullevaal Stadion",
+    "city": "Oslo",
+    "country": "Norway",
+    "coords": [
+      10.73431,
+      59.94912
+    ]
+  },
+  {
+    "id": "ground-7975",
+    "name": "Sultan Qaboos Sports Complex",
+    "city": "Muscat",
+    "country": "Oman",
+    "coords": [
+      58.39953,
+      23.57303
+    ]
+  },
+  {
+    "id": "ground-7949",
+    "name": "Dora International Stadium",
+    "city": "Hebron",
+    "country": "Palestine",
+    "coords": [
+      35.03233,
+      31.50741
+    ]
+  },
+  {
+    "id": "ground-8423",
+    "name": "Estadio Rommel Fernández",
+    "city": "Panama City",
+    "country": "Panama",
+    "coords": [
+      -79.46948,
+      9.03593
+    ]
+  },
+  {
+    "id": "ground-8448",
+    "name": "La Olla",
+    "city": "Asunción",
+    "country": "Paraguay",
+    "coords": [
+      -57.63747,
+      -25.2999
+    ]
+  },
+  {
+    "id": "ground-8677",
+    "name": "Monumental",
+    "city": "Lima",
+    "country": "Peru",
+    "coords": [
+      -76.93587,
+      -12.05564
+    ]
+  },
+  {
+    "id": "ground-7972",
+    "name": "Rizal Memorial Sports Complex",
+    "city": "Manila",
+    "country": "Philippines",
+    "coords": [
+      120.992,
+      14.56338
+    ]
+  },
+  {
+    "id": "ground-6574",
+    "name": "Stadion Energa Gdańsk",
+    "city": "Gdańsk",
+    "country": "Poland",
+    "coords": [
+      18.64036,
+      54.38999
+    ]
+  },
+  {
+    "id": "ground-3388",
+    "name": "Estádio da Luz",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coords": [
+      -9.18473,
+      38.75267
+    ]
+  },
+  {
+    "id": "ground-8148",
+    "name": "Khalifa International Stadium",
+    "city": "Doha",
+    "country": "Qatar",
+    "coords": [
+      51.44813,
+      25.26363
+    ]
+  },
+  {
+    "id": "ground-3486",
+    "name": "Arena Națională",
+    "city": "Bucharest",
+    "country": "Romania",
+    "coords": [
+      26.15247,
+      44.43719
+    ]
+  },
+  {
+    "id": "ground-6825",
+    "name": "Eduard Streltsov",
+    "city": "Moscow",
+    "country": "Russia",
+    "coords": [
+      37.65635,
+      55.71643
+    ]
+  },
+  {
+    "id": "ground-6126",
+    "name": "King Fahd International Stadium",
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "coords": [
+      46.8392,
+      24.78851
+    ]
+  },
+  {
+    "id": "ground-3561",
+    "name": "Celtic Park",
+    "city": "Glasgow",
+    "country": "Scotland",
+    "coords": [
+      -4.2056,
+      55.84971
+    ]
+  },
+  {
+    "id": "ground-6900",
+    "name": "Marakana",
+    "city": "Belgrade",
+    "country": "Serbia",
+    "coords": [
+      20.46488,
+      44.78316
+    ]
+  },
+  {
+    "id": "ground-3367",
+    "name": "Anton Malatinsky",
+    "city": "Trnava",
+    "country": "Slovakia",
+    "coords": [
+      17.59173,
+      48.3736
+    ]
+  },
+  {
+    "id": "ground-3433",
+    "name": "Stožice Stadium",
+    "city": "Ljubljana",
+    "country": "Slovenia",
+    "coords": [
+      14.52416,
+      46.08045
+    ]
+  },
+  {
+    "id": "ground-8382",
+    "name": "Cape Town Stadium",
+    "city": "Cape Town",
+    "country": "South Africa",
+    "coords": [
+      18.41113,
+      -33.90338
+    ]
+  },
+  {
+    "id": "ground-8009",
+    "name": "Ulsan Munsu Football Stadium",
+    "city": "Ulsan",
+    "country": "South Korea",
+    "coords": [
+      129.25665,
+      35.54346
+    ]
+  },
+  {
+    "id": "ground-3448",
+    "name": "Benito Villamarín",
+    "city": "Seville",
+    "country": "Spain",
+    "coords": [
+      -5.98175,
+      37.35642
+    ]
+  },
+  {
+    "id": "ground-3392",
+    "name": "Friends Arena",
+    "city": "Solna",
+    "country": "Sweden",
+    "coords": [
+      18.00278,
+      59.3725
+    ]
+  },
+  {
+    "id": "ground-3591",
+    "name": "St. Jakob-Park",
+    "city": "Basel",
+    "country": "Switzerland",
+    "coords": [
+      7.62007,
+      47.54158
+    ]
+  },
+  {
+    "id": "ground-7980",
+    "name": "Tsentralnyi Respublikanskiy",
+    "city": "Dushanbe",
+    "country": "Tajikistan",
+    "coords": [
+      68.76956,
+      38.58589
+    ]
+  },
+  {
+    "id": "ground-7944",
+    "name": "Buriram Stadium",
+    "city": "Buriram",
+    "country": "Thailand",
+    "coords": [
+      103.10349,
+      14.94592
+    ]
+  },
+  {
+    "id": "ground-8414",
+    "name": "Stade Olympique de Radès",
+    "city": "Radès",
+    "country": "Tunisia",
+    "coords": [
+      10.27286,
+      36.74781
+    ]
+  },
+  {
+    "id": "ground-7379",
+    "name": "Atatürk Olimpiyat",
+    "city": "Istanbul",
+    "country": "Turkey",
+    "coords": [
+      28.76548,
+      41.07445
+    ]
+  },
+  {
+    "id": "ground-7941",
+    "name": "Balkanabat Stadiony",
+    "city": "Balkanabat",
+    "country": "Turkmenistan",
+    "coords": [
+      54.34986,
+      39.54463
+    ]
+  },
+  {
+    "id": "ground-3411",
+    "name": "Olimpiyskyi",
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "coords": [
+      30.52182,
+      50.43341
+    ]
+  },
+  {
+    "id": "ground-7938",
+    "name": "Zayed Sports City Stadium",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "coords": [
+      54.45356,
+      24.41609
+    ]
+  },
+  {
+    "id": "ground-8289",
+    "name": "CenturyLink Field",
+    "city": "Seattle",
+    "country": "United States",
+    "coords": [
+      -122.33162,
+      47.59516
+    ]
+  },
+  {
+    "id": "ground-8429",
+    "name": "Campeón del Siglo",
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coords": [
+      -56.06714,
+      -34.79675
+    ]
+  },
+  {
+    "id": "ground-8003",
+    "name": "Pakhtakor Markaziy",
+    "city": "Tashkent",
+    "country": "Uzbekistan",
+    "coords": [
+      69.2603,
+      41.31551
+    ]
+  },
+  {
+    "id": "ground-8471",
+    "name": "Cachamay",
+    "city": "Puerto Ordaz",
+    "country": "Venezuela",
+    "coords": [
+      -62.69627,
+      8.31264
+    ]
+  },
+  {
+    "id": "ground-7963",
+    "name": "My Dinh National Stadium",
+    "city": "Hanoi",
+    "country": "Vietnam",
+    "coords": [
+      105.764,
+      21.02046
+    ]
+  },
+  {
+    "id": "ground-3378",
+    "name": "Cardiff City Stadium",
+    "city": "Cardiff",
+    "country": "Wales",
+    "coords": [
+      -3.20312,
+      51.47282
+    ]
+  },
+  {
+    "id": "ground-3775",
+    "name": "Selman Stermasi",
+    "city": "Tirana",
+    "country": "Albania",
+    "coords": [
+      19.81126,
+      41.31899
+    ]
+  },
+  {
+    "id": "ground-8357",
+    "name": "Ahmed Zabana",
+    "city": "Oran",
+    "country": "Algeria",
+    "coords": [
+      -0.63629,
+      35.68335
+    ]
+  },
+  {
+    "id": "ground-8433",
+    "name": "El Nuevo Gasómetro",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "coords": [
+      -58.44017,
+      -34.65211
+    ]
+  },
+  {
+    "id": "ground-8014",
+    "name": "Allianz Stadium",
+    "city": "Sydney",
+    "country": "Australia",
+    "coords": [
+      151.22531,
+      -33.88911
+    ]
+  },
+  {
+    "id": "ground-3735",
+    "name": "Linzer Stadion",
+    "city": "Linz",
+    "country": "Austria",
+    "coords": [
+      14.27659,
+      48.2937
+    ]
+  },
+  {
+    "id": "ground-3372",
+    "name": "Bakcell Arena",
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "coords": [
+      49.94402,
+      40.40016
+    ]
+  },
+  {
+    "id": "ground-3509",
+    "name": "Dinamo",
+    "city": "Minsk",
+    "country": "Belarus",
+    "coords": [
+      27.56004,
+      53.8952
+    ]
+  },
+  {
+    "id": "ground-4359",
+    "name": "Jan Breydel Stadion",
+    "city": "Bruges",
+    "country": "Belgium",
+    "coords": [
+      3.18052,
+      51.19337
+    ]
+  },
+  {
+    "id": "ground-8441",
+    "name": "Hernando Siles",
+    "city": "La Paz",
+    "country": "Bolivia",
+    "coords": [
+      -68.12269,
+      -16.49948
+    ]
+  },
+  {
+    "id": "ground-3596",
+    "name": "Stadion pod Bijelim Brijegom",
+    "city": "Mostar",
+    "country": "Bosnia and Herzegovina",
+    "coords": [
+      17.79536,
+      43.34566
+    ]
+  },
+  {
+    "id": "ground-8421",
+    "name": "Mineirão",
+    "city": "Belo Horizonte",
+    "country": "Brazil",
+    "coords": [
+      -43.97107,
+      -19.86599
+    ]
+  },
+  {
+    "id": "ground-3712",
+    "name": "Georgi Asparuhov",
+    "city": "Sofia",
+    "country": "Bulgaria",
+    "coords": [
+      23.36318,
+      42.7053
+    ]
+  },
+  {
+    "id": "ground-8171",
+    "name": "BMO Field",
+    "city": "Toronto",
+    "country": "Canada",
+    "coords": [
+      -79.41857,
+      43.63321
+    ]
+  },
+  {
+    "id": "ground-8481",
+    "name": "Estadio Regional",
+    "city": "Antofagasta",
+    "country": "Chile",
+    "coords": [
+      -70.40459,
+      -23.67017
+    ]
+  },
+  {
+    "id": "ground-8042",
+    "name": "Nanjing Olympic Sports Center",
+    "city": "Nanjing",
+    "country": "China",
+    "coords": [
+      118.71971,
+      32.01044
+    ]
+  },
+  {
+    "id": "ground-8617",
+    "name": "Metropolitano Roberto Meléndez",
+    "city": "Barranquilla",
+    "country": "Colombia",
+    "coords": [
+      -74.80048,
+      10.92698
+    ]
+  },
+  {
+    "id": "ground-8204",
+    "name": "Ricardo Saprissa",
+    "city": "San José",
+    "country": "Costa Rica",
+    "coords": [
+      -84.07534,
+      9.96551
+    ]
+  },
+  {
+    "id": "ground-4397",
+    "name": "Stadion Radnika",
+    "city": "Velika Gorica",
+    "country": "Croatia",
+    "coords": [
+      16.07187,
+      45.72313
+    ]
+  },
+  {
+    "id": "ground-3410",
+    "name": "Neo GSP Stadium",
+    "city": "Nicosia",
+    "country": "Cyprus",
+    "coords": [
+      33.36288,
+      35.11454
+    ]
+  },
+  {
+    "id": "ground-3393",
+    "name": "Generali Arena",
+    "city": "Prague",
+    "country": "Czechia",
+    "coords": [
+      14.41586,
+      50.09982
+    ]
+  },
+  {
+    "id": "ground-4416",
+    "name": "Lyngby Stadion",
+    "city": "Lyngby",
+    "country": "Denmark",
+    "coords": [
+      12.50565,
+      55.78132
+    ]
+  },
+  {
+    "id": "ground-8643",
+    "name": "Olímpico Atahualpa",
+    "city": "Quito",
+    "country": "Ecuador",
+    "coords": [
+      -78.47659,
+      -0.17756
+    ]
+  },
+  {
+    "id": "ground-8346",
+    "name": "International Stadium",
+    "city": "Cairo",
+    "country": "Egypt",
+    "coords": [
+      31.31231,
+      30.06915
+    ]
+  },
+  {
+    "id": "ground-3621",
+    "name": "Emirates Stadium",
+    "city": "London",
+    "country": "England",
+    "coords": [
+      -0.1085,
+      51.55503
+    ]
+  },
+  {
+    "id": "ground-3601",
+    "name": "Telia 5G -areena",
+    "city": "Helsinki",
+    "country": "Finland",
+    "coords": [
+      24.92273,
+      60.18771
+    ]
+  },
+  {
+    "id": "ground-4578",
+    "name": "De la Meinau",
+    "city": "Strasbourg",
+    "country": "France",
+    "coords": [
+      7.75515,
+      48.56006
+    ]
+  },
+  {
+    "id": "ground-3746",
+    "name": "Mikheil Meshki",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "coords": [
+      44.74622,
+      41.70982
+    ]
+  },
+  {
+    "id": "ground-3465",
+    "name": "Veltins-Arena",
+    "city": "Gelsenkirchen",
+    "country": "Germany",
+    "coords": [
+      7.06755,
+      51.55451
+    ]
+  },
+  {
+    "id": "ground-3627",
+    "name": "Georgios Karaiskakis",
+    "city": "Piraeus",
+    "country": "Greece",
+    "coords": [
+      23.66439,
+      37.94644
+    ]
+  },
+  {
+    "id": "ground-7440",
+    "name": "DVTK Stadion",
+    "city": "Miskolc",
+    "country": "Hungary",
+    "coords": [
+      20.71749,
+      48.09972
+    ]
+  },
+  {
+    "id": "ground-8108",
+    "name": "Kalinga Stadium",
+    "city": "Bhubaneswar",
+    "country": "India",
+    "coords": [
+      85.82499,
+      20.29092
+    ]
+  },
+  {
+    "id": "ground-8140",
+    "name": "Utama Gelora Bung Karno",
+    "city": "Jakarta",
+    "country": "Indonesia",
+    "coords": [
+      106.80253,
+      -6.21862
+    ]
+  },
+  {
+    "id": "ground-7991",
+    "name": "Foolad Shahr Stadium",
+    "city": "Fooladshahr",
+    "country": "Iran",
+    "coords": [
+      51.42145,
+      32.48283
+    ]
+  },
+  {
+    "id": "ground-3893",
+    "name": "Dalymount Park",
+    "city": "Dublin",
+    "country": "Ireland",
+    "coords": [
+      -6.27498,
+      53.36183
+    ]
+  },
+  {
+    "id": "ground-3421",
+    "name": "Sammy Ofer",
+    "city": "Haifa",
+    "country": "Israel",
+    "coords": [
+      34.96517,
+      32.78311
+    ]
+  },
+  {
+    "id": "ground-3365",
+    "name": "Allianz Stadium",
+    "city": "Turin",
+    "country": "Italy",
+    "coords": [
+      7.64125,
+      45.10959
+    ]
+  },
+  {
+    "id": "ground-8172",
+    "name": "Catherine Hall",
+    "city": "Montego Bay",
+    "country": "Jamaica",
+    "coords": [
+      -77.92136,
+      18.45772
+    ]
+  },
+  {
+    "id": "ground-7990",
+    "name": "EDION Stadium",
+    "city": "Hiroshima",
+    "country": "Japan",
+    "coords": [
+      132.39429,
+      34.44078
+    ]
+  },
+  {
+    "id": "ground-7960",
+    "name": "Larkin Stadium",
+    "city": "Johor Bahru",
+    "country": "Malaysia",
+    "coords": [
+      103.75137,
+      1.49755
+    ]
+  },
+  {
+    "id": "ground-8206",
+    "name": "Universitario",
+    "city": "San Nicolás de los Garza",
+    "country": "Mexico",
+    "coords": [
+      -100.312,
+      25.72255
+    ]
+  },
+  {
+    "id": "ground-3431",
+    "name": "Stadionul Zimbru",
+    "city": "Chisinau",
+    "country": "Moldova",
+    "coords": [
+      28.86789,
+      46.98031
+    ]
+  },
+  {
+    "id": "ground-6378",
+    "name": "AFAS Stadion",
+    "city": "Alkmaar",
+    "country": "Netherlands",
+    "coords": [
+      4.74215,
+      52.61277
+    ]
+  },
+  {
+    "id": "ground-8019",
+    "name": "Eden Park",
+    "city": "Auckland",
+    "country": "New Zealand",
+    "coords": [
+      174.7448,
+      -36.87497
+    ]
+  },
+  {
+    "id": "ground-8348",
+    "name": "Stade de Maradi",
+    "city": "Maradi",
+    "country": "Niger",
+    "coords": [
+      7.09786,
+      13.50349
+    ]
+  },
+  {
+    "id": "ground-3877",
+    "name": "The Oval",
+    "city": "Belfast",
+    "country": "Northern Ireland",
+    "coords": [
+      -5.89132,
+      54.60296
+    ]
+  },
+  {
+    "id": "ground-3571",
+    "name": "Lerkendal",
+    "city": "Trondheim",
+    "country": "Norway",
+    "coords": [
+      10.40447,
+      63.41234
+    ]
+  },
+  {
+    "id": "ground-7950",
+    "name": "Faisal Al-Husseini International",
+    "city": "Al-Ram",
+    "country": "Palestine",
+    "coords": [
+      35.23028,
+      31.8475
+    ]
+  },
+  {
+    "id": "ground-8195",
+    "name": "Estadio Agustín Sánchez",
+    "city": "La Chorrera",
+    "country": "Panama",
+    "coords": [
+      -79.77549,
+      8.88744
+    ]
+  },
+  {
+    "id": "ground-8647",
+    "name": "Defensores del Chaco",
+    "city": "Asunción",
+    "country": "Paraguay",
+    "coords": [
+      -57.65746,
+      -25.2921
+    ]
+  },
+  {
+    "id": "ground-8678",
+    "name": "Monumental Virgen de Chapi",
+    "city": "Arequipa",
+    "country": "Peru",
+    "coords": [
+      -71.5202,
+      -16.40729
+    ]
+  },
+  {
+    "id": "ground-7969",
+    "name": "Panaad Stadium",
+    "city": "Bacolod",
+    "country": "Philippines",
+    "coords": [
+      122.96422,
+      10.6264
+    ]
+  },
+  {
+    "id": "ground-3724",
+    "name": "INEA Stadion",
+    "city": "Poznan",
+    "country": "Poland",
+    "coords": [
+      16.85809,
+      52.3976
+    ]
+  },
+  {
+    "id": "ground-3451",
+    "name": "Estádio do Dragão",
+    "city": "Porto",
+    "country": "Portugal",
+    "coords": [
+      -8.58382,
+      41.16179
+    ]
+  },
+  {
+    "id": "ground-8144",
+    "name": "Al Gharafa",
+    "city": "Doha",
+    "country": "Qatar",
+    "coords": [
+      51.44055,
+      25.34475
+    ]
+  },
+  {
+    "id": "ground-6755",
+    "name": "Dan-Păltinișanu",
+    "city": "Timisoara",
+    "country": "Romania",
+    "coords": [
+      21.24428,
+      45.74047
+    ]
+  },
+  {
+    "id": "ground-3535",
+    "name": "Luzhniki",
+    "city": "Moscow",
+    "country": "Russia",
+    "coords": [
+      37.5536,
+      55.71572
+    ]
+  },
+  {
+    "id": "ground-7998",
+    "name": "King Abdullah Sports City",
+    "city": "Jeddah",
+    "country": "Saudi Arabia",
+    "coords": [
+      39.16435,
+      21.7632
+    ]
+  },
+  {
+    "id": "ground-3397",
+    "name": "Hampden Park",
+    "city": "Glasgow",
+    "country": "Scotland",
+    "coords": [
+      -4.252,
+      55.82587
+    ]
+  },
+  {
+    "id": "ground-3836",
+    "name": "Partizan Stadion",
+    "city": "Belgrade",
+    "country": "Serbia",
+    "coords": [
+      20.45913,
+      44.78875
+    ]
+  },
+  {
+    "id": "ground-6935",
+    "name": "Pasienky",
+    "city": "Bratislava",
+    "country": "Slovakia",
+    "coords": [
+      17.14255,
+      48.16613
+    ]
+  },
+  {
+    "id": "ground-6941",
+    "name": "Petrol Arena",
+    "city": "Celje",
+    "country": "Slovenia",
+    "coords": [
+      15.26994,
+      46.24647
+    ]
+  },
+  {
+    "id": "ground-8389",
+    "name": "Loftus Versveld",
+    "city": "Pretoria",
+    "country": "South Africa",
+    "coords": [
+      28.22292,
+      -25.75327
+    ]
+  },
+  {
+    "id": "ground-8073",
+    "name": "Steelyard Stadium",
+    "city": "Pohang",
+    "country": "South Korea",
+    "coords": [
+      129.38428,
+      35.99775
+    ]
+  },
+  {
+    "id": "ground-3389",
+    "name": "Estadio de Mestalla",
+    "city": "Valencia",
+    "country": "Spain",
+    "coords": [
+      -0.35824,
+      39.47461
+    ]
+  },
+  {
+    "id": "ground-7140",
+    "name": "Nya Ullevi",
+    "city": "Gothenburg",
+    "country": "Sweden",
+    "coords": [
+      11.98732,
+      57.70589
+    ]
+  },
+  {
+    "id": "ground-3549",
+    "name": "Stade de Suisse",
+    "city": "Bern",
+    "country": "Switzerland",
+    "coords": [
+      7.46486,
+      46.96311
+    ]
+  },
+  {
+    "id": "ground-8403",
+    "name": "El Menzah",
+    "city": "Tunis",
+    "country": "Tunisia",
+    "coords": [
+      10.18534,
+      36.83982
+    ]
+  },
+  {
+    "id": "ground-7334",
+    "name": "Kadir Has",
+    "city": "Kayseri",
+    "country": "Turkey",
+    "coords": [
+      35.42325,
+      38.73708
+    ]
+  },
+  {
+    "id": "ground-3407",
+    "name": "Metalist Stadion",
+    "city": "Kharkiv",
+    "country": "Ukraine",
+    "coords": [
+      36.26168,
+      49.98083
+    ]
+  },
+  {
+    "id": "ground-7935",
+    "name": "Mohammed Bin Zayed Stadium",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "coords": [
+      54.39219,
+      24.4528
+    ]
+  },
+  {
+    "id": "ground-8207",
+    "name": "Gillette Stadium",
+    "city": "Foxborough",
+    "country": "United States",
+    "coords": [
+      -71.2644,
+      42.09092
+    ]
+  },
+  {
+    "id": "ground-8693",
+    "name": "Jardines del Hipódromo",
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coords": [
+      -56.13222,
+      -34.83889
+    ]
+  },
+  {
+    "id": "ground-8001",
+    "name": "Lokomotiv Stadium",
+    "city": "Tashkent",
+    "country": "Uzbekistan",
+    "coords": [
+      69.39487,
+      41.36125
+    ]
+  },
+  {
+    "id": "ground-8454",
+    "name": "Metropolitano de Lara",
+    "city": "Cabudare",
+    "country": "Venezuela",
+    "coords": [
+      -69.21957,
+      9.99389
+    ]
+  },
+  {
+    "id": "ground-7978",
+    "name": "Thong Nhat",
+    "city": "Ho Chi Minh City",
+    "country": "Vietnam",
+    "coords": [
+      106.6674,
+      10.80183
+    ]
+  },
+  {
+    "id": "ground-5738",
+    "name": "Liberty Stadium",
+    "city": "Swansea",
+    "country": "Wales",
+    "coords": [
+      -3.93459,
+      51.64274
+    ]
+  },
+  {
+    "id": "ground-3368",
+    "name": "Arena Kombëtare",
+    "city": "Tirana",
+    "country": "Albania",
+    "coords": [
+      19.82392,
+      41.31839
+    ]
+  },
+  {
+    "id": "ground-8358",
+    "name": "Chahid Hamlaoui",
+    "city": "Constantine",
+    "country": "Algeria",
+    "coords": [
+      6.6259,
+      36.34928
+    ]
+  },
+  {
+    "id": "ground-8539",
+    "name": "Eduardo Gallardón",
+    "city": "Lomas de Zamora",
+    "country": "Argentina",
+    "coords": [
+      -58.42016,
+      -34.75531
+    ]
+  },
+  {
+    "id": "ground-8026",
+    "name": "McDonald Jones Stadium",
+    "city": "Newcastle",
+    "country": "Australia",
+    "coords": [
+      151.72658,
+      -32.91888
+    ]
+  },
+  {
+    "id": "ground-4237",
+    "name": "Generali-Arena",
+    "city": "Vienna",
+    "country": "Austria",
+    "coords": [
+      16.38714,
+      48.16238
+    ]
+  },
+  {
+    "id": "ground-3763",
+    "name": "Qäbälä Şähär Stadionu",
+    "city": "Qäbälä",
+    "country": "Azerbaijan",
+    "coords": [
+      47.8425,
+      40.9852
+    ]
+  },
+  {
+    "id": "ground-4169",
+    "name": "Traktor",
+    "city": "Minsk",
+    "country": "Belarus",
+    "coords": [
+      27.61728,
+      53.88155
+    ]
+  },
+  {
+    "id": "ground-3619",
+    "name": "Constant Vanden Stock",
+    "city": "Brussels",
+    "country": "Belgium",
+    "coords": [
+      4.29834,
+      50.83419
+    ]
+  },
+  {
+    "id": "ground-8496",
+    "name": "Ramón Aguilera Costas",
+    "city": "Santa Cruz",
+    "country": "Bolivia",
+    "coords": [
+      -63.18384,
+      -17.79606
+    ]
+  },
+  {
+    "id": "ground-3395",
+    "name": "Grbavica",
+    "city": "Sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "coords": [
+      18.38739,
+      43.84665
+    ]
+  },
+  {
+    "id": "ground-8428",
+    "name": "Beira-Rio",
+    "city": "Porto Alegre",
+    "country": "Brazil",
+    "coords": [
+      -51.23618,
+      -30.06558
+    ]
+  },
+  {
+    "id": "ground-4382",
+    "name": "Ticha",
+    "city": "Varna",
+    "country": "Bulgaria",
+    "coords": [
+      27.93111,
+      43.21581
+    ]
+  },
+  {
+    "id": "ground-8301",
+    "name": "Stade Saputo",
+    "city": "Montréal",
+    "country": "Canada",
+    "coords": [
+      -73.55266,
+      45.56308
+    ]
+  },
+  {
+    "id": "ground-8585",
+    "name": "El Cobre",
+    "city": "El Salvador",
+    "country": "Chile",
+    "coords": [
+      -69.62872,
+      -26.25214
+    ]
+  },
+  {
+    "id": "ground-4696",
+    "name": "Shenzhen Universiade Sports Centre",
+    "city": "Shenzhen",
+    "country": "China",
+    "coords": [
+      114.21229,
+      22.69701
+    ]
+  },
+  {
+    "id": "ground-8476",
+    "name": "El Campín",
+    "city": "Bogotá",
+    "country": "Colombia",
+    "coords": [
+      -74.0775,
+      4.64589
+    ]
+  },
+  {
+    "id": "ground-8174",
+    "name": "El Rosabal",
+    "city": "Heredia",
+    "country": "Costa Rica",
+    "coords": [
+      -84.12306,
+      9.99963
+    ]
+  },
+  {
+    "id": "ground-3405",
+    "name": "Maksimir",
+    "city": "Zagreb",
+    "country": "Croatia",
+    "coords": [
+      16.01825,
+      45.81871
+    ]
+  },
+  {
+    "id": "ground-4386",
+    "name": "Makarion",
+    "city": "Nicosia",
+    "country": "Cyprus",
+    "coords": [
+      33.31431,
+      35.14592
+    ]
+  },
+  {
+    "id": "ground-6730",
+    "name": "Juliska",
+    "city": "Prague",
+    "country": "Czechia",
+    "coords": [
+      14.3875,
+      50.11194
+    ]
+  },
+  {
+    "id": "ground-4434",
+    "name": "ProfaGroupPark",
+    "city": "Næstved",
+    "country": "Denmark",
+    "coords": [
+      11.76914,
+      55.22222
+    ]
+  },
+  {
+    "id": "ground-8444",
+    "name": "Jocay",
+    "city": "Manta",
+    "country": "Ecuador",
+    "coords": [
+      -80.70271,
+      -0.96399
+    ]
+  },
+  {
+    "id": "ground-8369",
+    "name": "Arab Contractors Stadium",
+    "city": "Cairo",
+    "country": "Egypt",
+    "coords": [
+      31.297,
+      30.05117
+    ]
+  },
+  {
+    "id": "ground-5770",
+    "name": "Stadium of Light",
+    "city": "Sunderland",
+    "country": "England",
+    "coords": [
+      -1.38817,
+      54.91442
+    ]
+  },
+  {
+    "id": "ground-3503",
+    "name": "Veritas",
+    "city": "Turku",
+    "country": "Finland",
+    "coords": [
+      22.29193,
+      60.44271
+    ]
+  },
+  {
+    "id": "ground-4603",
+    "name": "Municipal St.-Symphorien",
+    "city": "Metz",
+    "country": "France",
+    "coords": [
+      6.15946,
+      49.10978
+    ]
+  },
+  {
+    "id": "ground-3586",
+    "name": "Ramas-Schengelia-Stadion",
+    "city": "Kutaisi",
+    "country": "Georgia",
+    "coords": [
+      42.68326,
+      42.25493
+    ]
+  },
+  {
+    "id": "ground-3910",
+    "name": "Mercedes-Benz Arena",
+    "city": "Stuttgart",
+    "country": "Germany",
+    "coords": [
+      9.23205,
+      48.79225
+    ]
+  },
+  {
+    "id": "ground-3413",
+    "name": "Pankritio",
+    "city": "Heraklion",
+    "country": "Greece",
+    "coords": [
+      25.10616,
+      35.33687
+    ]
+  },
+  {
+    "id": "ground-3795",
+    "name": "Szusza Ferenc Stadion",
+    "city": "Budapest",
+    "country": "Hungary",
+    "coords": [
+      19.08465,
+      47.57489
+    ]
+  },
+  {
+    "id": "ground-8105",
+    "name": "Barabati Stadium",
+    "city": "Cuttack",
+    "country": "India",
+    "coords": [
+      85.86858,
+      20.48095
+    ]
+  },
+  {
+    "id": "ground-8123",
+    "name": "Gelora Bung Tomo",
+    "city": "Surabaya",
+    "country": "Indonesia",
+    "coords": [
+      112.62272,
+      -7.22328
+    ]
+  },
+  {
+    "id": "ground-4047",
+    "name": "Tolka Park",
+    "city": "Dublin",
+    "country": "Ireland",
+    "coords": [
+      -6.25186,
+      53.36748
+    ]
+  },
+  {
+    "id": "ground-3816",
+    "name": "Yaakov Turner Toto Stadium",
+    "city": "Beer Sheva",
+    "country": "Israel",
+    "coords": [
+      34.77967,
+      31.27337
+    ]
+  },
+  {
+    "id": "ground-6050",
+    "name": "Marc Antonio Bentegodi",
+    "city": "Verona",
+    "country": "Italy",
+    "coords": [
+      10.9686,
+      45.43532
+    ]
+  },
+  {
+    "id": "ground-8098",
+    "name": "Yanmar Stadium Nagai",
+    "city": "Osaka",
+    "country": "Japan",
+    "coords": [
+      135.51855,
+      34.61409
+    ]
+  },
+  {
+    "id": "ground-8223",
+    "name": "Nou Camp",
+    "city": "León",
+    "country": "Mexico",
+    "coords": [
+      -101.65775,
+      21.11554
+    ]
+  },
+  {
+    "id": "ground-3873",
+    "name": "Republican",
+    "city": "Chişinău",
+    "country": "Moldova",
+    "coords": [
+      28.83812,
+      47.01246
+    ]
+  },
+  {
+    "id": "ground-6379",
+    "name": "Cars Jeans Stadion",
+    "city": "The Hague",
+    "country": "Netherlands",
+    "coords": [
+      4.38317,
+      52.06281
+    ]
+  },
+  {
+    "id": "ground-3588",
+    "name": "Seaview",
+    "city": "Belfast",
+    "country": "Northern Ireland",
+    "coords": [
+      -5.92193,
+      54.6243
+    ]
+  },
+  {
+    "id": "ground-6348",
+    "name": "Brann Stadion",
+    "city": "Bergen",
+    "country": "Norway",
+    "coords": [
+      5.35746,
+      60.36692
+    ]
+  },
+  {
+    "id": "ground-8645",
+    "name": "Antonio Aranda",
+    "city": "Ciudad del Este",
+    "country": "Paraguay",
+    "coords": [
+      -54.61194,
+      -25.52694
+    ]
+  },
+  {
+    "id": "ground-8436",
+    "name": "Estadio Nacional",
+    "city": "Lima",
+    "country": "Peru",
+    "coords": [
+      -77.03378,
+      -12.06725
+    ]
+  },
+  {
+    "id": "ground-3606",
+    "name": "Wojska Polskiego",
+    "city": "Warsaw",
+    "country": "Poland",
+    "coords": [
+      21.0406,
+      52.22047
+    ]
+  },
+  {
+    "id": "ground-3390",
+    "name": "Estádio José Alvalade",
+    "city": "Lisbon",
+    "country": "Portugal",
+    "coords": [
+      -9.16082,
+      38.7612
+    ]
+  },
+  {
+    "id": "ground-7983",
+    "name": "Al Ahli SC Stadium",
+    "city": "Doha",
+    "country": "Qatar",
+    "coords": [
+      51.53534,
+      25.25185
+    ]
+  },
+  {
+    "id": "ground-6753",
+    "name": "Cluj Arena",
+    "city": "Cluj-Napoca",
+    "country": "Romania",
+    "coords": [
+      23.57241,
+      46.7685
+    ]
+  },
+  {
+    "id": "ground-3626",
+    "name": "Gazprom Arena",
+    "city": "St. Petersburg",
+    "country": "Russia",
+    "coords": [
+      30.22054,
+      59.97297
+    ]
+  },
+  {
+    "id": "ground-8004",
+    "name": "Prince Faisal bin Fahd Stadium",
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "coords": [
+      46.73975,
+      24.6626
+    ]
+  },
+  {
+    "id": "ground-3630",
+    "name": "Ibrox Stadium",
+    "city": "Glasgow",
+    "country": "Scotland",
+    "coords": [
+      -4.30926,
+      55.85321
+    ]
+  },
+  {
+    "id": "ground-3917",
+    "name": "Omladinski",
+    "city": "Belgrade",
+    "country": "Serbia",
+    "coords": [
+      20.494,
+      44.81533
+    ]
+  },
+  {
+    "id": "ground-3928",
+    "name": "Štadión pod Zoborom",
+    "city": "Nitra",
+    "country": "Slovakia",
+    "coords": [
+      18.08755,
+      48.32187
+    ]
+  },
+  {
+    "id": "ground-3736",
+    "name": "Ljudski vrt",
+    "city": "Maribor",
+    "country": "Slovenia",
+    "coords": [
+      15.64058,
+      46.56257
+    ]
+  },
+  {
+    "id": "ground-8396",
+    "name": "Peter Mokaba Stadium",
+    "city": "Polokwane",
+    "country": "South Africa",
+    "coords": [
+      29.46874,
+      -23.92478
+    ]
+  },
+  {
+    "id": "ground-7976",
+    "name": "Sungui Arena Park",
+    "city": "Incheon",
+    "country": "South Korea",
+    "coords": [
+      126.64295,
+      37.46605
+    ]
+  },
+  {
+    "id": "ground-6963",
+    "name": "San Mamés",
+    "city": "Bilbao",
+    "country": "Spain",
+    "coords": [
+      -2.94992,
+      43.26442
+    ]
+  },
+  {
+    "id": "ground-3798",
+    "name": "Tele2 Arena",
+    "city": "Stockholm",
+    "country": "Sweden",
+    "coords": [
+      18.08489,
+      59.29168
+    ]
+  },
+  {
+    "id": "ground-3635",
+    "name": "Letzigrund",
+    "city": "Zürich",
+    "country": "Switzerland",
+    "coords": [
+      8.50378,
+      47.38272
+    ]
+  },
+  {
+    "id": "ground-8404",
+    "name": "Hamda Laaouani",
+    "city": "Kairouan",
+    "country": "Tunisia",
+    "coords": [
+      10.0735,
+      35.68578
+    ]
+  },
+  {
+    "id": "ground-7360",
+    "name": "GAP Stadyumu",
+    "city": "Şanlıurfa",
+    "country": "Turkey",
+    "coords": [
+      38.80681,
+      37.14776
+    ]
+  },
+  {
+    "id": "ground-3369",
+    "name": "Arena Lviv",
+    "city": "Lviv",
+    "country": "Ukraine",
+    "coords": [
+      24.02772,
+      49.77484
+    ]
+  },
+  {
+    "id": "ground-7933",
+    "name": "Hazza Bin Zayed Stadium",
+    "city": "Al-Ain",
+    "country": "United Arab Emirates",
+    "coords": [
+      55.7171,
+      24.24499
+    ]
+  },
+  {
+    "id": "ground-8209",
+    "name": "The Home Depot Center",
+    "city": "Carson",
+    "country": "United States",
+    "coords": [
+      -118.26109,
+      33.86434
+    ]
+  },
+  {
+    "id": "ground-8689",
+    "name": "Estadio Belvedere",
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coords": [
+      -56.22569,
+      -34.85492
+    ]
+  },
+  {
+    "id": "ground-8494",
+    "name": "Pachencho Romero",
+    "city": "Maracaibo",
+    "country": "Venezuela",
+    "coords": [
+      -71.645,
+      10.67406
+    ]
+  },
+  {
+    "id": "ground-5812",
+    "name": "Racecourse Ground",
+    "city": "Wrexham",
+    "country": "Wales",
+    "coords": [
+      -3.00382,
+      53.05194
+    ]
+  },
+  {
+    "id": "ground-3404",
+    "name": "Loro Boriçi",
+    "city": "Shkoder",
+    "country": "Albania",
+    "coords": [
+      19.50653,
+      42.06998
+    ]
+  },
+  {
+    "id": "ground-8361",
+    "name": "Stade du 8-Mai-1945",
+    "city": "Sétif",
+    "country": "Algeria",
+    "coords": [
+      5.39289,
+      36.18696
+    ]
+  },
+  {
+    "id": "ground-8522",
+    "name": "La Ciudadela",
+    "city": "San Miguel de Tucumán",
+    "country": "Argentina",
+    "coords": [
+      -65.22965,
+      -26.8363
+    ]
+  },
+  {
+    "id": "ground-7981",
+    "name": "AAMI Park",
+    "city": "Melbourne",
+    "country": "Australia",
+    "coords": [
+      144.98331,
+      -37.82523
+    ]
+  },
+  {
+    "id": "ground-4257",
+    "name": "Tivoli Stadion Tirol",
+    "city": "Innsbruck",
+    "country": "Austria",
+    "coords": [
+      11.41117,
+      47.256
+    ]
+  },
+  {
+    "id": "ground-3373",
+    "name": "Baku National Stadium",
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "coords": [
+      49.92239,
+      40.42984
+    ]
+  },
+  {
+    "id": "ground-3616",
+    "name": "Borisov Arena",
+    "city": "Borisov",
+    "country": "Belarus",
+    "coords": [
+      28.47528,
+      54.19305
+    ]
+  },
+  {
+    "id": "ground-4355",
+    "name": "Stade du Pays",
+    "city": "Charleroi",
+    "country": "Belgium",
+    "coords": [
+      4.45378,
+      50.41461
+    ]
+  },
+  {
+    "id": "ground-8437",
+    "name": "Félix Capriles",
+    "city": "Cochabamba",
+    "country": "Bolivia",
+    "coords": [
+      -66.16181,
+      -17.37932
+    ]
+  },
+  {
+    "id": "ground-3374",
+    "name": "Bilino Polje",
+    "city": "Zenica",
+    "country": "Bosnia and Herzegovina",
+    "coords": [
+      17.90714,
+      44.20576
+    ]
+  },
+  {
+    "id": "ground-8419",
+    "name": "Arena Fonte Nova",
+    "city": "Salvador",
+    "country": "Brazil",
+    "coords": [
+      -38.50436,
+      -12.97882
+    ]
+  },
+  {
+    "id": "ground-4377",
+    "name": "Beroe",
+    "city": "Stara Zagora",
+    "country": "Bulgaria",
+    "coords": [
+      25.6153,
+      42.43274
+    ]
+  },
+  {
+    "id": "ground-8333",
+    "name": "TD Place Stadium",
+    "city": "Ottawa",
+    "country": "Canada",
+    "coords": [
+      -75.68349,
+      45.39822
+    ]
+  },
+  {
+    "id": "ground-8464",
+    "name": "San Carlos de Apoquindo",
+    "city": "Santiago",
+    "country": "Chile",
+    "coords": [
+      -70.50069,
+      -33.39594
+    ]
+  },
+  {
+    "id": "ground-8034",
+    "name": "Chongqing Olympic Sports Center",
+    "city": "Chongqing",
+    "country": "China",
+    "coords": [
+      106.50222,
+      29.52861
+    ]
+  },
+  {
+    "id": "ground-8474",
+    "name": "Deportivo Cali",
+    "city": "Palmira",
+    "country": "Colombia",
+    "coords": [
+      -76.41704,
+      3.52164
+    ]
+  },
+  {
+    "id": "ground-3394",
+    "name": "Gradski vrt",
+    "city": "Osijek",
+    "country": "Croatia",
+    "coords": [
+      18.69568,
+      45.54493
+    ]
+  },
+  {
+    "id": "ground-3673",
+    "name": "Antonis Papadopoulos",
+    "city": "Larnaca",
+    "country": "Cyprus",
+    "coords": [
+      33.62088,
+      34.93739
+    ]
+  },
+  {
+    "id": "ground-3913",
+    "name": "Na Stínadlech",
+    "city": "Teplice",
+    "country": "Czechia",
+    "coords": [
+      13.81789,
+      50.64002
+    ]
+  },
+  {
+    "id": "ground-4062",
+    "name": "Energi Viborg Arena",
+    "city": "Viborg",
+    "country": "Denmark",
+    "coords": [
+      9.40199,
+      56.45591
+    ]
+  },
+  {
+    "id": "ground-8637",
+    "name": "Estadio 9 de Mayo",
+    "city": "Machala",
+    "country": "Ecuador",
+    "coords": [
+      -79.96256,
+      -3.25443
+    ]
+  },
+  {
+    "id": "ground-8342",
+    "name": "30 June Air Defence Stadium",
+    "city": "Cairo",
+    "country": "Egypt",
+    "coords": [
+      31.37378,
+      30.01991
+    ]
+  },
+  {
+    "id": "ground-5749",
+    "name": "Villa Park",
+    "city": "Birmingham",
+    "country": "England",
+    "coords": [
+      -1.88483,
+      52.5091
+    ]
+  },
+  {
+    "id": "ground-4612",
+    "name": "Stade des Alpes",
+    "city": "Grenoble",
+    "country": "France",
+    "coords": [
+      5.74011,
+      45.18744
+    ]
+  },
+  {
+    "id": "ground-4704",
+    "name": "Merkur Spiel-Arena",
+    "city": "Düsseldorf",
+    "country": "Germany",
+    "coords": [
+      6.73318,
+      51.26159
+    ]
+  },
+  {
+    "id": "ground-4135",
+    "name": "Kaftanzoglio Stadium",
+    "city": "Thessaloniki",
+    "country": "Greece",
+    "coords": [
+      22.96702,
+      40.62553
+    ]
+  },
+  {
+    "id": "ground-3825",
+    "name": "Hungária körúti stadion",
+    "city": "Budapest",
+    "country": "Hungary",
+    "coords": [
+      19.1067,
+      47.49094
+    ]
+  },
+  {
+    "id": "ground-8109",
+    "name": "Khuman Lampak Main Stadium",
+    "city": "Imphal",
+    "country": "India",
+    "coords": [
+      93.95245,
+      24.82379
+    ]
+  },
+  {
+    "id": "ground-8127",
+    "name": "Jakabaring",
+    "city": "Palembang",
+    "country": "Indonesia",
+    "coords": [
+      104.7892,
+      -3.0214
+    ]
+  },
+  {
+    "id": "ground-4049",
+    "name": "Waterford Regional Sports Centre",
+    "city": "Waterford",
+    "country": "Ireland",
+    "coords": [
+      -7.12318,
+      52.24663
+    ]
+  },
+  {
+    "id": "ground-3837",
+    "name": "Qiryat Eliezer",
+    "city": "Haifa",
+    "country": "Israel",
+    "coords": [
+      34.98143,
+      32.82735
+    ]
+  },
+  {
+    "id": "ground-6054",
+    "name": "Renato Dall'Ara",
+    "city": "Bologna",
+    "country": "Italy",
+    "coords": [
+      11.30994,
+      44.49229
+    ]
+  },
+  {
+    "id": "ground-8080",
+    "name": "Ajinomoto Stadium",
+    "city": "Chofu",
+    "country": "Japan",
+    "coords": [
+      139.52715,
+      35.66425
+    ]
+  },
+  {
+    "id": "ground-8201",
+    "name": "La Bombonera",
+    "city": "Toluca",
+    "country": "Mexico",
+    "coords": [
+      -99.6668,
+      19.2873
+    ]
+  },
+  {
+    "id": "ground-3939",
+    "name": "De Vijverberg",
+    "city": "Doetinchem",
+    "country": "Netherlands",
+    "coords": [
+      6.30972,
+      51.95577
+    ]
+  },
+  {
+    "id": "ground-6360",
+    "name": "SR-Bank Arena",
+    "city": "Stavanger",
+    "country": "Norway",
+    "coords": [
+      5.73103,
+      58.91461
+    ]
+  },
+  {
+    "id": "ground-8649",
+    "name": "Estadio Manuel Ferreira",
+    "city": "Asunción",
+    "country": "Paraguay",
+    "coords": [
+      -57.60861,
+      -25.29161
+    ]
+  },
+  {
+    "id": "ground-8438",
+    "name": "Garcilaso de la Vega",
+    "city": "Cuzco",
+    "country": "Peru",
+    "coords": [
+      -71.96643,
+      -13.5254
+    ]
+  },
+  {
+    "id": "ground-6597",
+    "name": "Stadion im. Henryka Reymana",
+    "city": "Krakow",
+    "country": "Poland",
+    "coords": [
+      19.91177,
+      50.06371
+    ]
+  },
+  {
+    "id": "ground-6639",
+    "name": "Estádio Nacional",
+    "city": "Oeiras",
+    "country": "Portugal",
+    "coords": [
+      -9.26084,
+      38.70882
+    ]
+  },
+  {
+    "id": "ground-8145",
+    "name": "Al-Khor Stadium",
+    "city": "al-Khor",
+    "country": "Qatar",
+    "coords": [
+      51.49263,
+      25.67941
+    ]
+  },
+  {
+    "id": "ground-3725",
+    "name": "Ion Oblemenco",
+    "city": "Craiova",
+    "country": "Romania",
+    "coords": [
+      23.78413,
+      44.31408
+    ]
+  },
+  {
+    "id": "ground-6783",
+    "name": "Kazan Arena",
+    "city": "Kazan",
+    "country": "Russia",
+    "coords": [
+      49.16105,
+      55.82064
+    ]
+  },
+  {
+    "id": "ground-7999",
+    "name": "King Saud University Stadium",
+    "city": "Riyadh",
+    "country": "Saudi Arabia",
+    "coords": [
+      46.62384,
+      24.72924
+    ]
+  },
+  {
+    "id": "ground-3701",
+    "name": "Easter Road Stadium",
+    "city": "Edinburgh",
+    "country": "Scotland",
+    "coords": [
+      -3.16531,
+      55.96178
+    ]
+  },
+  {
+    "id": "ground-3729",
+    "name": "Karađorđe",
+    "city": "Novi Sad",
+    "country": "Serbia",
+    "coords": [
+      19.84224,
+      45.24685
+    ]
+  },
+  {
+    "id": "ground-3787",
+    "name": "Štadión pod Dubňom",
+    "city": "Žilina",
+    "country": "Slovakia",
+    "coords": [
+      18.74481,
+      49.2291
+    ]
+  },
+  {
+    "id": "ground-8392",
+    "name": "Mbombela Stadium",
+    "city": "Nelspruit",
+    "country": "South Africa",
+    "coords": [
+      30.92889,
+      -25.46111
+    ]
+  },
+  {
+    "id": "ground-8069",
+    "name": "Chuncheon Songam Leports Town",
+    "city": "Chuncheon",
+    "country": "South Korea",
+    "coords": [
+      127.69109,
+      37.85672
+    ]
+  },
+  {
+    "id": "ground-3645",
+    "name": "Ramón Sánchez Pizjuán",
+    "city": "Seville",
+    "country": "Spain",
+    "coords": [
+      -5.97058,
+      37.38404
+    ]
+  },
+  {
+    "id": "ground-3739",
+    "name": "Malmö Stadion",
+    "city": "Malmö",
+    "country": "Sweden",
+    "coords": [
+      12.98925,
+      55.58607
+    ]
+  },
+  {
+    "id": "ground-7225",
+    "name": "Stade de Tourbillon",
+    "city": "Sion",
+    "country": "Switzerland",
+    "coords": [
+      7.37594,
+      46.23328
+    ]
+  },
+  {
+    "id": "ground-8415",
+    "name": "Stade Olympique de Sousse",
+    "city": "Sousse",
+    "country": "Tunisia",
+    "coords": [
+      10.61292,
+      35.82353
+    ]
+  },
+  {
+    "id": "ground-3608",
+    "name": "19 Mayis",
+    "city": "Manisa",
+    "country": "Turkey",
+    "coords": [
+      27.43972,
+      38.62328
+    ]
+  },
+  {
+    "id": "ground-3651",
+    "name": "Shakhtar",
+    "city": "Donetsk",
+    "country": "Ukraine",
+    "coords": [
+      37.78578,
+      47.99471
+    ]
+  },
+  {
+    "id": "ground-8012",
+    "name": "Zabeel Stadium",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "coords": [
+      55.31715,
+      25.2189
+    ]
+  },
+  {
+    "id": "ground-8163",
+    "name": "Red Bull Arena",
+    "city": "Harrison",
+    "country": "United States",
+    "coords": [
+      -74.15022,
+      40.73679
+    ]
+  },
+  {
+    "id": "ground-8700",
+    "name": "Parque Osvaldo Roberto",
+    "city": "Montevideo",
+    "country": "Uruguay",
+    "coords": [
+      -56.21598,
+      -34.83671
+    ]
+  },
+  {
+    "id": "ground-8712",
+    "name": "Metropolitano",
+    "city": "Mérida",
+    "country": "Venezuela",
+    "coords": [
+      -71.21803,
+      8.556
+    ]
+  },
+  {
+    "id": "ground-3915",
+    "name": "Niko Dovana",
+    "city": "Durres",
+    "country": "Albania",
+    "coords": [
+      19.44985,
+      41.32608
+    ]
+  },
+  {
+    "id": "ground-8365",
+    "name": "Unité Maghrébine",
+    "city": "Béjaïa",
+    "country": "Algeria",
+    "coords": [
+      5.04631,
+      36.74936
+    ]
+  },
+  {
+    "id": "ground-8541",
+    "name": "El Monumental de Alta Córdoba",
+    "city": "Córdoba",
+    "country": "Argentina",
+    "coords": [
+      -64.18027,
+      -31.38381
+    ]
+  },
+  {
+    "id": "ground-8022",
+    "name": "HBF Park",
+    "city": "Perth",
+    "country": "Australia",
+    "coords": [
+      115.86986,
+      -31.94571
+    ]
+  },
+  {
+    "id": "ground-4273",
+    "name": "Pappelstadion",
+    "city": "Mattersburg",
+    "country": "Austria",
+    "coords": [
+      16.4064,
+      47.73933
+    ]
+  },
+  {
+    "id": "ground-4373",
+    "name": "Tsentral'nyi Sportkompleks",
+    "city": "Vitebsk",
+    "country": "Belarus",
+    "coords": [
+      30.22917,
+      55.19833
+    ]
+  },
+  {
+    "id": "ground-3637",
+    "name": "Luminus Arena",
+    "city": "Genk",
+    "country": "Belgium",
+    "coords": [
+      5.53323,
+      51.005
+    ]
+  },
+  {
+    "id": "ground-8443",
+    "name": "Jesús Bermúdez",
+    "city": "Oruro",
+    "country": "Bolivia",
+    "coords": [
+      -67.1116,
+      -17.94623
+    ]
+  },
+  {
+    "id": "ground-3759",
+    "name": "Pecara",
+    "city": "Siroki Brijeg",
+    "country": "Bosnia and Herzegovina",
+    "coords": [
+      17.59793,
+      43.37877
+    ]
+  },
+  {
+    "id": "ground-8418",
+    "name": "Arena do Grêmio",
+    "city": "Porto Alegre",
+    "country": "Brazil",
+    "coords": [
+      -51.1944,
+      -29.97344
+    ]
+  },
+  {
+    "id": "ground-3573",
+    "name": "Ludogorets Arena",
+    "city": "Razgrad",
+    "country": "Bulgaria",
+    "coords": [
+      26.52772,
+      43.53456
+    ]
+  },
+  {
+    "id": "ground-8599",
+    "name": "Sausalito",
+    "city": "Viña del Mar",
+    "country": "Chile",
+    "coords": [
+      -71.53532,
+      -33.01436
+    ]
+  },
+  {
+    "id": "ground-8007",
+    "name": "Tianhe Stadium",
+    "city": "Guangzhou",
+    "country": "China",
+    "coords": [
+      113.31933,
+      23.14065
+    ]
+  },
+  {
+    "id": "ground-8495",
+    "name": "Palogrande",
+    "city": "Manizales",
+    "country": "Colombia",
+    "coords": [
+      -75.48956,
+      5.05671
+    ]
+  },
+  {
+    "id": "ground-3904",
+    "name": "Kantrida",
+    "city": "Rijeka",
+    "country": "Croatia",
+    "coords": [
+      14.38101,
+      45.33914
+    ]
+  },
+  {
+    "id": "ground-6732",
+    "name": "Městský",
+    "city": "Ostrava",
+    "country": "Czechia",
+    "coords": [
+      18.25599,
+      49.8043
+    ]
+  },
+  {
+    "id": "ground-4426",
+    "name": "Herfølge Stadion",
+    "city": "Herfølge",
+    "country": "Denmark",
+    "coords": [
+      12.13413,
+      55.41357
+    ]
+  },
+  {
+    "id": "ground-8430",
+    "name": "Casa Blanca",
+    "city": "Quito",
+    "country": "Ecuador",
+    "coords": [
+      -78.4891,
+      -0.10772
+    ]
+  },
+  {
+    "id": "ground-8343",
+    "name": "Al-Salam Stadium",
+    "city": "Al-Salam City",
+    "country": "Egypt",
+    "coords": [
+      31.43519,
+      30.17528
+    ]
+  },
+  {
+    "id": "ground-3657",
+    "name": "Stamford Bridge",
+    "city": "London",
+    "country": "England",
+    "coords": [
+      -0.19098,
+      51.4817
+    ]
+  },
+  {
+    "id": "ground-4616",
+    "name": "Stade Sébastien Charléty",
+    "city": "Paris",
+    "country": "France",
+    "coords": [
+      2.34667,
+      48.81861
+    ]
+  },
+  {
+    "id": "ground-3377",
+    "name": "Borussia-Park",
+    "city": "Mönchengladbach",
+    "country": "Germany",
+    "coords": [
+      6.38544,
+      51.17459
+    ]
+  },
+  {
+    "id": "ground-3595",
+    "name": "Stadio Toumbas",
+    "city": "Thessaloniki",
+    "country": "Greece",
+    "coords": [
+      22.97235,
+      40.61387
+    ]
+  },
+  {
+    "id": "ground-3682",
+    "name": "Bozsik-József-Stadion",
+    "city": "Budapest",
+    "country": "Hungary",
+    "coords": [
+      19.15507,
+      47.44247
+    ]
+  },
+  {
+    "id": "ground-8106",
+    "name": "EMS Stadium",
+    "city": "Kozhikode",
+    "country": "India",
+    "coords": [
+      75.78571,
+      11.2564
+    ]
+  },
+  {
+    "id": "ground-8121",
+    "name": "Gelora Bandung Lautan Api Stadium",
+    "city": "Bandung",
+    "country": "Indonesia",
+    "coords": [
+      107.71216,
+      -6.95665
+    ]
+  },
+  {
+    "id": "ground-3751",
+    "name": "Netanya Stadium",
+    "city": "Netanya",
+    "country": "Israel",
+    "coords": [
+      34.86457,
+      32.29433
+    ]
+  },
+  {
+    "id": "ground-6048",
+    "name": "Luigi Ferraris",
+    "city": "Genoa",
+    "country": "Italy",
+    "coords": [
+      8.95258,
+      44.41644
+    ]
+  },
+  {
+    "id": "ground-8091",
+    "name": "Sapporo Dome",
+    "city": "Sapporo",
+    "country": "Japan",
+    "coords": [
+      141.40982,
+      43.01506
+    ]
+  },
+  {
+    "id": "ground-8255",
+    "name": "Victoria",
+    "city": "Aguascalientes",
+    "country": "Mexico",
+    "coords": [
+      -102.27551,
+      21.88065
+    ]
+  },
+  {
+    "id": "ground-6384",
+    "name": "Fortuna Sittard Stadion",
+    "city": "Sittard",
+    "country": "Netherlands",
+    "coords": [
+      5.84364,
+      50.99205
+    ]
+  },
+  {
+    "id": "ground-4146",
+    "name": "Molde idrettspark",
+    "city": "Molde",
+    "country": "Norway",
+    "coords": [
+      7.15546,
+      62.74046
+    ]
+  },
+  {
+    "id": "ground-8648",
+    "name": "Erico Galeano Segovia",
+    "city": "Capiatá",
+    "country": "Paraguay",
+    "coords": [
+      -57.4375,
+      -25.36056
+    ]
+  },
+  {
+    "id": "ground-8661",
+    "name": "Alejandro Villanueva",
+    "city": "Lima",
+    "country": "Peru",
+    "coords": [
+      -77.02293,
+      -12.06855
+    ]
+  },
+  {
+    "id": "ground-3715",
+    "name": "Górnik Zabrze",
+    "city": "Zabrze",
+    "country": "Poland",
+    "coords": [
+      18.76856,
+      50.29632
+    ]
+  },
+  {
+    "id": "ground-6648",
+    "name": "Estádio Cidade de Coimbra",
+    "city": "Coimbra",
+    "country": "Portugal",
+    "coords": [
+      -8.40764,
+      40.20331
+    ]
+  },
+  {
+    "id": "ground-7970",
+    "name": "Qatar SC Stadium",
+    "city": "Doha",
+    "country": "Qatar",
+    "coords": [
+      51.51239,
+      25.31708
+    ]
+  },
+  {
+    "id": "ground-3379",
+    "name": "CFR",
+    "city": "Cluj-Napoca",
+    "country": "Romania",
+    "coords": [
+      23.57749,
+      46.77956
+    ]
+  },
+  {
+    "id": "ground-3408",
+    "name": "Mordovia Arena",
+    "city": "Saransk",
+    "country": "Russia",
+    "coords": [
+      45.20139,
+      54.18278
+    ]
+  },
+  {
+    "id": "ground-6849",
+    "name": "Rugby Park",
+    "city": "Kilmarnock",
+    "country": "Scotland",
+    "coords": [
+      -4.50818,
+      55.60449
+    ]
+  },
+  {
+    "id": "ground-6925",
+    "name": "Subotica City Stadium",
+    "city": "Subotica",
+    "country": "Serbia",
+    "coords": [
+      19.67681,
+      46.08183
+    ]
+  },
+  {
+    "id": "ground-8385",
+    "name": "Free State Stadium",
+    "city": "Bloemfontein",
+    "country": "South Africa",
+    "coords": [
+      26.20886,
+      -29.11728
+    ]
+  },
+  {
+    "id": "ground-8075",
+    "name": "Tancheon Sports Complex",
+    "city": "Seongnam",
+    "country": "South Korea",
+    "coords": [
+      127.12138,
+      37.41013
+    ]
+  },
+  {
+    "id": "ground-6962",
+    "name": "RCDE Stadium",
+    "city": "Cornellà de Llobregat",
+    "country": "Spain",
+    "coords": [
+      2.07567,
+      41.34786
+    ]
+  },
+  {
+    "id": "ground-3890",
+    "name": "Borås Arena",
+    "city": "Borås",
+    "country": "Sweden",
+    "coords": [
+      12.93473,
+      57.7344
+    ]
+  },
+  {
+    "id": "ground-3455",
+    "name": "Kybunpark",
+    "city": "St. Gallen",
+    "country": "Switzerland",
+    "coords": [
+      9.30636,
+      47.40828
+    ]
+  },
+  {
+    "id": "ground-8407",
+    "name": "Mustapha Ben Jannet",
+    "city": "Monastir",
+    "country": "Tunisia",
+    "coords": [
+      10.81999,
+      35.77633
+    ]
+  },
+  {
+    "id": "ground-7362",
+    "name": "Osmanlı Stadı",
+    "city": "Ankara",
+    "country": "Turkey",
+    "coords": [
+      32.50236,
+      40.01164
+    ]
+  },
+  {
+    "id": "ground-7436",
+    "name": "Yuvileiny",
+    "city": "Sumy",
+    "country": "Ukraine",
+    "coords": [
+      34.79998,
+      50.90243
+    ]
+  },
+  {
+    "id": "ground-7937",
+    "name": "Sheikh Khalifa International Stadium",
+    "city": "Al-Ain",
+    "country": "United Arab Emirates",
+    "coords": [
+      55.76644,
+      24.20719
+    ]
+  },
+  {
+    "id": "ground-8154",
+    "name": "BBVA Compass Stadium",
+    "city": "Houston",
+    "country": "United States",
+    "coords": [
+      -95.35333,
+      29.75333
+    ]
+  },
+  {
+    "id": "ground-8718",
+    "name": "Polideportivo Pueblo Nuevo",
+    "city": "San Cristóbal",
+    "country": "Venezuela",
+    "coords": [
+      -72.1972,
+      7.78596
+    ]
+  },
+  {
+    "id": "ground-4028",
+    "name": "Roza Haxhiu",
+    "city": "Lushnja",
+    "country": "Albania",
+    "coords": [
+      19.70966,
+      40.93542
+    ]
+  },
+  {
+    "id": "ground-8355",
+    "name": "24 février",
+    "city": "Sidi Bel Abbès",
+    "country": "Algeria",
+    "coords": [
+      -0.6219,
+      35.18511
+    ]
+  },
+  {
+    "id": "ground-8507",
+    "name": "El Bosque",
+    "city": "La Plata",
+    "country": "Argentina",
+    "coords": [
+      -57.93259,
+      -34.91097
+    ]
+  },
+  {
+    "id": "ground-8017",
+    "name": "Central Coast Stadium",
+    "city": "Gosford",
+    "country": "Australia",
+    "coords": [
+      151.33807,
+      -33.4283
+    ]
+  },
+  {
+    "id": "ground-3686",
+    "name": "BSFZ-Arena",
+    "city": "Maria Enzersdorf",
+    "country": "Austria",
+    "coords": [
+      16.31138,
+      48.09747
+    ]
+  },
+  {
+    "id": "ground-4338",
+    "name": "AFAS-Stadion Achter de Kazerne",
+    "city": "Mechelen",
+    "country": "Belgium",
+    "coords": [
+      4.48639,
+      51.03722
+    ]
+  },
+  {
+    "id": "ground-8583",
+    "name": "Villa Ingenio",
+    "city": "El Alto",
+    "country": "Bolivia",
+    "coords": [
+      -68.20189,
+      -16.47181
+    ]
+  },
+  {
+    "id": "ground-8478",
+    "name": "Engenhão",
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "coords": [
+      -43.29227,
+      -22.8933
+    ]
+  },
+  {
+    "id": "ground-4011",
+    "name": "Hadzhi Dimitar",
+    "city": "Sliven",
+    "country": "Bulgaria",
+    "coords": [
+      26.33666,
+      42.67958
+    ]
+  },
+  {
+    "id": "ground-8600",
+    "name": "Carlos Dittborn",
+    "city": "Arica",
+    "country": "Chile",
+    "coords": [
+      -70.29903,
+      -18.48754
+    ]
+  },
+  {
+    "id": "ground-8006",
+    "name": "Shanghai Stadium",
+    "city": "Shanghai",
+    "country": "China",
+    "coords": [
+      121.43754,
+      31.18334
+    ]
+  },
+  {
+    "id": "ground-8451",
+    "name": "Manuel Murillo Toro",
+    "city": "Ibagué",
+    "country": "Colombia",
+    "coords": [
+      -75.21825,
+      4.4298
+    ]
+  },
+  {
+    "id": "ground-3820",
+    "name": "Anđelko Herjavec",
+    "city": "Varazdin",
+    "country": "Croatia",
+    "coords": [
+      16.34171,
+      46.31344
+    ]
+  },
+  {
+    "id": "ground-3366",
+    "name": "Andrův stadión",
+    "city": "Olomouc",
+    "country": "Czechia",
+    "coords": [
+      17.24825,
+      49.60014
+    ]
+  },
+  {
+    "id": "ground-3435",
+    "name": "Telia Parken",
+    "city": "Copenhagen",
+    "country": "Denmark",
+    "coords": [
+      12.57228,
+      55.70271
+    ]
+  },
+  {
+    "id": "ground-8435",
+    "name": "Estadio George Capwell",
+    "city": "Guayaquil",
+    "country": "Ecuador",
+    "coords": [
+      -79.89377,
+      -2.2066
+    ]
+  },
+  {
+    "id": "ground-8373",
+    "name": "Cairo Military Academy Stadium",
+    "city": "Cairo",
+    "country": "Egypt",
+    "coords": [
+      31.36758,
+      30.11107
+    ]
+  },
+  {
+    "id": "ground-5733",
+    "name": "Elland Road",
+    "city": "Leeds",
+    "country": "England",
+    "coords": [
+      -1.57215,
+      53.77778
+    ]
+  },
+  {
+    "id": "ground-4607",
+    "name": "Stade Bauer",
+    "city": "Saint-Ouen",
+    "country": "France",
+    "coords": [
+      2.34102,
+      48.90608
+    ]
+  },
+  {
+    "id": "ground-3380",
+    "name": "Commerzbank-Arena",
+    "city": "Frankfurt am Main",
+    "country": "Germany",
+    "coords": [
+      8.64526,
+      50.06854
+    ]
+  },
+  {
+    "id": "ground-5694",
+    "name": "Panthessaliko",
+    "city": "Volos",
+    "country": "Greece",
+    "coords": [
+      22.93126,
+      39.3874
+    ]
+  },
+  {
+    "id": "ground-7445",
+    "name": "Nagyerdei",
+    "city": "Debrecen",
+    "country": "Hungary",
+    "coords": [
+      21.63363,
+      47.55421
+    ]
+  },
+  {
+    "id": "ground-8110",
+    "name": "Nehru Stadium",
+    "city": "Shillong",
+    "country": "India",
+    "coords": [
+      91.89408,
+      25.58005
+    ]
+  },
+  {
+    "id": "ground-8117",
+    "name": "Aji Imbut",
+    "city": "Tenggarong",
+    "country": "Indonesia",
+    "coords": [
+      117.00745,
+      -0.42845
+    ]
+  },
+  {
+    "id": "ground-6083",
+    "name": "Atleti Azzurri d'Italia",
+    "city": "Bergamo",
+    "country": "Italy",
+    "coords": [
+      9.68082,
+      45.70913
+    ]
+  },
+  {
+    "id": "ground-7997",
+    "name": "Kashima Soccer Stadium",
+    "city": "Kashima",
+    "country": "Japan",
+    "coords": [
+      140.64021,
+      35.99193
+    ]
+  },
+  {
+    "id": "ground-8225",
+    "name": "Olímpico de la BUAP",
+    "city": "Puebla",
+    "country": "Mexico",
+    "coords": [
+      -98.19733,
+      18.99719
+    ]
+  },
+  {
+    "id": "ground-3940",
+    "name": "Het Kasteel",
+    "city": "Rotterdam",
+    "country": "Netherlands",
+    "coords": [
+      4.43362,
+      51.91948
+    ]
+  },
+  {
+    "id": "ground-6359",
+    "name": "Skagerak Arena",
+    "city": "Skien",
+    "country": "Norway",
+    "coords": [
+      9.5898,
+      59.21145
+    ]
+  },
+  {
+    "id": "ground-8655",
+    "name": "La Huerta",
+    "city": "Asunción",
+    "country": "Paraguay",
+    "coords": [
+      -57.61105,
+      -25.27779
+    ]
+  },
+  {
+    "id": "ground-8502",
+    "name": "Estadio San Marcos",
+    "city": "Lima",
+    "country": "Peru",
+    "coords": [
+      -77.075,
+      -12.057
+    ]
+  },
+  {
+    "id": "ground-6577",
+    "name": "Stadion Zagłębia",
+    "city": "Lubin",
+    "country": "Poland",
+    "coords": [
+      16.1979,
+      51.41414
+    ]
+  },
+  {
+    "id": "ground-3897",
+    "name": "Estádio AXA",
+    "city": "Braga",
+    "country": "Portugal",
+    "coords": [
+      -8.42983,
+      41.56253
+    ]
+  },
+  {
+    "id": "ground-7993",
+    "name": "Jassim Bin Hamad Stadium",
+    "city": "Doha",
+    "country": "Qatar",
+    "coords": [
+      51.48423,
+      25.26731
+    ]
+  },
+  {
+    "id": "ground-3824",
+    "name": "Giulesti-Valentin Stanescu",
+    "city": "Bucharest",
+    "country": "Romania",
+    "coords": [
+      26.05685,
+      44.45599
+    ]
+  },
+  {
+    "id": "ground-6787",
+    "name": "Rostov Arena",
+    "city": "Rostov",
+    "country": "Russia",
+    "coords": [
+      39.73786,
+      47.20952
+    ]
+  },
+  {
+    "id": "ground-3845",
+    "name": "Tynecastle",
+    "city": "Edinburgh",
+    "country": "Scotland",
+    "coords": [
+      -3.23243,
+      55.93898
+    ]
+  },
+  {
+    "id": "ground-3688",
+    "name": "Čair",
+    "city": "Nis",
+    "country": "Serbia",
+    "coords": [
+      21.90869,
+      43.31551
+    ]
+  },
+  {
+    "id": "ground-8399",
+    "name": "Sisa Dukashe Stadium",
+    "city": "Mdantsane",
+    "country": "South Africa",
+    "coords": [
+      27.76052,
+      -32.94649
+    ]
+  },
+  {
+    "id": "ground-7988",
+    "name": "Changwon Football Center",
+    "city": "Changwon",
+    "country": "South Korea",
+    "coords": [
+      128.7057,
+      35.22339
+    ]
+  },
+  {
+    "id": "ground-3458",
+    "name": "Martínez Valero",
+    "city": "Elche",
+    "country": "Spain",
+    "coords": [
+      -0.66329,
+      38.26711
+    ]
+  },
+  {
+    "id": "ground-7142",
+    "name": "Östgötaporten",
+    "city": "Norrköping",
+    "country": "Sweden",
+    "coords": [
+      16.17302,
+      58.58427
+    ]
+  },
+  {
+    "id": "ground-3464",
+    "name": "swissporarena",
+    "city": "Lucerne",
+    "country": "Switzerland",
+    "coords": [
+      8.30519,
+      47.03326
+    ]
+  },
+  {
+    "id": "ground-8410",
+    "name": "Stade du 15 Octobre",
+    "city": "Bizerte",
+    "country": "Tunisia",
+    "coords": [
+      9.86558,
+      37.27892
+    ]
+  },
+  {
+    "id": "ground-3884",
+    "name": "4 Eylül",
+    "city": "Sivas",
+    "country": "Turkey",
+    "coords": [
+      37.00319,
+      39.74112
+    ]
+  },
+  {
+    "id": "ground-7424",
+    "name": "Ukrajina",
+    "city": "Lviv",
+    "country": "Ukraine",
+    "coords": [
+      24.04819,
+      49.81922
+    ]
+  },
+  {
+    "id": "ground-7931",
+    "name": "Al Maktoum Stadium",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "coords": [
+      55.313,
+      25.23997
+    ]
+  },
+  {
+    "id": "ground-8299",
+    "name": "Rio Tinto Stadium",
+    "city": "Sandy",
+    "country": "United States",
+    "coords": [
+      -111.89333,
+      40.58292
+    ]
+  },
+  {
+    "id": "ground-8708",
+    "name": "José Antonio Anzoátegui",
+    "city": "Puerto La Cruz",
+    "country": "Venezuela",
+    "coords": [
+      -64.65612,
+      10.18008
+    ]
+  },
+  {
+    "id": "ground-4233",
+    "name": "Skënderbeu",
+    "city": "Korça",
+    "country": "Albania",
+    "coords": [
+      20.78281,
+      40.62611
+    ]
+  },
+  {
+    "id": "ground-8362",
+    "name": "Stade Imam Lyes",
+    "city": "Médéa",
+    "country": "Algeria",
+    "coords": [
+      2.76972,
+      36.26167
+    ]
+  },
+  {
+    "id": "ground-8555",
+    "name": "Ricardo Etcheverry",
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "coords": [
+      -58.44764,
+      -34.6185
+    ]
+  },
+  {
+    "id": "ground-8016",
+    "name": "Campbelltown Stadium",
+    "city": "Campbelltown",
+    "country": "Australia",
+    "coords": [
+      150.83368,
+      -34.05036
+    ]
+  },
+  {
+    "id": "ground-3386",
+    "name": "Ernst-Happel-Stadion",
+    "city": "Vienna",
+    "country": "Austria",
+    "coords": [
+      16.42098,
+      48.20706
+    ]
+  },
+  {
+    "id": "ground-4343",
+    "name": "Freethiel",
+    "city": "Beveren",
+    "country": "Belgium",
+    "coords": [
+      4.24392,
+      51.21412
+    ]
+  },
+  {
+    "id": "ground-8424",
+    "name": "Allianz Parque",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "coords": [
+      -46.67842,
+      -23.52756
+    ]
+  },
+  {
+    "id": "ground-8499",
+    "name": "Fiscal",
+    "city": "Talca",
+    "country": "Chile",
+    "coords": [
+      -71.67404,
+      -35.4198
+    ]
+  },
+  {
+    "id": "ground-7994",
+    "name": "Jinan Olympic Sports Center",
+    "city": "Jinan",
+    "country": "China",
+    "coords": [
+      117.11019,
+      36.65601
+    ]
+  },
+  {
+    "id": "ground-8623",
+    "name": "Centenario",
+    "city": "Armenia",
+    "country": "Colombia",
+    "coords": [
+      -75.69845,
+      4.51531
+    ]
+  },
+  {
+    "id": "ground-4392",
+    "name": "Kranjčevićevoj",
+    "city": "Zagreb",
+    "country": "Croatia",
+    "coords": [
+      15.96081,
+      45.80457
+    ]
+  },
+  {
+    "id": "ground-3526",
+    "name": "Doosan Arena",
+    "city": "Plzeň",
+    "country": "Czechia",
+    "coords": [
+      13.38548,
+      49.75007
+    ]
+  },
+  {
+    "id": "ground-3685",
+    "name": "Brøndby Stadion",
+    "city": "Brøndby",
+    "country": "Denmark",
+    "coords": [
+      12.41861,
+      55.64897
+    ]
+  },
+  {
+    "id": "ground-8632",
+    "name": "Alejandro Serrano Aguilar",
+    "city": "Cuenca",
+    "country": "Ecuador",
+    "coords": [
+      -79.00577,
+      -2.90662
+    ]
+  },
+  {
+    "id": "ground-8347",
+    "name": "Suez Stadium",
+    "city": "Suez",
+    "country": "Egypt",
+    "coords": [
+      32.54247,
+      29.95777
+    ]
+  },
+  {
+    "id": "ground-4211",
+    "name": "Goodison Park",
+    "city": "Liverpool",
+    "country": "England",
+    "coords": [
+      -2.96628,
+      53.43885
+    ]
+  },
+  {
+    "id": "ground-4617",
+    "name": "Armand Cesari",
+    "city": "Bastia",
+    "country": "France",
+    "coords": [
+      9.44266,
+      42.65142
+    ]
+  },
+  {
+    "id": "ground-4725",
+    "name": "RheinEnergieStadion",
+    "city": "Cologne",
+    "country": "Germany",
+    "coords": [
+      6.87516,
+      50.93344
+    ]
+  },
+  {
+    "id": "ground-5640",
+    "name": "Kleanthis Vikelidis",
+    "city": "Thessaloniki",
+    "country": "Greece",
+    "coords": [
+      22.96955,
+      40.60011
+    ]
+  },
+  {
+    "id": "ground-3653",
+    "name": "Sóstói",
+    "city": "Székesfehérvár",
+    "country": "Hungary",
+    "coords": [
+      18.39779,
+      47.20384
+    ]
+  },
+  {
+    "id": "ground-8104",
+    "name": "Sree Kanteerava Stadium",
+    "city": "Bangalore",
+    "country": "India",
+    "coords": [
+      77.59348,
+      12.96967
+    ]
+  },
+  {
+    "id": "ground-8124",
+    "name": "Gelora Delta",
+    "city": "Sidoarjo",
+    "country": "Indonesia",
+    "coords": [
+      112.70593,
+      -7.44772
+    ]
+  },
+  {
+    "id": "ground-3381",
+    "name": "Dacia Arena",
+    "city": "Udine",
+    "country": "Italy",
+    "coords": [
+      13.20012,
+      46.0816
+    ]
+  },
+  {
+    "id": "ground-8089",
+    "name": "Ōita Bank Dome",
+    "city": "Oita",
+    "country": "Japan",
+    "coords": [
+      131.65755,
+      33.20072
+    ]
+  },
+  {
+    "id": "ground-8233",
+    "name": "10 de Diciembre",
+    "city": "Ciudad Cooperativa Cruz Azul",
+    "country": "Mexico",
+    "coords": [
+      -99.32541,
+      19.99396
+    ]
+  },
+  {
+    "id": "ground-6397",
+    "name": "Cambuur Stadion",
+    "city": "Leeuwarden",
+    "country": "Netherlands",
+    "coords": [
+      5.81458,
+      53.20538
+    ]
+  },
+  {
+    "id": "ground-3674",
+    "name": "Åråsen Stadion",
+    "city": "Lillestrøm",
+    "country": "Norway",
+    "coords": [
+      11.06355,
+      59.9628
+    ]
+  },
+  {
+    "id": "ground-8653",
+    "name": "Juan José Vázquez",
+    "city": "San Estanislao",
+    "country": "Paraguay",
+    "coords": [
+      -56.44164,
+      -24.65678
+    ]
+  },
+  {
+    "id": "ground-8487",
+    "name": "Mansiche",
+    "city": "Trujillo",
+    "country": "Peru",
+    "coords": [
+      -79.03071,
+      -8.10617
+    ]
+  },
+  {
+    "id": "ground-6584",
+    "name": "GOSiR",
+    "city": "Gdynia",
+    "country": "Poland",
+    "coords": [
+      18.53126,
+      54.49314
+    ]
+  },
+  {
+    "id": "ground-4003",
+    "name": "Estádio do Bessa",
+    "city": "Porto",
+    "country": "Portugal",
+    "coords": [
+      -8.64254,
+      41.16225
+    ]
+  },
+  {
+    "id": "ground-7951",
+    "name": "Grand Hamad Stadium",
+    "city": "Doha",
+    "country": "Qatar",
+    "coords": [
+      51.52051,
+      25.25871
+    ]
+  },
+  {
+    "id": "ground-6762",
+    "name": "Nicolae Dobrin",
+    "city": "Pitesti",
+    "country": "Romania",
+    "coords": [
+      24.86639,
+      44.84668
+    ]
+  },
+  {
+    "id": "ground-3582",
+    "name": "Otkrytie Arena",
+    "city": "Moscow",
+    "country": "Russia",
+    "coords": [
+      37.44036,
+      55.81793
+    ]
+  },
+  {
+    "id": "ground-6858",
+    "name": "Tannadice Park",
+    "city": "Dundee",
+    "country": "Scotland",
+    "coords": [
+      -2.96901,
+      56.47471
+    ]
+  },
+  {
+    "id": "ground-4068",
+    "name": "Gornjoj Varoši",
+    "city": "Zemun",
+    "country": "Serbia",
+    "coords": [
+      20.39798,
+      44.84797
+    ]
+  },
+  {
+    "id": "ground-8390",
+    "name": "Lucas Masterpieces Moripe Stadium",
+    "city": "Pretoria",
+    "country": "South Africa",
+    "coords": [
+      28.07298,
+      -25.77583
+    ]
+  },
+  {
+    "id": "ground-8072",
+    "name": "Sangju Stadium",
+    "city": "Sangju",
+    "country": "South Korea",
+    "coords": [
+      128.16165,
+      36.43237
+    ]
+  },
+  {
+    "id": "ground-6976",
+    "name": "La Romareda",
+    "city": "Zaragoza",
+    "country": "Spain",
+    "coords": [
+      -0.90183,
+      41.63647
+    ]
+  },
+  {
+    "id": "ground-7155",
+    "name": "Örjans Vall",
+    "city": "Halmstad",
+    "country": "Sweden",
+    "coords": [
+      12.8668,
+      56.68445
+    ]
+  },
+  {
+    "id": "ground-7241",
+    "name": "Charriére",
+    "city": "La Chaux-de-Fonds",
+    "country": "Switzerland",
+    "coords": [
+      6.83631,
+      47.11126
+    ]
+  },
+  {
+    "id": "ground-8409",
+    "name": "Stade de Zrig",
+    "city": "Gabès",
+    "country": "Tunisia",
+    "coords": [
+      10.09945,
+      33.84775
+    ]
+  },
+  {
+    "id": "ground-7369",
+    "name": "5 Ocak Fatih Terim Stadı",
+    "city": "Adana",
+    "country": "Turkey",
+    "coords": [
+      35.3297,
+      36.99902
+    ]
+  },
+  {
+    "id": "ground-3664",
+    "name": "Vorskla",
+    "city": "Poltava",
+    "country": "Ukraine",
+    "coords": [
+      34.54948,
+      49.5948
+    ]
+  },
+  {
+    "id": "ground-7932",
+    "name": "Al Nahyan Stadium",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "coords": [
+      54.37532,
+      24.46932
+    ]
+  },
+  {
+    "id": "ground-8230",
+    "name": "Pizza Hut Park",
+    "city": "Frisco",
+    "country": "United States",
+    "coords": [
+      -96.83514,
+      33.15433
+    ]
+  },
+  {
+    "id": "ground-8446",
+    "name": "La Carolina (Agustín Tovar)",
+    "city": "Barinas",
+    "country": "Venezuela",
+    "coords": [
+      -70.20734,
+      8.62491
+    ]
+  },
+  {
+    "id": "ground-4226",
+    "name": "Flamurtari",
+    "city": "Vlore",
+    "country": "Albania",
+    "coords": [
+      19.48896,
+      40.45597
+    ]
+  },
+  {
+    "id": "ground-8363",
+    "name": "Stade Lahoua Smaïll",
+    "city": "Tadjenanet",
+    "country": "Algeria",
+    "coords": [
+      6.0275,
+      36.1127
+    ]
+  },
+  {
+    "id": "ground-8538",
+    "name": "Chacarita Juniors",
+    "city": "General San Martín (Buenos Aires)",
+    "country": "Argentina",
+    "coords": [
+      -58.52817,
+      -34.56739
+    ]
+  },
+  {
+    "id": "ground-8018",
+    "name": "Coopers Stadium",
+    "city": "Adelaide",
+    "country": "Australia",
+    "coords": [
+      138.56894,
+      -34.90738
+    ]
+  },
+  {
+    "id": "ground-3444",
+    "name": "Wörthersee Stadion",
+    "city": "Klagenfurt",
+    "country": "Austria",
+    "coords": [
+      14.27824,
+      46.60896
+    ]
+  },
+  {
+    "id": "ground-4353",
+    "name": "Staaien",
+    "city": "Sint-Truiden",
+    "country": "Belgium",
+    "coords": [
+      5.16628,
+      50.8135
+    ]
+  },
+  {
+    "id": "ground-8425",
+    "name": "Arena da Baixada",
+    "city": "Curitiba",
+    "country": "Brazil",
+    "coords": [
+      -49.27695,
+      -25.44829
+    ]
+  },
+  {
+    "id": "ground-8498",
+    "name": "El Teniente",
+    "city": "Rancagua",
+    "country": "Chile",
+    "coords": [
+      -70.73753,
+      -34.17779
+    ]
+  },
+  {
+    "id": "ground-8043",
+    "name": "Olympic Sports Centre",
+    "city": "Tianjin",
+    "country": "China",
+    "coords": [
+      117.16939,
+      39.07344
+    ]
+  },
+  {
+    "id": "ground-8611",
+    "name": "General Santander",
+    "city": "Cúcuta",
+    "country": "Colombia",
+    "coords": [
+      -72.50183,
+      7.89474
+    ]
+  },
+  {
+    "id": "ground-3461",
+    "name": "Rujevica",
+    "city": "Rijeka",
+    "country": "Croatia",
+    "coords": [
+      14.40427,
+      45.34682
+    ]
+  },
+  {
+    "id": "ground-6742",
+    "name": "U Nisy",
+    "city": "Liberec",
+    "country": "Czechia",
+    "coords": [
+      15.04997,
+      50.77621
+    ]
+  },
+  {
+    "id": "ground-3473",
+    "name": "Ceres Park",
+    "city": "Aarhus",
+    "country": "Denmark",
+    "coords": [
+      10.19656,
+      56.13202
+    ]
+  },
+  {
+    "id": "ground-8635",
+    "name": "Chillogallo",
+    "city": "Quito",
+    "country": "Ecuador",
+    "coords": [
+      -78.5462,
+      -0.27889
+    ]
+  },
+  {
+    "id": "ground-8378",
+    "name": "Petro Sport Stadium",
+    "city": "Cairo",
+    "country": "Egypt",
+    "coords": [
+      31.44593,
+      30.02711
+    ]
+  },
+  {
+    "id": "ground-5736",
+    "name": "Hillsborough",
+    "city": "Sheffield",
+    "country": "England",
+    "coords": [
+      -1.50068,
+      53.41142
+    ]
+  },
+  {
+    "id": "ground-4692",
+    "name": "Stade Robert Diochon",
+    "city": "Rouen",
+    "country": "France",
+    "coords": [
+      1.07074,
+      49.41106
+    ]
+  },
+  {
+    "id": "ground-4702",
+    "name": "Max-Morlock-Stadion",
+    "city": "Nuremberg",
+    "country": "Germany",
+    "coords": [
+      11.12559,
+      49.42638
+    ]
+  },
+  {
+    "id": "ground-5635",
+    "name": "Apostolos Nikolaidis",
+    "city": "Athens",
+    "country": "Greece",
+    "coords": [
+      23.75413,
+      37.98723
+    ]
+  },
+  {
+    "id": "ground-4149",
+    "name": "Rohonci úti",
+    "city": "Szombathely",
+    "country": "Hungary",
+    "coords": [
+      16.60702,
+      47.23484
+    ]
+  },
+  {
+    "id": "ground-7954",
+    "name": "Indira Gandhi Athletic Stadium",
+    "city": "Guwahati",
+    "country": "India",
+    "coords": [
+      91.7603,
+      26.11573
+    ]
+  },
+  {
+    "id": "ground-8137",
+    "name": "Sultan Agung",
+    "city": "Bantul",
+    "country": "Indonesia",
+    "coords": [
+      110.38017,
+      -7.87431
+    ]
+  },
+  {
+    "id": "ground-6077",
+    "name": "Angelo Massimino",
+    "city": "Catania",
+    "country": "Italy",
+    "coords": [
+      15.07159,
+      37.51574
+    ]
+  },
+  {
+    "id": "ground-8094",
+    "name": "Suita City Football Stadium",
+    "city": "Suita",
+    "country": "Japan",
+    "coords": [
+      135.54089,
+      34.8114
+    ]
+  },
+  {
+    "id": "ground-8213",
+    "name": "Azteca",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "coords": [
+      -99.15039,
+      19.30283
+    ]
+  },
+  {
+    "id": "ground-3937",
+    "name": "De Adelaarshorst",
+    "city": "Deventer",
+    "country": "Netherlands",
+    "coords": [
+      6.17257,
+      52.26041
+    ]
+  },
+  {
+    "id": "ground-3668",
+    "name": "Aker Stadion",
+    "city": "Molde",
+    "country": "Norway",
+    "coords": [
+      7.14784,
+      62.73327
+    ]
+  },
+  {
+    "id": "ground-8654",
+    "name": "La Arboleda",
+    "city": "Santísima Trinidad",
+    "country": "Paraguay",
+    "coords": [
+      -57.57511,
+      -25.25754
+    ]
+  },
+  {
+    "id": "ground-8670",
+    "name": "Heraclio Tapia",
+    "city": "Huánuco",
+    "country": "Peru",
+    "coords": [
+      -76.25285,
+      -9.94039
+    ]
+  },
+  {
+    "id": "ground-3892",
+    "name": "Cracovia",
+    "city": "Krakow",
+    "country": "Poland",
+    "coords": [
+      19.92025,
+      50.05797
+    ]
+  },
+  {
+    "id": "ground-4053",
+    "name": "Aveiro Municipal",
+    "city": "Aveiro",
+    "country": "Portugal",
+    "coords": [
+      -8.59387,
+      40.64786
+    ]
+  },
+  {
+    "id": "ground-7982",
+    "name": "Abdullah bin Khalifa Stadium",
+    "city": "Doha",
+    "country": "Qatar",
+    "coords": [
+      51.46915,
+      25.37308
+    ]
+  },
+  {
+    "id": "ground-3490",
+    "name": "Ilie Oană",
+    "city": "Ploiesti",
+    "country": "Romania",
+    "coords": [
+      26.0345,
+      44.94056
+    ]
+  },
+  {
+    "id": "ground-3430",
+    "name": "Stadion Nizhny Novgorod",
+    "city": "Nizhny Novgorod",
+    "country": "Russia",
+    "coords": [
+      44.07472,
+      56.32167
+    ]
+  },
+  {
+    "id": "ground-6868",
+    "name": "Fir Park",
+    "city": "Motherwell",
+    "country": "Scotland",
+    "coords": [
+      -3.98026,
+      55.77992
+    ]
+  },
+  {
+    "id": "ground-6903",
+    "name": "Stadion Mladost",
+    "city": "Lučani",
+    "country": "Serbia",
+    "coords": [
+      20.13244,
+      43.86002
+    ]
+  },
+  {
+    "id": "ground-8380",
+    "name": "Athlone Stadium",
+    "city": "Capetown",
+    "country": "South Africa",
+    "coords": [
+      18.51733,
+      -33.96188
+    ]
+  },
+  {
+    "id": "ground-7989",
+    "name": "Daegu Forest Arena",
+    "city": "Daegu",
+    "country": "South Korea",
+    "coords": [
+      128.5881,
+      35.88133
+    ]
+  },
+  {
+    "id": "ground-6946",
+    "name": "Anoeta",
+    "city": "San Sebastián",
+    "country": "Spain",
+    "coords": [
+      -1.97357,
+      43.30137
+    ]
+  },
+  {
+    "id": "ground-7132",
+    "name": "Behrn Arena",
+    "city": "Örebro",
+    "country": "Sweden",
+    "coords": [
+      15.22334,
+      59.26625
+    ]
+  },
+  {
+    "id": "ground-7221",
+    "name": "La Maladière",
+    "city": "Neuchâtel",
+    "country": "Switzerland",
+    "coords": [
+      6.94395,
+      46.99514
+    ]
+  },
+  {
+    "id": "ground-8411",
+    "name": "Stade Municipal",
+    "city": "Hammam Lif",
+    "country": "Tunisia",
+    "coords": [
+      10.34589,
+      36.72747
+    ]
+  },
+  {
+    "id": "ground-7382",
+    "name": "Balikesir Atatürk",
+    "city": "Balıkesir",
+    "country": "Turkey",
+    "coords": [
+      27.88769,
+      39.64154
+    ]
+  },
+  {
+    "id": "ground-3847",
+    "name": "Valeriya Lobanovskovo",
+    "city": "Kyiv",
+    "country": "Ukraine",
+    "coords": [
+      30.53511,
+      50.45042
+    ]
+  },
+  {
+    "id": "ground-7934",
+    "name": "Maktoum bin Rashid Al Maktoum Stadium",
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "coords": [
+      55.3483,
+      25.2908
+    ]
+  },
+  {
+    "id": "ground-8210",
+    "name": "Toyota Park",
+    "city": "Bridgeview",
+    "country": "United States",
+    "coords": [
+      -87.80612,
+      41.76482
+    ]
+  },
+  {
+    "id": "ground-8463",
+    "name": "Olímpico de la UCV",
+    "city": "Caracas",
+    "country": "Venezuela",
+    "coords": [
+      -66.8856,
+      10.49135
+    ]
+  },
+  {
+    "id": "ground-4228",
+    "name": "Gjirokastra",
+    "city": "Luftetari",
+    "country": "Albania",
+    "coords": [
+      20.13799,
+      40.08126
+    ]
+  }
+]

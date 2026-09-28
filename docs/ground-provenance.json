@@ -1,0 +1,3937 @@
+[
+  {
+    "id": "ground-3487",
+    "sourceRecord": 3487,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Ruzhdi Bizhuta Stadium",
+      "distance": 0.002,
+      "coords": [
+        20.091992,
+        41.115875
+      ]
+    }
+  },
+  {
+    "id": "ground-8356",
+    "sourceRecord": 8356,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade 5 Juillet 1962",
+      "distance": 0.003,
+      "coords": [
+        2.995194,
+        36.759889
+      ]
+    }
+  },
+  {
+    "id": "ground-8477",
+    "sourceRecord": 8477,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Presidente Juan Domingo Perón",
+      "distance": 0.003,
+      "coords": [
+        -58.368611,
+        -34.6675
+      ]
+    }
+  },
+  {
+    "id": "ground-3398",
+    "sourceRecord": 3398
+  },
+  {
+    "id": "ground-8028",
+    "sourceRecord": 8028,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Lang Park",
+      "distance": 0.034,
+      "coords": [
+        153.0094444,
+        -27.46472222
+      ]
+    }
+  },
+  {
+    "id": "ground-3610",
+    "sourceRecord": 3610,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Gerhard-Hanappi-stadium",
+      "distance": 0.089,
+      "coords": [
+        16.265278,
+        48.197778
+      ]
+    }
+  },
+  {
+    "id": "ground-3802",
+    "sourceRecord": 3802,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Tofiq Bahramov Stadium",
+      "distance": 0.004,
+      "coords": [
+        49.852417,
+        40.397333
+      ]
+    }
+  },
+  {
+    "id": "ground-7942",
+    "sourceRecord": 7942,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Bangabandhu National Stadium",
+      "distance": 0.025,
+      "coords": [
+        90.41333333,
+        23.72777778
+      ]
+    }
+  },
+  {
+    "id": "ground-4374",
+    "sourceRecord": 4374,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Central Stadium",
+      "distance": 0,
+      "coords": [
+        31.012094,
+        52.436717
+      ]
+    }
+  },
+  {
+    "id": "ground-3594",
+    "sourceRecord": 3594,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade Maurice Dufrasne",
+      "distance": 0.003,
+      "coords": [
+        5.543344,
+        50.609908
+      ]
+    }
+  },
+  {
+    "id": "ground-8497",
+    "sourceRecord": 8497,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Víctor Agustín Ugarte",
+      "distance": 0,
+      "coords": [
+        -65.761111,
+        -19.578611
+      ]
+    }
+  },
+  {
+    "id": "ground-3676",
+    "sourceRecord": 3676,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Asim Ferhatović Hase Stadium",
+      "distance": 0.014,
+      "coords": [
+        18.40861111,
+        43.87388889
+      ]
+    }
+  },
+  {
+    "id": "ground-8422",
+    "sourceRecord": 8422,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estádio do Morumbi",
+      "distance": 0.007,
+      "coords": [
+        -46.72015556,
+        -23.600125
+      ]
+    }
+  },
+  {
+    "id": "ground-3438",
+    "sourceRecord": 3438,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Vasil Levski National Stadium",
+      "distance": 0.019,
+      "coords": [
+        23.335444,
+        42.687583
+      ]
+    }
+  },
+  {
+    "id": "ground-7968",
+    "sourceRecord": 7968,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Olympic Stadium",
+      "distance": 0.007,
+      "coords": [
+        104.912083,
+        11.558361
+      ]
+    }
+  },
+  {
+    "id": "ground-8170",
+    "sourceRecord": 8170,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "BC Place",
+      "distance": 0.01,
+      "coords": [
+        -123.1119444,
+        49.27666667
+      ]
+    }
+  },
+  {
+    "id": "ground-8482",
+    "sourceRecord": 8482,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Santa Laura-Universidad SEK",
+      "distance": 0.003,
+      "coords": [
+        -70.659017,
+        -33.404553
+      ]
+    }
+  },
+  {
+    "id": "ground-8048",
+    "sourceRecord": 8048
+  },
+  {
+    "id": "ground-8427",
+    "sourceRecord": 8427,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Atanasio Girardot Sports Complex",
+      "distance": 0.001,
+      "coords": [
+        -75.59017222,
+        6.2568
+      ]
+    }
+  },
+  {
+    "id": "ground-8156",
+    "sourceRecord": 8156
+  },
+  {
+    "id": "ground-3762",
+    "sourceRecord": 3762,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion Poljud",
+      "distance": 0.01,
+      "coords": [
+        16.431667,
+        43.519444
+      ]
+    }
+  },
+  {
+    "id": "ground-3844",
+    "sourceRecord": 3844,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Tsirion Stadium",
+      "distance": 0.008,
+      "coords": [
+        33.022975,
+        34.700914
+      ]
+    }
+  },
+  {
+    "id": "ground-3424",
+    "sourceRecord": 3424
+  },
+  {
+    "id": "ground-4446",
+    "sourceRecord": 4446,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "AutoC Park Randers",
+      "distance": 0.012,
+      "coords": [
+        10.01027778,
+        56.46583333
+      ]
+    }
+  },
+  {
+    "id": "ground-8457",
+    "sourceRecord": 8457,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Monumental Isidro Romero Carbo",
+      "distance": 0,
+      "coords": [
+        -79.924931,
+        -2.185869
+      ]
+    }
+  },
+  {
+    "id": "ground-8372",
+    "sourceRecord": 8372
+  },
+  {
+    "id": "ground-8176",
+    "sourceRecord": 8176
+  },
+  {
+    "id": "ground-3551",
+    "sourceRecord": 3551,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "White Hart Lane",
+      "distance": 0.104,
+      "coords": [
+        -0.065833333,
+        51.60333333
+      ]
+    }
+  },
+  {
+    "id": "ground-3364",
+    "sourceRecord": 3364
+  },
+  {
+    "id": "ground-3732",
+    "sourceRecord": 3732
+  },
+  {
+    "id": "ground-3357",
+    "sourceRecord": 3357,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade Jean-Bouin",
+      "distance": 0.182,
+      "coords": [
+        2.252778,
+        48.843056
+      ]
+    }
+  },
+  {
+    "id": "ground-3375",
+    "sourceRecord": 3375
+  },
+  {
+    "id": "ground-5173",
+    "sourceRecord": 5173,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Olympiastadion Berlin",
+      "distance": 0.012,
+      "coords": [
+        13.23944444,
+        52.51472222
+      ]
+    }
+  },
+  {
+    "id": "ground-5645",
+    "sourceRecord": 5645,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Olympic Stadium",
+      "distance": 0.011,
+      "coords": [
+        23.7875,
+        38.03611111
+      ]
+    }
+  },
+  {
+    "id": "ground-8197",
+    "sourceRecord": 8197,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Mateo Flores",
+      "distance": 0.023,
+      "coords": [
+        -90.510489,
+        14.625764
+      ]
+    }
+  },
+  {
+    "id": "ground-8187",
+    "sourceRecord": 8187,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade Sylvio Cator",
+      "distance": 0.023,
+      "coords": [
+        -72.34258333,
+        18.53586111
+      ]
+    }
+  },
+  {
+    "id": "ground-8198",
+    "sourceRecord": 8198
+  },
+  {
+    "id": "ground-7953",
+    "sourceRecord": 7953
+  },
+  {
+    "id": "ground-3396",
+    "sourceRecord": 3396,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion Albert Flórián",
+      "distance": 0.065,
+      "coords": [
+        19.096111,
+        47.475278
+      ]
+    }
+  },
+  {
+    "id": "ground-3402",
+    "sourceRecord": 3402
+  },
+  {
+    "id": "ground-8112",
+    "sourceRecord": 8112
+  },
+  {
+    "id": "ground-8128",
+    "sourceRecord": 8128,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Kanjuruhan Stadium",
+      "distance": 0.114,
+      "coords": [
+        112.573975,
+        -8.149333
+      ]
+    }
+  },
+  {
+    "id": "ground-7986",
+    "sourceRecord": 7986
+  },
+  {
+    "id": "ground-7996",
+    "sourceRecord": 7996
+  },
+  {
+    "id": "ground-3371",
+    "sourceRecord": 3371
+  },
+  {
+    "id": "ground-3434",
+    "sourceRecord": 3434
+  },
+  {
+    "id": "ground-3545",
+    "sourceRecord": 3545,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadio San Paolo",
+      "distance": 0.006,
+      "coords": [
+        14.193008,
+        40.827967
+      ]
+    }
+  },
+  {
+    "id": "ground-8160",
+    "sourceRecord": 8160
+  },
+  {
+    "id": "ground-8005",
+    "sourceRecord": 8005,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Saitama Stadium 2002",
+      "distance": 0.01,
+      "coords": [
+        139.717492,
+        35.903142
+      ]
+    }
+  },
+  {
+    "id": "ground-7955",
+    "sourceRecord": 7955
+  },
+  {
+    "id": "ground-3432",
+    "sourceRecord": 3432
+  },
+  {
+    "id": "ground-7973",
+    "sourceRecord": 7973
+  },
+  {
+    "id": "ground-3589",
+    "sourceRecord": 3589
+  },
+  {
+    "id": "ground-7945",
+    "sourceRecord": 7945
+  },
+  {
+    "id": "ground-3852",
+    "sourceRecord": 3852
+  },
+  {
+    "id": "ground-3400",
+    "sourceRecord": 3400
+  },
+  {
+    "id": "ground-7952",
+    "sourceRecord": 7952
+  },
+  {
+    "id": "ground-8219",
+    "sourceRecord": 8219,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Jalisco",
+      "distance": 0.013,
+      "coords": [
+        -103.328139,
+        20.705
+      ]
+    }
+  },
+  {
+    "id": "ground-3559",
+    "sourceRecord": 3559
+  },
+  {
+    "id": "ground-3414",
+    "sourceRecord": 3414
+  },
+  {
+    "id": "ground-7037",
+    "sourceRecord": 7037
+  },
+  {
+    "id": "ground-7979",
+    "sourceRecord": 7979
+  },
+  {
+    "id": "ground-6386",
+    "sourceRecord": 6386,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "De Langeleegte",
+      "distance": 0.031,
+      "coords": [
+        6.59167,
+        53.2058
+      ]
+    }
+  },
+  {
+    "id": "ground-8030",
+    "sourceRecord": 8030,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Westpac Stadium",
+      "distance": 0.005,
+      "coords": [
+        174.7858333,
+        -41.27305556
+      ]
+    }
+  },
+  {
+    "id": "ground-8178",
+    "sourceRecord": 8178
+  },
+  {
+    "id": "ground-8349",
+    "sourceRecord": 8349
+  },
+  {
+    "id": "ground-3391",
+    "sourceRecord": 3391
+  },
+  {
+    "id": "ground-3443",
+    "sourceRecord": 3443
+  },
+  {
+    "id": "ground-3437",
+    "sourceRecord": 3437
+  },
+  {
+    "id": "ground-7975",
+    "sourceRecord": 7975
+  },
+  {
+    "id": "ground-7949",
+    "sourceRecord": 7949
+  },
+  {
+    "id": "ground-8423",
+    "sourceRecord": 8423
+  },
+  {
+    "id": "ground-8448",
+    "sourceRecord": 8448
+  },
+  {
+    "id": "ground-8677",
+    "sourceRecord": 8677
+  },
+  {
+    "id": "ground-7972",
+    "sourceRecord": 7972,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Rizal Memorial Stadium",
+      "distance": 0.003,
+      "coords": [
+        120.992,
+        14.563403
+      ]
+    }
+  },
+  {
+    "id": "ground-6574",
+    "sourceRecord": 6574,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion Energa Gdańsk",
+      "distance": 0.006,
+      "coords": [
+        18.640278,
+        54.39
+      ]
+    }
+  },
+  {
+    "id": "ground-3388",
+    "sourceRecord": 3388
+  },
+  {
+    "id": "ground-8148",
+    "sourceRecord": 8148
+  },
+  {
+    "id": "ground-3486",
+    "sourceRecord": 3486
+  },
+  {
+    "id": "ground-6825",
+    "sourceRecord": 6825,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Eduard Streltsov Stadium",
+      "distance": 0.005,
+      "coords": [
+        37.656389,
+        55.716389
+      ]
+    }
+  },
+  {
+    "id": "ground-6126",
+    "sourceRecord": 6126
+  },
+  {
+    "id": "ground-3561",
+    "sourceRecord": 3561,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Celtic Park",
+      "distance": 0.001,
+      "coords": [
+        -4.205588889,
+        55.84971111
+      ]
+    }
+  },
+  {
+    "id": "ground-6900",
+    "sourceRecord": 6900,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Red Star Stadium",
+      "distance": 0.005,
+      "coords": [
+        20.464914,
+        44.7832
+      ]
+    }
+  },
+  {
+    "id": "ground-3367",
+    "sourceRecord": 3367
+  },
+  {
+    "id": "ground-3433",
+    "sourceRecord": 3433
+  },
+  {
+    "id": "ground-8382",
+    "sourceRecord": 8382
+  },
+  {
+    "id": "ground-8009",
+    "sourceRecord": 8009
+  },
+  {
+    "id": "ground-3448",
+    "sourceRecord": 3448,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Benito Villamarín",
+      "distance": 0.012,
+      "coords": [
+        -5.981611,
+        37.356403
+      ]
+    }
+  },
+  {
+    "id": "ground-3392",
+    "sourceRecord": 3392
+  },
+  {
+    "id": "ground-3591",
+    "sourceRecord": 3591
+  },
+  {
+    "id": "ground-7980",
+    "sourceRecord": 7980
+  },
+  {
+    "id": "ground-7944",
+    "sourceRecord": 7944
+  },
+  {
+    "id": "ground-8414",
+    "sourceRecord": 8414
+  },
+  {
+    "id": "ground-7379",
+    "sourceRecord": 7379,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Atatürk Olympic Stadium",
+      "distance": 0.019,
+      "coords": [
+        28.76570278,
+        41.07447222
+      ]
+    }
+  },
+  {
+    "id": "ground-7941",
+    "sourceRecord": 7941
+  },
+  {
+    "id": "ground-3411",
+    "sourceRecord": 3411
+  },
+  {
+    "id": "ground-7938",
+    "sourceRecord": 7938
+  },
+  {
+    "id": "ground-8289",
+    "sourceRecord": 8289,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "CenturyLink Field",
+      "distance": 0.013,
+      "coords": [
+        -122.3316667,
+        47.59527778
+      ]
+    }
+  },
+  {
+    "id": "ground-8429",
+    "sourceRecord": 8429
+  },
+  {
+    "id": "ground-8003",
+    "sourceRecord": 8003
+  },
+  {
+    "id": "ground-8471",
+    "sourceRecord": 8471
+  },
+  {
+    "id": "ground-7963",
+    "sourceRecord": 7963
+  },
+  {
+    "id": "ground-3378",
+    "sourceRecord": 3378,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Cardiff City Stadium",
+      "distance": 0.006,
+      "coords": [
+        -3.203056,
+        51.472778
+      ]
+    }
+  },
+  {
+    "id": "ground-3775",
+    "sourceRecord": 3775,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Selman Stërmasi Stadium",
+      "distance": 0.011,
+      "coords": [
+        19.81138333,
+        41.31898056
+      ]
+    }
+  },
+  {
+    "id": "ground-8357",
+    "sourceRecord": 8357,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade Ahmed Zabana",
+      "distance": 0.007,
+      "coords": [
+        -0.636221,
+        35.683315
+      ]
+    }
+  },
+  {
+    "id": "ground-8433",
+    "sourceRecord": 8433,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Guillermo Laza stadium",
+      "distance": 0.319,
+      "coords": [
+        -58.44333333,
+        -34.65333333
+      ]
+    }
+  },
+  {
+    "id": "ground-8014",
+    "sourceRecord": 8014,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Sydney Football Stadium",
+      "distance": 0.007,
+      "coords": [
+        151.2252778,
+        -33.88916667
+      ]
+    }
+  },
+  {
+    "id": "ground-3735",
+    "sourceRecord": 3735,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Linzer Stadion",
+      "distance": 0.044,
+      "coords": [
+        14.276389,
+        48.293333
+      ]
+    }
+  },
+  {
+    "id": "ground-3372",
+    "sourceRecord": 3372,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Eighth Kilometer District Stadium",
+      "distance": 0,
+      "coords": [
+        49.944019,
+        40.400163
+      ]
+    }
+  },
+  {
+    "id": "ground-3509",
+    "sourceRecord": 3509
+  },
+  {
+    "id": "ground-4359",
+    "sourceRecord": 4359,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Jan Breydel Stadium",
+      "distance": 0.056,
+      "coords": [
+        3.181311,
+        51.193269
+      ]
+    }
+  },
+  {
+    "id": "ground-8441",
+    "sourceRecord": 8441
+  },
+  {
+    "id": "ground-3596",
+    "sourceRecord": 3596,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion pod Bijelim Brijegom",
+      "distance": 0.014,
+      "coords": [
+        17.795278,
+        43.345556
+      ]
+    }
+  },
+  {
+    "id": "ground-8421",
+    "sourceRecord": 8421,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Mineirão",
+      "distance": 0.031,
+      "coords": [
+        -43.970833,
+        -19.865833
+      ]
+    }
+  },
+  {
+    "id": "ground-3712",
+    "sourceRecord": 3712,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Georgi Asparuhov Stadium",
+      "distance": 0.018,
+      "coords": [
+        23.363197,
+        42.705467
+      ]
+    }
+  },
+  {
+    "id": "ground-8171",
+    "sourceRecord": 8171,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "BMO Field",
+      "distance": 0.048,
+      "coords": [
+        -79.418611,
+        43.632778
+      ]
+    }
+  },
+  {
+    "id": "ground-8481",
+    "sourceRecord": 8481,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Regional de Antofagasta",
+      "distance": 0.004,
+      "coords": [
+        -70.40458333,
+        -23.67013889
+      ]
+    }
+  },
+  {
+    "id": "ground-8042",
+    "sourceRecord": 8042
+  },
+  {
+    "id": "ground-8617",
+    "sourceRecord": 8617,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Metropolitano Roberto Meléndez",
+      "distance": 0.029,
+      "coords": [
+        -74.80072222,
+        10.92686111
+      ]
+    }
+  },
+  {
+    "id": "ground-8204",
+    "sourceRecord": 8204
+  },
+  {
+    "id": "ground-4397",
+    "sourceRecord": 4397,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion Radnik",
+      "distance": 0.142,
+      "coords": [
+        16.0732,
+        45.724
+      ]
+    }
+  },
+  {
+    "id": "ground-3410",
+    "sourceRecord": 3410
+  },
+  {
+    "id": "ground-3393",
+    "sourceRecord": 3393
+  },
+  {
+    "id": "ground-4416",
+    "sourceRecord": 4416,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Lyngby Stadion",
+      "distance": 0.026,
+      "coords": [
+        12.5058,
+        55.7811
+      ]
+    }
+  },
+  {
+    "id": "ground-8643",
+    "sourceRecord": 8643,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Olímpico Atahualpa",
+      "distance": 0.004,
+      "coords": [
+        -78.476583,
+        -0.177528
+      ]
+    }
+  },
+  {
+    "id": "ground-8346",
+    "sourceRecord": 8346
+  },
+  {
+    "id": "ground-3621",
+    "sourceRecord": 3621,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Emirates Stadium",
+      "distance": 0.009,
+      "coords": [
+        -0.108611111,
+        51.555
+      ]
+    }
+  },
+  {
+    "id": "ground-3601",
+    "sourceRecord": 3601
+  },
+  {
+    "id": "ground-4578",
+    "sourceRecord": 4578,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade de la Meinau",
+      "distance": 0.013,
+      "coords": [
+        7.754969,
+        48.560064
+      ]
+    }
+  },
+  {
+    "id": "ground-3746",
+    "sourceRecord": 3746
+  },
+  {
+    "id": "ground-3465",
+    "sourceRecord": 3465,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Veltins Arena",
+      "distance": 0.003,
+      "coords": [
+        7.067588889,
+        51.55450278
+      ]
+    }
+  },
+  {
+    "id": "ground-3627",
+    "sourceRecord": 3627,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Karaiskakis Stadium",
+      "distance": 0.032,
+      "coords": [
+        23.664536,
+        37.946169
+      ]
+    }
+  },
+  {
+    "id": "ground-7440",
+    "sourceRecord": 7440,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "DVTK Stadion",
+      "distance": 0.037,
+      "coords": [
+        20.717222,
+        48.099444
+      ]
+    }
+  },
+  {
+    "id": "ground-8108",
+    "sourceRecord": 8108
+  },
+  {
+    "id": "ground-8140",
+    "sourceRecord": 8140
+  },
+  {
+    "id": "ground-7991",
+    "sourceRecord": 7991
+  },
+  {
+    "id": "ground-3893",
+    "sourceRecord": 3893
+  },
+  {
+    "id": "ground-3421",
+    "sourceRecord": 3421
+  },
+  {
+    "id": "ground-3365",
+    "sourceRecord": 3365,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Juventus Stadium",
+      "distance": 0,
+      "coords": [
+        7.641247,
+        45.109594
+      ]
+    }
+  },
+  {
+    "id": "ground-8172",
+    "sourceRecord": 8172
+  },
+  {
+    "id": "ground-7990",
+    "sourceRecord": 7990,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Hiroshima Big Arch",
+      "distance": 0.003,
+      "coords": [
+        132.39425,
+        34.440778
+      ]
+    }
+  },
+  {
+    "id": "ground-7960",
+    "sourceRecord": 7960
+  },
+  {
+    "id": "ground-8206",
+    "sourceRecord": 8206,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Universitario",
+      "distance": 0.029,
+      "coords": [
+        -100.3120556,
+        25.72280556
+      ]
+    }
+  },
+  {
+    "id": "ground-3431",
+    "sourceRecord": 3431
+  },
+  {
+    "id": "ground-6378",
+    "sourceRecord": 6378,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "AFAS Stadion",
+      "distance": 0.044,
+      "coords": [
+        4.741667,
+        52.6125
+      ]
+    }
+  },
+  {
+    "id": "ground-8019",
+    "sourceRecord": 8019
+  },
+  {
+    "id": "ground-8348",
+    "sourceRecord": 8348
+  },
+  {
+    "id": "ground-3877",
+    "sourceRecord": 3877
+  },
+  {
+    "id": "ground-3571",
+    "sourceRecord": 3571
+  },
+  {
+    "id": "ground-7950",
+    "sourceRecord": 7950
+  },
+  {
+    "id": "ground-8195",
+    "sourceRecord": 8195
+  },
+  {
+    "id": "ground-8647",
+    "sourceRecord": 8647
+  },
+  {
+    "id": "ground-8678",
+    "sourceRecord": 8678
+  },
+  {
+    "id": "ground-7969",
+    "sourceRecord": 7969
+  },
+  {
+    "id": "ground-3724",
+    "sourceRecord": 3724,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion Miejski",
+      "distance": 0.042,
+      "coords": [
+        16.858056,
+        52.397222
+      ]
+    }
+  },
+  {
+    "id": "ground-3451",
+    "sourceRecord": 3451
+  },
+  {
+    "id": "ground-8144",
+    "sourceRecord": 8144
+  },
+  {
+    "id": "ground-6755",
+    "sourceRecord": 6755
+  },
+  {
+    "id": "ground-3535",
+    "sourceRecord": 3535
+  },
+  {
+    "id": "ground-7998",
+    "sourceRecord": 7998
+  },
+  {
+    "id": "ground-3397",
+    "sourceRecord": 3397,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Hampden Park",
+      "distance": 0,
+      "coords": [
+        -4.252002778,
+        55.82586389
+      ]
+    }
+  },
+  {
+    "id": "ground-3836",
+    "sourceRecord": 3836,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Partizan Stadium",
+      "distance": 0.016,
+      "coords": [
+        20.459167,
+        44.788611
+      ]
+    }
+  },
+  {
+    "id": "ground-6935",
+    "sourceRecord": 6935
+  },
+  {
+    "id": "ground-6941",
+    "sourceRecord": 6941
+  },
+  {
+    "id": "ground-8389",
+    "sourceRecord": 8389
+  },
+  {
+    "id": "ground-8073",
+    "sourceRecord": 8073
+  },
+  {
+    "id": "ground-3389",
+    "sourceRecord": 3389,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Mestalla Stadium",
+      "distance": 0.014,
+      "coords": [
+        -0.358333,
+        39.474722
+      ]
+    }
+  },
+  {
+    "id": "ground-7140",
+    "sourceRecord": 7140
+  },
+  {
+    "id": "ground-3549",
+    "sourceRecord": 3549
+  },
+  {
+    "id": "ground-8403",
+    "sourceRecord": 8403
+  },
+  {
+    "id": "ground-7334",
+    "sourceRecord": 7334,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Kadir Has Stadium",
+      "distance": 0.025,
+      "coords": [
+        35.423133,
+        38.737289
+      ]
+    }
+  },
+  {
+    "id": "ground-3407",
+    "sourceRecord": 3407
+  },
+  {
+    "id": "ground-7935",
+    "sourceRecord": 7935
+  },
+  {
+    "id": "ground-8207",
+    "sourceRecord": 8207,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Gillette Stadium",
+      "distance": 0.005,
+      "coords": [
+        -71.26434444,
+        42.09094444
+      ]
+    }
+  },
+  {
+    "id": "ground-8693",
+    "sourceRecord": 8693
+  },
+  {
+    "id": "ground-8001",
+    "sourceRecord": 8001
+  },
+  {
+    "id": "ground-8454",
+    "sourceRecord": 8454
+  },
+  {
+    "id": "ground-7978",
+    "sourceRecord": 7978
+  },
+  {
+    "id": "ground-5738",
+    "sourceRecord": 5738,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Liberty Stadium",
+      "distance": 0.07,
+      "coords": [
+        -3.9351,
+        51.6422
+      ]
+    }
+  },
+  {
+    "id": "ground-3368",
+    "sourceRecord": 3368
+  },
+  {
+    "id": "ground-8358",
+    "sourceRecord": 8358,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade Mohamed Hamlaoui",
+      "distance": 0.014,
+      "coords": [
+        6.625833,
+        36.349167
+      ]
+    }
+  },
+  {
+    "id": "ground-8539",
+    "sourceRecord": 8539,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Eduardo Gallardón",
+      "distance": 0.275,
+      "coords": [
+        -58.42,
+        -34.757778
+      ]
+    }
+  },
+  {
+    "id": "ground-8026",
+    "sourceRecord": 8026,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Newcastle International Sports Centre",
+      "distance": 0.008,
+      "coords": [
+        151.7266667,
+        -32.91888889
+      ]
+    }
+  },
+  {
+    "id": "ground-4237",
+    "sourceRecord": 4237,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Generali Arena",
+      "distance": 0.034,
+      "coords": [
+        16.386694,
+        48.162306
+      ]
+    }
+  },
+  {
+    "id": "ground-3763",
+    "sourceRecord": 3763,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Gabala City Stadium",
+      "distance": 0.001,
+      "coords": [
+        47.8425,
+        40.98519444
+      ]
+    }
+  },
+  {
+    "id": "ground-4169",
+    "sourceRecord": 4169
+  },
+  {
+    "id": "ground-3619",
+    "sourceRecord": 3619,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Constant Vanden Stock Stadium",
+      "distance": 0.002,
+      "coords": [
+        4.298333,
+        50.834167
+      ]
+    }
+  },
+  {
+    "id": "ground-8496",
+    "sourceRecord": 8496
+  },
+  {
+    "id": "ground-3395",
+    "sourceRecord": 3395,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion Grbavica",
+      "distance": 0.014,
+      "coords": [
+        18.387222,
+        43.846667
+      ]
+    }
+  },
+  {
+    "id": "ground-8428",
+    "sourceRecord": 8428,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estádio Beira-Rio",
+      "distance": 0.01,
+      "coords": [
+        -51.236086,
+        -30.065614
+      ]
+    }
+  },
+  {
+    "id": "ground-4382",
+    "sourceRecord": 4382,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Ticha Stadium",
+      "distance": 0.023,
+      "coords": [
+        27.931389,
+        43.215833
+      ]
+    }
+  },
+  {
+    "id": "ground-8301",
+    "sourceRecord": 8301,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Saputo Stadium",
+      "distance": 0.013,
+      "coords": [
+        -73.5525,
+        45.56305556
+      ]
+    }
+  },
+  {
+    "id": "ground-8585",
+    "sourceRecord": 8585,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio El Cobre",
+      "distance": 0.024,
+      "coords": [
+        -69.628611,
+        -26.251944
+      ]
+    }
+  },
+  {
+    "id": "ground-4696",
+    "sourceRecord": 4696
+  },
+  {
+    "id": "ground-8476",
+    "sourceRecord": 8476,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio El Campín",
+      "distance": 0,
+      "coords": [
+        -74.0775,
+        4.645888889
+      ]
+    }
+  },
+  {
+    "id": "ground-8174",
+    "sourceRecord": 8174
+  },
+  {
+    "id": "ground-3405",
+    "sourceRecord": 3405
+  },
+  {
+    "id": "ground-4386",
+    "sourceRecord": 4386
+  },
+  {
+    "id": "ground-6730",
+    "sourceRecord": 6730
+  },
+  {
+    "id": "ground-4434",
+    "sourceRecord": 4434,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Næstved Stadion",
+      "distance": 0.199,
+      "coords": [
+        11.7664,
+        55.2231
+      ]
+    }
+  },
+  {
+    "id": "ground-8444",
+    "sourceRecord": 8444,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Jocay",
+      "distance": 0.025,
+      "coords": [
+        -80.70293,
+        -0.964041
+      ]
+    }
+  },
+  {
+    "id": "ground-8369",
+    "sourceRecord": 8369
+  },
+  {
+    "id": "ground-5770",
+    "sourceRecord": 5770,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadium of Light",
+      "distance": 0.003,
+      "coords": [
+        -1.3882,
+        54.9144
+      ]
+    }
+  },
+  {
+    "id": "ground-3503",
+    "sourceRecord": 3503
+  },
+  {
+    "id": "ground-4603",
+    "sourceRecord": 4603,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade Saint-Symphorien",
+      "distance": 0.005,
+      "coords": [
+        6.159511,
+        49.109813
+      ]
+    }
+  },
+  {
+    "id": "ground-3586",
+    "sourceRecord": 3586
+  },
+  {
+    "id": "ground-3910",
+    "sourceRecord": 3910,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Mercedes-Benz Arena",
+      "distance": 0.008,
+      "coords": [
+        9.231944,
+        48.792222
+      ]
+    }
+  },
+  {
+    "id": "ground-3413",
+    "sourceRecord": 3413,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Pankritio Stadium",
+      "distance": 0.023,
+      "coords": [
+        25.10611111,
+        35.33666667
+      ]
+    }
+  },
+  {
+    "id": "ground-3795",
+    "sourceRecord": 3795,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Ferenc Szusza Stadium",
+      "distance": 0,
+      "coords": [
+        19.08465,
+        47.574892
+      ]
+    }
+  },
+  {
+    "id": "ground-8105",
+    "sourceRecord": 8105
+  },
+  {
+    "id": "ground-8123",
+    "sourceRecord": 8123
+  },
+  {
+    "id": "ground-4047",
+    "sourceRecord": 4047
+  },
+  {
+    "id": "ground-3816",
+    "sourceRecord": 3816
+  },
+  {
+    "id": "ground-6050",
+    "sourceRecord": 6050,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadio Marc'Antonio Bentegodi",
+      "distance": 0.005,
+      "coords": [
+        10.968647,
+        45.435356
+      ]
+    }
+  },
+  {
+    "id": "ground-8098",
+    "sourceRecord": 8098,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Kincho Stadium",
+      "distance": 0.228,
+      "coords": [
+        135.516572,
+        34.615339
+      ]
+    }
+  },
+  {
+    "id": "ground-8223",
+    "sourceRecord": 8223,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio León",
+      "distance": 0,
+      "coords": [
+        -101.657744,
+        21.115544
+      ]
+    }
+  },
+  {
+    "id": "ground-3873",
+    "sourceRecord": 3873
+  },
+  {
+    "id": "ground-6379",
+    "sourceRecord": 6379,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Kyocera Stadion",
+      "distance": 0.009,
+      "coords": [
+        4.383056,
+        52.062778
+      ]
+    }
+  },
+  {
+    "id": "ground-3588",
+    "sourceRecord": 3588
+  },
+  {
+    "id": "ground-6348",
+    "sourceRecord": 6348
+  },
+  {
+    "id": "ground-8645",
+    "sourceRecord": 8645
+  },
+  {
+    "id": "ground-8436",
+    "sourceRecord": 8436
+  },
+  {
+    "id": "ground-3606",
+    "sourceRecord": 3606,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Polish Army Stadium",
+      "distance": 0.002,
+      "coords": [
+        21.040628,
+        52.220461
+      ]
+    }
+  },
+  {
+    "id": "ground-3390",
+    "sourceRecord": 3390
+  },
+  {
+    "id": "ground-7983",
+    "sourceRecord": 7983
+  },
+  {
+    "id": "ground-6753",
+    "sourceRecord": 6753
+  },
+  {
+    "id": "ground-3626",
+    "sourceRecord": 3626
+  },
+  {
+    "id": "ground-8004",
+    "sourceRecord": 8004
+  },
+  {
+    "id": "ground-3630",
+    "sourceRecord": 3630,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Ibrox",
+      "distance": 0.006,
+      "coords": [
+        -4.309344,
+        55.853242
+      ]
+    }
+  },
+  {
+    "id": "ground-3917",
+    "sourceRecord": 3917,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Omladinski Stadium",
+      "distance": 0.014,
+      "coords": [
+        20.494047,
+        44.815456
+      ]
+    }
+  },
+  {
+    "id": "ground-3928",
+    "sourceRecord": 3928
+  },
+  {
+    "id": "ground-3736",
+    "sourceRecord": 3736
+  },
+  {
+    "id": "ground-8396",
+    "sourceRecord": 8396
+  },
+  {
+    "id": "ground-7976",
+    "sourceRecord": 7976
+  },
+  {
+    "id": "ground-6963",
+    "sourceRecord": 6963,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "San Mamés Barria",
+      "distance": 0.05,
+      "coords": [
+        -2.949369,
+        43.264205
+      ]
+    }
+  },
+  {
+    "id": "ground-3798",
+    "sourceRecord": 3798
+  },
+  {
+    "id": "ground-3635",
+    "sourceRecord": 3635
+  },
+  {
+    "id": "ground-8404",
+    "sourceRecord": 8404
+  },
+  {
+    "id": "ground-7360",
+    "sourceRecord": 7360,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Şanlıurfa GAP Stadium",
+      "distance": 0.015,
+      "coords": [
+        38.806672,
+        37.147832
+      ]
+    }
+  },
+  {
+    "id": "ground-3369",
+    "sourceRecord": 3369
+  },
+  {
+    "id": "ground-7933",
+    "sourceRecord": 7933
+  },
+  {
+    "id": "ground-8209",
+    "sourceRecord": 8209,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "The Home Depot Center",
+      "distance": 0.012,
+      "coords": [
+        -118.2611111,
+        33.86444444
+      ]
+    }
+  },
+  {
+    "id": "ground-8689",
+    "sourceRecord": 8689
+  },
+  {
+    "id": "ground-8494",
+    "sourceRecord": 8494
+  },
+  {
+    "id": "ground-5812",
+    "sourceRecord": 5812
+  },
+  {
+    "id": "ground-3404",
+    "sourceRecord": 3404
+  },
+  {
+    "id": "ground-8361",
+    "sourceRecord": 8361,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade 8 Mai 1945",
+      "distance": 0.015,
+      "coords": [
+        5.393056,
+        36.186944
+      ]
+    }
+  },
+  {
+    "id": "ground-8522",
+    "sourceRecord": 8522,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio La Ciudadela",
+      "distance": 0.005,
+      "coords": [
+        -65.22960556,
+        -26.83628056
+      ]
+    }
+  },
+  {
+    "id": "ground-7981",
+    "sourceRecord": 7981,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Melbourne Rectangular Stadium",
+      "distance": 0.051,
+      "coords": [
+        144.983889,
+        -37.825278
+      ]
+    }
+  },
+  {
+    "id": "ground-4257",
+    "sourceRecord": 4257,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Tivoli-Neu",
+      "distance": 0.029,
+      "coords": [
+        11.410789,
+        47.255972
+      ]
+    }
+  },
+  {
+    "id": "ground-3373",
+    "sourceRecord": 3373
+  },
+  {
+    "id": "ground-3616",
+    "sourceRecord": 3616
+  },
+  {
+    "id": "ground-4355",
+    "sourceRecord": 4355,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade du Pays de Charleroi",
+      "distance": 0.001,
+      "coords": [
+        4.453787,
+        50.414609
+      ]
+    }
+  },
+  {
+    "id": "ground-8437",
+    "sourceRecord": 8437
+  },
+  {
+    "id": "ground-3374",
+    "sourceRecord": 3374,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Bilino Polje",
+      "distance": 0.004,
+      "coords": [
+        17.907083,
+        44.20575
+      ]
+    }
+  },
+  {
+    "id": "ground-8419",
+    "sourceRecord": 8419,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Arena Fonte Nova",
+      "distance": 0.011,
+      "coords": [
+        -38.50425278,
+        -12.97881944
+      ]
+    }
+  },
+  {
+    "id": "ground-4377",
+    "sourceRecord": 4377,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Beroe Stadium",
+      "distance": 0.005,
+      "coords": [
+        25.615278,
+        42.432778
+      ]
+    }
+  },
+  {
+    "id": "ground-8333",
+    "sourceRecord": 8333
+  },
+  {
+    "id": "ground-8464",
+    "sourceRecord": 8464,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio San Carlos de Apoquindo",
+      "distance": 0.003,
+      "coords": [
+        -70.500656,
+        -33.395944
+      ]
+    }
+  },
+  {
+    "id": "ground-8034",
+    "sourceRecord": 8034
+  },
+  {
+    "id": "ground-8474",
+    "sourceRecord": 8474,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Deportivo Cali",
+      "distance": 0,
+      "coords": [
+        -76.417036,
+        3.521642
+      ]
+    }
+  },
+  {
+    "id": "ground-3394",
+    "sourceRecord": 3394
+  },
+  {
+    "id": "ground-3673",
+    "sourceRecord": 3673
+  },
+  {
+    "id": "ground-3913",
+    "sourceRecord": 3913
+  },
+  {
+    "id": "ground-4062",
+    "sourceRecord": 4062,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Viborg Stadion",
+      "distance": 0.005,
+      "coords": [
+        9.402064,
+        56.455897
+      ]
+    }
+  },
+  {
+    "id": "ground-8637",
+    "sourceRecord": 8637,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio 9 de Mayo",
+      "distance": 0.008,
+      "coords": [
+        -79.962497,
+        -3.254467
+      ]
+    }
+  },
+  {
+    "id": "ground-8342",
+    "sourceRecord": 8342
+  },
+  {
+    "id": "ground-5749",
+    "sourceRecord": 5749,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Villa Park",
+      "distance": 0.01,
+      "coords": [
+        -1.884722222,
+        52.50916667
+      ]
+    }
+  },
+  {
+    "id": "ground-4612",
+    "sourceRecord": 4612,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade des Alpes",
+      "distance": 0.001,
+      "coords": [
+        5.740099,
+        45.187428
+      ]
+    }
+  },
+  {
+    "id": "ground-4704",
+    "sourceRecord": 4704,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Esprit Arena",
+      "distance": 0.009,
+      "coords": [
+        6.733083,
+        51.261539
+      ]
+    }
+  },
+  {
+    "id": "ground-4135",
+    "sourceRecord": 4135,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Kaftanzoglio Stadium",
+      "distance": 0.004,
+      "coords": [
+        22.96700278,
+        40.62549722
+      ]
+    }
+  },
+  {
+    "id": "ground-3825",
+    "sourceRecord": 3825,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Hidegkuti Nándor Stadium",
+      "distance": 0.003,
+      "coords": [
+        19.106725,
+        47.49091944
+      ]
+    }
+  },
+  {
+    "id": "ground-8109",
+    "sourceRecord": 8109
+  },
+  {
+    "id": "ground-8127",
+    "sourceRecord": 8127
+  },
+  {
+    "id": "ground-4049",
+    "sourceRecord": 4049
+  },
+  {
+    "id": "ground-3837",
+    "sourceRecord": 3837
+  },
+  {
+    "id": "ground-6054",
+    "sourceRecord": 6054,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadio Renato Dall'Ara",
+      "distance": 0.019,
+      "coords": [
+        11.30972222,
+        44.49222222
+      ]
+    }
+  },
+  {
+    "id": "ground-8080",
+    "sourceRecord": 8080,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Ajinomoto Stadium",
+      "distance": 0.003,
+      "coords": [
+        139.527139,
+        35.664278
+      ]
+    }
+  },
+  {
+    "id": "ground-8201",
+    "sourceRecord": 8201,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Nemesio Díez",
+      "distance": 0.001,
+      "coords": [
+        -99.666794,
+        19.287286
+      ]
+    }
+  },
+  {
+    "id": "ground-3939",
+    "sourceRecord": 3939,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "De Vijverberg",
+      "distance": 0.007,
+      "coords": [
+        6.309722,
+        51.955833
+      ]
+    }
+  },
+  {
+    "id": "ground-6360",
+    "sourceRecord": 6360
+  },
+  {
+    "id": "ground-8649",
+    "sourceRecord": 8649
+  },
+  {
+    "id": "ground-8438",
+    "sourceRecord": 8438
+  },
+  {
+    "id": "ground-6597",
+    "sourceRecord": 6597,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion Miejski in Kraków",
+      "distance": 0.017,
+      "coords": [
+        19.911944,
+        50.063611
+      ]
+    }
+  },
+  {
+    "id": "ground-6639",
+    "sourceRecord": 6639
+  },
+  {
+    "id": "ground-8145",
+    "sourceRecord": 8145
+  },
+  {
+    "id": "ground-3725",
+    "sourceRecord": 3725
+  },
+  {
+    "id": "ground-6783",
+    "sourceRecord": 6783
+  },
+  {
+    "id": "ground-7999",
+    "sourceRecord": 7999
+  },
+  {
+    "id": "ground-3701",
+    "sourceRecord": 3701,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Easter Road",
+      "distance": 0.02,
+      "coords": [
+        -3.165555556,
+        55.96166667
+      ]
+    }
+  },
+  {
+    "id": "ground-3729",
+    "sourceRecord": 3729,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Karađorđe Stadium",
+      "distance": 0.02,
+      "coords": [
+        19.842222,
+        45.246667
+      ]
+    }
+  },
+  {
+    "id": "ground-3787",
+    "sourceRecord": 3787
+  },
+  {
+    "id": "ground-8392",
+    "sourceRecord": 8392
+  },
+  {
+    "id": "ground-8069",
+    "sourceRecord": 8069
+  },
+  {
+    "id": "ground-3645",
+    "sourceRecord": 3645,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Ramón Sánchez Pizjuán",
+      "distance": 0.021,
+      "coords": [
+        -5.970467,
+        37.383878
+      ]
+    }
+  },
+  {
+    "id": "ground-3739",
+    "sourceRecord": 3739
+  },
+  {
+    "id": "ground-7225",
+    "sourceRecord": 7225
+  },
+  {
+    "id": "ground-8415",
+    "sourceRecord": 8415
+  },
+  {
+    "id": "ground-3608",
+    "sourceRecord": 3608,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Manisa 19 Mayıs Stadium",
+      "distance": 0.036,
+      "coords": [
+        27.439933,
+        38.623006
+      ]
+    }
+  },
+  {
+    "id": "ground-3651",
+    "sourceRecord": 3651
+  },
+  {
+    "id": "ground-8012",
+    "sourceRecord": 8012
+  },
+  {
+    "id": "ground-8163",
+    "sourceRecord": 8163,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Red Bull Arena",
+      "distance": 0.014,
+      "coords": [
+        -74.15027778,
+        40.73666667
+      ]
+    }
+  },
+  {
+    "id": "ground-8700",
+    "sourceRecord": 8700
+  },
+  {
+    "id": "ground-8712",
+    "sourceRecord": 8712
+  },
+  {
+    "id": "ground-3915",
+    "sourceRecord": 3915
+  },
+  {
+    "id": "ground-8365",
+    "sourceRecord": 8365,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade de l'Unité Maghrébine",
+      "distance": 0.021,
+      "coords": [
+        5.046539,
+        36.749411
+      ]
+    }
+  },
+  {
+    "id": "ground-8541",
+    "sourceRecord": 8541,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Presidente Perón",
+      "distance": 0.013,
+      "coords": [
+        -64.1803,
+        -31.3837
+      ]
+    }
+  },
+  {
+    "id": "ground-8022",
+    "sourceRecord": 8022,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Perth Oval",
+      "distance": 0.019,
+      "coords": [
+        115.87,
+        -31.945833
+      ]
+    }
+  },
+  {
+    "id": "ground-4273",
+    "sourceRecord": 4273,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Pappelstadion",
+      "distance": 0.008,
+      "coords": [
+        16.4064,
+        47.7394
+      ]
+    }
+  },
+  {
+    "id": "ground-4373",
+    "sourceRecord": 4373
+  },
+  {
+    "id": "ground-3637",
+    "sourceRecord": 3637,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Cristal Arena",
+      "distance": 0.008,
+      "coords": [
+        5.533333,
+        51.005
+      ]
+    }
+  },
+  {
+    "id": "ground-8443",
+    "sourceRecord": 8443
+  },
+  {
+    "id": "ground-3759",
+    "sourceRecord": 3759
+  },
+  {
+    "id": "ground-8418",
+    "sourceRecord": 8418,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Arena do Grêmio",
+      "distance": 0,
+      "coords": [
+        -51.194403,
+        -29.973444
+      ]
+    }
+  },
+  {
+    "id": "ground-3573",
+    "sourceRecord": 3573,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Ludogorets Arena",
+      "distance": 0.107,
+      "coords": [
+        26.5275,
+        43.53361111
+      ]
+    }
+  },
+  {
+    "id": "ground-8599",
+    "sourceRecord": 8599,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio SausaYash",
+      "distance": 0.009,
+      "coords": [
+        -71.535233,
+        -33.014397
+      ]
+    }
+  },
+  {
+    "id": "ground-8007",
+    "sourceRecord": 8007
+  },
+  {
+    "id": "ground-8495",
+    "sourceRecord": 8495,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Palogrande",
+      "distance": 0.059,
+      "coords": [
+        -75.489807,
+        5.056233
+      ]
+    }
+  },
+  {
+    "id": "ground-3904",
+    "sourceRecord": 3904
+  },
+  {
+    "id": "ground-6732",
+    "sourceRecord": 6732
+  },
+  {
+    "id": "ground-4426",
+    "sourceRecord": 4426,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "SEAS-NVE Park",
+      "distance": 0.002,
+      "coords": [
+        12.134153,
+        55.413578
+      ]
+    }
+  },
+  {
+    "id": "ground-8430",
+    "sourceRecord": 8430
+  },
+  {
+    "id": "ground-8343",
+    "sourceRecord": 8343
+  },
+  {
+    "id": "ground-3657",
+    "sourceRecord": 3657,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stamford Bridge stadium",
+      "distance": 0.01,
+      "coords": [
+        -0.191111111,
+        51.48166667
+      ]
+    }
+  },
+  {
+    "id": "ground-4616",
+    "sourceRecord": 4616,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade Sébastien Charléty",
+      "distance": 0,
+      "coords": [
+        2.346667,
+        48.818611
+      ]
+    }
+  },
+  {
+    "id": "ground-3377",
+    "sourceRecord": 3377,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Borussia-Park",
+      "distance": 0.002,
+      "coords": [
+        6.385463889,
+        51.17458333
+      ]
+    }
+  },
+  {
+    "id": "ground-3595",
+    "sourceRecord": 3595,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Toumba Stadium",
+      "distance": 0.007,
+      "coords": [
+        22.972422,
+        40.613839
+      ]
+    }
+  },
+  {
+    "id": "ground-3682",
+    "sourceRecord": 3682,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Bozsik Stadion",
+      "distance": 0.004,
+      "coords": [
+        19.155103,
+        47.4425
+      ]
+    }
+  },
+  {
+    "id": "ground-8106",
+    "sourceRecord": 8106
+  },
+  {
+    "id": "ground-8121",
+    "sourceRecord": 8121
+  },
+  {
+    "id": "ground-3751",
+    "sourceRecord": 3751
+  },
+  {
+    "id": "ground-6048",
+    "sourceRecord": 6048,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadio Luigi Ferraris",
+      "distance": 0.012,
+      "coords": [
+        8.952428,
+        44.416431
+      ]
+    }
+  },
+  {
+    "id": "ground-8091",
+    "sourceRecord": 8091,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Sapporo Dome",
+      "distance": 0.013,
+      "coords": [
+        141.409767,
+        43.015172
+      ]
+    }
+  },
+  {
+    "id": "ground-8255",
+    "sourceRecord": 8255,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Victoria",
+      "distance": 0.003,
+      "coords": [
+        -102.275483,
+        21.880653
+      ]
+    }
+  },
+  {
+    "id": "ground-6384",
+    "sourceRecord": 6384,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Trendwork Arena",
+      "distance": 0.012,
+      "coords": [
+        5.843611,
+        50.991944
+      ]
+    }
+  },
+  {
+    "id": "ground-4146",
+    "sourceRecord": 4146
+  },
+  {
+    "id": "ground-8648",
+    "sourceRecord": 8648
+  },
+  {
+    "id": "ground-8661",
+    "sourceRecord": 8661
+  },
+  {
+    "id": "ground-3715",
+    "sourceRecord": 3715,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Ernest Pohl Stadium",
+      "distance": 0,
+      "coords": [
+        18.768564,
+        50.296317
+      ]
+    }
+  },
+  {
+    "id": "ground-6648",
+    "sourceRecord": 6648
+  },
+  {
+    "id": "ground-7970",
+    "sourceRecord": 7970
+  },
+  {
+    "id": "ground-3379",
+    "sourceRecord": 3379
+  },
+  {
+    "id": "ground-3408",
+    "sourceRecord": 3408
+  },
+  {
+    "id": "ground-6849",
+    "sourceRecord": 6849,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Rugby Park",
+      "distance": 0.03,
+      "coords": [
+        -4.508122,
+        55.604225
+      ]
+    }
+  },
+  {
+    "id": "ground-6925",
+    "sourceRecord": 6925,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Subotica City Stadium",
+      "distance": 0.013,
+      "coords": [
+        19.676958,
+        46.081781
+      ]
+    }
+  },
+  {
+    "id": "ground-8385",
+    "sourceRecord": 8385
+  },
+  {
+    "id": "ground-8075",
+    "sourceRecord": 8075
+  },
+  {
+    "id": "ground-6962",
+    "sourceRecord": 6962,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadi Cornellà-El Prat",
+      "distance": 0,
+      "coords": [
+        2.075667,
+        41.347861
+      ]
+    }
+  },
+  {
+    "id": "ground-3890",
+    "sourceRecord": 3890
+  },
+  {
+    "id": "ground-3455",
+    "sourceRecord": 3455
+  },
+  {
+    "id": "ground-8407",
+    "sourceRecord": 8407
+  },
+  {
+    "id": "ground-7362",
+    "sourceRecord": 7362,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Osmanlı Stadyumu",
+      "distance": 0.031,
+      "coords": [
+        32.502222,
+        40.011389
+      ]
+    }
+  },
+  {
+    "id": "ground-7436",
+    "sourceRecord": 7436
+  },
+  {
+    "id": "ground-7937",
+    "sourceRecord": 7937
+  },
+  {
+    "id": "ground-8154",
+    "sourceRecord": 8154,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "BBVA Compass Stadium",
+      "distance": 0.155,
+      "coords": [
+        -95.3524,
+        29.7522
+      ]
+    }
+  },
+  {
+    "id": "ground-8718",
+    "sourceRecord": 8718
+  },
+  {
+    "id": "ground-4028",
+    "sourceRecord": 4028
+  },
+  {
+    "id": "ground-8355",
+    "sourceRecord": 8355
+  },
+  {
+    "id": "ground-8507",
+    "sourceRecord": 8507,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadium Juan Carmelo Zerillo",
+      "distance": 0,
+      "coords": [
+        -57.932592,
+        -34.910975
+      ]
+    }
+  },
+  {
+    "id": "ground-8017",
+    "sourceRecord": 8017,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Central Coast Stadium",
+      "distance": 0.004,
+      "coords": [
+        151.338056,
+        -33.428333
+      ]
+    }
+  },
+  {
+    "id": "ground-3686",
+    "sourceRecord": 3686,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Bundesstadion Südstadt",
+      "distance": 0.038,
+      "coords": [
+        16.3109,
+        48.0976
+      ]
+    }
+  },
+  {
+    "id": "ground-4338",
+    "sourceRecord": 4338,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Argosstadion Achter de Kazerne",
+      "distance": 0,
+      "coords": [
+        4.486389,
+        51.037222
+      ]
+    }
+  },
+  {
+    "id": "ground-8583",
+    "sourceRecord": 8583
+  },
+  {
+    "id": "ground-8478",
+    "sourceRecord": 8478,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estádio Olímpico João Havelange",
+      "distance": 0.014,
+      "coords": [
+        -43.292269,
+        -22.893172
+      ]
+    }
+  },
+  {
+    "id": "ground-4011",
+    "sourceRecord": 4011,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Hadzhi Dimitar Stadium",
+      "distance": 0.031,
+      "coords": [
+        26.336667,
+        42.679306
+      ]
+    }
+  },
+  {
+    "id": "ground-8600",
+    "sourceRecord": 8600,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Carlos Dittborn",
+      "distance": 0.025,
+      "coords": [
+        -70.299272,
+        -18.487506
+      ]
+    }
+  },
+  {
+    "id": "ground-8006",
+    "sourceRecord": 8006
+  },
+  {
+    "id": "ground-8451",
+    "sourceRecord": 8451,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "mono",
+      "distance": 0.033,
+      "coords": [
+        -75.218325,
+        4.429509
+      ]
+    }
+  },
+  {
+    "id": "ground-3820",
+    "sourceRecord": 3820
+  },
+  {
+    "id": "ground-3366",
+    "sourceRecord": 3366
+  },
+  {
+    "id": "ground-3435",
+    "sourceRecord": 3435
+  },
+  {
+    "id": "ground-8435",
+    "sourceRecord": 8435
+  },
+  {
+    "id": "ground-8373",
+    "sourceRecord": 8373
+  },
+  {
+    "id": "ground-5733",
+    "sourceRecord": 5733,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Elland Road",
+      "distance": 0.005,
+      "coords": [
+        -1.572222222,
+        53.77777778
+      ]
+    }
+  },
+  {
+    "id": "ground-4607",
+    "sourceRecord": 4607,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade de Paris",
+      "distance": 0.03,
+      "coords": [
+        2.340833,
+        48.905833
+      ]
+    }
+  },
+  {
+    "id": "ground-3380",
+    "sourceRecord": 3380,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Commerzbank-Arena",
+      "distance": 0.008,
+      "coords": [
+        8.645278,
+        50.068611
+      ]
+    }
+  },
+  {
+    "id": "ground-5694",
+    "sourceRecord": 5694,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Panthessaliko Stadium",
+      "distance": 0.02,
+      "coords": [
+        22.931067,
+        39.387511
+      ]
+    }
+  },
+  {
+    "id": "ground-7445",
+    "sourceRecord": 7445
+  },
+  {
+    "id": "ground-8110",
+    "sourceRecord": 8110
+  },
+  {
+    "id": "ground-8117",
+    "sourceRecord": 8117
+  },
+  {
+    "id": "ground-6083",
+    "sourceRecord": 6083,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadio Atleti Azzurri d'Italia",
+      "distance": 0.027,
+      "coords": [
+        9.680833,
+        45.708889
+      ]
+    }
+  },
+  {
+    "id": "ground-7997",
+    "sourceRecord": 7997,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Kashima Soccer Stadium",
+      "distance": 0.035,
+      "coords": [
+        140.640525,
+        35.991744
+      ]
+    }
+  },
+  {
+    "id": "ground-8225",
+    "sourceRecord": 8225,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Olímpico de C.U.",
+      "distance": 0.019,
+      "coords": [
+        -98.1975,
+        18.997222
+      ]
+    }
+  },
+  {
+    "id": "ground-3940",
+    "sourceRecord": 3940,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Sparta Stadion Het Kasteel",
+      "distance": 0.02,
+      "coords": [
+        4.433333,
+        51.919444
+      ]
+    }
+  },
+  {
+    "id": "ground-6359",
+    "sourceRecord": 6359
+  },
+  {
+    "id": "ground-8655",
+    "sourceRecord": 8655
+  },
+  {
+    "id": "ground-8502",
+    "sourceRecord": 8502
+  },
+  {
+    "id": "ground-6577",
+    "sourceRecord": 6577,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion Zagłębia Lubin",
+      "distance": 0.094,
+      "coords": [
+        16.1975,
+        51.413333
+      ]
+    }
+  },
+  {
+    "id": "ground-3897",
+    "sourceRecord": 3897
+  },
+  {
+    "id": "ground-7993",
+    "sourceRecord": 7993
+  },
+  {
+    "id": "ground-3824",
+    "sourceRecord": 3824
+  },
+  {
+    "id": "ground-6787",
+    "sourceRecord": 6787
+  },
+  {
+    "id": "ground-3845",
+    "sourceRecord": 3845,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Tynecastle Stadium",
+      "distance": 0.024,
+      "coords": [
+        -3.232222,
+        55.939167
+      ]
+    }
+  },
+  {
+    "id": "ground-3688",
+    "sourceRecord": 3688,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Čair Stadium",
+      "distance": 0.013,
+      "coords": [
+        21.908533,
+        43.315528
+      ]
+    }
+  },
+  {
+    "id": "ground-8399",
+    "sourceRecord": 8399
+  },
+  {
+    "id": "ground-7988",
+    "sourceRecord": 7988
+  },
+  {
+    "id": "ground-3458",
+    "sourceRecord": 3458,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Manuel Martínez Valero",
+      "distance": 0.019,
+      "coords": [
+        -0.663333,
+        38.266944
+      ]
+    }
+  },
+  {
+    "id": "ground-7142",
+    "sourceRecord": 7142
+  },
+  {
+    "id": "ground-3464",
+    "sourceRecord": 3464
+  },
+  {
+    "id": "ground-8410",
+    "sourceRecord": 8410
+  },
+  {
+    "id": "ground-3884",
+    "sourceRecord": 3884,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Sivas 4 Eylül Stadium",
+      "distance": 0.015,
+      "coords": [
+        37.003306,
+        39.741028
+      ]
+    }
+  },
+  {
+    "id": "ground-7424",
+    "sourceRecord": 7424
+  },
+  {
+    "id": "ground-7931",
+    "sourceRecord": 7931
+  },
+  {
+    "id": "ground-8299",
+    "sourceRecord": 8299,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Rio Tinto Stadium",
+      "distance": 0.028,
+      "coords": [
+        -111.893,
+        40.5829
+      ]
+    }
+  },
+  {
+    "id": "ground-8708",
+    "sourceRecord": 8708
+  },
+  {
+    "id": "ground-4233",
+    "sourceRecord": 4233
+  },
+  {
+    "id": "ground-8362",
+    "sourceRecord": 8362
+  },
+  {
+    "id": "ground-8555",
+    "sourceRecord": 8555,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Arquitecto Ricardo Etcheverry",
+      "distance": 0,
+      "coords": [
+        -58.447639,
+        -34.6185
+      ]
+    }
+  },
+  {
+    "id": "ground-8016",
+    "sourceRecord": 8016,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Campbelltown Stadium",
+      "distance": 0.011,
+      "coords": [
+        150.833611,
+        -34.050278
+      ]
+    }
+  },
+  {
+    "id": "ground-3386",
+    "sourceRecord": 3386
+  },
+  {
+    "id": "ground-4343",
+    "sourceRecord": 4343,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Freethiel Stadion",
+      "distance": 0.003,
+      "coords": [
+        4.243931,
+        51.214139
+      ]
+    }
+  },
+  {
+    "id": "ground-8424",
+    "sourceRecord": 8424,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estádio Palestra Itália",
+      "distance": 0,
+      "coords": [
+        -46.678417,
+        -23.527556
+      ]
+    }
+  },
+  {
+    "id": "ground-8499",
+    "sourceRecord": 8499,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Fiscal de Talca",
+      "distance": 0.017,
+      "coords": [
+        -71.673889,
+        -35.419722
+      ]
+    }
+  },
+  {
+    "id": "ground-7994",
+    "sourceRecord": 7994
+  },
+  {
+    "id": "ground-8623",
+    "sourceRecord": 8623,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Centenario",
+      "distance": 0,
+      "coords": [
+        -75.698447,
+        4.515307
+      ]
+    }
+  },
+  {
+    "id": "ground-4392",
+    "sourceRecord": 4392
+  },
+  {
+    "id": "ground-3526",
+    "sourceRecord": 3526
+  },
+  {
+    "id": "ground-3685",
+    "sourceRecord": 3685
+  },
+  {
+    "id": "ground-8632",
+    "sourceRecord": 8632
+  },
+  {
+    "id": "ground-8347",
+    "sourceRecord": 8347
+  },
+  {
+    "id": "ground-4211",
+    "sourceRecord": 4211,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Goodison Park",
+      "distance": 0.009,
+      "coords": [
+        -2.966388889,
+        53.43888889
+      ]
+    }
+  },
+  {
+    "id": "ground-4617",
+    "sourceRecord": 4617,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade Armand Cesari",
+      "distance": 0.004,
+      "coords": [
+        9.442619,
+        42.6514
+      ]
+    }
+  },
+  {
+    "id": "ground-4725",
+    "sourceRecord": 4725,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "RheinEnergie Stadion",
+      "distance": 0.022,
+      "coords": [
+        6.875,
+        50.933611
+      ]
+    }
+  },
+  {
+    "id": "ground-5640",
+    "sourceRecord": 5640,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Kleanthis Vikelidis Stadium",
+      "distance": 0.006,
+      "coords": [
+        22.9695,
+        40.600069
+      ]
+    }
+  },
+  {
+    "id": "ground-3653",
+    "sourceRecord": 3653
+  },
+  {
+    "id": "ground-8104",
+    "sourceRecord": 8104
+  },
+  {
+    "id": "ground-8124",
+    "sourceRecord": 8124
+  },
+  {
+    "id": "ground-3381",
+    "sourceRecord": 3381,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadio Friuli",
+      "distance": 0.001,
+      "coords": [
+        13.200136,
+        46.081603
+      ]
+    }
+  },
+  {
+    "id": "ground-8089",
+    "sourceRecord": 8089,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Ōita Bank Dome",
+      "distance": 0.019,
+      "coords": [
+        131.6575,
+        33.200556
+      ]
+    }
+  },
+  {
+    "id": "ground-8233",
+    "sourceRecord": 8233,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio 10 de Diciembre",
+      "distance": 0.01,
+      "coords": [
+        -99.32531118,
+        19.99395814
+      ]
+    }
+  },
+  {
+    "id": "ground-6397",
+    "sourceRecord": 6397,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Cambuur Stadion",
+      "distance": 0.015,
+      "coords": [
+        5.814722,
+        53.205278
+      ]
+    }
+  },
+  {
+    "id": "ground-3674",
+    "sourceRecord": 3674
+  },
+  {
+    "id": "ground-8653",
+    "sourceRecord": 8653
+  },
+  {
+    "id": "ground-8487",
+    "sourceRecord": 8487
+  },
+  {
+    "id": "ground-6584",
+    "sourceRecord": 6584,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion GOSiR",
+      "distance": 0.003,
+      "coords": [
+        18.531214,
+        54.493136
+      ]
+    }
+  },
+  {
+    "id": "ground-4003",
+    "sourceRecord": 4003
+  },
+  {
+    "id": "ground-7951",
+    "sourceRecord": 7951
+  },
+  {
+    "id": "ground-6762",
+    "sourceRecord": 6762
+  },
+  {
+    "id": "ground-3582",
+    "sourceRecord": 3582
+  },
+  {
+    "id": "ground-6858",
+    "sourceRecord": 6858,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Tannadice Park",
+      "distance": 0.003,
+      "coords": [
+        -2.968961,
+        56.474703
+      ]
+    }
+  },
+  {
+    "id": "ground-4068",
+    "sourceRecord": 4068
+  },
+  {
+    "id": "ground-8390",
+    "sourceRecord": 8390
+  },
+  {
+    "id": "ground-8072",
+    "sourceRecord": 8072
+  },
+  {
+    "id": "ground-6976",
+    "sourceRecord": 6976,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "La Romareda",
+      "distance": 0.013,
+      "coords": [
+        -0.901822,
+        41.636592
+      ]
+    }
+  },
+  {
+    "id": "ground-7155",
+    "sourceRecord": 7155
+  },
+  {
+    "id": "ground-7241",
+    "sourceRecord": 7241
+  },
+  {
+    "id": "ground-8409",
+    "sourceRecord": 8409
+  },
+  {
+    "id": "ground-7369",
+    "sourceRecord": 7369,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Adana 5 Ocak Stadium",
+      "distance": 0.015,
+      "coords": [
+        35.329722,
+        36.998889
+      ]
+    }
+  },
+  {
+    "id": "ground-3664",
+    "sourceRecord": 3664
+  },
+  {
+    "id": "ground-7932",
+    "sourceRecord": 7932
+  },
+  {
+    "id": "ground-8230",
+    "sourceRecord": 8230,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Toyota Stadium",
+      "distance": 0.014,
+      "coords": [
+        -96.83515833,
+        33.15445833
+      ]
+    }
+  },
+  {
+    "id": "ground-8446",
+    "sourceRecord": 8446
+  },
+  {
+    "id": "ground-4226",
+    "sourceRecord": 4226
+  },
+  {
+    "id": "ground-8363",
+    "sourceRecord": 8363
+  },
+  {
+    "id": "ground-8538",
+    "sourceRecord": 8538,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio Chacarita Juniors",
+      "distance": 0,
+      "coords": [
+        -58.52816667,
+        -34.56738889
+      ]
+    }
+  },
+  {
+    "id": "ground-8018",
+    "sourceRecord": 8018,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Hindmarsh Stadium",
+      "distance": 0.014,
+      "coords": [
+        138.568889,
+        -34.9075
+      ]
+    }
+  },
+  {
+    "id": "ground-3444",
+    "sourceRecord": 3444
+  },
+  {
+    "id": "ground-4353",
+    "sourceRecord": 4353,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stayen",
+      "distance": 0.071,
+      "coords": [
+        5.165278,
+        50.813611
+      ]
+    }
+  },
+  {
+    "id": "ground-8425",
+    "sourceRecord": 8425,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Arena da Baixada",
+      "distance": 0.005,
+      "coords": [
+        -49.276944,
+        -25.448333
+      ]
+    }
+  },
+  {
+    "id": "ground-8498",
+    "sourceRecord": 8498,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Estadio El Teniente",
+      "distance": 0.017,
+      "coords": [
+        -70.737719,
+        -34.177764
+      ]
+    }
+  },
+  {
+    "id": "ground-8043",
+    "sourceRecord": 8043
+  },
+  {
+    "id": "ground-8611",
+    "sourceRecord": 8611,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "General Santander",
+      "distance": 0.032,
+      "coords": [
+        -72.501717,
+        7.894478
+      ]
+    }
+  },
+  {
+    "id": "ground-3461",
+    "sourceRecord": 3461
+  },
+  {
+    "id": "ground-6742",
+    "sourceRecord": 6742
+  },
+  {
+    "id": "ground-3473",
+    "sourceRecord": 3473
+  },
+  {
+    "id": "ground-8635",
+    "sourceRecord": 8635
+  },
+  {
+    "id": "ground-8378",
+    "sourceRecord": 8378
+  },
+  {
+    "id": "ground-5736",
+    "sourceRecord": 5736,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Hillsborough Stadium",
+      "distance": 0.009,
+      "coords": [
+        -1.500555556,
+        53.41138889
+      ]
+    }
+  },
+  {
+    "id": "ground-4692",
+    "sourceRecord": 4692,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stade Robert Diochon",
+      "distance": 0.002,
+      "coords": [
+        1.070738,
+        49.411078
+      ]
+    }
+  },
+  {
+    "id": "ground-4702",
+    "sourceRecord": 4702,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadion Nürnberg",
+      "distance": 0.023,
+      "coords": [
+        11.125278,
+        49.426389
+      ]
+    }
+  },
+  {
+    "id": "ground-5635",
+    "sourceRecord": 5635,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Apostolos Nikolaidis Stadium",
+      "distance": 0.009,
+      "coords": [
+        23.75419444,
+        37.98716944
+      ]
+    }
+  },
+  {
+    "id": "ground-4149",
+    "sourceRecord": 4149
+  },
+  {
+    "id": "ground-7954",
+    "sourceRecord": 7954
+  },
+  {
+    "id": "ground-8137",
+    "sourceRecord": 8137
+  },
+  {
+    "id": "ground-6077",
+    "sourceRecord": 6077,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Stadio Angelo Massimino",
+      "distance": 0.021,
+      "coords": [
+        15.071389,
+        37.515833
+      ]
+    }
+  },
+  {
+    "id": "ground-8094",
+    "sourceRecord": 8094,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Osaka Expo '70 Stadium",
+      "distance": 0.193,
+      "coords": [
+        135.5425,
+        34.810278
+      ]
+    }
+  },
+  {
+    "id": "ground-8213",
+    "sourceRecord": 8213
+  },
+  {
+    "id": "ground-3937",
+    "sourceRecord": 3937,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "De Adelaarshorst",
+      "distance": 0.015,
+      "coords": [
+        6.1725,
+        52.260278
+      ]
+    }
+  },
+  {
+    "id": "ground-3668",
+    "sourceRecord": 3668
+  },
+  {
+    "id": "ground-8654",
+    "sourceRecord": 8654
+  },
+  {
+    "id": "ground-8670",
+    "sourceRecord": 8670
+  },
+  {
+    "id": "ground-3892",
+    "sourceRecord": 3892,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Marshal Józef Piłsudski Stadium",
+      "distance": 0.039,
+      "coords": [
+        19.919722,
+        50.058056
+      ]
+    }
+  },
+  {
+    "id": "ground-4053",
+    "sourceRecord": 4053
+  },
+  {
+    "id": "ground-7982",
+    "sourceRecord": 7982
+  },
+  {
+    "id": "ground-3490",
+    "sourceRecord": 3490
+  },
+  {
+    "id": "ground-3430",
+    "sourceRecord": 3430
+  },
+  {
+    "id": "ground-6868",
+    "sourceRecord": 6868,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Fir Park",
+      "distance": 0.012,
+      "coords": [
+        -3.980078,
+        55.779947
+      ]
+    }
+  },
+  {
+    "id": "ground-6903",
+    "sourceRecord": 6903
+  },
+  {
+    "id": "ground-8380",
+    "sourceRecord": 8380
+  },
+  {
+    "id": "ground-7989",
+    "sourceRecord": 7989
+  },
+  {
+    "id": "ground-6946",
+    "sourceRecord": 6946,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Anoeta Stadium",
+      "distance": 0.004,
+      "coords": [
+        -1.973617,
+        43.301378
+      ]
+    }
+  },
+  {
+    "id": "ground-7132",
+    "sourceRecord": 7132
+  },
+  {
+    "id": "ground-7221",
+    "sourceRecord": 7221
+  },
+  {
+    "id": "ground-8411",
+    "sourceRecord": 8411
+  },
+  {
+    "id": "ground-7382",
+    "sourceRecord": 7382,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Balıkesir Atatürk Stadium",
+      "distance": 0.014,
+      "coords": [
+        27.88785,
+        39.64151944
+      ]
+    }
+  },
+  {
+    "id": "ground-3847",
+    "sourceRecord": 3847
+  },
+  {
+    "id": "ground-7934",
+    "sourceRecord": 7934
+  },
+  {
+    "id": "ground-8210",
+    "sourceRecord": 8210,
+    "coordinateCheck": {
+      "source": "wikidata-archive",
+      "name": "Toyota Park",
+      "distance": 0.01,
+      "coords": [
+        -87.80611111,
+        41.76472222
+      ]
+    }
+  },
+  {
+    "id": "ground-8463",
+    "sourceRecord": 8463
+  },
+  {
+    "id": "ground-4228",
+    "sourceRecord": 4228
+  }
+]

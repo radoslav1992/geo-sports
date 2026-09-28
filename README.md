@@ -45,17 +45,23 @@ Alternatively, Cloudflare **Pages** can build with `npm run build` and publish o
 
 ## Gameplay
 
-- Five daily clues, selected deterministically from the bundled question pool using the UTC date. Resets at 00:00 UTC without rebuilding.
-- Practice mode draws another five-question set. Returning to Daily restores its saved progress.
+- Five daily clues from a frozen 103-day calendar starting 29 September 2026. All 515 questions appear once per cycle, so daily repeats are exactly 103 days apart. Resets at 00:00 UTC without rebuilding.
+- Training uses browser-local question history, selecting unseen questions before revisiting the oldest. It excludes the current daily set. Returning to Daily restores its saved progress.
 - Within 10 km of the venue: 1,000 points. Beyond that: `round(1000 × exp(-(distanceKm - 10)/1800))`.
 - A hint reduces that question's maximum to 800; no timer or speed bonus.
 - Touch/drag map navigation, pinch or button zoom, mouse-wheel zoom, keyboard navigation, and a coordinate input alternative.
 - Results show guess/answer pins, distance, points and a short explanation. Share a spoiler-free score on X, WhatsApp, or through the device share menu; copy text or download a branded PNG scorecard.
-- Daily progress and stats are browser-local (`localStorage`); practice is kept in memory. No cross-device accounts or leaderboard are implied.
+- Daily progress, stats, and training question history are browser-local (`localStorage`); the active training round is kept in memory. No cross-device accounts or leaderboard are implied.
 
 ## Content and release boundaries
 
-`src/data/questions.js` contains **15 football-only starter questions**. The daily selection is repeatable but not a unique editorial calendar: questions can recur on later days. Expand and editorially verify the pool before promoting it as a long-term daily service. IDs should remain stable; bump `CONTENT_VERSION` when changing existing question meanings or scoring rules.
+`src/data/questions.js` contains **515 football questions**: the original 15 stadium/history clues and 500 additional ground-location questions across 103 football nations. One clue represents one stadium site; alternative wording is not counted as additional content. Ground clues explicitly cover past and present names, without claiming current sponsors or tenants.
+
+The committed `src/data/daily-schedule-v2.json` fixes 103 five-question sets. The first 100 days use new content; the original 15 questions return only at the end of that first cycle. Dates before 29 September 2026 retain the original selection so the rollout preserves existing rounds. IDs and answers remain stable, and adding questions to the pool does not change any scheduled day. **Do not regenerate an active calendar**: use a new version with a future activation date and verify cooldowns across the transition.
+
+The first 100 sets each contain five different football nations and stadiums at least 25 km apart. The 103-day guarantee is for daily play; training has a separate local history and cannot change the globally shared daily schedule. Clearing browser storage resets training history, but does not affect the daily guarantee.
+
+Data provenance, historical-name caveats, coordinate checks, import commands, and maintenance rules are documented in [docs/QUESTION-BANK.md](docs/QUESTION-BANK.md).
 
 Answers and scoring run in the browser. This release is suitable for casual play and the initial design launch; it is not cheat-resistant competitive scoring. A public leaderboard would require server-side answer validation and shared storage. No accounts, subscriptions, analytics, advertising, or tracking scripts are included.
 
@@ -70,7 +76,9 @@ The interactive map is built from Natural Earth's country boundaries through `wo
 - `src/lib/game.js` — deterministic rounds, distances, scores, validation
 - `src/lib/map.js` — pointer, pinch, zoom and pin handling
 - `src/app.js` — interface, browser persistence and results
+- `src/data/daily-schedule-v2.json` — immutable 103-day daily calendar
 - `tests/game.test.mjs` — scoring, UTC selection and state tests
+- `tests/schedule.test.mjs` — ten-year repeat simulation, release transition, geographic variety, and training history
 
 See `TEMPLATE-NOTES.md` for the purchased template adaptation and license provenance.
 
