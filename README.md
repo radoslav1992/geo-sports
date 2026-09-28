@@ -83,6 +83,7 @@ The interactive map is built from Natural Earth's country boundaries through `wo
 ## Project structure
 
 - `src/pages/index.astro` — focused play screen and dialogs
+- `src/pages/how-to-play.astro`, `about.astro` — crawlable guide pages; `sitemap.xml.js`, `robots.txt.js` — generated from `src/lib/seo.js`
 - `src/components/WorldMap.astro` — server-rendered geographic paths
 - `src/styles/quizo-adapted.css` — selected purchased-template styles
 - `src/styles/global.css` — responsive application design
@@ -102,6 +103,12 @@ See `TEMPLATE-NOTES.md` for the purchased template adaptation and license proven
 All daily and practice clues cover association football: clubs, stadiums, rivalries, and men’s and women’s World Cup moments. The app title, header, help, shared results, 404 page and favicon use Geo Football. The existing repository and Cloudflare Worker retain `geo-sports` to preserve deployment continuity.
 
 Football progress and stats use separate `geo-football-*-v1` browser keys. Earlier mixed-sport rounds and scores are left untouched but are not loaded into football play. The content version is `football-v1`.
+
+## SEO and discovery
+
+The public address is set once in `src/lib/seo.js` (`https://geofootball.net`), which also lists the indexable pages. From it the build generates `/sitemap.xml` and `/robots.txt`, and every page gets a canonical URL, Open Graph and Twitter card tags (with a 1200×630 `og-image.png`), icons and a web app manifest. The game page adds `WebSite` and `WebApplication`/`VideoGame` structured data, a real page heading and a short crawlable introduction; `/how-to-play/` and `/about/` are static guide pages with breadcrumbs; the 404 page is `noindex`. To add a page, create it under `src/pages/` and add its path to `PAGES` (a test checks both). `scripts/build-social-images.mjs` re-renders the share image and icons with Playwright when the brand changes; the PNGs are committed.
+
+After deploying, add the site to Google Search Console and Bing Webmaster Tools and submit `https://geofootball.net/sitemap.xml`.
 
 ## Score sharing
 

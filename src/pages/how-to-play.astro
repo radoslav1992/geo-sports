@@ -1,0 +1,60 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import {questions} from '../data/questions.js';
+import {scoreGuess, DAILY_REPEAT_DAYS} from '../lib/game.js';
+// Scoring rows come from the game's own scoring function, so the table can never drift from play.
+const rows = [5, 50, 100, 250, 500, 1000, 2500, 5000].map(km => {
+  const at = [km / 111.195, 0];
+  return {km, points: scoreGuess([0, 0], at).points, assisted: scoreGuess([0, 0], at, true).points};
+});
+const fmt = n => n.toLocaleString('en-US');
+const faq = [
+  ['Is Geo Football free?', 'Yes. The daily matchday and the training ground are free to play in any modern browser, with no account and no download.'],
+  ['When does the daily quiz reset?', 'A new matchday starts at 00:00 UTC. Everyone in the world gets the same five questions that day.'],
+  ['Do questions repeat?', `No daily question returns for ${DAILY_REPEAT_DAYS} days. The calendar works through all ${fmt(questions.length)} questions before any of them comes back.`],
+  ['What does an assist do?', 'It reveals the country or region and the first letter of the answer, and caps that question at 800 points instead of 1,000.'],
+  ['Where are my stats saved?', 'In your own browser. Streaks, best score and average stay on the device you play on; nothing is sent to a server.'],
+  ['Can I practise?', 'Yes. The training ground serves new questions you haven’t seen in this browser, as often as you like, without affecting your daily stats.'],
+];
+---
+<ContentPage title="How to Play Geo Football – Rules, Scoring and Tips" heading="How to play" description="How the Geo Football daily quiz works: read a football clue, pin it on the world map and score up to 1,000 points. Scoring table, assists, streaks and FAQ." path="/how-to-play/">
+<p class="lede">Geo Football is a daily football geography quiz. Each matchday has five clues about the beautiful game: a legendary stadium, a player’s hometown, the scene of a famous final. Your job is to pin the place on the world map.</p>
+
+<h2>Quick start</h2>
+<ol>
+<li><strong>Read the clue.</strong> It points to one real place, such as the city of a stadium or the town where a player was born.</li>
+<li><strong>Tap the map.</strong> Drag to move, pinch or use + and − to zoom. One tap locks your guess in; tick <em>Confirm before locking in</em> if you prefer to adjust your pin first.</li>
+<li><strong>Watch the pass land.</strong> The map zooms to your guess, draws a line to the real answer and shows how far away you were, with the story behind the clue.</li>
+<li><strong>Five questions, then full-time.</strong> See your total out of 5,000, your streak, and share a spoiler-free result with friends.</li>
+</ol>
+
+<h2>Scoring</h2>
+<p>Every question is worth up to 1,000 points. Land within 10 km of the answer for the full 1,000. Beyond that, points fall away smoothly with distance, so a guess in the right region still scores well and a continental miss is never quite zero.</p>
+<table>
+<thead><tr><th>Distance from the answer</th><th>Points</th><th>With an assist</th></tr></thead>
+<tbody>{rows.map(r => <tr><td>{r.km <= 10 ? 'Within 10 km' : fmt(r.km) + ' km'}</td><td>{fmt(r.points)}</td><td>{fmt(r.assisted)}</td></tr>)}</tbody>
+</table>
+<p>Results are colour-coded: green for 800 points or more, yellow for 400–799 and orange below 400. The same colours appear on your shirts, your results bars and the tiles in your shared score.</p>
+
+<h2>Assists</h2>
+<p>Stuck? Take an assist before you guess. It tells you where to look and the first letter of the answer. That question is then capped at 800 points, and your shared result shows how many assists you used.</p>
+
+<h2>Daily matchday and training ground</h2>
+<h3>Daily matchday</h3>
+<p>The same five questions for everyone, numbered as matchdays (#1 was 29 September 2026). Days are built to mix countries and continents rather than five clues from one league. Finish every day to build your streak.</p>
+<h3>Training ground</h3>
+<p>Unlimited practice rounds drawn from the full question bank, prioritising questions you haven’t seen in this browser. Training scores don’t count toward your daily stats.</p>
+
+<h2>Controls and accessibility</h2>
+<ul>
+<li>Drag or use the arrow keys to move the map; pinch, scroll or press + and − to zoom.</li>
+<li>Country names appear as you zoom in, to help you find smaller places.</li>
+<li>Prefer numbers? Open <em>Coordinates</em> and type a latitude and longitude.</li>
+<li>Sounds can be muted from the speaker button, and animations follow your device’s reduced-motion setting.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">{faq.map(([q, a]) => <><dt>{q}</dt><dd>{a}</dd></>)}</dl>
+
+<p><a class="page-cta" href="/">Play today’s matchday →</a></p>
+</ContentPage>
