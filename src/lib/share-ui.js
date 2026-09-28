@@ -1,4 +1,4 @@
-import {buildShareResult, platformLinks, createScorecard} from './share.js';
+import {buildShareResult, platformLinks, createScorecard, scoreBand} from './share.js';
 
 export function createSharing() {
   const $ = id => document.getElementById(id);
@@ -53,7 +53,7 @@ export function createSharing() {
       $('save-scorecard').removeAttribute('href');
       $('score-tiles').replaceChildren(...current.points.map(points => {
         const tile = document.createElement('span');
-        tile.dataset.band = points >= 800 ? 'good' : points >= 400 ? 'close' : 'far';
+        tile.dataset.band = scoreBand(points);
         tile.textContent = points.toLocaleString('en-US');
         tile.setAttribute('aria-hidden', 'true');
         return tile;

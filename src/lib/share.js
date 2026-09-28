@@ -1,6 +1,7 @@
 import {ROUND_SIZE, totalPoints} from './game.js';
 
-export const scoreTile = points => points >= 800 ? '🟩' : points >= 400 ? '🟨' : '🟧';
+export const scoreBand = points => points >= 800 ? 'good' : points >= 400 ? 'close' : 'far';
+export const scoreTile = points => ({good: '🟩', close: '🟨', far: '🟧'})[scoreBand(points)];
 
 // Only these spoiler-free fields leave the game. Never serialize the round itself.
 export function buildShareResult(round, pageUrl) {
@@ -48,16 +49,18 @@ export async function createScorecard(result) {
   ctx.fillRect(0, 0, 1080, 1080);
   // Pitch stripes and markings frame the result; this is a data graphic, not a screenshot.
   for (let x = 0; x < 1080; x += 120) {
-    ctx.fillStyle = x % 240 ? '#102332' : '#112b32';
+    ctx.fillStyle = x % 240 ? '#12482f' : '#0f3f29';
     ctx.fillRect(x, 0, 120, 1080);
   }
-  ctx.strokeStyle = '#315346'; ctx.lineWidth = 3;
+  ctx.strokeStyle = '#ebfff066'; ctx.lineWidth = 3;
   ctx.strokeRect(35, 35, 1010, 1010);
   ctx.beginPath(); ctx.moveTo(35, 540); ctx.lineTo(1045, 540); ctx.stroke();
   ctx.beginPath(); ctx.arc(540, 540, 160, 0, Math.PI * 2); ctx.stroke();
   ctx.strokeRect(350, 35, 380, 120); ctx.strokeRect(350, 925, 380, 120);
-  ctx.fillStyle = '#0b1728ee'; ctx.fillRect(95, 90, 890, 900);
-  ctx.fillStyle = lime; ctx.fillRect(95, 90, 890, 6);
+  ctx.fillStyle = '#0b1728f0'; ctx.beginPath(); ctx.roundRect(95, 90, 890, 900, 28); ctx.fill();
+  const bar = ctx.createLinearGradient(95, 0, 985, 0);
+  bar.addColorStop(0, lime); bar.addColorStop(1, '#5fd4ff');
+  ctx.save(); ctx.clip(); ctx.fillStyle = bar; ctx.fillRect(95, 90, 890, 8); ctx.restore();
   const label = (text, y, size, color = white, condensed = false) => {
     ctx.textAlign = 'center'; ctx.fillStyle = color;
     ctx.font = `600 ${size}px "${condensed ? 'Barlow Condensed' : 'DM Sans'}", sans-serif`;
