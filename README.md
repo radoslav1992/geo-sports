@@ -49,6 +49,11 @@ Alternatively, Cloudflare **Pages** can build with `npm run build` and publish o
 - Training uses browser-local question history, selecting unseen questions before revisiting the oldest. It excludes the current daily set. Returning to Daily restores its saved progress.
 - Within 10 km of the venue: 1,000 points. Beyond that: `round(1000 × exp(-(distanceKm - 10)/1800))`.
 - A hint reduces that question's maximum to 800; no timer or speed bonus.
+- One tap locks a guess in. Players who prefer to adjust their pin first can tick **Confirm before locking in** (saved in the browser).
+- Each reveal flies the map in to frame both pins, draws the great-circle "pass" from guess to answer, drops the answer pin, then shows the result and counts the score up. Any pan or zoom finishes the animation instantly; reduced-motion settings skip it.
+- Country names appear progressively as the map zooms in (largest countries first) and keep a constant on-screen size.
+- Synthesised sounds (no audio files): pin tap, referee's whistle on lock-in, result chimes by band, a crowd roar for a perfect guess and the full-time whistle, plus light haptics on phones. The header speaker button mutes them.
+- Daily rounds are numbered as matchdays (#1 = 29 September 2026). Stats show the current and best daily streak; the results screen shows per-question bars, the streak and a countdown to the next matchday.
 - Touch/drag map navigation, pinch or button zoom, mouse-wheel zoom, keyboard navigation, and a coordinate input alternative.
 - Results show guess/answer pins, distance, points and a short explanation. Share a spoiler-free score on X, WhatsApp, or through the device share menu; copy text or download a branded PNG scorecard.
 - Daily progress, stats, and training question history are browser-local (`localStorage`); the active training round is kept in memory. No cross-device accounts or leaderboard are implied.
@@ -60,6 +65,8 @@ Alternatively, Cloudflare **Pages** can build with `npm run build` and publish o
 - 15 original stadium/history clues;
 - 1,537 ground-location questions (the first 500 across 103 football nations, plus a 1,037-ground expansion from the same pinned dataset);
 - 423 **Legends** clues asking where famous footballers were born, across 84 countries, with pins from the GeoNames gazetteer.
+
+92 well-known grounds carry **story clues** (finals, famous matches, landmark facts) from `src/data/ground-stories.js` in place of the generic ground wording; their IDs, answers and pins are unchanged.
 
 One clue represents one map site, and no two questions are within 0.7 km of each other; players who share a hometown share one clue. Alternative wording is not counted as additional content. Ground clues explicitly cover past and present names, without claiming current sponsors or tenants.
 
@@ -98,7 +105,7 @@ Football progress and stats use separate `geo-football-*-v1` browser keys. Earli
 
 ## Score sharing
 
-Completed daily and training rounds have separate share labels. Shared text includes the UTC date, five coloured result tiles, total points, assists used, and the current game URL without query parameters or fragments. It never includes question IDs, clues, answers, or coordinates.
+Completed daily and training rounds have separate share labels. Shared text includes the matchday number and UTC date, five coloured result tiles, total points, assists used, the daily streak (from two days), and the current game URL without query parameters or fragments. It never includes question IDs, clues, answers, or coordinates.
 
 - X and WhatsApp buttons open a prefilled composer; the player chooses whether to publish or send. These buttons share text and the link, not an automatic image attachment.
 - On supported devices, **Share my score** opens the native share menu and includes the PNG when file sharing is supported. Browsers without native sharing use copy instead. Clipboard denial offers selectable text.

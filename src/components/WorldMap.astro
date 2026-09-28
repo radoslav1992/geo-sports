@@ -4,6 +4,16 @@ import { feature } from 'topojson-client';
 import world from 'world-atlas/countries-110m.json';
 const path=geoPath(geoNaturalEarth1().scale(177).translate([480,235]));
 const countries=feature(world,world.objects.countries);
+// Country names sit on each country's largest landmass and appear progressively with zoom (see map.js).
+const shortNames={'United States of America':'United States','Dem. Rep. Congo':'DR Congo','Central African Rep.':'C. African Rep.','Bosnia and Herz.':'Bosnia','S. Sudan':'South Sudan','Falkland Is.':'Falklands','Dominican Rep.':'Dominican Rep.','Solomon Is.':'Solomon Is.','Eq. Guinea':'Eq. Guinea'};
+const hidden=new Set(['Fr. S. Antarctic Lands','N. Cyprus','Somaliland']);
+const labels=countries.features.filter(c=>c.id!=='010'&&!hidden.has(c.properties.name)).map(c=>{
+  const parts=c.geometry.type==='MultiPolygon'?c.geometry.coordinates.map(coordinates=>({type:'Polygon',coordinates})):[c.geometry];
+  const main=parts.reduce((a,b)=>path.area(b)>path.area(a)?b:a);
+  const [x,y]=path.centroid(main),area=path.area(c);
+  const zoom=area>=1500?1:area>=600?1.6:area>=200?2.4:area>=60?3.5:area>=15?5:7;
+  return {name:shortNames[c.properties.name]||c.properties.name,x:x.toFixed(1),y:y.toFixed(1),zoom};
+});
 ---
 <div class="map-shell" id="map-shell">
   <svg id="world-map" viewBox="0 0 960 470" role="img" aria-label="World map. Tap to place a pin. Use arrow keys to pan, plus and minus to zoom, or Enter to enter coordinates." tabindex="0">
@@ -19,7 +29,8 @@ const countries=feature(world,world.objects.countries);
     <g id="map-transform">
       <path class="graticule" d={path(geoGraticule10())}/>
       <g class="countries">{countries.features.filter(c=>c.id!=='010').map(c=><path d={path(c)}/>)}</g>
-      <g class="ocean-labels" aria-hidden="true"><text x="175" y="268">PACIFIC OCEAN</text><text x="402" y="276">ATLANTIC</text><text x="402" y="291">OCEAN</text><text x="675" y="334">INDIAN OCEAN</text></g>
+      <g id="country-labels" class="country-labels" aria-hidden="true">{labels.map(l=><text class="map-label" data-x={l.x} data-y={l.y} data-zoom={l.zoom} transform={`translate(${l.x},${l.y})`} style={l.zoom>1?'display:none':undefined}>{l.name}</text>)}</g>
+      <g class="ocean-labels" aria-hidden="true">{[['PACIFIC OCEAN',175,268],['ATLANTIC',402,276],['OCEAN',402,291],['INDIAN OCEAN',675,334]].map(([name,x,y])=><text class="map-label" data-x={x} data-y={y} data-zoom="1" transform={`translate(${x},${y})`}>{name}</text>)}</g>
       <path id="connection" class="connection"/>
       <g id="answer-marker" hidden><circle class="answer-ring" r="18"/><circle class="answer-core" r="8"/><path d="M-4 0L-1 3L5-4"/></g>
       <g id="guess-marker" hidden><ellipse class="pin-shadow" cy="2" rx="11" ry="4"/><g class="pin-body"><path class="pin-shape" d="M0 0C-4-6-12-13-12-22a12 12 0 0 1 24 0C12-13 4-6 0 0Z"/><g transform="translate(0 -22)" aria-hidden="true"><circle r="8" fill="#f2ffe8"/><path d="M0-4 4-1 2.5 3H-2.5L-4-1Z" fill="#17332b"/><path d="M0-8v4M7.6-2.5 4-1M4.7 6.5 2.5 3M-4.7 6.5-2.5 3M-7.6-2.5-4-1" stroke="#17332b" stroke-width="1"/></g></g></g>

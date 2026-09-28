@@ -29,6 +29,10 @@ US records are skipped: the first release only admitted US grounds that a second
 
 Hints name the GeoNames region. Villages absent from the gazetteer were left out rather than guessed.
 
+### Story clues (92 grounds)
+
+`src/data/ground-stories.js` replaces the generic "find the ground known as…" wording of 92 well-known grounds with a story: a final, a famous match or a landmark fact, plus a matching fact on reveal. Only wording changes; IDs, answer cities and pins stay as imported, so saved rounds and the calendar are unaffected. Clues are limited to widely documented results and dates. A test checks that every story targets an existing ground and that no story or Legends clue names its answer city.
+
 ## Release 1: 515 questions, a 103-day calendar
 
 _From 2027-01-10 Release 2 takes over; these 103 days remain the first 103 days of the v3 calendar._
