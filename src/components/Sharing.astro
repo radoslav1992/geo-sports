@@ -1,0 +1,18 @@
+<div id="score-tiles" class="score-tiles" role="img" aria-label="Question scores"></div>
+<p id="share-assists" class="share-assists"></p>
+<section aria-label="Share your score">
+  <p class="share-intro">Send a challenge to your friends. No answer spoilers.</p>
+  <button id="share" class="next_btn full"><span id="share-label">Share my score</span><i data-lucide="share-2"></i></button>
+  <div class="share-options">
+    <a id="share-x" target="_blank" rel="noopener noreferrer" aria-label="Share score on X (opens a new tab)"><b class="x-brand" aria-hidden="true">𝕏</b>Post on X</a>
+    <a id="share-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Share score on WhatsApp (opens a new tab)"><i data-lucide="message-circle"></i>WhatsApp</a>
+    <button id="copy-score"><i data-lucide="copy"></i>Copy score</button>
+    <a id="save-scorecard" hidden><i data-lucide="download"></i>Save scorecard</a>
+  </div>
+  <p id="share-status" class="share-status" role="status"></p>
+  <textarea id="share-fallback" class="share-fallback" aria-label="Score text to copy" readonly hidden></textarea>
+  <details id="scorecard-preview" class="scorecard-preview" hidden>
+    <summary>Preview scorecard · for posts and stories</summary>
+    <img id="scorecard-image" alt="Your Geo Football scorecard" width="1080" height="1080"/>
+  </details>
+</section>

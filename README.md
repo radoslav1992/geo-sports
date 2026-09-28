@@ -50,7 +50,7 @@ Alternatively, Cloudflare **Pages** can build with `npm run build` and publish o
 - Within 10 km of the venue: 1,000 points. Beyond that: `round(1000 × exp(-(distanceKm - 10)/1800))`.
 - A hint reduces that question's maximum to 800; no timer or speed bonus.
 - Touch/drag map navigation, pinch or button zoom, mouse-wheel zoom, keyboard navigation, and a coordinate input alternative.
-- Results show guess/answer pins, distance, points and a short explanation. Copy a compact score card.
+- Results show guess/answer pins, distance, points and a short explanation. Share a spoiler-free score on X, WhatsApp, or through the device share menu; copy text or download a branded PNG scorecard.
 - Daily progress and stats are browser-local (`localStorage`); practice is kept in memory. No cross-device accounts or leaderboard are implied.
 
 ## Content and release boundaries
@@ -79,3 +79,14 @@ See `TEMPLATE-NOTES.md` for the purchased template adaptation and license proven
 All daily and practice clues cover association football: clubs, stadiums, rivalries, and men’s and women’s World Cup moments. The app title, header, help, shared results, 404 page and favicon use Geo Football. The existing repository and Cloudflare Worker retain `geo-sports` to preserve deployment continuity.
 
 Football progress and stats use separate `geo-football-*-v1` browser keys. Earlier mixed-sport rounds and scores are left untouched but are not loaded into football play. The content version is `football-v1`.
+
+## Score sharing
+
+Completed daily and training rounds have separate share labels. Shared text includes the UTC date, five coloured result tiles, total points, assists used, and the current game URL without query parameters or fragments. It never includes question IDs, clues, answers, or coordinates.
+
+- X and WhatsApp buttons open a prefilled composer; the player chooses whether to publish or send. These buttons share text and the link, not an automatic image attachment.
+- On supported devices, **Share my score** opens the native share menu and includes the PNG when file sharing is supported. Browsers without native sharing use copy instead. Clipboard denial offers selectable text.
+- **Save scorecard** downloads a 1080 × 1080 PNG for posts or stories. The preview and image are generated entirely in the browser; no upload, storage service, API key, or new Cloudflare configuration is required. Native destinations may handle text and images differently.
+- Shared game links open the current daily game. The date is shown in the score; historical daily rounds and replayable practice challenge links are not implemented.
+
+`src/lib/share.js` builds the public score payload and image, `src/lib/share-ui.js` handles browser sharing, and `tests/share.test.mjs` checks spoiler boundaries and link encoding.

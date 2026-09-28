@@ -1,0 +1,26 @@
+.score-tiles { display: flex; justify-content: center; gap: 6px; margin: 16px 0 9px; }
+.score-tiles span { width: 43px; height: 36px; display: grid; place-items: center; border-radius: 4px; color: #102217; background: var(--accent); font: 600 16px 'Barlow Condensed', sans-serif; }
+.score-tiles [data-band="close"] { background: #f4d67c; }
+.score-tiles [data-band="far"] { background: #efaa79; }
+.share-assists { color: #a7bcae; font-size: 12px; margin: 0 0 21px; }
+.share-intro { color: #aec6d4; font-size: 12px; margin: 0 0 12px; line-height: 1.6; }
+.share-options { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin-top: 10px; }
+.share-options a, .share-options button { display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 43px; padding: 9px; border: 1px solid #38526a; border-radius: 5px; color: #dcebdc; background: #12273b; text-decoration: none; font-size: 12px; }
+.share-options a:hover, .share-options button:hover { border-color: var(--accent); background: #233d35; }
+.share-options svg { width: 16px; height: 16px; }
+.x-brand { font-size: 17px; font-weight: 500; line-height: 1; }
+.share-status { margin: 10px 0 0; color: #c5e3ad; font-size: 12px; line-height: 1.5; }
+.share-status:empty { display: none; }
+.results-details, .scorecard-preview { margin-top: 15px; border-top: 1px solid #2f4559; padding-top: 12px; }
+.results-details summary, .scorecard-preview summary { color: #a3b9cb; cursor: pointer; font-size: 12px; padding: 4px; }
+summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.results-details #round-results { margin: 14px 0 0; }
+.scorecard-preview img { width: 100%; height: auto; border-radius: 6px; display: block; margin-top: 12px; }
+#results-dialog .results-pitch { width: 100px; height: 68px; margin-bottom: 10px; }
+#results-dialog .results-pitch .medal { top: 7px; width: 50px; height: 50px; }
+#results-dialog h2 { font-size: 30px; }
+#results-dialog .final-score strong { font-size: 70px; }
+@media (max-width: 370px) {
+  .share-options { gap: 7px; }
+  .share-options a, .share-options button { font-size: 11px; padding: 8px 4px; gap: 5px; }
+}
