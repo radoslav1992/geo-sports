@@ -1,23 +1,15 @@
 ---
 import ContentPage from '../layouts/ContentPage.astro';
-import {questions} from '../data/questions.js';
-import {scoreGuess, DAILY_REPEAT_DAYS} from '../lib/game.js';
+import {guideFaq} from '../data/faq.js';
+import {scoreGuess} from '../lib/game.js';
 // Scoring rows come from the game's own scoring function, so the table can never drift from play.
 const rows = [5, 50, 100, 250, 500, 1000, 2500, 5000].map(km => {
   const at = [km / 111.195, 0];
   return {km, points: scoreGuess([0, 0], at).points, assisted: scoreGuess([0, 0], at, true).points};
 });
 const fmt = n => n.toLocaleString('en-US');
-const faq = [
-  ['Is Geo Football free?', 'Yes. The daily matchday and the training ground are free to play in any modern browser, with no account and no download.'],
-  ['When does the daily quiz reset?', 'A new matchday starts at 00:00 UTC. Everyone in the world gets the same five questions that day.'],
-  ['Do questions repeat?', `No daily question returns for ${DAILY_REPEAT_DAYS} days. The calendar works through all ${fmt(questions.length)} questions before any of them comes back.`],
-  ['What does an assist do?', 'It reveals the country or region and the first letter of the answer, and caps that question at 800 points instead of 1,000.'],
-  ['Where are my stats saved?', 'In your own browser. Streaks, best score and average stay on the device you play on; your answers and scores are never uploaded.'],
-  ['Can I practise?', 'Yes. The training ground serves new questions you haven’t seen in this browser, as often as you like, without affecting your daily stats.'],
-];
 ---
-<ContentPage title="How to Play Geo Football – Rules, Scoring and Tips" heading="How to play" description="How the Geo Football daily quiz works: read a football clue, pin it on the world map and score up to 1,000 points. Scoring table, assists, streaks and FAQ." path="/how-to-play/">
+<ContentPage title="How to Play Geo Football – Rules, Scoring and Tips" heading="How to play" description="How the Geo Football daily quiz works: read a football clue, pin it on the world map and score up to 1,000 points. Scoring table, assists, streaks and FAQ." path="/how-to-play/" faq={guideFaq}>
 <p class="lede">Geo Football is a daily football geography quiz. Each matchday has five clues about the beautiful game: a legendary stadium, a player’s hometown, the scene of a famous final. Your job is to pin the place on the world map.</p>
 
 <h2>Quick start</h2>
@@ -54,7 +46,8 @@ const faq = [
 </ul>
 
 <h2>Frequently asked questions</h2>
-<dl class="faq">{faq.map(([q, a]) => <><dt>{q}</dt><dd>{a}</dd></>)}</dl>
+<div class="faq">{guideFaq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}</div>
+<p>More about the daily quiz, the question bank and repeats is in the <a href="/#faq-title">main FAQ</a>.</p>
 
 <p><a class="page-cta" href="/">Play today’s matchday →</a></p>
 </ContentPage>

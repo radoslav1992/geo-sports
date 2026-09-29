@@ -1,21 +1,34 @@
 ---
-// Shared <head> tags: canonical URL, social previews, icons, structured data and the Google tag.
-import {SITE_NAME, absolute} from '../lib/seo.js';
-interface Props {title: string; description: string; path: string; noindex?: boolean; jsonLd?: object}
-const {title, description, path, noindex = false, jsonLd} = Astro.props;
-const url = absolute(path), image = absolute('/og-image.png');
+// Shared <head> tags: canonical URL, social previews, icons, author and date signals, structured data and the Google tag.
+import {SITE, SITE_NAME, PUBLISHER, absolute, pageFor} from '../lib/seo.js';
+import {faqJsonLd} from '../data/faq.js';
+interface Props {title: string; description: string; path: string; noindex?: boolean; pageType?: string; faq?: [string, string][]; jsonLd?: object[]}
+const {title, description, path, noindex = false, pageType = 'WebPage', faq, jsonLd = []} = Astro.props;
+const url = absolute(path), image = absolute('/og-image.png'), page = pageFor(path);
+const article = page && path !== '/';
+// One graph per page: who publishes the site, the site itself, this page (with its dates and any FAQ), then page-specific nodes.
+const graph = page && !noindex && {'@context': 'https://schema.org', '@graph': [
+  PUBLISHER,
+  {'@type': 'WebSite', '@id': `${SITE}/#website`, url: absolute('/'), name: SITE_NAME, inLanguage: 'en', publisher: {'@id': PUBLISHER['@id']}},
+  {'@type': !faq ? pageType : pageType === 'WebPage' ? 'FAQPage' : [pageType, 'FAQPage'], '@id': `${url}#webpage`, url, name: title, description, inLanguage: 'en',
+    isPartOf: {'@id': `${SITE}/#website`}, author: {'@id': PUBLISHER['@id']}, publisher: {'@id': PUBLISHER['@id']},
+    datePublished: page.published, dateModified: page.updated, primaryImageOfPage: {'@type': 'ImageObject', url: image},
+    ...(faq && {mainEntity: faqJsonLd(faq)})},
+  ...jsonLd,
+]};
 ---
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>{title}</title>
 <meta name="description" content={description}/>
+<meta name="author" content={PUBLISHER.name}/>
 {noindex ? <meta name="robots" content="noindex"/> : <link rel="canonical" href={url}/>}
 <meta name="theme-color" content="#06101a"/>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
 <link rel="icon" href="/icon-192.png" type="image/png" sizes="192x192"/>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
 <link rel="manifest" href="/site.webmanifest"/>
-<meta property="og:type" content="website"/>
+<meta property="og:type" content={article ? 'article' : 'website'}/>
 <meta property="og:site_name" content={SITE_NAME}/>
 <meta property="og:title" content={title}/>
 <meta property="og:description" content={description}/>
@@ -25,11 +38,14 @@ const url = absolute(path), image = absolute('/og-image.png');
 <meta property="og:image:height" content="630"/>
 <meta property="og:image:alt" content="Geo Football: pin football history on a world map laid over a floodlit pitch."/>
 <meta property="og:locale" content="en_GB"/>
+{article && <meta property="article:published_time" content={page.published}/>}
+{article && <meta property="article:modified_time" content={page.updated}/>}
+{article && <meta property="article:author" content={PUBLISHER.name}/>}
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content={title}/>
 <meta name="twitter:description" content={description}/>
 <meta name="twitter:image" content={image}/>
-{jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}/>}
+{graph && <script type="application/ld+json" set:html={JSON.stringify(graph)}/>}
 <!-- Google tag (gtag.js) -->
 <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-QNZZDM7MD1"></script>
 <script is:inline>

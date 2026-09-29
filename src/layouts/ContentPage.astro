@@ -1,6 +1,7 @@
 ---
 // Static, crawlable pages around the game. Same stylesheet stack as the game so bundled CSS keeps its order.
 import Seo from '../components/Seo.astro';
+import Byline from '../components/Byline.astro';
 import {SITE_NAME, absolute} from '../lib/seo.js';
 import '@fontsource/dm-sans/400.css';
 import '@fontsource/dm-sans/500.css';
@@ -13,19 +14,20 @@ import '../styles/global.css';
 import '../styles/football-theme.css';
 import '../styles/sharing.css';
 import '../styles/pages.css';
-interface Props {title: string; heading: string; description: string; path: string; jsonLd?: object}
-const {title, heading, description, path, jsonLd} = Astro.props;
-const breadcrumbs = {'@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+interface Props {title: string; heading: string; description: string; path: string; pageType?: string; faq?: [string, string][]}
+const {title, heading, description, path, pageType, faq} = Astro.props;
+const breadcrumbs = {'@type': 'BreadcrumbList', '@id': `${absolute(path)}#breadcrumbs`, itemListElement: [
   {'@type': 'ListItem', position: 1, name: SITE_NAME, item: absolute('/')},
   {'@type': 'ListItem', position: 2, name: heading, item: absolute(path)},
 ]};
 ---
-<!doctype html><html lang="en"><head><Seo title={title} description={description} path={path} jsonLd={jsonLd ? [breadcrumbs, jsonLd] : breadcrumbs}/></head>
+<!doctype html><html lang="en"><head><Seo title={title} description={description} path={path} pageType={pageType} faq={faq} jsonLd={[breadcrumbs]}/></head>
 <body>
 <header class="page-header"><a class="brand" href="/" aria-label="Geo Football home"><span class="brand-mark"><img src="/favicon.svg" alt="" width="40" height="45"/></span><span class="brand-type">GEO<span>FOOTBALL</span></span></a><a class="page-cta" href="/">Play<span class="cta-long"> today’s matchday</span> <span aria-hidden="true">→</span></a></header>
 <main class="article">
 <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Geo Football</a> / {heading}</nav>
 <h1>{heading}</h1>
+<Byline path={path}/>
 <slot/>
 </main>
 <footer class="page-footer"><a href="/">Play the daily quiz</a><a href="/how-to-play/">How to play</a><a href="/about/">About the questions</a><a href="/data-licenses.txt">Data credits</a></footer>
