@@ -9,6 +9,7 @@ export const PAGES = [
   {path: '/footballer-birthplace-quiz/', changefreq: 'monthly', priority: '0.9'},
   {path: '/how-to-play/', changefreq: 'monthly', priority: '0.8'},
   {path: '/about/', changefreq: 'monthly', priority: '0.6'},
+  {path: '/privacy/', changefreq: 'yearly', priority: '0.3'},
 ];
 export const absolute = path => new URL(path, SITE).href;
 const escape = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

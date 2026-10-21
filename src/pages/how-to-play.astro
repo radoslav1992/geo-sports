@@ -1,6 +1,7 @@
 ---
 import ContentPage from '../layouts/ContentPage.astro';
 import QuizModes from '../components/QuizModes.astro';
+import AdSlot from '../components/AdSlot.astro';
 import {questions} from '../data/questions.js';
 import {scoreGuess, DAILY_REPEAT_DAYS} from '../lib/game.js';
 // Scoring rows come from the game's own scoring function, so the table can never drift from play.
@@ -32,6 +33,8 @@ const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity:
 <li><strong>Five questions, then full-time.</strong> See your total out of 5,000, your streak, and share a spoiler-free result with friends.</li>
 </ol>
 
+<AdSlot type="rectangle"/>
+
 <h2>Scoring</h2>
 <p>Every question is worth up to 1,000 points. Land within 10 km of the answer for the full 1,000. Beyond that, points fall away smoothly with distance, so a guess in the right region still scores well and a continental miss is never quite zero.</p>
 <table>
@@ -58,6 +61,8 @@ const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity:
 <li>Prefer numbers? Open <em>Coordinates</em> and type a latitude and longitude.</li>
 <li>Sounds can be muted from the speaker button, and animations follow your device’s reduced-motion setting.</li>
 </ul>
+
+<AdSlot type="native"/>
 
 <h2>Frequently asked questions</h2>
 <dl class="faq">{faq.map(([q, a]) => <><dt>{q}</dt><dd>{a}</dd></>)}</dl>

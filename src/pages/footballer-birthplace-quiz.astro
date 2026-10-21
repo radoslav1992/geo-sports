@@ -1,6 +1,7 @@
 ---
 import ContentPage from '../layouts/ContentPage.astro';
 import QuizModes from '../components/QuizModes.astro';
+import AdSlot from '../components/AdSlot.astro';
 import {questions} from '../data/questions.js';
 import {TRAINING_SETS, scoreGuess} from '../lib/game.js';
 const fmt = n => n.toLocaleString('en-US');
@@ -41,6 +42,8 @@ const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity:
 <li><strong>Keep the run going.</strong> Five clues a round, and the training ground serves legends you haven’t met yet.</li>
 </ol>
 
+<AdSlot type="rectangle"/>
+
 <h2>Try a warm-up clue</h2>
 <p>This player isn’t in the quiz, so it won’t spoil a matchday. Have a guess before you reveal the answer.</p>
 <div class="clue-card">
@@ -71,6 +74,8 @@ const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity:
 <li><strong>Close still counts.</strong> The right region earns most of the points, so commit to your best guess.</li>
 <li><strong>Take an assist when stuck.</strong> It shows the region and the first letter of the place, and caps that clue at 800 points.</li>
 </ul>
+
+<AdSlot type="native"/>
 
 <h2>Frequently asked questions</h2>
 <dl class="faq">{faq.map(([q, a]) => <><dt>{q}</dt><dd>{a}</dd></>)}</dl>
