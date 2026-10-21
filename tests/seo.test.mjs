@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {existsSync} from 'node:fs';
+import {existsSync, readFileSync, readdirSync} from 'node:fs';
 import {SITE, PAGES, absolute, sitemapXml, robotsTxt} from '../src/lib/seo.js';
+import {TRAINING_SETS} from '../src/lib/game.js';
 
 test('sitemap lists every indexable page once with absolute https URLs', () => {
   const xml = sitemapXml(PAGES, '2026-10-01');
@@ -20,4 +21,10 @@ test('every sitemap page has a source page, and robots.txt points crawlers at th
     assert.ok(path.endsWith('/'), `${path} should use the trailing-slash form Cloudflare serves`);
   }
   assert.equal(robotsTxt(), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
+});
+
+test('themed quiz links open a training set the game knows', () => {
+  const links = readdirSync('src/pages').filter(f => f.endsWith('.astro')).flatMap(f => [...readFileSync(`src/pages/${f}`, 'utf8').matchAll(/\/\?train=([\w-]+)/g)].map(m => m[1]));
+  assert.ok(links.length >= 2);
+  for (const key of links) assert.ok(Object.hasOwn(TRAINING_SETS, key), `unknown training set ${key}`);
 });

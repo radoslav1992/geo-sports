@@ -1,8 +1,12 @@
 // Single source for the public address and the indexable pages (sitemap, robots, canonical tags).
 export const SITE = 'https://geofootball.net';
 export const SITE_NAME = 'Geo Football';
+// People search the domain spelling too; structured data lists both.
+export const SITE_ALT_NAMES = ['GeoFootball', 'geofootball.net'];
 export const PAGES = [
   {path: '/', changefreq: 'daily', priority: '1.0'},
+  {path: '/stadium-quiz/', changefreq: 'monthly', priority: '0.9'},
+  {path: '/footballer-birthplace-quiz/', changefreq: 'monthly', priority: '0.9'},
   {path: '/how-to-play/', changefreq: 'monthly', priority: '0.8'},
   {path: '/about/', changefreq: 'monthly', priority: '0.6'},
 ];

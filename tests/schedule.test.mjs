@@ -7,7 +7,7 @@ import expansion from '../src/data/grounds-expansion.json' with {type: 'json'};
 import legends from '../src/data/legends.json' with {type: 'json'};
 import schedule from '../src/data/daily-schedule-v3.json' with {type: 'json'};
 import scheduleV2 from '../src/data/daily-schedule-v2.json' with {type: 'json'};
-import {dailyQuestions, DAILY_REPEAT_DAYS, DAILY_SCHEDULE_START, dayKey, distanceKm, practiceQuestions, newRound, validateRound, shuffle, hashSeed, CONTENT_VERSION} from '../src/lib/game.js';
+import {dailyQuestions, DAILY_REPEAT_DAYS, DAILY_SCHEDULE_START, dayKey, distanceKm, practiceQuestions, TRAINING_SETS, newRound, validateRound, shuffle, hashSeed, CONTENT_VERSION} from '../src/lib/game.js';
 
 const epoch=Date.parse(`${DAILY_SCHEDULE_START}T00:00:00Z`);
 const dateAt=day=>dayKey(new Date(epoch+day*86400000));
@@ -99,4 +99,16 @@ test('training exhausts unseen questions, avoids today’s daily set, then reuse
   assert.deepEqual(next.questions.map(q=>q.id),first);
   assert.equal(new Set(next.history).size,questions.length-5);
   assert.equal(practiceQuestions(questions,{bad:'storage'},1).questions.length,5);
+});
+
+test('themed training sets split the bank and keep the other set’s history',()=>{
+  const {stadiums,legends}=TRAINING_SETS;
+  assert.equal(questions.filter(stadiums.includes).length+questions.filter(legends.includes).length,questions.length);
+  assert.ok(questions.filter(legends.includes).every(q=>q.year==='LEGENDS · BIRTHPLACES'));
+  const excluded=dailyQuestions(questions,dateAt(0)).map(q=>q.id);
+  const stadiumRound=practiceQuestions(questions,[],7,excluded,stadiums.includes);
+  assert.ok(stadiumRound.questions.every(stadiums.includes));
+  const legendRound=practiceQuestions(questions,stadiumRound.history,8,excluded,legends.includes);
+  assert.ok(legendRound.questions.every(legends.includes));
+  assert.deepEqual(legendRound.history.slice(0,5),stadiumRound.history);
 });

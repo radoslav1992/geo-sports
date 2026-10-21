@@ -10,7 +10,8 @@
 .intro-links { display: flex; flex-wrap: wrap; gap: 10px; }
 .intro-links a, .page-cta { display: inline-flex; align-items: center; gap: 8px; height: 42px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line-strong); color: var(--ink); font-size: 14px; font-weight: 600; text-decoration: none; }
 .intro-links a:hover { border-color: var(--accent); color: var(--accent); }
-.footer-links { display: flex; gap: 18px; }
+.footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; }
+.site-footer { height: auto; min-height: 60px; }
 .footer-links a { color: var(--ink-2); font-size: 12px; font-weight: 600; text-decoration: none; }
 .footer-links a:hover { color: var(--accent); }
 
@@ -42,6 +43,30 @@
 .page-footer { max-width: 780px; margin: 0 auto; padding: 0 24px 40px; display: flex; flex-wrap: wrap; gap: 18px; font-size: 13px; }
 .page-footer a { color: var(--ink-2); }
 
+/* Quiz landing pages: call-to-action row, quiz-mode cards and the warm-up clue. */
+.cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 24px 0; }
+.article .cta-row a.page-cta { margin-top: 0; }
+.ghost-cta, .article a.ghost-cta { display: inline-flex; align-items: center; gap: 8px; height: 42px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line-strong); color: var(--ink); font-size: 14px; font-weight: 600; text-decoration: none; }
+.ghost-cta:hover, .article a.ghost-cta:hover { border-color: var(--accent); color: var(--accent); }
+.seo-intro .quiz-modes { margin: 26px 0 18px; }
+.mode-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 16px 0 8px; }
+.mode-card, .article a.mode-card { display: flex; flex-direction: column; gap: 6px; padding: 18px; border-radius: 14px; border: 1px solid var(--line-strong); background: linear-gradient(160deg, rgba(18, 72, 47, .55), rgba(6, 16, 26, .2) 70%); color: var(--ink-2); font-size: 14px; line-height: 1.5; text-decoration: none; transition: border-color .2s, transform .2s; }
+.mode-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.mode-kicker { font: 600 13px var(--display); letter-spacing: 1.6px; color: var(--accent); }
+.mode-card strong { font: 700 24px/1.1 var(--display); letter-spacing: .2px; color: var(--ink); }
+.mode-link { margin-top: auto; padding-top: 6px; color: var(--accent); font-weight: 600; }
+.clue-card { position: relative; overflow: hidden; margin: 18px 0; padding: 22px 22px 18px; border-radius: var(--radius); border: 1px solid var(--line); background: linear-gradient(115deg, rgba(18, 72, 47, .45), transparent 42%), var(--surface-2); }
+.clue-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent), var(--cyan) 60%, transparent); }
+.clue-meta { margin-left: 10px; font-size: 12px; font-weight: 600; letter-spacing: 1.5px; color: var(--muted); }
+.article .clue-question { margin: 14px 0 10px; font: 700 clamp(24px, 3vw, 30px)/1.15 var(--display); letter-spacing: .2px; color: var(--ink); text-wrap: balance; }
+.clue-answer summary { margin-top: 14px; cursor: pointer; color: var(--accent); font-weight: 600; }
+.clue-answer table { margin-bottom: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .mode-card { transition: none; }
+  .mode-card:hover { transform: none; }
+}
+
 @media (max-width: 700px) {
   .seo-intro { padding: 22px 16px 4px; }
   .seo-intro h2 { font-size: 24px; }
@@ -51,4 +76,6 @@
   .page-header { padding: 14px 16px; }
   .page-header .cta-long { display: none; }
   .article { padding: 16px 16px 44px; font-size: 15px; }
+  .clue-card { padding: 18px 16px 14px; }
+  .clue-meta { display: block; margin: 8px 0 0; }
 }

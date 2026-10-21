@@ -1,0 +1,89 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import QuizModes from '../components/QuizModes.astro';
+import {questions} from '../data/questions.js';
+import {groundStories} from '../data/ground-stories.js';
+import {TRAINING_SETS, distanceKm, scoreGuess} from '../lib/game.js';
+const fmt = n => n.toLocaleString('en-US');
+const stadiums = questions.filter(TRAINING_SETS.stadiums.includes);
+const counts = Object.entries(Object.groupBy(stadiums, q => q.country)).map(([country, list]) => ({country, count: list.length}))
+  .sort((a, b) => b.count - a.count || a.country.localeCompare(b.country));
+const top = counts.slice(0, 15), rest = counts.slice(15).map(c => c.country).sort((a, b) => a.localeCompare(b));
+const stories = Object.keys(groundStories).length, classics = stadiums.filter(q => !q.id.startsWith('ground-')).length;
+// Warm-up clue: Seoul is not an answer anywhere in the bank, so revealing it spoils no matchday.
+const seoul = [126.8972, 37.5683];
+const warmUp = Object.entries({Incheon: [126.7052, 37.4563], Busan: [129.0756, 35.1796], Tokyo: [139.6917, 35.6895]})
+  .map(([city, at]) => ({city, km: Math.round(distanceKm(at, seoul)), points: scoreGuess(at, seoul).points}));
+const near = scoreGuess([0, 0], [100 / 111.195, 0]).points;
+const faq = [
+  ['How many stadiums are in the quiz?', `${fmt(stadiums.length)} stadium clues from ${counts.length} countries and territories: ${fmt(stadiums.length - classics)} football grounds plus ${classics} classic World Cup and final venues.`],
+  ['Can I play only the stadium questions?', 'Yes. The “Play the stadium quiz” button opens a training ground with stadium clues only, as many rounds as you like, serving grounds you haven’t seen in this browser first.'],
+  ['Are stadiums in the daily matchday too?', 'Yes. Each daily matchday mixes stadiums, legends’ birthplaces and famous moments, five clues for everyone, new at 00:00 UTC.'],
+  ['Why does a clue use an old stadium name?', 'Grounds are listed by names they have been known by, which can include former sponsor names. Aim for the stadium site; the clue never claims a current sponsor or tenant.'],
+  ['How close do I need to be?', `Within 10 km scores the full 1,000 points, and points fall smoothly with distance: a pin 100 km away still earns ${fmt(near)}.`],
+  ['Is the stadium quiz free?', 'Yes. It runs in any modern browser with no account, no download and no time limit.'],
+];
+const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({'@type': 'Question', name: q, acceptedAnswer: {'@type': 'Answer', text: a}}))};
+---
+<ContentPage title="Guess the Stadium – Football Ground Quiz on a World Map" heading="Guess the stadium: football ground quiz" description={`Guess the stadium and pin it on the world map: ${fmt(stadiums.length)} football grounds in ${counts.length} countries, from World Cup final venues to lower-league favourites. Free to play.`} path="/stadium-quiz/" jsonLd={faqLd} ctaHref="/?train=stadiums" ctaLabel=" the stadium quiz">
+<p class="lede">How well do you know the world’s football grounds? Each clue names a stadium and its country. Drop a pin on the city where it stands and land within 10 km for the full 1,000 points.</p>
+
+<div class="stat-row">
+<div><strong>{fmt(stadiums.length)}</strong><span>stadium clues</span></div>
+<div><strong>{counts.length}</strong><span>countries and territories</span></div>
+<div><strong>{stories}</strong><span>grounds with a story clue</span></div>
+</div>
+
+<div class="cta-row"><a class="page-cta" href="/?train=stadiums">Play the stadium quiz <span aria-hidden="true">→</span></a><a class="ghost-cta" href="/">Or today’s daily matchday</a></div>
+
+<h2>How the stadium quiz works</h2>
+<ol>
+<li><strong>Read the clue.</strong> It names a ground and its country, or tells the story of a famous match played there.</li>
+<li><strong>Find the city.</strong> Drag and zoom the world map; country names appear as you zoom in. Tap to drop your football pin.</li>
+<li><strong>Watch the pass land.</strong> The map draws a line from your pin to the stadium and shows how many kilometres you were out.</li>
+<li><strong>Five clues, then full-time.</strong> Score up to 5,000 points a round, then go again: the training ground serves stadiums you haven’t seen yet.</li>
+</ol>
+
+<h2>Try a warm-up clue</h2>
+<p>This one isn’t in the quiz, so it won’t spoil a matchday. Have a guess before you reveal the answer.</p>
+<div class="clue-card">
+<span class="question_number">WARM-UP CLUE</span><span class="clue-meta">GROUNDS · NOT IN THE QUIZ</span>
+<p class="clue-question">Find the football ground known as Seoul World Cup Stadium in South Korea. Which city is it associated with?</p>
+<p class="hint">Look in South Korea. The place name starts with “S”.</p>
+<details class="clue-answer"><summary>Reveal the answer</summary>
+<p><strong>Seoul.</strong> The stadium hosted the opening match of the 2002 World Cup, when Senegal beat the holders France 1–0. Here is what a few guesses would have scored:</p>
+<table>
+<thead><tr><th>Your pin</th><th>Distance</th><th>Points</th></tr></thead>
+<tbody>{warmUp.map(r => <tr><td>{r.city}</td><td>{fmt(r.km)} km</td><td>{fmt(r.points)}</td></tr>)}</tbody>
+</table>
+</details>
+</div>
+
+<h2>From World Cup finals to groundhopping favourites</h2>
+<p>The quiz covers {fmt(stadiums.length - classics)} football grounds from a pinned open dataset, from national stadiums to the homes of second- and third-tier clubs. {stories} of the best-known grounds come with a story clue instead of a name: a final, a famous match or a landmark fact, so you have to recognise the ground from its history. {classics} hand-written classics cover moments such as the 1950 “Maracanazo” and the 2022 World Cup final.</p>
+<p>No two stadium clues sit within 700 metres of each other, so every question has its own spot on the map. More about how the locations are checked is on the <a href="/about/">about the questions</a> page.</p>
+
+<h2>Countries in the stadium quiz</h2>
+<p>Europe’s big football nations have the most grounds, but the quiz travels to every continent.</p>
+<table>
+<thead><tr><th>Country</th><th>Stadium clues</th></tr></thead>
+<tbody>{top.map(c => <tr><td>{c.country}</td><td>{fmt(c.count)}</td></tr>)}</tbody>
+</table>
+<p>Plus {rest.length} more countries and territories, from {rest[0]} to {rest.at(-1)}.</p>
+
+<h2>Tips for finding a stadium</h2>
+<ul>
+<li><strong>Read the country first.</strong> Every ground clue names it, so zoom straight there before you think about the city.</li>
+<li><strong>Look for a place in the name.</strong> Many grounds carry the name of their town, district or street; others are named after a club founder or a famous player.</li>
+<li><strong>National stadiums lean towards capitals.</strong> Story clues about cup finals and international matches often point to a country’s biggest city, but not always.</li>
+<li><strong>Close still counts.</strong> The right region earns most of the points, so commit to your best guess rather than skipping.</li>
+<li><strong>Take an assist when stuck.</strong> It shows the region and the first letter of the city, and caps that clue at 800 points.</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+<dl class="faq">{faq.map(([q, a]) => <><dt>{q}</dt><dd>{a}</dd></>)}</dl>
+
+<QuizModes current="/stadium-quiz/"/>
+
+<div class="cta-row"><a class="page-cta" href="/?train=stadiums">Play the stadium quiz <span aria-hidden="true">→</span></a><a class="ghost-cta" href="/how-to-play/">Rules and scoring</a></div>
+</ContentPage>

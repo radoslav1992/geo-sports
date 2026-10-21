@@ -48,6 +48,7 @@ Alternatively, Cloudflare **Pages** can build with `npm run build` and publish o
 - Five daily clues from a frozen 395-day calendar starting 29 September 2026. All 1,975 questions appear once per cycle, so no daily question repeats for 395 days (more than a year). Resets at 00:00 UTC without rebuilding.
 - Training uses browser-local question history, selecting unseen questions before revisiting the oldest. It excludes the current daily set. Returning to Daily restores its saved progress.
 - Within 10 km of the venue: 1,000 points. Beyond that: `round(1000 × exp(-(distanceKm - 10)/1800))`.
+- Themed training grounds: `/?train=stadiums` (grounds and classic venues) and `/?train=legends` (birthplaces) serve only that kind of clue. They share the same training history, so a themed round never wipes what the other set has already shown. The sets are defined once in `TRAINING_SETS` (`src/lib/game.js`).
 - A hint reduces that question's maximum to 800; no timer or speed bonus.
 - One tap locks a guess in. Players who prefer to adjust their pin first can tick **Confirm before locking in** (saved in the browser).
 - Each reveal flies the map in to frame both pins, draws the great-circle "pass" from guess to answer, drops the answer pin, then shows the result and counts the score up. Any pan or zoom finishes the animation instantly; reduced-motion settings skip it.
@@ -84,6 +85,7 @@ The interactive map is built from Natural Earth's country boundaries through `wo
 
 - `src/pages/index.astro` — focused play screen and dialogs
 - `src/pages/how-to-play.astro`, `about.astro` — crawlable guide pages; `sitemap.xml.js`, `robots.txt.js` — generated from `src/lib/seo.js`
+- `src/pages/stadium-quiz.astro`, `footballer-birthplace-quiz.astro` — quiz landing pages that open the themed training grounds; `src/components/QuizModes.astro` links all ways to play
 - `src/components/WorldMap.astro` — server-rendered geographic paths
 - `src/styles/quizo-adapted.css` — selected purchased-template styles
 - `src/styles/global.css` — responsive application design
@@ -106,7 +108,7 @@ Football progress and stats use separate `geo-football-*-v1` browser keys. Earli
 
 ## SEO and discovery
 
-The public address is set once in `src/lib/seo.js` (`https://geofootball.net`), which also lists the indexable pages. From it the build generates `/sitemap.xml` and `/robots.txt`, and every page gets a canonical URL, Open Graph and Twitter card tags (with a 1200×630 `og-image.png`), icons and a web app manifest. The game page adds `WebSite` and `WebApplication`/`VideoGame` structured data, a real page heading and a short crawlable introduction; `/how-to-play/` and `/about/` are static guide pages with breadcrumbs; the 404 page is `noindex`. To add a page, create it under `src/pages/` and add its path to `PAGES` (a test checks both). `scripts/build-social-images.mjs` re-renders the share image and icons with Playwright when the brand changes; the PNGs are committed.
+The public address is set once in `src/lib/seo.js` (`https://geofootball.net`), which also lists the indexable pages. From it the build generates `/sitemap.xml` and `/robots.txt`, and every page gets a canonical URL, Open Graph and Twitter card tags (with a 1200×630 `og-image.png`), icons and a web app manifest. The game page adds `WebSite`, `Organization` and `WebApplication`/`VideoGame` structured data (with `GeoFootball` as an alternate name, since people search both spellings), a real page heading and a short crawlable introduction. `/stadium-quiz/` and `/footballer-birthplace-quiz/` are landing pages for non-brand searches (“guess the stadium”, “where was … born”): counts come from the question bank, the warm-up clues use places that are not answers in the bank so no matchday is spoiled, and their CTAs open the matching training ground. `/how-to-play/` and `/about/` are static guide pages; content pages carry breadcrumbs, and pages with a visible FAQ add `FAQPage` data; the 404 page is `noindex`. To add a page, create it under `src/pages/` and add its path to `PAGES` (a test checks both). `scripts/build-social-images.mjs` re-renders the share image and icons with Playwright when the brand changes; the PNGs are committed.
 
 After deploying, add the site to Google Search Console and Bing Webmaster Tools and submit `https://geofootball.net/sitemap.xml`.
 
