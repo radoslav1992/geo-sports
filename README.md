@@ -77,7 +77,17 @@ Every daily set except the three legacy days contains five different football na
 
 Data provenance, historical-name caveats, coordinate checks, import commands, and maintenance rules are documented in [docs/QUESTION-BANK.md](docs/QUESTION-BANK.md).
 
-Answers and scoring run in the browser. This release is suitable for casual play and the initial design launch; it is not cheat-resistant competitive scoring. A public leaderboard would require server-side answer validation and shared storage. There are no accounts, subscriptions or advertising. Google Analytics (`G-QNZZDM7MD1`, in `src/components/Seo.astro`) measures page visits on every page; answers and scores are never sent.
+Answers and scoring run in the browser. This release is suitable for casual play and the initial design launch; it is not cheat-resistant competitive scoring. A public leaderboard would require server-side answer validation and shared storage. There are no accounts or subscriptions. Google Analytics (`G-QNZZDM7MD1`, in `src/components/Seo.astro`) measures page visits on every page; answers and scores are never sent. The site shows Adsterra ads (see [Advertising](#advertising)) and explains both at `/privacy/`.
+
+## Advertising
+
+Adsterra banner and native units are configured in `src/lib/ads.js` (unit keys from the Adsterra publisher dashboard) and rendered by `src/components/AdSlot.astro`:
+
+- **Game page (`/`):** one leaderboard below the intro text, under the full-height game board, so it never overlaps or shrinks the map, question panel, controls or dialogs. It sits below the fold on every screen size.
+- **Content pages** (how to play, about, stadium quiz, birthplace quiz): a 300×250 rectangle after the first main section, a native unit before the FAQ or related links, and a leaderboard before the footer (`ContentPage` adds it; pass `ads={false}` to opt out, as `/privacy/` does).
+- **No ads** on the 404 page, in headers, next to Play buttons, or as pop-ups, pop-unders, interstitials or sticky bars.
+- The leaderboard serves 728×90 on screens 800 px and wider and 320×50 on phones. Each slot reserves its size before loading, so the page never jumps.
+- Ad scripts load only when a slot nears the viewport, one banner at a time (Adsterra snippets share a global `atOptions`), and only on `geofootball.net`, so local and preview builds stay ad-free.
 
 The interactive map is built from Natural Earth's country boundaries through `world-atlas`, with D3 projection. It is an approximate low-resolution world map, not a street map. Fonts are bundled locally. There are no external font, tile or API requests during gameplay; the only third-party request is the Google tag.
 
