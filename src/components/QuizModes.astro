@@ -1,0 +1,14 @@
+---
+// Links between the daily matchday and the themed quizzes. `current` leaves out the page you are on.
+import {questions} from '../data/questions.js';
+import {TRAINING_SETS} from '../lib/game.js';
+interface Props {current?: string; heading?: string}
+const {current, heading = 'More ways to play'} = Astro.props;
+const count = key => questions.filter(TRAINING_SETS[key].includes).length.toLocaleString('en-US');
+const modes = [
+  {path: '/', kicker: 'DAILY MATCHDAY', title: 'Five new clues every day', text: 'One mixed set of stadiums, legends and famous moments for everyone. New at 00:00 UTC.', link: 'Play today’s matchday'},
+  {path: '/stadium-quiz/', kicker: `${count('stadiums')} GROUNDS`, title: 'Guess the stadium', text: 'Pin football grounds past and present, from World Cup final venues to lower-league favourites.', link: 'Stadium quiz'},
+  {path: '/footballer-birthplace-quiz/', kicker: `${count('legends')} LEGENDS`, title: 'Where were they born?', text: 'Find the hometowns of famous footballers and coaches from the men’s and women’s game.', link: 'Birthplace quiz'},
+].filter(mode => mode.path !== current);
+---
+<section class="quiz-modes" aria-labelledby="quiz-modes-title"><h2 id="quiz-modes-title">{heading}</h2><div class="mode-cards">{modes.map(mode => <a class="mode-card" href={mode.path}><span class="mode-kicker">{mode.kicker}</span><strong>{mode.title}</strong><span>{mode.text}</span><span class="mode-link">{mode.link} <span aria-hidden="true">→</span></span></a>)}</div></section>

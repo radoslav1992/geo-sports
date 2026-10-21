@@ -3,7 +3,7 @@ import {createSharing} from './lib/share-ui.js';
 import {scoreBand} from './lib/share.js';
 import {createSound} from './lib/sound.js';
 import {questions} from './data/questions.js';
-import {dailyQuestions,dayKey,newRound,validateRound,completeGuess,advanceRound,totalPoints,practiceQuestions,matchdayNumber,streaks} from './lib/game.js';
+import {dailyQuestions,dayKey,newRound,validateRound,completeGuess,advanceRound,totalPoints,practiceQuestions,TRAINING_SETS,matchdayNumber,streaks} from './lib/game.js';
 import {createWorldMap} from './lib/map.js';
 const icons={ChartNoAxesColumnIncreasing,CircleHelp,Trophy,Flag,MousePointer2,Plus,Minus,Maximize,LocateFixed,Check,MapPin,ArrowRight,Lightbulb,RotateCcw,X,Copy,Share2,Download,MessageCircle,CalendarDays,Volume2,VolumeX};
 const $=id=>document.getElementById(id),text=(id,value)=>$(id).textContent=value,fmt=n=>Math.round(n).toLocaleString('en-US');
@@ -14,6 +14,8 @@ const byId=new Map(questions.map(q=>[q.id,q]));let activeDate=dayKey(),mode='dai
 let daily=validateRound(storage.read('geo-football-daily-v1'),questions,activeDate)||newRound(dailyQuestions(questions,activeDate),activeDate);
 let round=daily;
 let storageNoticeShown=false;
+// Landing pages open a themed training ground, e.g. /?train=stadiums.
+const trainKey=new URLSearchParams(location.search).get('train')??'',trainingSet=Object.hasOwn(TRAINING_SETS,trainKey)?TRAINING_SETS[trainKey]:null;
 // One tap locks a guess in unless the player asks to confirm first.
 const settings={confirm:false,...storage.read('geo-football-settings-v1')};
 function toast(message){clearTimeout(toastTimer);text('toast',message);$('toast').hidden=false;toastTimer=setTimeout(()=>$('toast').hidden=true,4000)}
@@ -30,7 +32,7 @@ function render(animate=null){
  document.body.classList.toggle('revealed',revealed);text('q-number',`QUESTION ${index+1} / 5`);text('sport',q.sport);text('year',q.year);text('question',q.question);
  const number=matchdayNumber(round.date);
  text('round-number',mode==='daily'&&number>=1?`#${number}`:'');text('round-date',mode==='daily'?new Date(round.date+'T12:00:00Z').toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'}):'Free play');
- text('round-note',mode==='daily'?'Same five questions for everyone · Resets at 00:00 UTC':'Training ground · Practice your football geography');
+ text('round-note',mode==='daily'?'Same five questions for everyone · Resets at 00:00 UTC':trainingSet?`Training ground · ${trainingSet.label} only`:'Training ground · Practice your football geography');
  for(const name of ['daily','practice']){$(name+'-tab').classList.toggle('active',mode===name);$(name+'-tab').setAttribute('aria-pressed',String(mode===name))}
  [...$('steps').children].forEach((el,i)=>{const done=i<round.results.length;el.className='step'+(done?' done':i===index?' current':'');if(done)el.dataset.band=scoreBand(round.results[i].points);else delete el.dataset.band;el.setAttribute('aria-label',`Question ${i+1}${done?' completed':i===index?' current':''}`)});
  $('hint').hidden=!round.hinted||revealed;text('hint',q.hint);$('hint-button').hidden=revealed;$('hint-button').disabled=round.hinted;$('hint-button').style.opacity=round.hinted?'.5':'1';$('new-practice').hidden=mode!=='practice';
@@ -65,7 +67,7 @@ $('results-dialog').addEventListener('close',()=>clearInterval(countdownTimer));
 function ensureDate(){if(mode!=='daily'||dayKey()===activeDate)return false;activeDate=dayKey();daily=newRound(dailyQuestions(questions,activeDate),activeDate);round=daily;persist();render();toast('A new daily round is ready. It’s midnight UTC.');return true;}
 $('submit').onclick=()=>{if(ensureDate())return;if(round.phase==='complete'){showResults();return}if(round.phase==='guess'){lockIn();return}round=advanceRound(round);persist();if(round.phase==='complete'){render();sound.fullTime();showResults()}else{render('next');$('question').focus({preventScroll:true});$('question-panel').scrollIntoView({behavior:'smooth',block:'nearest'})}};
 $('hint-button').onclick=()=>{if(ensureDate()||round.phase!=='guess'||round.hinted)return;round={...round,hinted:true};persist();$('hint').hidden=false;text('hint',currentQuestion().hint);$('hint-button').disabled=true;$('hint-button').style.opacity='.5';};
-function switchMode(target,fresh=false){if(target===mode&&!fresh)return;persist();mode=target;if(target==='daily'){if(dayKey()!==activeDate){activeDate=dayKey();daily=newRound(dailyQuestions(questions,activeDate),activeDate)}round=daily}else{if(!practice||fresh){const seed=crypto.getRandomValues(new Uint32Array(1))[0];const selection=practiceQuestions(questions,storage.read('geo-football-practice-history-v1'),seed,dailyQuestions(questions,dayKey()).map(q=>q.id));storage.write('geo-football-practice-history-v1',selection.history);practice=newRound(selection.questions,dayKey(),'practice')}round=practice}render();if(round.phase==='complete')showResults();}
+function switchMode(target,fresh=false){if(target===mode&&!fresh)return;persist();mode=target;if(target==='daily'){if(dayKey()!==activeDate){activeDate=dayKey();daily=newRound(dailyQuestions(questions,activeDate),activeDate)}round=daily}else{if(!practice||fresh){const seed=crypto.getRandomValues(new Uint32Array(1))[0];const selection=practiceQuestions(questions,storage.read('geo-football-practice-history-v1'),seed,dailyQuestions(questions,dayKey()).map(q=>q.id),trainingSet?.includes);storage.write('geo-football-practice-history-v1',selection.history);practice=newRound(selection.questions,dayKey(),'practice')}round=practice}render();if(round.phase==='complete')showResults();}
 $('daily-tab').onclick=()=>switchMode('daily');$('practice-tab').onclick=()=>switchMode('practice');$('new-practice').onclick=()=>$('switch-dialog').showModal();$('confirm-practice').onclick=()=>{$('switch-dialog').close();switchMode('practice',true)};$('play-again').onclick=()=>{$('results-dialog').close();switchMode('practice',true);window.scrollTo({top:0,behavior:'smooth'})};
 $('help-button').onclick=()=>$('help-dialog').showModal();$('stats-button').onclick=stats;
 const renderSound=()=>{$('sound-button').setAttribute('aria-pressed',String(sound.muted));$('sound-button').setAttribute('aria-label',sound.muted?'Turn sounds on':'Mute sounds')};
@@ -74,4 +76,4 @@ $('confirm-toggle').checked=settings.confirm;$('confirm-toggle').onchange=e=>{se
 for(const btn of document.querySelectorAll('[data-close]'))btn.onclick=()=>$(btn.dataset.close).close();
 for(const dialog of document.querySelectorAll('dialog'))dialog.addEventListener('click',e=>{if(e.target!==dialog)return;const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close()});
 document.addEventListener('visibilitychange',()=>{if(!document.hidden&&mode==='daily')ensureDate()});
-render();if(round.phase==='complete')showResults();
+if(trainingSet)switchMode('practice');else{render();if(round.phase==='complete')showResults();}

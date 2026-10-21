@@ -1,5 +1,6 @@
 ---
 import ContentPage from '../layouts/ContentPage.astro';
+import QuizModes from '../components/QuizModes.astro';
 import {questions} from '../data/questions.js';
 import {scoreGuess, DAILY_REPEAT_DAYS} from '../lib/game.js';
 // Scoring rows come from the game's own scoring function, so the table can never drift from play.
@@ -15,9 +16,12 @@ const faq = [
   ['What does an assist do?', 'It reveals the country or region and the first letter of the answer, and caps that question at 800 points instead of 1,000.'],
   ['Where are my stats saved?', 'In your own browser. Streaks, best score and average stay on the device you play on; your answers and scores are never uploaded.'],
   ['Can I practise?', 'Yes. The training ground serves new questions you haven’t seen in this browser, as often as you like, without affecting your daily stats.'],
+  ['Can I play only stadiums or only legends?', 'Yes. The stadium quiz and the footballer birthplace quiz each open a training ground with just that kind of clue. The daily matchday always mixes both.'],
+  ['Is Geo Football the same as GeoFootball?', 'Yes. Geo Football is the name of the game and geofootball.net is its home; both spellings lead to the same daily quiz.'],
 ];
+const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({'@type': 'Question', name: q, acceptedAnswer: {'@type': 'Answer', text: a}}))};
 ---
-<ContentPage title="How to Play Geo Football – Rules, Scoring and Tips" heading="How to play" description="How the Geo Football daily quiz works: read a football clue, pin it on the world map and score up to 1,000 points. Scoring table, assists, streaks and FAQ." path="/how-to-play/">
+<ContentPage title="How to Play Geo Football – Rules, Scoring Table & Tips" heading="How to play" description="How the Geo Football daily quiz works: read a football clue, pin it on the world map and score up to 1,000 points. Scoring table, assists, streaks and FAQ." path="/how-to-play/" jsonLd={faqLd}>
 <p class="lede">Geo Football is a daily football geography quiz. Each matchday has five clues about the beautiful game: a legendary stadium, a player’s hometown, the scene of a famous final. Your job is to pin the place on the world map.</p>
 
 <h2>Quick start</h2>
@@ -44,6 +48,8 @@ const faq = [
 <p>The same five questions for everyone, numbered as matchdays (#1 was 29 September 2026). Days are built to mix countries and continents rather than five clues from one league. Finish every day to build your streak.</p>
 <h3>Training ground</h3>
 <p>Unlimited practice rounds drawn from the full question bank, prioritising questions you haven’t seen in this browser. Training scores don’t count toward your daily stats.</p>
+<h3>Themed quizzes</h3>
+<p>Want one kind of clue? The <a href="/stadium-quiz/">stadium quiz</a> trains you on football grounds only, and the <a href="/footballer-birthplace-quiz/">footballer birthplace quiz</a> on legends’ hometowns only. Both use the same map, scoring and assists.</p>
 
 <h2>Controls and accessibility</h2>
 <ul>
@@ -55,6 +61,8 @@ const faq = [
 
 <h2>Frequently asked questions</h2>
 <dl class="faq">{faq.map(([q, a]) => <><dt>{q}</dt><dd>{a}</dd></>)}</dl>
+
+<QuizModes/>
 
 <p><a class="page-cta" href="/">Play today’s matchday →</a></p>
 </ContentPage>

@@ -13,20 +13,21 @@ import '../styles/global.css';
 import '../styles/football-theme.css';
 import '../styles/sharing.css';
 import '../styles/pages.css';
-interface Props {title: string; heading: string; description: string; path: string; jsonLd?: object}
-const {title, heading, description, path, jsonLd} = Astro.props;
+interface Props {title: string; heading: string; description: string; path: string; jsonLd?: object | object[]; ctaHref?: string; ctaLabel?: string}
+// The header button reads “Play” on phones and “Play” + ctaLabel on wider screens.
+const {title, heading, description, path, jsonLd, ctaHref = '/', ctaLabel = ' today’s matchday'} = Astro.props;
 const breadcrumbs = {'@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
   {'@type': 'ListItem', position: 1, name: SITE_NAME, item: absolute('/')},
   {'@type': 'ListItem', position: 2, name: heading, item: absolute(path)},
 ]};
 ---
-<!doctype html><html lang="en"><head><Seo title={title} description={description} path={path} jsonLd={jsonLd ? [breadcrumbs, jsonLd] : breadcrumbs}/></head>
+<!doctype html><html lang="en"><head><Seo title={title} description={description} path={path} jsonLd={jsonLd ? [breadcrumbs, ...[jsonLd].flat()] : breadcrumbs}/></head>
 <body>
-<header class="page-header"><a class="brand" href="/" aria-label="Geo Football home"><span class="brand-mark"><img src="/favicon.svg" alt="" width="40" height="45"/></span><span class="brand-type">GEO<span>FOOTBALL</span></span></a><a class="page-cta" href="/">Play<span class="cta-long"> today’s matchday</span> <span aria-hidden="true">→</span></a></header>
+<header class="page-header"><a class="brand" href="/" aria-label="Geo Football home"><span class="brand-mark"><img src="/favicon.svg" alt="" width="40" height="45"/></span><span class="brand-type">GEO<span>FOOTBALL</span></span></a><a class="page-cta" href={ctaHref}>Play<span class="cta-long">{ctaLabel}</span> <span aria-hidden="true">→</span></a></header>
 <main class="article">
 <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Geo Football</a> / {heading}</nav>
 <h1>{heading}</h1>
 <slot/>
 </main>
-<footer class="page-footer"><a href="/">Play the daily quiz</a><a href="/how-to-play/">How to play</a><a href="/about/">About the questions</a><a href="/data-licenses.txt">Data credits</a></footer>
+<footer class="page-footer"><a href="/">Play the daily quiz</a><a href="/stadium-quiz/">Stadium quiz</a><a href="/footballer-birthplace-quiz/">Footballer birthplace quiz</a><a href="/how-to-play/">How to play</a><a href="/about/">About the questions</a><a href="/data-licenses.txt">Data credits</a></footer>
 </body></html>
