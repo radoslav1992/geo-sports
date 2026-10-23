@@ -88,6 +88,7 @@ Adsterra banner and native units are configured in `src/lib/ads.js` (unit keys f
 - **No ads** on the 404 page, in headers, next to Play buttons, or as pop-ups, pop-unders, interstitials or sticky bars.
 - The leaderboard serves 728×90 on screens 800 px and wider and 320×50 on phones. Each slot reserves its size before loading, so the page never jumps.
 - Ad scripts load only when a slot nears the viewport, one banner at a time (Adsterra snippets share a global `atOptions`), and only on `geofootball.net`, so local and preview builds stay ad-free.
+- Students who arrive from Google Classroom, Canvas, or Schoology (or through a link carrying `?classroom`) browse ad-free on that device for 30 days: `src/components/AdFree.astro` runs in the page head (via `Seo.astro`) and marks the page `ad-free` before anything renders, so `AdSlot` neither shows nor loads ads.
 
 The interactive map is built from Natural Earth's country boundaries through `world-atlas`, with D3 projection. It is an approximate low-resolution world map, not a street map. Fonts are bundled locally. There are no external font, tile or API requests during gameplay; the only third-party request is the Google tag.
 

@@ -33,7 +33,8 @@ const {type = 'leaderboard'} = Astro.props;
       box.append(options, script);
     }));
   }
-  const live = location.hostname === ads.domain || location.hostname === `www.${ads.domain}`;
+  // Visitors from a school platform get no ads (see AdFree.astro).
+  const live = (location.hostname === ads.domain || location.hostname === `www.${ads.domain}`) && !document.documentElement.classList.contains('ad-free');
   const slots = document.querySelectorAll('.ad-slot');
   if (live && 'IntersectionObserver' in window) {
     const observer = new IntersectionObserver(entries => entries.forEach(entry => {
