@@ -2,6 +2,7 @@
 // Static, crawlable pages around the game. Same stylesheet stack as the game so bundled CSS keeps its order.
 import Seo from '../components/Seo.astro';
 import AdSlot from '../components/AdSlot.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 import {SITE_NAME, absolute} from '../lib/seo.js';
 import '@fontsource/dm-sans/400.css';
 import '@fontsource/dm-sans/500.css';
@@ -31,5 +32,6 @@ const breadcrumbs = {'@context': 'https://schema.org', '@type': 'BreadcrumbList'
 <slot/>
 </main>
 {ads && <AdSlot/>}
-<footer class="page-footer"><a href="/">Play the daily quiz</a><a href="/stadium-quiz/">Stadium quiz</a><a href="/footballer-birthplace-quiz/">Footballer birthplace quiz</a><a href="/how-to-play/">How to play</a><a href="/about/">About the questions</a><a href="/data-licenses.txt">Data credits</a><a href="/privacy/">Privacy</a></footer>
+<footer class="page-footer"><a href="/">Play the daily quiz</a><a href="/stadium-quiz/">Stadium quiz</a><a href="/footballer-birthplace-quiz/">Footballer birthplace quiz</a><a href="/how-to-play/">How to play</a><a href="/about/">About the questions</a><a href="/data-licenses.txt">Data credits</a><a href="/privacy/">Privacy</a><button type="button" class="footer-link-button" data-cookie-settings>Cookie settings</button></footer>
+<ConsentBanner/>
 </body></html>

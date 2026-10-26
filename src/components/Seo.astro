@@ -2,6 +2,7 @@
 // Shared <head> tags: canonical URL, social previews, icons, structured data and the Google tag.
 import {SITE_NAME, absolute} from '../lib/seo.js';
 import AdFree from './AdFree.astro';
+import ConsentDefaults from './ConsentDefaults.astro';
 interface Props {title: string; description: string; path: string; noindex?: boolean; jsonLd?: object}
 const {title, description, path, noindex = false, jsonLd} = Astro.props;
 const url = absolute(path), image = absolute('/og-image.png');
@@ -9,6 +10,7 @@ const url = absolute(path), image = absolute('/og-image.png');
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <AdFree/>
+<ConsentDefaults/>
 <title>{title}</title>
 <meta name="description" content={description}/>
 {noindex ? <meta name="robots" content="noindex"/> : <link rel="canonical" href={url}/>}
