@@ -1,10 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {existsSync} from 'node:fs';
+import {existsSync, readFileSync, readdirSync} from 'node:fs';
 import {SITE, PAGES, LAUNCH_DATE, absolute, sitemapXml, robotsTxt, llmsTxt, longDate} from '../src/lib/seo.js';
 import {homeFaq, guideFaq, faqJsonLd, siteStats} from '../src/data/faq.js';
 import {questions} from '../src/data/questions.js';
-import {DAILY_REPEAT_DAYS} from '../src/lib/game.js';
+import {DAILY_REPEAT_DAYS, TRAINING_SETS} from '../src/lib/game.js';
 
 test('sitemap lists every indexable page once with absolute https URLs', () => {
   const xml = sitemapXml(PAGES);
@@ -59,4 +59,10 @@ test('FAQ answers stand alone, never repeat across pages, and map to FAQPage que
   }
   assert.deepEqual(faqJsonLd(homeFaq.slice(0, 1)), [{'@type': 'Question', name: homeFaq[0][0], acceptedAnswer: {'@type': 'Answer', text: homeFaq[0][1]}}]);
   assert.ok(homeFaq.some(([, a]) => a.includes(questions.length.toLocaleString('en-US'))), 'the home FAQ quotes the live question count');
+});
+
+test('themed quiz links open a training set the game knows', () => {
+  const links = readdirSync('src/pages').filter(f => f.endsWith('.astro')).flatMap(f => [...readFileSync(`src/pages/${f}`, 'utf8').matchAll(/\/\?train=([\w-]+)/g)].map(m => m[1]));
+  assert.ok(links.length >= 2);
+  for (const key of links) assert.ok(Object.hasOwn(TRAINING_SETS, key), `unknown training set ${key}`);
 });

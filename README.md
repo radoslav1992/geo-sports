@@ -48,6 +48,7 @@ Alternatively, Cloudflare **Pages** can build with `npm run build` and publish o
 - Five daily clues from a frozen 395-day calendar starting 29 September 2026. All 1,975 questions appear once per cycle, so no daily question repeats for 395 days (more than a year). Resets at 00:00 UTC without rebuilding.
 - Training uses browser-local question history, selecting unseen questions before revisiting the oldest. It excludes the current daily set. Returning to Daily restores its saved progress.
 - Within 10 km of the venue: 1,000 points. Beyond that: `round(1000 × exp(-(distanceKm - 10)/1800))`.
+- Themed training grounds: `/?train=stadiums` (grounds and classic venues) and `/?train=legends` (birthplaces) serve only that kind of clue. They share the same training history, so a themed round never wipes what the other set has already shown. The sets are defined once in `TRAINING_SETS` (`src/lib/game.js`).
 - A hint reduces that question's maximum to 800; no timer or speed bonus.
 - One tap locks a guess in. Players who prefer to adjust their pin first can tick **Confirm before locking in** (saved in the browser).
 - Each reveal flies the map in to frame both pins, draws the great-circle "pass" from guess to answer, drops the answer pin, then shows the result and counts the score up. Any pan or zoom finishes the animation instantly; reduced-motion settings skip it.
@@ -76,7 +77,19 @@ Every daily set except the three legacy days contains five different football na
 
 Data provenance, historical-name caveats, coordinate checks, import commands, and maintenance rules are documented in [docs/QUESTION-BANK.md](docs/QUESTION-BANK.md).
 
-Answers and scoring run in the browser. This release is suitable for casual play and the initial design launch; it is not cheat-resistant competitive scoring. A public leaderboard would require server-side answer validation and shared storage. There are no accounts, subscriptions or advertising. Google Analytics (`G-QNZZDM7MD1`, in `src/components/Seo.astro`) measures page visits on every page; answers and scores are never sent.
+Answers and scoring run in the browser. This release is suitable for casual play and the initial design launch; it is not cheat-resistant competitive scoring. A public leaderboard would require server-side answer validation and shared storage. There are no accounts or subscriptions. Google Analytics (`G-QNZZDM7MD1`, in `src/components/Seo.astro`) measures page visits on every page; answers and scores are never sent. The site shows Adsterra ads (see [Advertising](#advertising)) and explains both at `/privacy/`.
+
+## Advertising
+
+Adsterra banner and native units are configured in `src/lib/ads.js` (unit keys from the Adsterra publisher dashboard) and rendered by `src/components/AdSlot.astro`:
+
+- **Game page (`/`):** one leaderboard below the intro text, under the full-height game board, so it never overlaps or shrinks the map, question panel, controls or dialogs. It sits below the fold on every screen size.
+- **Content pages** (how to play, about, stadium quiz, birthplace quiz): a 300×250 rectangle after the first main section, a native unit before the FAQ or related links, and a leaderboard before the footer (`ContentPage` adds it; pass `ads={false}` to opt out, as `/privacy/` does).
+- **No ads** on the 404 page, in headers, next to Play buttons, or as pop-ups, pop-unders, interstitials or sticky bars.
+- The leaderboard serves 728×90 on screens 800 px and wider and 320×50 on phones. Each slot reserves its size before loading, so the page never jumps.
+- Ad scripts load only when a slot nears the viewport, one banner at a time (Adsterra snippets share a global `atOptions`), and only on `geofootball.net`, so local and preview builds stay ad-free.
+- Students who arrive from Google Classroom, Canvas, or Schoology (or through a link carrying `?classroom`) browse ad-free on that device for 30 days: `src/components/AdFree.astro` runs in the page head (via `Seo.astro`) and marks the page `ad-free` before anything renders, so `AdSlot` neither shows nor loads ads.
+- Cookie consent: `src/components/ConsentDefaults.astro` runs in the page head (via `Seo.astro`, after `AdFree`) and sets Google Consent Mode v2 defaults — analytics and ad storage denied by default in the EEA, the UK and Switzerland, granted elsewhere — and restores a saved choice (`cookieConsent` in local storage, kept 180 days). Visitors whose time zone is in Europe see `src/components/ConsentBanner.astro`, a small non-blocking banner with equally weighted Accept and Reject buttons, on the game page and every content page. Until they accept, `AdSlot` neither shows nor loads ads; Reject keeps analytics cookie-free and shows no ads. *Cookie settings* in every footer reopens the banner, and accepting later starts ads without a reload. Students arriving from school platforms stay ad-free regardless of their choice.
 
 The interactive map is built from Natural Earth's country boundaries through `world-atlas`, with D3 projection. It is an approximate low-resolution world map, not a street map. Fonts are bundled locally. There are no external font, tile or API requests during gameplay; the only third-party request is the Google tag.
 
@@ -84,6 +97,7 @@ The interactive map is built from Natural Earth's country boundaries through `wo
 
 - `src/pages/index.astro` — focused play screen and dialogs
 - `src/pages/how-to-play.astro`, `about.astro` — crawlable guide pages; `sitemap.xml.js`, `robots.txt.js` — generated from `src/lib/seo.js`
+- `src/pages/stadium-quiz.astro`, `footballer-birthplace-quiz.astro` — quiz landing pages that open the themed training grounds; `src/components/QuizModes.astro` links all ways to play
 - `src/components/WorldMap.astro` — server-rendered geographic paths
 - `src/styles/quizo-adapted.css` — selected purchased-template styles
 - `src/styles/global.css` — responsive application design
@@ -106,7 +120,7 @@ Football progress and stats use separate `geo-football-*-v1` browser keys. Earli
 
 ## SEO and discovery
 
-The public address is set once in `src/lib/seo.js` (`https://geofootball.net`), which also lists the indexable pages. From it the build generates `/sitemap.xml` and `/robots.txt`, and every page gets a canonical URL, Open Graph and Twitter card tags (with a 1200×630 `og-image.png`), icons and a web app manifest. The game page adds `WebSite` and `WebApplication`/`VideoGame` structured data, a real page heading and a short crawlable introduction; `/how-to-play/` and `/about/` are static guide pages with breadcrumbs; the 404 page is `noindex`. To add a page, create it under `src/pages/` and add it to `PAGES` with its `published` and `updated` dates, a title and a summary (tests check these).
+The public address is set once in `src/lib/seo.js` (`https://geofootball.net`), which also lists the indexable pages. From it the build generates `/sitemap.xml` and `/robots.txt`, and every page gets a canonical URL, Open Graph and Twitter card tags (with a 1200×630 `og-image.png`), icons and a web app manifest. The game page adds `WebSite`, `Organization` and `WebApplication`/`VideoGame` structured data (with `GeoFootball` as an alternate name, since people search both spellings), a real page heading and a short crawlable introduction. `/stadium-quiz/` and `/footballer-birthplace-quiz/` are landing pages for non-brand searches (“guess the stadium”, “where was … born”): counts come from the question bank, the warm-up clues use places that are not answers in the bank so no matchday is spoiled, and their CTAs open the matching training ground. `/how-to-play/` and `/about/` are static guide pages; content pages carry breadcrumbs, and pages with a visible FAQ add `FAQPage` data; the 404 page is `noindex`. To add a page, create it under `src/pages/` and add it to `PAGES` with its `published` and `updated` dates, a title and a summary (tests check these). `scripts/build-social-images.mjs` re-renders the share image and icons with Playwright when the brand changes; the PNGs are committed.
 
 For AI search engines (ChatGPT, Perplexity, Google AI Overviews, Gemini, Claude) the build also generates `/llms.txt`, a plain summary with live question counts and links to each page. Every indexable page carries author and date signals: a visible byline with a `<time>` element, `meta name="author"`, `article:*` times on the guide pages, and a JSON-LD graph linking the publisher (`PUBLISHER` in `src/lib/seo.js`, which can be switched to a named person), the website and the page with `datePublished`/`dateModified`. The same `updated` date is the sitemap `<lastmod>`, so **bump `updated` in `PAGES` whenever a page's content changes**. The home page and `/how-to-play/` have question-and-answer FAQs with `FAQPage` markup; their copy lives in `src/data/faq.js`, where each answer is written to stand on its own when quoted. `scripts/build-social-images.mjs` re-renders the share image and icons with Playwright when the brand changes; the PNGs are committed.
 

@@ -17,7 +17,8 @@ p.byline { margin: 0 0 14px; font-size: 13px; color: var(--muted); }
 .faq p { margin: 0; }
 .intro-links a, .page-cta { display: inline-flex; align-items: center; gap: 8px; height: 42px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line-strong); color: var(--ink); font-size: 14px; font-weight: 600; text-decoration: none; }
 .intro-links a:hover { border-color: var(--accent); color: var(--accent); }
-.footer-links { display: flex; gap: 18px; }
+.footer-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; }
+.site-footer { height: auto; min-height: 60px; }
 .footer-links a { color: var(--ink-2); font-size: 12px; font-weight: 600; text-decoration: none; }
 .footer-links a:hover { color: var(--accent); }
 
@@ -50,6 +51,30 @@ p.byline { margin: 0 0 14px; font-size: 13px; color: var(--muted); }
 .page-footer { max-width: 780px; margin: 0 auto; padding: 0 24px 40px; display: flex; flex-wrap: wrap; gap: 18px; font-size: 13px; }
 .page-footer a { color: var(--ink-2); }
 
+/* Quiz landing pages: call-to-action row, quiz-mode cards and the warm-up clue. */
+.cta-row { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 24px 0; }
+.article .cta-row a.page-cta { margin-top: 0; }
+.ghost-cta, .article a.ghost-cta { display: inline-flex; align-items: center; gap: 8px; height: 42px; padding: 0 16px; border-radius: 999px; border: 1px solid var(--line-strong); color: var(--ink); font-size: 14px; font-weight: 600; text-decoration: none; }
+.ghost-cta:hover, .article a.ghost-cta:hover { border-color: var(--accent); color: var(--accent); }
+.seo-intro .quiz-modes { margin: 26px 0 18px; }
+.mode-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin: 16px 0 8px; }
+.mode-card, .article a.mode-card { display: flex; flex-direction: column; gap: 6px; padding: 18px; border-radius: 14px; border: 1px solid var(--line-strong); background: linear-gradient(160deg, rgba(18, 72, 47, .55), rgba(6, 16, 26, .2) 70%); color: var(--ink-2); font-size: 14px; line-height: 1.5; text-decoration: none; transition: border-color .2s, transform .2s; }
+.mode-card:hover { border-color: var(--accent); transform: translateY(-2px); }
+.mode-kicker { font: 600 13px var(--display); letter-spacing: 1.6px; color: var(--accent); }
+.mode-card strong { font: 700 24px/1.1 var(--display); letter-spacing: .2px; color: var(--ink); }
+.mode-link { margin-top: auto; padding-top: 6px; color: var(--accent); font-weight: 600; }
+.clue-card { position: relative; overflow: hidden; margin: 18px 0; padding: 22px 22px 18px; border-radius: var(--radius); border: 1px solid var(--line); background: linear-gradient(115deg, rgba(18, 72, 47, .45), transparent 42%), var(--surface-2); }
+.clue-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent), var(--cyan) 60%, transparent); }
+.clue-meta { margin-left: 10px; font-size: 12px; font-weight: 600; letter-spacing: 1.5px; color: var(--muted); }
+.article .clue-question { margin: 14px 0 10px; font: 700 clamp(24px, 3vw, 30px)/1.15 var(--display); letter-spacing: .2px; color: var(--ink); text-wrap: balance; }
+.clue-answer summary { margin-top: 14px; cursor: pointer; color: var(--accent); font-weight: 600; }
+.clue-answer table { margin-bottom: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .mode-card { transition: none; }
+  .mode-card:hover { transform: none; }
+}
+
 @media (max-width: 700px) {
   .seo-intro { padding: 22px 16px 4px; }
   .seo-intro h2 { font-size: 24px; }
@@ -59,4 +84,25 @@ p.byline { margin: 0 0 14px; font-size: 13px; color: var(--muted); }
   .page-header { padding: 14px 16px; }
   .page-header .cta-long { display: none; }
   .article { padding: 16px 16px 44px; font-size: 15px; }
+  .clue-card { padding: 18px 16px 14px; }
+  .clue-meta { display: block; margin: 8px 0 0; }
 }
+
+/* Adsterra slots (src/components/AdSlot.astro): fixed space reserved before the ad loads, so nothing jumps. */
+.ad-slot { display: flex; flex-direction: column; align-items: center; gap: 6px; margin: 36px auto; max-width: 100%; overflow: hidden; }
+.ad-label { font: 600 11px var(--display); letter-spacing: 2px; text-transform: uppercase; color: var(--muted); }
+.ad-unit { display: flex; justify-content: center; max-width: 100%; border-radius: var(--radius-sm); background: rgba(12, 26, 41, .55); }
+.ad-leaderboard .ad-unit { width: 320px; min-height: 50px; }
+.ad-rectangle .ad-unit { width: 300px; min-height: 250px; }
+.ad-native { width: 100%; }
+.ad-native .ad-unit { width: 100%; display: block; background: none; }
+@media (min-width: 800px) { .ad-leaderboard .ad-unit { width: 728px; min-height: 90px; } }
+.ad-free .ad-slot, .consent-pending .ad-slot, .consent-denied .ad-slot { display: none; }
+@media print { .ad-slot { display: none; } }
+
+/* Cookie consent (src/components/ConsentBanner.astro): banner colours from the floodlit theme, and the footer button. */
+:root { --consent-bg: #0c1a29; --consent-fg: #f3f8fc; --consent-line: #2d4b69; --consent-accent: #b5f36a; --consent-accent-fg: #10230d; }
+.footer-link-button { all: unset; cursor: pointer; color: var(--ink-2); font-size: 12px; font-weight: 600; white-space: nowrap; }
+.page-footer .footer-link-button { font-size: 13px; font-weight: 400; text-decoration: underline; }
+.footer-link-button:hover { color: var(--accent); }
+.footer-link-button:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }

@@ -47,13 +47,20 @@ export function dailyQuestions(pool, date) {
   });
 }
 
+// Themed training grounds, opened from the quiz landing pages with /?train=<key>.
+export const TRAINING_SETS = {
+  stadiums: {label: 'Stadiums', includes: q => !q.id.startsWith('legend-')},
+  legends: {label: 'Legends', includes: q => q.id.startsWith('legend-')},
+};
+
 // Local training history is separate from the shared daily calendar.
-export function practiceQuestions(pool, history, seed, excludeIds = []) {
+// `includes` narrows the candidates only, so a themed round keeps the history of every other question.
+export function practiceQuestions(pool, history, seed, excludeIds = [], includes = () => true) {
   const available = new Map(pool.map(q => [q.id, q]));
   const seen = [...new Set((Array.isArray(history) ? history : []).filter(id => available.has(id)))];
   const recency = new Map(seen.map((id, index) => [id, index]));
   const excluded = new Set(excludeIds);
-  const candidates = shuffle(pool.filter(q => !excluded.has(q.id)), seed);
+  const candidates = shuffle(pool.filter(q => !excluded.has(q.id) && includes(q)), seed);
   if (candidates.length < ROUND_SIZE) throw new Error('Not enough questions for a training round.');
   // Unseen first; after exhaustion, revisit the least recently selected questions.
   candidates.sort((a, b) => (recency.get(a.id) ?? -1) - (recency.get(b.id) ?? -1));

@@ -12,6 +12,7 @@ export const homeFaq = [
   ['When does a new Geo Football quiz come out?', 'A new matchday of five questions starts every day at 00:00 UTC. Everyone in the world plays the same five questions that day, so you can compare scores with friends.'],
   ['How many questions are there, and do they repeat?', `There are ${total} questions from ${countries} countries and territories. The daily calendar works through all of them before any comes back, so no daily question repeats for ${DAILY_REPEAT_DAYS} days.`],
   ['Do I need an account or an app to play?', 'No. Geo Football runs in any modern browser on a phone or computer, with no sign-up and no download. Your streak and stats are saved in your own browser.'],
+  ['Is Geo Football the same as GeoFootball?', 'Yes. Geo Football is the name of the game and geofootball.net is its home; both spellings lead to the same daily quiz.'],
 ];
 
 export const guideFaq = [
@@ -20,6 +21,7 @@ export const guideFaq = [
   ['Can I share my score without spoiling the answers?', 'Yes. The shared result shows the matchday number, five coloured tiles, your total points and your streak, but never the clues, answers or places.'],
   ['Where are my stats saved?', 'In your own browser. Streaks, best score and average stay on the device you play on; your answers and scores are never uploaded.'],
   ['Can I practise?', 'Yes. The training ground serves new questions you haven’t seen in this browser, as often as you like, without affecting your daily stats.'],
+  ['Can I play only stadiums or only legends?', 'Yes. The stadium quiz and the footballer birthplace quiz each open a training ground with just that kind of clue. The daily matchday always mixes both.'],
 ];
 
 export const faqJsonLd = faq => faq.map(([name, text]) => ({'@type': 'Question', name, acceptedAnswer: {'@type': 'Answer', text}}));

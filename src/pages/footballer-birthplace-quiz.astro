@@ -1,0 +1,85 @@
+---
+import ContentPage from '../layouts/ContentPage.astro';
+import QuizModes from '../components/QuizModes.astro';
+import AdSlot from '../components/AdSlot.astro';
+import {questions} from '../data/questions.js';
+import {TRAINING_SETS, scoreGuess} from '../lib/game.js';
+const fmt = n => n.toLocaleString('en-US');
+const legends = questions.filter(TRAINING_SETS.legends.includes);
+const counts = Object.entries(Object.groupBy(legends, q => q.country)).map(([country, list]) => ({country, count: list.length}))
+  .sort((a, b) => b.count - a.count || a.country.localeCompare(b.country));
+const top = counts.slice(0, 12), rest = counts.slice(12).map(c => c.country).sort((a, b) => a.localeCompare(b));
+// Lower bound: clues worded “were both/all born” bring several players together.
+const shared = Math.floor(legends.filter(q => /were (all|both) born/.test(q.question)).length / 10) * 10;
+// Points for a pin this many kilometres away, from the game's own scoring.
+const pointsAt = km => scoreGuess([0, 0], [km / 111.195, 0]).points;
+const faq = [
+  ['How many footballers are in the quiz?', `${fmt(legends.length)} birthplace clues from ${counts.length} countries, covering legends of the men’s and women’s game, from World Cup winners and Ballon d’Or holders to famous coaches.`],
+  ['Why do some clues name more than one player?', `When several stars were born in the same place, they share one clue, so every question has its own spot on the map. More than ${shared} clues bring two or more players together.`],
+  ['Where do the birthplace locations come from?', 'Every pin comes from the GeoNames gazetteer rather than being typed from memory. Towns that couldn’t be matched with confidence were left out.'],
+  ['Can I play only the legends questions?', 'Yes. The “Play the birthplace quiz” button opens a training ground with legends clues only, serving players you haven’t seen in this browser first.'],
+  ['Are legends in the daily matchday too?', 'Yes. Each daily matchday mixes legends’ birthplaces with stadiums and famous moments, the same five clues for everyone.'],
+  ['Is the birthplace quiz free?', 'Yes. It runs in any modern browser with no account, no download and no time limit.'],
+];
+---
+<ContentPage title="Footballer Birthplace Quiz – Where Were the Legends Born?" heading="Where were they born? Footballer birthplace quiz" description={`Where was Pelé born? Pin the hometowns of football legends on the map: ${fmt(legends.length)} birthplace clues from ${counts.length} countries, men’s and women’s game. Free, no sign-up.`} path="/footballer-birthplace-quiz/" faq={faq} ctaHref="/?train=legends" ctaLabel=" the birthplace quiz">
+<p class="lede">Every football legend started somewhere. Each clue tells you who was born there and what they went on to win; your job is to pin the town or city on the world map.</p>
+
+<div class="stat-row">
+<div><strong>{fmt(legends.length)}</strong><span>birthplace clues</span></div>
+<div><strong>{counts.length}</strong><span>countries</span></div>
+<div><strong>{fmt(pointsAt(100))}</strong><span>points for a pin 100 km away</span></div>
+</div>
+
+<div class="cta-row"><a class="page-cta" href="/?train=legends">Play the birthplace quiz <span aria-hidden="true">→</span></a><a class="ghost-cta" href="/">Or today’s daily matchday</a></div>
+
+<h2>How the birthplace quiz works</h2>
+<ol>
+<li><strong>Read the clue.</strong> It names the player, a career highlight and usually the region, but never the town itself.</li>
+<li><strong>Pin the hometown.</strong> Zoom into the region and tap where you think they were born.</li>
+<li><strong>See how close you got.</strong> Within 10 km scores 1,000 points; {fmt(pointsAt(100))} at 100 km; {fmt(pointsAt(500))} at 500 km.</li>
+<li><strong>Keep the run going.</strong> Five clues a round, and the training ground serves legends you haven’t met yet.</li>
+</ol>
+
+<AdSlot type="rectangle"/>
+
+<h2>Try a warm-up clue</h2>
+<p>This player isn’t in the quiz, so it won’t spoil a matchday. Have a guess before you reveal the answer.</p>
+<div class="clue-card">
+<span class="question_number">WARM-UP CLUE</span><span class="clue-meta">LEGENDS · NOT IN THE QUIZ</span>
+<p class="clue-question">Garrincha, the winger who won the 1958 and 1962 World Cups with Brazil, was born in this village in Rio de Janeiro state in 1933. Find it.</p>
+<p class="hint">Look in Rio de Janeiro, Brazil. The place name starts with “P”.</p>
+<details class="clue-answer"><summary>Reveal the answer</summary>
+<p><strong>Pau Grande</strong>, a village in the municipality of Magé, north of Guanabara Bay. A pin on the city of Rio de Janeiro would be close enough for a strong score; a pin in São Paulo, several hundred kilometres away, would still earn points.</p>
+</details>
+</div>
+
+<h2>Legends from the men’s and women’s game</h2>
+<p>The quiz covers World Cup winners, Ballon d’Or holders, record goalscorers and famous coaches, from pre-war heroes to today’s stars. Women’s football has its own legends in the bank, such as the first winner of the women’s Ballon d’Or. Clues stick to widely documented facts: titles, awards, records and birth years.</p>
+<p>Where several players share a hometown, they share one clue, so a single pin can stand for several famous names. That keeps every question on its own spot on the map and makes the famous football cities count once, not five times.</p>
+
+<h2>Countries in the birthplace quiz</h2>
+<table>
+<thead><tr><th>Country</th><th>Birthplace clues</th></tr></thead>
+<tbody>{top.map(c => <tr><td>{c.country}</td><td>{fmt(c.count)}</td></tr>)}</tbody>
+</table>
+<p>Plus {rest.length} more countries, from {rest[0]} to {rest.at(-1)}.</p>
+
+<h2>Tips for finding a birthplace</h2>
+<ul>
+<li><strong>Use the region in the clue.</strong> Most clues name a state, province or part of the country. Zoom there first.</li>
+<li><strong>Don’t default to the famous club.</strong> Many players were born far from the city where they became stars, often in small towns and suburbs.</li>
+<li><strong>Read every name.</strong> A clue that groups several players is often a big football city; a single name and a village points somewhere smaller.</li>
+<li><strong>Close still counts.</strong> The right region earns most of the points, so commit to your best guess.</li>
+<li><strong>Take an assist when stuck.</strong> It shows the region and the first letter of the place, and caps that clue at 800 points.</li>
+</ul>
+
+<AdSlot type="native"/>
+
+<h2>Frequently asked questions</h2>
+<div class="faq">{faq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}</div>
+
+<QuizModes current="/footballer-birthplace-quiz/"/>
+
+<div class="cta-row"><a class="page-cta" href="/?train=legends">Play the birthplace quiz <span aria-hidden="true">→</span></a><a class="ghost-cta" href="/how-to-play/">Rules and scoring</a></div>
+</ContentPage>

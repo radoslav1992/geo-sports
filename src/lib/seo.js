@@ -1,20 +1,28 @@
 // Single source for the public address, the publisher and the indexable pages (sitemap, robots, llms.txt, head tags).
 export const SITE = 'https://geofootball.net';
 export const SITE_NAME = 'Geo Football';
+// People search the domain spelling too; structured data lists both.
+export const SITE_ALT_NAMES = ['GeoFootball', 'geofootball.net'];
 export const LAUNCH_DATE = '2026-09-29'; // matchday #1
 // `published` and `updated` feed the visible bylines, structured data and sitemap <lastmod>: bump `updated` when a page's content changes.
 export const PAGES = [
-  {path: '/', changefreq: 'daily', priority: '1.0', published: '2026-09-29', updated: '2026-09-29',
+  {path: '/', changefreq: 'daily', priority: '1.0', published: '2026-09-29', updated: '2026-10-26',
     title: 'Play today’s matchday', summary: 'the daily five-question game, plus unlimited practice on the training ground'},
-  {path: '/how-to-play/', changefreq: 'monthly', priority: '0.8', published: '2026-09-28', updated: '2026-09-29',
+  {path: '/stadium-quiz/', changefreq: 'monthly', priority: '0.9', published: '2026-10-21', updated: '2026-10-21',
+    title: 'Guess the stadium quiz', summary: 'football grounds past and present, from World Cup final venues to lower-league favourites, with unlimited stadium-only rounds'},
+  {path: '/footballer-birthplace-quiz/', changefreq: 'monthly', priority: '0.9', published: '2026-10-21', updated: '2026-10-21',
+    title: 'Footballer birthplace quiz', summary: 'the hometowns of famous footballers and coaches from the men’s and women’s game, with unlimited legends-only rounds'},
+  {path: '/how-to-play/', changefreq: 'monthly', priority: '0.8', published: '2026-09-28', updated: '2026-10-26',
     title: 'How to play', summary: 'rules, the full scoring table, assists, streaks and a gameplay FAQ'},
-  {path: '/about/', changefreq: 'monthly', priority: '0.6', published: '2026-09-28', updated: '2026-09-29',
+  {path: '/about/', changefreq: 'monthly', priority: '0.6', published: '2026-09-28', updated: '2026-10-26',
     title: 'About the questions', summary: 'what the question bank covers, where the locations come from and how they are checked'},
+  {path: '/privacy/', changefreq: 'yearly', priority: '0.3', published: '2026-10-21', updated: '2026-10-25',
+    title: 'Privacy policy', summary: 'no accounts; what stays in the browser, Google Analytics, ads and the cookie choice'},
 ];
 export const absolute = path => new URL(path, SITE).href;
 export const pageFor = path => PAGES.find(page => page.path === path);
 // The site's author and publisher. To credit a person instead, make this {'@type': 'Person', name, url, sameAs: [profile URLs]}.
-export const PUBLISHER = {'@type': 'Organization', '@id': `${SITE}/#organization`, name: SITE_NAME, url: absolute('/'),
+export const PUBLISHER = {'@type': 'Organization', '@id': `${SITE}/#organization`, name: SITE_NAME, alternateName: SITE_ALT_NAMES, url: absolute('/'),
   logo: {'@type': 'ImageObject', url: absolute('/icon-512.png'), width: 512, height: 512}};
 export const longDate = iso => new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-GB', {day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC'});
 const escape = value => value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

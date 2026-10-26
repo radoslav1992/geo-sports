@@ -1,7 +1,9 @@
 ---
 // Shared <head> tags: canonical URL, social previews, icons, author and date signals, structured data and the Google tag.
-import {SITE, SITE_NAME, PUBLISHER, absolute, pageFor} from '../lib/seo.js';
+import {SITE, SITE_NAME, SITE_ALT_NAMES, PUBLISHER, absolute, pageFor} from '../lib/seo.js';
 import {faqJsonLd} from '../data/faq.js';
+import AdFree from './AdFree.astro';
+import ConsentDefaults from './ConsentDefaults.astro';
 interface Props {title: string; description: string; path: string; noindex?: boolean; pageType?: string; faq?: [string, string][]; jsonLd?: object[]}
 const {title, description, path, noindex = false, pageType = 'WebPage', faq, jsonLd = []} = Astro.props;
 const url = absolute(path), image = absolute('/og-image.png'), page = pageFor(path);
@@ -9,7 +11,7 @@ const article = page && path !== '/';
 // One graph per page: who publishes the site, the site itself, this page (with its dates and any FAQ), then page-specific nodes.
 const graph = page && !noindex && {'@context': 'https://schema.org', '@graph': [
   PUBLISHER,
-  {'@type': 'WebSite', '@id': `${SITE}/#website`, url: absolute('/'), name: SITE_NAME, inLanguage: 'en', publisher: {'@id': PUBLISHER['@id']}},
+  {'@type': 'WebSite', '@id': `${SITE}/#website`, url: absolute('/'), name: SITE_NAME, alternateName: SITE_ALT_NAMES, inLanguage: 'en', publisher: {'@id': PUBLISHER['@id']}},
   {'@type': !faq ? pageType : pageType === 'WebPage' ? 'FAQPage' : [pageType, 'FAQPage'], '@id': `${url}#webpage`, url, name: title, description, inLanguage: 'en',
     isPartOf: {'@id': `${SITE}/#website`}, author: {'@id': PUBLISHER['@id']}, publisher: {'@id': PUBLISHER['@id']},
     datePublished: page.published, dateModified: page.updated, primaryImageOfPage: {'@type': 'ImageObject', url: image},
@@ -19,6 +21,8 @@ const graph = page && !noindex && {'@context': 'https://schema.org', '@graph': [
 ---
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
+<AdFree/>
+<ConsentDefaults/>
 <title>{title}</title>
 <meta name="description" content={description}/>
 <meta name="author" content={PUBLISHER.name}/>
