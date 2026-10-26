@@ -5,10 +5,12 @@ import Sharing from '../components/Sharing.astro';
 import Pitch from '../components/Pitch.astro';
 import WorldMap from '../components/WorldMap.astro';
 import Seo from '../components/Seo.astro';
+import Byline from '../components/Byline.astro';
 import QuizModes from '../components/QuizModes.astro';
 import AdSlot from '../components/AdSlot.astro';
 import ConsentBanner from '../components/ConsentBanner.astro';
-import {SITE, SITE_NAME, SITE_ALT_NAMES, absolute} from '../lib/seo.js';
+import {SITE, SITE_NAME, SITE_ALT_NAMES, LAUNCH_DATE, PUBLISHER, absolute} from '../lib/seo.js';
+import {homeFaq} from '../data/faq.js';
 import '@fontsource/dm-sans/400.css';
 import '@fontsource/dm-sans/500.css';
 import '@fontsource/dm-sans/600.css';
@@ -24,16 +26,12 @@ const total = questions.length.toLocaleString('en-US'), nations = new Set(questi
 // Both spellings people search: “GeoFootball” (the address) and “Geo Football” (the name).
 const title = 'GeoFootball – Daily Football Geography Quiz: Guess the Stadium';
 const description = `Geo Football is a free daily football geography quiz: guess the stadium, find where legends were born and pin World Cup moments on the map. ${total} questions.`;
-const jsonLd = {'@context': 'https://schema.org', '@graph': [
-  {'@type': 'WebSite', '@id': `${SITE}/#website`, url: absolute('/'), name: SITE_NAME, alternateName: SITE_ALT_NAMES, description, inLanguage: 'en', publisher: {'@id': `${SITE}/#organization`}},
-  {'@type': 'Organization', '@id': `${SITE}/#organization`, name: SITE_NAME, alternateName: SITE_ALT_NAMES, url: absolute('/'), logo: absolute('/icon-512.png')},
-  {'@type': ['WebApplication', 'VideoGame'], '@id': `${SITE}/#game`, name: SITE_NAME, alternateName: SITE_ALT_NAMES[0], url: absolute('/'), description,
-    applicationCategory: 'GameApplication', genre: ['Trivia', 'Geography', 'Football'], operatingSystem: 'Any (web browser)',
-    isAccessibleForFree: true, offers: {'@type': 'Offer', price: '0', priceCurrency: 'USD'}, inLanguage: 'en', image: absolute('/og-image.png'),
-    playMode: 'SinglePlayer', isPartOf: {'@id': `${SITE}/#website`}, publisher: {'@id': `${SITE}/#organization`}},
-]};
+const game = {'@type': ['WebApplication', 'VideoGame'], '@id': `${SITE}/#game`, name: SITE_NAME, alternateName: SITE_ALT_NAMES[0], url: absolute('/'), description,
+  applicationCategory: 'GameApplication', genre: ['Trivia', 'Geography', 'Football'], operatingSystem: 'Any (web browser)',
+  isAccessibleForFree: true, offers: {'@type': 'Offer', price: '0', priceCurrency: 'USD'}, inLanguage: 'en', image: absolute('/og-image.png'),
+  playMode: 'SinglePlayer', datePublished: LAUNCH_DATE, author: {'@id': PUBLISHER['@id']}, publisher: {'@id': PUBLISHER['@id']}, isPartOf: {'@id': `${SITE}/#website`}};
 ---
-<!doctype html><html lang="en"><head><Seo title={title} description={description} path="/" jsonLd={jsonLd}/></head>
+<!doctype html><html lang="en"><head><Seo title={title} description={description} path="/" faq={homeFaq} jsonLd={[game]}/></head>
 <body>
 <header class="site-header"><h1 class="brand-heading"><a class="brand" href="/" aria-label="GeoFootball: the daily football geography quiz"><span class="brand-mark"><img src="/favicon.svg" alt="" width="40" height="45"/></span><span class="brand-type">GEO<span>FOOTBALL</span></span></a></h1><span class="header-tagline">THE WORLD IS YOUR HOME GROUND</span><div class="round-toolbar"><div class="mode-switch" role="group" aria-label="Game mode"><button id="daily-tab" class="active" aria-pressed="true"><i data-lucide="trophy"></i>Daily matchday</button><button id="practice-tab" aria-pressed="false"><i data-lucide="flag"></i>Training ground</button></div><span class="round-edition"><i data-lucide="calendar-days"></i><span class="round-date"><span id="round-number"></span><span id="round-date">Daily challenge</span></span><span class="edition-divider" aria-hidden="true"></span><span class="edition-tag">5 CLUES · ONE BEAUTIFUL GAME</span></span></div><div class="header-actions"><button id="sound-button" class="sound-button" aria-label="Mute sounds" aria-pressed="false"><span class="sound-on"><i data-lucide="volume-2"></i></span><span class="sound-off"><i data-lucide="volume-x"></i></span></button><button id="stats-button" aria-label="Your stats"><i data-lucide="chart-no-axes-column-increasing"></i><span class="button-text">My stats</span></button><button id="help-button" aria-label="How to play"><i data-lucide="circle-help"></i><span class="button-text">How to play</span></button></div></header>
 <main class="multisteps_form">
@@ -51,6 +49,7 @@ const jsonLd = {'@context': 'https://schema.org', '@graph': [
 </main>
 <section class="seo-intro" aria-labelledby="intro-title">
 <h2 id="intro-title">Geo Football: the daily football geography quiz</h2>
+<Byline path="/"/>
 <p>Geo Football (GeoFootball, as in our address) gives you five football clues every day. Each one points to a real place: a famous stadium, the town where a legend was born, or the ground where a World Cup or Champions League final was decided. Drop your pin on the world map and score up to 1,000 points for each question, depending on how close you land.</p>
 <ul class="intro-points">
 <li><strong>{total} questions, {nations} countries.</strong> Stadiums past and present, birthplaces of men’s and women’s football legends, and the stories behind famous matches.</li>
@@ -58,6 +57,8 @@ const jsonLd = {'@context': 'https://schema.org', '@graph': [
 <li><strong>Free, with no account.</strong> Build a streak, share a spoiler-free score with friends, or practise without limits on the training ground.</li>
 </ul>
 <QuizModes current="/" heading="Pick a themed quiz"/>
+<h2 id="faq-title" class="intro-faq-title">Frequently asked questions</h2>
+<div class="faq">{homeFaq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}</div>
 <p class="intro-links"><a href="/how-to-play/">How to play and scoring</a><a href="/about/">About the questions</a></p>
 </section>
 <AdSlot/>

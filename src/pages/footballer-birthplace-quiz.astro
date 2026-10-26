@@ -21,9 +21,8 @@ const faq = [
   ['Are legends in the daily matchday too?', 'Yes. Each daily matchday mixes legends’ birthplaces with stadiums and famous moments, the same five clues for everyone.'],
   ['Is the birthplace quiz free?', 'Yes. It runs in any modern browser with no account, no download and no time limit.'],
 ];
-const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({'@type': 'Question', name: q, acceptedAnswer: {'@type': 'Answer', text: a}}))};
 ---
-<ContentPage title="Footballer Birthplace Quiz – Where Were the Legends Born?" heading="Where were they born? Footballer birthplace quiz" description={`Where was Pelé born? Pin the hometowns of football legends on the map: ${fmt(legends.length)} birthplace clues from ${counts.length} countries, men’s and women’s game. Free, no sign-up.`} path="/footballer-birthplace-quiz/" jsonLd={faqLd} ctaHref="/?train=legends" ctaLabel=" the birthplace quiz">
+<ContentPage title="Footballer Birthplace Quiz – Where Were the Legends Born?" heading="Where were they born? Footballer birthplace quiz" description={`Where was Pelé born? Pin the hometowns of football legends on the map: ${fmt(legends.length)} birthplace clues from ${counts.length} countries, men’s and women’s game. Free, no sign-up.`} path="/footballer-birthplace-quiz/" faq={faq} ctaHref="/?train=legends" ctaLabel=" the birthplace quiz">
 <p class="lede">Every football legend started somewhere. Each clue tells you who was born there and what they went on to win; your job is to pin the town or city on the world map.</p>
 
 <div class="stat-row">
@@ -78,7 +77,7 @@ const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity:
 <AdSlot type="native"/>
 
 <h2>Frequently asked questions</h2>
-<dl class="faq">{faq.map(([q, a]) => <><dt>{q}</dt><dd>{a}</dd></>)}</dl>
+<div class="faq">{faq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}</div>
 
 <QuizModes current="/footballer-birthplace-quiz/"/>
 

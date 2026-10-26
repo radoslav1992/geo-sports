@@ -24,9 +24,8 @@ const faq = [
   ['How close do I need to be?', `Within 10 km scores the full 1,000 points, and points fall smoothly with distance: a pin 100 km away still earns ${fmt(near)}.`],
   ['Is the stadium quiz free?', 'Yes. It runs in any modern browser with no account, no download and no time limit.'],
 ];
-const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({'@type': 'Question', name: q, acceptedAnswer: {'@type': 'Answer', text: a}}))};
 ---
-<ContentPage title="Guess the Stadium – Football Ground Quiz on a World Map" heading="Guess the stadium: football ground quiz" description={`Guess the stadium and pin it on the world map: ${fmt(stadiums.length)} football grounds in ${counts.length} countries, from World Cup final venues to lower-league favourites. Free to play.`} path="/stadium-quiz/" jsonLd={faqLd} ctaHref="/?train=stadiums" ctaLabel=" the stadium quiz">
+<ContentPage title="Guess the Stadium – Football Ground Quiz on a World Map" heading="Guess the stadium: football ground quiz" description={`Guess the stadium and pin it on the world map: ${fmt(stadiums.length)} football grounds in ${counts.length} countries, from World Cup final venues to lower-league favourites. Free to play.`} path="/stadium-quiz/" faq={faq} ctaHref="/?train=stadiums" ctaLabel=" the stadium quiz">
 <p class="lede">How well do you know the world’s football grounds? Each clue names a stadium and its country. Drop a pin on the city where it stands and land within 10 km for the full 1,000 points.</p>
 
 <div class="stat-row">
@@ -86,7 +85,7 @@ const faqLd = {'@context': 'https://schema.org', '@type': 'FAQPage', mainEntity:
 <AdSlot type="native"/>
 
 <h2>Frequently asked questions</h2>
-<dl class="faq">{faq.map(([q, a]) => <><dt>{q}</dt><dd>{a}</dd></>)}</dl>
+<div class="faq">{faq.map(([q, a]) => <><h3>{q}</h3><p>{a}</p></>)}</div>
 
 <QuizModes current="/stadium-quiz/"/>
 

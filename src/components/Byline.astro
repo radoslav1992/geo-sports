@@ -1,0 +1,7 @@
+---
+// Visible author and date line; the same dates go into the page's structured data and the sitemap.
+import {PUBLISHER, pageFor, longDate} from '../lib/seo.js';
+interface Props {path: string}
+const page = pageFor(Astro.props.path);
+---
+<p class="byline">By <a href="/about/#who" rel="author">{PUBLISHER.name}</a> · {page.published === page.updated ? 'Published' : 'Updated'} <time datetime={page.updated}>{longDate(page.updated)}</time></p>

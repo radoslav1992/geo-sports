@@ -1,6 +1,7 @@
 ---
 // Static, crawlable pages around the game. Same stylesheet stack as the game so bundled CSS keeps its order.
 import Seo from '../components/Seo.astro';
+import Byline from '../components/Byline.astro';
 import AdSlot from '../components/AdSlot.astro';
 import ConsentBanner from '../components/ConsentBanner.astro';
 import {SITE_NAME, absolute} from '../lib/seo.js';
@@ -15,20 +16,21 @@ import '../styles/global.css';
 import '../styles/football-theme.css';
 import '../styles/sharing.css';
 import '../styles/pages.css';
-interface Props {title: string; heading: string; description: string; path: string; jsonLd?: object | object[]; ctaHref?: string; ctaLabel?: string; ads?: boolean}
+interface Props {title: string; heading: string; description: string; path: string; pageType?: string; faq?: [string, string][]; ctaHref?: string; ctaLabel?: string; ads?: boolean}
 // The header button reads “Play” on phones and “Play” + ctaLabel on wider screens.
-const {title, heading, description, path, jsonLd, ctaHref = '/', ctaLabel = ' today’s matchday', ads = true} = Astro.props;
-const breadcrumbs = {'@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+const {title, heading, description, path, pageType, faq, ctaHref = '/', ctaLabel = ' today’s matchday', ads = true} = Astro.props;
+const breadcrumbs = {'@type': 'BreadcrumbList', '@id': `${absolute(path)}#breadcrumbs`, itemListElement: [
   {'@type': 'ListItem', position: 1, name: SITE_NAME, item: absolute('/')},
   {'@type': 'ListItem', position: 2, name: heading, item: absolute(path)},
 ]};
 ---
-<!doctype html><html lang="en"><head><Seo title={title} description={description} path={path} jsonLd={jsonLd ? [breadcrumbs, ...[jsonLd].flat()] : breadcrumbs}/></head>
+<!doctype html><html lang="en"><head><Seo title={title} description={description} path={path} pageType={pageType} faq={faq} jsonLd={[breadcrumbs]}/></head>
 <body>
 <header class="page-header"><a class="brand" href="/" aria-label="Geo Football home"><span class="brand-mark"><img src="/favicon.svg" alt="" width="40" height="45"/></span><span class="brand-type">GEO<span>FOOTBALL</span></span></a><a class="page-cta" href={ctaHref}>Play<span class="cta-long">{ctaLabel}</span> <span aria-hidden="true">→</span></a></header>
 <main class="article">
 <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Geo Football</a> / {heading}</nav>
 <h1>{heading}</h1>
+<Byline path={path}/>
 <slot/>
 </main>
 {ads && <AdSlot/>}
